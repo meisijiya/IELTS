@@ -1,0 +1,180 @@
+:root {
+  --ink: #1a1a1a;
+  --green: #2d5a3d;
+  --bg: #ffffff;
+  --muted: #f4f4f4;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: Georgia, "Source Serif 4", "Noto Serif SC", serif;
+  font-size: 18px;
+  line-height: 1.75;
+  color: var(--ink);
+  background: var(--bg);
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1, h2, h3, h4 {
+  line-height: 1.3;
+  margin: 2rem 0 0.75rem;
+}
+
+h1 {
+  font-size: 1.8rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+}
+
+a {
+  color: var(--green);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  margin: 0 0 1rem;
+}
+
+.crumbs {
+  font-size: 0.85rem;
+  color: #777;
+  margin-bottom: 1.5rem;
+}
+
+.crumbs > * + *::before {
+  content: "›";
+  margin: 0 0.4rem;
+  color: #bbb;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+@media (min-width: 720px) {
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.card {
+  background: var(--bg);
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.card[aria-disabled="true"] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.card .badge {
+  display: inline-block;
+  margin-top: 0.75rem;
+  font-size: 0.75rem;
+  color: #888;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 0.15rem 0.5rem;
+}
+
+.chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0 1.5rem;
+}
+
+.chip {
+  display: inline-flex;
+  padding: 0.35rem 0.8rem;
+  border: 1px solid var(--ink);
+  border-radius: 999px;
+  background: var(--bg);
+  color: var(--ink);
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.chip:hover {
+  background: var(--muted);
+}
+
+.chip[aria-pressed="true"] {
+  background: var(--green);
+  color: var(--bg);
+  border-color: var(--green);
+}
+
+.chip:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.essay,
+article.essay {
+  max-width: 720px;
+}
+
+.essay p {
+  margin: 0 0 1rem;
+}
+
+.prompt {
+  background: var(--muted);
+  padding: 1rem 1.25rem;
+  border-left: 4px solid var(--green);
+  font-style: italic;
+  margin: 1.5rem 0;
+}
+
+.rubric {
+  color: #555;
+  font-size: 0.95rem;
+  margin-top: 2rem;
+}
+
+.keywords code {
+  background: var(--muted);
+  padding: 0.1rem 0.35rem;
+  border-radius: 3px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.85em;
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 1rem 0.75rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+}
