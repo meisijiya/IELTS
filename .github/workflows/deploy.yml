@@ -12,7 +12,8 @@ permissions:
 
 concurrency:
   group: pages
-  cancel-in-progress: false
+  # Stage 1b: cancel stale deploy runs to absorb 50-commit burst
+  cancel-in-progress: true
 
 jobs:
   deploy:
