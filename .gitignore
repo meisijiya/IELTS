@@ -1,1 +1,4 @@
 .omo/run-continuation/
+
+# OMO runtime artifacts (planning, specs, tickets, state)
+.omo/
