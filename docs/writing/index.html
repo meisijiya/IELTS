@@ -89,6 +89,9 @@
       var cards = document.querySelectorAll('.essay-list article');
       var diffRow = document.querySelector('[data-filter="difficulty"]');
       var typeRow = document.querySelector('[data-filter="type"]');
+      var knownTypes = new Set(
+        Array.prototype.map.call(typeRow.querySelectorAll('.chip'), function (c) { return c.dataset.value; })
+      );
       var empty = document.querySelector('.empty');
 
       function paintType() {
@@ -144,7 +147,7 @@
           });
         }
         if (p.type) {
-          var vals = p.type.split(',').filter(Boolean);
+          var vals = p.type.split(',').filter(function (v) { return knownTypes.has(v); });
           state.types = vals.length ? new Set(vals) : new Set(['all']);
           paintType();
         }

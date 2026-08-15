@@ -138,15 +138,6 @@ p {
   cursor: not-allowed;
 }
 
-.essay,
-article.essay {
-  max-width: 720px;
-}
-
-.essay p {
-  margin: 0 0 1rem;
-}
-
 .prompt {
   background: var(--muted);
   padding: 1rem 1.25rem;
@@ -167,6 +158,17 @@ article.essay {
   border-radius: 3px;
   font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
   font-size: 0.85em;
+}
+
+a:focus-visible,
+.chip:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--green);
+  outline-offset: 2px;
+}
+
+a:focus:not(:focus-visible) {
+  outline: none;
 }
 
 @media (max-width: 480px) {
