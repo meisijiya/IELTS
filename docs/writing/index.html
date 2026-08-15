@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Writing — IELTS Study</title>
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+  <nav class="crumbs"><a href="../">Home</a> › Writing</nav>
+  <header>
+    <h1>Writing — sample essays</h1>
+    <p>Two 题库: <code>Task 1 冲刺(1).docx</code> (17 chart questions) and <code>作文真题储备（近五年）_可修改.docx</code> (Task 2 question bank). Stage 1a ships 5 + 5 sample essays.</p>
+  </header>
+
+  <section class="filters" aria-label="Essay filters">
+    <h2>Filter</h2>
+    <div class="chip-row" data-filter="difficulty" role="group" aria-label="Difficulty">
+      <button type="button" class="chip" data-value="all" aria-pressed="true">All</button>
+      <button type="button" class="chip" data-value="easy" aria-pressed="false">易</button>
+      <button type="button" class="chip" data-value="medium" aria-pressed="false">中</button>
+      <button type="button" class="chip" data-value="hard" aria-pressed="false">难</button>
+    </div>
+    <div class="chip-row" data-filter="type" role="group" aria-label="Type">
+      <button type="button" class="chip" data-value="all" aria-pressed="true">All</button>
+      <button type="button" class="chip" data-value="static-graph" aria-pressed="false">static-graph</button>
+      <button type="button" class="chip" data-value="dynamic-graph" aria-pressed="false">dynamic-graph</button>
+      <button type="button" class="chip" data-value="mixed-graph" aria-pressed="false">mixed-graph</button>
+      <button type="button" class="chip" data-value="map" aria-pressed="false">map</button>
+      <button type="button" class="chip" data-value="process" aria-pressed="false">process</button>
+      <button type="button" class="chip" data-value="agree-disagree" aria-pressed="false">agree-disagree</button>
+      <button type="button" class="chip" data-value="discuss-both-views" aria-pressed="false">discuss-both-views</button>
+      <button type="button" class="chip" data-value="positive-negative" aria-pressed="false">positive-negative</button>
+      <button type="button" class="chip" data-value="opinion" aria-pressed="false">opinion</button>
+      <button type="button" class="chip" data-value="two-questions" aria-pressed="false">two-questions</button>
+    </div>
+  </section>
+
+  <main class="essay-list">
+    <article data-task="task1" data-difficulty="easy" data-type="static-graph">
+      <h3><a href="task1/01-table-universities-ranked.html">Universities ranked top 200 (table)</a></h3>
+      <p class="meta">Task 1 · easy · static-graph</p>
+    </article>
+    <article data-task="task1" data-difficulty="easy" data-type="static-graph">
+      <h3><a href="task1/02-pie-meal-nutrients.html">Nutrients in typical meals (pie)</a></h3>
+      <p class="meta">Task 1 · easy · static-graph</p>
+    </article>
+    <article data-task="task1" data-difficulty="easy" data-type="static-graph">
+      <h3><a href="task1/03-bar-electricity.html">Top ten countries for electricity (bar)</a></h3>
+      <p class="meta">Task 1 · easy · static-graph</p>
+    </article>
+    <article data-task="task1" data-difficulty="medium" data-type="dynamic-graph">
+      <h3><a href="task1/04-bar-physical-activity.html">Australian physical activity by age (bar)</a></h3>
+      <p class="meta">Task 1 · medium · dynamic-graph</p>
+    </article>
+    <article data-task="task1" data-difficulty="medium" data-type="mixed-graph">
+      <h3><a href="task1/05-mixed-graph.html">Mixed graph</a></h3>
+      <p class="meta">Task 1 · medium · mixed-graph</p>
+    </article>
+    <article data-task="task2" data-difficulty="easy" data-type="agree-disagree">
+      <h3><a href="task2/01-agree-disagree-history-vs-business.html">History vs business (agree-disagree)</a></h3>
+      <p class="meta">Task 2 · easy · agree-disagree</p>
+    </article>
+    <article data-task="task2" data-difficulty="medium" data-type="discuss-both-views">
+      <h3><a href="task2/02-discuss-both-views-employment-skills.html">Employment skills vs academic (discuss both)</a></h3>
+      <p class="meta">Task 2 · medium · discuss-both-views</p>
+    </article>
+    <article data-task="task2" data-difficulty="medium" data-type="positive-negative">
+      <h3><a href="task2/03-positive-negative-children-freedom.html">Children freedom (positive-negative)</a></h3>
+      <p class="meta">Task 2 · medium · positive-negative</p>
+    </article>
+    <article data-task="task2" data-difficulty="hard" data-type="opinion">
+      <h3><a href="task2/04-opinion-teachers-morality.html">Teachers and morality (opinion)</a></h3>
+      <p class="meta">Task 2 · hard · opinion</p>
+    </article>
+    <article data-task="task2" data-difficulty="hard" data-type="two-questions">
+      <h3><a href="task2/05-two-questions-environment.html">Two questions on the environment</a></h3>
+      <p class="meta">Task 2 · hard · two-questions</p>
+    </article>
+  </main>
+
+  <p class="empty" hidden>No matching essays.</p>
+
+  <script>
+    (function () {
+      var D = ['all', 'easy', 'medium', 'hard'];
+      var state = { diff: 'all', types: new Set(['all']) };
+      var cards = document.querySelectorAll('.essay-list article');
+      var diffRow = document.querySelector('[data-filter="difficulty"]');
+      var typeRow = document.querySelector('[data-filter="type"]');
+      var empty = document.querySelector('.empty');
+
+      function paintType() {
+        typeRow.querySelectorAll('.chip').forEach(function (c) {
+          c.setAttribute('aria-pressed', state.types.has(c.dataset.value) ? 'true' : 'false');
+        });
+      }
+
+      function apply() {
+        var seen = 0, hasAll = state.types.has('all');
+        cards.forEach(function (card) {
+          var ok = (state.diff === 'all' || card.dataset.difficulty === state.diff) &&
+                   (hasAll || state.types.has(card.dataset.type));
+          card.style.display = ok ? '' : 'none';
+          if (ok) seen++;
+        });
+        empty.hidden = seen !== 0;
+        var params = [];
+        if (state.diff !== 'all') params.push('diff=' + state.diff);
+        var types = Array.from(state.types).filter(function (v) { return v !== 'all'; }).sort();
+        if (types.length) params.push('type=' + types.join(','));
+        var h = params.length ? '#' + params.join('&') : '';
+        if (h !== (location.hash || '')) history.replaceState(null, '', h || location.pathname + location.search);
+      }
+
+      typeRow.addEventListener('click', function (e) {
+        var v = e.target.closest('.chip') && e.target.closest('.chip').dataset.value;
+        if (!v) return;
+        if (v === 'all') state.types = new Set(['all']);
+        else if (state.types.has('all')) state.types = new Set([v]);
+        else if (state.types.has(v)) { state.types.delete(v); if (!state.types.size) state.types.add('all'); }
+        else state.types.add(v);
+        paintType(); apply();
+      });
+
+      diffRow.addEventListener('click', function (e) {
+        var chip = e.target.closest('.chip'); if (!chip) return;
+        state.diff = chip.dataset.value;
+        diffRow.querySelectorAll('.chip').forEach(function (c) {
+          c.setAttribute('aria-pressed', c === chip ? 'true' : 'false');
+        });
+        apply();
+      });
+
+      var h = location.hash.replace(/^#/, '');
+      if (h) {
+        var p = {};
+        h.split('&').forEach(function (kv) { var i = kv.indexOf('='); if (i > -1) p[kv.slice(0, i)] = kv.slice(i + 1); });
+        if (D.indexOf(p.diff) > 0) {
+          state.diff = p.diff;
+          diffRow.querySelectorAll('.chip').forEach(function (c) {
+            c.setAttribute('aria-pressed', c.dataset.value === state.diff ? 'true' : 'false');
+          });
+        }
+        if (p.type) {
+          var vals = p.type.split(',').filter(Boolean);
+          state.types = vals.length ? new Set(vals) : new Set(['all']);
+          paintType();
+        }
+        apply();
+      }
+    })();
+  </script>
+</body>
+</html>
