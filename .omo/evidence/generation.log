@@ -1,0 +1,13 @@
+=== generate-speaking-pages.py run at 2026-08-16T19:15:52+00:00 ===
+topics_in_json: 71
+files_written:  71
+elapsed_sec:    0.014
+warnings:       6
+--- warnings ---
+p23-business/p3-6: empty answer_en -> placeholder
+p23-business/p3-6: empty answer_hint_zh -> placeholder
+p23-changed-plan/p3-5: empty answer_en -> placeholder
+p23-changed-plan/p3-5: empty answer_hint_zh -> placeholder
+p23-video/p3-5: empty answer_en -> placeholder
+p23-video/p3-5: empty answer_hint_zh -> placeholder
+=== done ===

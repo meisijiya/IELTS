@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{title_en}} - 雅思口语题库 2026</title>
+  <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/speaking.css">
+</head>
+<body>
+  <nav class="crumb" aria-label="Breadcrumb">
+    <a href="../../index.html">首页</a> &gt; <a href="../index.html">口语题库</a> &gt; <span>{{title_zh}}</span>
+  </nav>
+
+  <main>
+    <article data-topic-id="{{topic_id}}" data-part="{{part}}">
+      <header>
+        <p class="meta">
+          <span class="part-badge">{{part_label}}</span>
+          <span class="cat-badge">{{category_label}}</span>
+          {{ai_flag}}
+        </p>
+        <h1>{{title_en}}</h1>
+        <p class="title-zh">{{title_zh}}</p>
+      </header>
+
+      <div class="disclaimer" role="note">
+        ⚠️ AI 范例，仅供学习 — IELTS 口语全程独立完成，背诵照搬 AI 答案会被考官识别为背稿。
+      </div>
+
+      <div class="learning-controls">
+        <button type="button" data-action="hide-all">隐藏全部答案</button>
+        <button type="button" data-action="show-all">显示全部答案</button>
+      </div>
+
+      <section class="cue-card">
+        <h2>Part 2 话题卡片</h2>
+        {{cue_card_html}}
+      </section>
+
+      <section class="qa-section">
+        <h2>问题与答案</h2>
+        {{questions_html}}
+      </section>
+    </article>
+  </main>
+
+  <script src="../assets/js/learning-mode.js" defer></script>
+</body>
+</html>

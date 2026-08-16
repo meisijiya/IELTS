@@ -2,3 +2,6 @@
 
 # OMO runtime artifacts (planning, specs, tickets, state)
 .omo/
+
+# Python bytecode
+__pycache__/

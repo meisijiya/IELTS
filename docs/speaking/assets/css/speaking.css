@@ -1,0 +1,146 @@
+/* Speaking module — extends shared style.css. Tokens: --ink, --green, --bg, --muted. */
+
+.crumb { font-size: 0.85rem; color: #777; margin-bottom: 1.5rem; }
+.crumb a { color: var(--green); }
+
+.meta { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; margin: 0 0 0.75rem; }
+
+.part-badge, .cat-badge {
+  display: inline-block; padding: 0.2rem 0.7rem; font-size: 0.8rem;
+  border-radius: 999px; background: var(--muted); color: var(--ink); border: 1px solid #e5e5e5;
+}
+.cat-badge { background: var(--bg); color: var(--green); border-color: var(--green); }
+
+.ai-flag {
+  display: inline-block; padding: 0.15rem 0.6rem; font-size: 0.75rem; border-radius: 999px;
+  background: #fff8d6; color: #7a5b00; border: 1px solid #ecdfa3;
+}
+
+.title-zh { font-size: 1.1rem; color: #555; margin: 0.25rem 0 0; }
+
+.disclaimer {
+  background: #fff8d6; border: 1px solid #ecdfa3; border-left: 4px solid #d4a017;
+  padding: 0.9rem 1.1rem; border-radius: 4px; font-size: 0.95rem;
+  color: #4a3a00; margin: 1.25rem 0 1.5rem;
+}
+
+.learning-controls { display: flex; flex-wrap: wrap; gap: 0.6rem; margin: 1rem 0 1.75rem; }
+.learning-controls button {
+  font: inherit; font-size: 0.9rem; padding: 0.4rem 0.9rem;
+  background: var(--bg); border: 1px solid var(--ink); border-radius: 4px;
+  cursor: pointer; color: var(--ink);
+}
+.learning-controls button:hover { background: var(--muted); }
+
+.qa-section { margin-top: 2rem; }
+.qa-item { border-top: 1px solid #e5e5e5; padding: 0.6rem 0; }
+.qa-item:last-child { border-bottom: 1px solid #e5e5e5; }
+
+.qa-item summary { cursor: pointer; list-style: none; display: flex; gap: 0.6rem; align-items: baseline; }
+.qa-item summary::-webkit-details-marker { display: none; }
+.qa-item summary::after { content: "▸"; margin-left: auto; color: #aaa; font-size: 0.85rem; }
+.qa-item[open] summary::after { content: "▾"; }
+
+.q-num { font-weight: bold; color: var(--green); min-width: 2rem; }
+.q-text { flex: 1; }
+
+.answer { padding: 0.6rem 0 0.4rem 2.6rem; }
+.answer-en { font-size: 1.05rem; line-height: 1.75; margin: 0 0 0.6rem; }
+.answer-hint { font-size: 0.9rem; font-style: italic; color: #666; margin: 0; }
+
+@media (max-width: 480px) {
+  .learning-controls { flex-direction: column; align-items: stretch; }
+  .learning-controls button { width: 100%; }
+  .answer { padding-left: 0.5rem; }
+}
+
+.intro {
+  font-size: 1rem;
+  color: #555;
+  margin: 0 0 1.5rem;
+}
+
+.index-filters {
+  background: var(--muted);
+  padding: 1rem 1.25rem;
+  border-radius: 8px;
+  margin: 1.25rem 0 1.75rem;
+}
+
+.index-filters .chip-row { margin: 0.4rem 0 0.6rem; }
+.index-filters .chip-row:last-of-type { margin-bottom: 0; }
+
+.search-row {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+  margin: 0.75rem 0 0.25rem;
+}
+.search-row input[type="search"] {
+  font: inherit; font-size: 0.95rem;
+  padding: 0.45rem 0.8rem;
+  border: 1px solid #ccc; border-radius: 4px;
+  background: var(--bg); color: var(--ink);
+  flex: 1; min-width: 0;
+}
+.search-row input[type="search"]:focus {
+  outline: 2px solid var(--green);
+  outline-offset: 1px; border-color: var(--green);
+}
+
+.filter-label {
+  font-size: 0.85rem; color: #555;
+  margin: 0.6rem 0 0.25rem;
+}
+.filter-label:first-child { margin-top: 0; }
+
+.topic-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin: 1rem 0 2rem;
+}
+@media (min-width: 720px) {
+  .topic-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 980px) {
+  .topic-grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+.topic-card {
+  display: block;
+  background: var(--bg);
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  padding: 1rem 1.1rem;
+  text-decoration: none;
+  color: var(--ink);
+  transition: border-color 0.15s, transform 0.15s;
+}
+.topic-card:hover {
+  border-color: var(--green);
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+.topic-card .title-en {
+  font-size: 1.05rem; font-weight: 600;
+  margin: 0 0 0.3rem;
+  line-height: 1.35;
+}
+.topic-card .title-zh {
+  font-size: 0.9rem; color: #555;
+  margin: 0 0 0.7rem;
+}
+
+.topic-card .badges {
+  display: flex; flex-wrap: wrap; gap: 0.35rem;
+}
+
+.empty-state {
+  text-align: center;
+  color: #888;
+  padding: 2.5rem 1rem;
+  font-style: italic;
+}
+.empty-state[hidden] { display: none; }

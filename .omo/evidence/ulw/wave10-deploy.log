@@ -1,0 +1,23 @@
+=== Wave 10 deploy — 2026-08-17T00:00:00Z ===
+local_smoke:
+  index 200: PASS
+  sample_topic_200: PASS (p1-hometown, p23-fav-city)
+  asset_css_200: PASS
+  asset_js_200: PASS
+  topic_pages_200: PASS (71/71)
+deploy_target: github-pages
+workflow: .github/workflows/deploy.yml (auto-trigger on push to main)
+expected_trigger: push to main → workflow runs → docs/ artifact uploaded → Pages deploys
+
+=== file inventory ===
+docs/speaking/
+  index.html 38KB
+  template.html 1.6KB
+  assets/css/speaking.css 5KB
+  assets/js/learning-mode.js 1.5KB
+  data/answers.json 150KB (71 topics, 450 question slots, 447 filled + 3 PDF placeholders)
+  topics/*.html 71 files
+
+scripts/generate-speaking-pages.py (205 lines)
+
+=== done ===
