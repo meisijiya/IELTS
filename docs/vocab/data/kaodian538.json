@@ -1,0 +1,4054 @@
+{
+  "source_doc": "kaodian538",
+  "source_label": "考点词 538",
+  "categories": [
+    {
+      "id": "tier-1",
+      "label": "第 1 类考点词"
+    },
+    {
+      "id": "tier-2",
+      "label": "第 2 类考点词"
+    },
+    {
+      "id": "tier-3",
+      "label": "第 3 类考点词"
+    }
+  ],
+  "items": [
+    {
+      "id": "tier-1-001",
+      "category_id": "tier-1",
+      "tier": 1,
+      "english": "resemble",
+      "chinese": "v.像，与……相似",
+      "rank": 1,
+      "paraphrase": "like,look,like,be similar to"
+    },
+    {
+      "id": "tier-1-002",
+      "category_id": "tier-1",
+      "tier": 1,
+      "english": "recognize",
+      "chinese": "v.认出，识别；承 认",
+      "rank": 2,
+      "paraphrase": "perceive,acknowledge,realize,appreciate,; admit ,identify, comprehend, understand; know"
+    },
+    {
+      "id": "tier-1-003",
+      "category_id": "tier-1",
+      "tier": 1,
+      "english": "adjust",
+      "chinese": "v.调整，使适合",
+      "rank": 3,
+      "paraphrase": "change, modify, shift, alter"
+    },
+    {
+      "id": "tier-1-004",
+      "category_id": "tier-1",
+      "tier": 1,
+      "english": "approach",
+      "chinese": "n.方法",
+      "rank": 4,
+      "paraphrase": "method, way"
+    },
+    {
+      "id": "tier-1-005",
+      "category_id": "tier-1",
+      "tier": 1,
+      "english": "fundamental",
+      "chinese": "adj.基本的，基础 的",
+      "rank": 5,
+      "paraphrase": "rudimentary, preliminary, basic"
+    },
+    {
+      "id": "tier-1-006",
+      "category_id": "tier-1",
+      "tier": 1,
+      "english": "rely on",
+      "chinese": "依靠，依赖",
+      "rank": 6,
+      "paraphrase": "depend on"
+    },
+    {
+      "id": "tier-1-007",
+      "category_id": "tier-1",
+      "tier": 1,
+      "english": "domestic",
+      "chinese": "adj.家庭的；国内 的",
+      "rank": 7,
+      "paraphrase": "home, local, national"
+    },
+    {
+      "id": "tier-1-008",
+      "category_id": "tier-1",
+      "tier": 1,
+      "english": "measure",
+      "chinese": "v.测量",
+      "rank": 8,
+      "paraphrase": "calculate, assess, evaluate"
+    },
+    {
+      "id": "tier-1-009",
+      "category_id": "tier-1",
+      "tier": 1,
+      "english": "trait",
+      "chinese": "n.特性，特征",
+      "rank": 9,
+      "paraphrase": "characteristic, feature, property"
+    },
+    {
+      "id": "tier-1-010",
+      "category_id": "tier-1",
+      "tier": 1,
+      "english": "coin",
+      "chinese": "v.创造",
+      "rank": 10,
+      "paraphrase": "first used, invent"
+    },
+    {
+      "id": "tier-1-011",
+      "category_id": "tier-1",
+      "tier": 1,
+      "english": "artificial",
+      "chinese": "adj.人造的，仿造 的",
+      "rank": 11,
+      "paraphrase": "synthetic, man-made"
+    },
+    {
+      "id": "tier-1-012",
+      "category_id": "tier-1",
+      "tier": 1,
+      "english": "prompt",
+      "chinese": "v.促进，激起",
+      "rank": 12,
+      "paraphrase": "initiate, immediately"
+    },
+    {
+      "id": "tier-1-013",
+      "category_id": "tier-1",
+      "tier": 1,
+      "english": "exchange",
+      "chinese": "v.交换",
+      "rank": 13,
+      "paraphrase": "share, apply A to B"
+    },
+    {
+      "id": "tier-1-014",
+      "category_id": "tier-1",
+      "tier": 1,
+      "english": "underlie",
+      "chinese": "v.成为……基础",
+      "rank": 14,
+      "paraphrase": "based on, ground, root"
+    },
+    {
+      "id": "tier-1-015",
+      "category_id": "tier-1",
+      "tier": 1,
+      "english": "ignore",
+      "chinese": "v.忽视，不顾",
+      "rank": 15,
+      "paraphrase": "neglect, overlook, underestimate"
+    },
+    {
+      "id": "tier-1-016",
+      "category_id": "tier-1",
+      "tier": 1,
+      "english": "fertiliser",
+      "chinese": "n.化肥，肥料",
+      "rank": 16,
+      "paraphrase": "chemical, toxic, unnatural"
+    },
+    {
+      "id": "tier-1-017",
+      "category_id": "tier-1",
+      "tier": 1,
+      "english": "that*",
+      "chinese": "pron.那；那个",
+      "rank": 17,
+      "paraphrase": "this, it, they, those, these, such; *指代是雅思阅读的重要考点"
+    },
+    {
+      "id": "tier-1-018",
+      "category_id": "tier-1",
+      "tier": 1,
+      "english": "and*",
+      "chinese": "conj.和，而且",
+      "rank": 18,
+      "paraphrase": "or, as well as, both…and, not only…but; also…, other than, in addition, besides,; on the one hand…on the other hand…,; neither…nor…; *并列结构是雅思阅读的重要考点"
+    },
+    {
+      "id": "tier-1-019",
+      "category_id": "tier-1",
+      "tier": 1,
+      "english": "rather than*",
+      "chinese": "而非，不是",
+      "rank": 19,
+      "paraphrase": "but, yet, however, whereas, nonetheless,; nevertheless, although, notwithstanding; though, instead; *转折结构是雅思阅读的重要考点"
+    },
+    {
+      "id": "tier-1-020",
+      "category_id": "tier-1",
+      "tier": 1,
+      "english": "thanks to*",
+      "chinese": "由于，幸亏",
+      "rank": 20,
+      "paraphrase": "stem from，derive，owing to，due to,; according to, because of, on account of,; as a result of, leading to, because, since,; for, in that, as, therefore, hence; *因果关系是雅思阅读重要考点"
+    },
+    {
+      "id": "tier-2-001",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "diversity",
+      "chinese": "n.多样性，差异",
+      "rank": 21,
+      "paraphrase": "variety, difference"
+    },
+    {
+      "id": "tier-2-002",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "detect",
+      "chinese": "v.查明，发现",
+      "rank": 22,
+      "paraphrase": "find, look for, seek, search"
+    },
+    {
+      "id": "tier-2-003",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "isolate",
+      "chinese": "v.使隔离，使孤立",
+      "rank": 23,
+      "paraphrase": "inaccessible"
+    },
+    {
+      "id": "tier-2-004",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "avoid",
+      "chinese": "v.避免",
+      "rank": 24,
+      "paraphrase": "escape, evitable"
+    },
+    {
+      "id": "tier-2-005",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "budget",
+      "chinese": "n.预算",
+      "rank": 25,
+      "paraphrase": "fund, financial"
+    },
+    {
+      "id": "tier-2-006",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "adapt to",
+      "chinese": "使适应",
+      "rank": 26,
+      "paraphrase": "fit, suit"
+    },
+    {
+      "id": "tier-2-007",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "alternative",
+      "chinese": "adj.供替代的，供 选择的 n.替代品",
+      "rank": 27,
+      "paraphrase": "substitute; respectively分别地，依次地"
+    },
+    {
+      "id": "tier-2-008",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "compensate",
+      "chinese": "n.补偿，赔偿",
+      "rank": 28,
+      "paraphrase": "make up, offset"
+    },
+    {
+      "id": "tier-2-009",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "component",
+      "chinese": "n.成分，要素",
+      "rank": 29,
+      "paraphrase": "proportion"
+    },
+    {
+      "id": "tier-2-010",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "military",
+      "chinese": "adj.军事的",
+      "rank": 30,
+      "paraphrase": "weapon, army"
+    },
+    {
+      "id": "tier-2-011",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "criteria",
+      "chinese": "n.标准",
+      "rank": 31,
+      "paraphrase": "standard"
+    },
+    {
+      "id": "tier-2-012",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "curriculum",
+      "chinese": "n.课程",
+      "rank": 32,
+      "paraphrase": "syllabus, course of study"
+    },
+    {
+      "id": "tier-2-013",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "feasible",
+      "chinese": "adj.可行的",
+      "rank": 33,
+      "paraphrase": "realistic, viable"
+    },
+    {
+      "id": "tier-2-014",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "constrain",
+      "chinese": "v.束缚，限制",
+      "rank": 34,
+      "paraphrase": "stop, control"
+    },
+    {
+      "id": "tier-2-015",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "deficiency",
+      "chinese": "n.缺陷，缺点",
+      "rank": 35,
+      "paraphrase": "shortage, defect, weakness"
+    },
+    {
+      "id": "tier-2-016",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "supplement",
+      "chinese": "v.补充",
+      "rank": 36,
+      "paraphrase": "provision"
+    },
+    {
+      "id": "tier-2-017",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "distinguish",
+      "chinese": "v.区别，辨别",
+      "rank": 37,
+      "paraphrase": "separate, differentiate"
+    },
+    {
+      "id": "tier-2-018",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "analyze",
+      "chinese": "v.分析，解释",
+      "rank": 38,
+      "paraphrase": "examine, diagnose"
+    },
+    {
+      "id": "tier-2-019",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "emphasize",
+      "chinese": "v.强调，着重",
+      "rank": 39,
+      "paraphrase": "focus on, stress"
+    },
+    {
+      "id": "tier-2-020",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "enormous",
+      "chinese": "adj.庞大的 巨大的 ，",
+      "rank": 40,
+      "paraphrase": "massive, large"
+    },
+    {
+      "id": "tier-2-021",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "imitate",
+      "chinese": "v.模仿",
+      "rank": 41,
+      "paraphrase": "mimic, copy"
+    },
+    {
+      "id": "tier-2-022",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "impair",
+      "chinese": "v.削弱，减少",
+      "rank": 42,
+      "paraphrase": "damage, diminish, decrease"
+    },
+    {
+      "id": "tier-2-023",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "hinder",
+      "chinese": "v.阻碍",
+      "rank": 43,
+      "paraphrase": "impede, prevent, deter, obstacle"
+    },
+    {
+      "id": "tier-2-024",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "legitimate",
+      "chinese": "adj.合法的",
+      "rank": 44,
+      "paraphrase": "legal"
+    },
+    {
+      "id": "tier-2-025",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "limitation",
+      "chinese": "n.限制",
+      "rank": 45,
+      "paraphrase": "restriction"
+    },
+    {
+      "id": "tier-2-026",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "convention",
+      "chinese": "n.手法；习俗",
+      "rank": 46,
+      "paraphrase": "method; tradition"
+    },
+    {
+      "id": "tier-2-027",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "demanding",
+      "chinese": "adj.苛求的",
+      "rank": 47,
+      "paraphrase": "troublesome"
+    },
+    {
+      "id": "tier-2-028",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "determine",
+      "chinese": "v.决定",
+      "rank": 48,
+      "paraphrase": "decide"
+    },
+    {
+      "id": "tier-2-029",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "accelerate",
+      "chinese": "v.加速，促进；强调",
+      "rank": 49,
+      "paraphrase": "speed up"
+    },
+    {
+      "id": "tier-2-030",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "ancient",
+      "chinese": "adj.古代的;古老的",
+      "rank": 50,
+      "paraphrase": "aged, old"
+    },
+    {
+      "id": "tier-2-031",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "beneficial",
+      "chinese": "adj.有益的",
+      "rank": 51,
+      "paraphrase": "helpful, advantageous, wholesome"
+    },
+    {
+      "id": "tier-2-032",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "chronic",
+      "chinese": "adj.慢性的，长期 性的",
+      "rank": 52,
+      "paraphrase": "lasting"
+    },
+    {
+      "id": "tier-2-033",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "conscious",
+      "chinese": "adj.有意识的，神 志清醒的",
+      "rank": 53,
+      "paraphrase": "aware, knowing"
+    },
+    {
+      "id": "tier-2-034",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "minimize",
+      "chinese": "v. 最小化，使…… 减少到最少",
+      "rank": 54,
+      "paraphrase": "reduce, lessen"
+    },
+    {
+      "id": "tier-2-035",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "immunity",
+      "chinese": "n.免疫力",
+      "rank": 55,
+      "paraphrase": "resistance"
+    },
+    {
+      "id": "tier-2-036",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "Imperative",
+      "chinese": "adj.必要的，紧急 的",
+      "rank": 56,
+      "paraphrase": "compelling, necessary, urgent"
+    },
+    {
+      "id": "tier-2-037",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "secrete",
+      "chinese": "v.分泌",
+      "rank": 57,
+      "paraphrase": "discharge, exude"
+    },
+    {
+      "id": "tier-2-038",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "exaggerate",
+      "chinese": "v.夸大，夸张",
+      "rank": 58,
+      "paraphrase": "overstate"
+    },
+    {
+      "id": "tier-2-039",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "transmit",
+      "chinese": "v.传达，传输",
+      "rank": 59,
+      "paraphrase": "pass, send ,transfer"
+    },
+    {
+      "id": "tier-2-040",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "extinct",
+      "chinese": "v.灭绝",
+      "rank": 60,
+      "paraphrase": "die out, lost"
+    },
+    {
+      "id": "tier-2-041",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "exclusive",
+      "chinese": "adj.独有的；排外 的；专一的",
+      "rank": 61,
+      "paraphrase": "only"
+    },
+    {
+      "id": "tier-2-042",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "guarantee",
+      "chinese": "v.保证，担保",
+      "rank": 62,
+      "paraphrase": "assure"
+    },
+    {
+      "id": "tier-2-043",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "inherit",
+      "chinese": "v.继承",
+      "rank": 63,
+      "paraphrase": "receive"
+    },
+    {
+      "id": "tier-2-044",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "witness",
+      "chinese": "n.见证，证据；目 击者",
+      "rank": 64,
+      "paraphrase": "view, see"
+    },
+    {
+      "id": "tier-2-045",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "magnetic",
+      "chinese": "adj.有磁性的",
+      "rank": 65,
+      "paraphrase": "attractive"
+    },
+    {
+      "id": "tier-2-046",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "loss",
+      "chinese": "n.减少；亏损；失 败；遗失的",
+      "rank": 66,
+      "paraphrase": "waste, gone"
+    },
+    {
+      "id": "tier-2-047",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "option",
+      "chinese": "n.选择",
+      "rank": 67,
+      "paraphrase": "choice"
+    },
+    {
+      "id": "tier-2-048",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "prefer to",
+      "chinese": "更喜欢",
+      "rank": 68,
+      "paraphrase": "rather"
+    },
+    {
+      "id": "tier-2-049",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "priority",
+      "chinese": "n.优先权",
+      "rank": 69,
+      "paraphrase": "preference, preferential"
+    },
+    {
+      "id": "tier-2-050",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "primary",
+      "chinese": "adj.主要的",
+      "rank": 70,
+      "paraphrase": "principle, main"
+    },
+    {
+      "id": "tier-2-051",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "principle",
+      "chinese": "n.原理",
+      "rank": 71,
+      "paraphrase": "rule"
+    },
+    {
+      "id": "tier-2-052",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "potential",
+      "chinese": "n.潜能 adj.潜在的",
+      "rank": 72,
+      "paraphrase": "possibility"
+    },
+    {
+      "id": "tier-2-053",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "quantity",
+      "chinese": "n.量，数量",
+      "rank": 73,
+      "paraphrase": "number"
+    },
+    {
+      "id": "tier-2-054",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "settle",
+      "chinese": "v.解决；定居，稳定",
+      "rank": 74,
+      "paraphrase": "fix, figure out"
+    },
+    {
+      "id": "tier-2-055",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "sophisticate",
+      "chinese": "v.使复杂",
+      "rank": 75,
+      "paraphrase": "complicate"
+    },
+    {
+      "id": "tier-2-056",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "specific",
+      "chinese": "adj.明确的；特殊的",
+      "rank": 76,
+      "paraphrase": "detailed, particular"
+    },
+    {
+      "id": "tier-2-057",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "survive",
+      "chinese": "v.存活，幸存",
+      "rank": 77,
+      "paraphrase": "remain"
+    },
+    {
+      "id": "tier-2-058",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "swift",
+      "chinese": "adj.迅速的，敏捷 的，立刻的",
+      "rank": 78,
+      "paraphrase": "quick, rapid"
+    },
+    {
+      "id": "tier-2-059",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "unexpectedly",
+      "chinese": "adv.出乎意料的",
+      "rank": 79,
+      "paraphrase": "surprising"
+    },
+    {
+      "id": "tier-2-060",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "surrounding",
+      "chinese": "n.环境",
+      "rank": 80,
+      "paraphrase": "setting, environment"
+    },
+    {
+      "id": "tier-2-061",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "attempt",
+      "chinese": "n.试图，尝试",
+      "rank": 81,
+      "paraphrase": "try, test"
+    },
+    {
+      "id": "tier-2-062",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "expertise",
+      "chinese": "n.专门技术",
+      "rank": 82,
+      "paraphrase": "knowledge, skill"
+    },
+    {
+      "id": "tier-2-063",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "faculty",
+      "chinese": "n.能力，才能；全 体教员",
+      "rank": 83,
+      "paraphrase": "ability"
+    },
+    {
+      "id": "tier-2-064",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "donate",
+      "chinese": "v.捐赠",
+      "rank": 84,
+      "paraphrase": "contribute"
+    },
+    {
+      "id": "tier-2-065",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "dynamics",
+      "chinese": "n.动力学",
+      "rank": 85,
+      "paraphrase": "energy, force, move"
+    },
+    {
+      "id": "tier-2-066",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "incentive",
+      "chinese": "n.刺激,鼓励;动机",
+      "rank": 86,
+      "paraphrase": "motive, stimulus"
+    },
+    {
+      "id": "tier-2-067",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "mortality",
+      "chinese": "n.死亡率",
+      "rank": 87,
+      "paraphrase": "death"
+    },
+    {
+      "id": "tier-2-068",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "peripheral",
+      "chinese": "adj.外围的，次要 的",
+      "rank": 88,
+      "paraphrase": "unimportant, minor"
+    },
+    {
+      "id": "tier-2-069",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "vicinity",
+      "chinese": "n.邻近，附近",
+      "rank": 89,
+      "paraphrase": "neighbourhood, nearby"
+    },
+    {
+      "id": "tier-2-070",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "threaten",
+      "chinese": "v.威胁，危及",
+      "rank": 90,
+      "paraphrase": "endanger, jeopardize, risk, hazard"
+    },
+    {
+      "id": "tier-2-071",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "practice",
+      "chinese": "n.实行；练习",
+      "rank": 91,
+      "paraphrase": "method, exercise"
+    },
+    {
+      "id": "tier-2-072",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "bacteria",
+      "chinese": "n.细菌",
+      "rank": 92,
+      "paraphrase": "virus, germ, microbe"
+    },
+    {
+      "id": "tier-2-073",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "be subject to",
+      "chinese": "受…...支配",
+      "rank": 93,
+      "paraphrase": "face"
+    },
+    {
+      "id": "tier-2-074",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "be liable to",
+      "chinese": "易于……",
+      "rank": 94,
+      "paraphrase": "potential"
+    },
+    {
+      "id": "tier-2-075",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "innate",
+      "chinese": "adj.天生的；内在 的，直觉的",
+      "rank": 95,
+      "paraphrase": "built-in, inborn"
+    },
+    {
+      "id": "tier-2-076",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "pattern",
+      "chinese": "n.模式",
+      "rank": 96,
+      "paraphrase": "formation"
+    },
+    {
+      "id": "tier-2-077",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "therapy",
+      "chinese": "n.治疗，理疗",
+      "rank": 97,
+      "paraphrase": "treatment"
+    },
+    {
+      "id": "tier-2-078",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "original",
+      "chinese": "adj.原始的,最初的",
+      "rank": 98,
+      "paraphrase": "initial, fist"
+    },
+    {
+      "id": "tier-2-079",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "confidential",
+      "chinese": "adj.机密的,秘密的",
+      "rank": 99,
+      "paraphrase": "undisclosed, secret, hidden"
+    },
+    {
+      "id": "tier-2-080",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "cognitive",
+      "chinese": "adj.认知的",
+      "rank": 100,
+      "paraphrase": "mental"
+    },
+    {
+      "id": "tier-2-081",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "comply with",
+      "chinese": "照做，遵守",
+      "rank": 101,
+      "paraphrase": "obey"
+    },
+    {
+      "id": "tier-2-082",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "consult",
+      "chinese": "v.查阅,商量,请教, 咨询",
+      "rank": 102,
+      "paraphrase": "ask for advice"
+    },
+    {
+      "id": "tier-2-083",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "superior",
+      "chinese": "adj..上级的;优秀 的",
+      "rank": 103,
+      "paraphrase": "higher, upper"
+    },
+    {
+      "id": "tier-2-084",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "co-operation",
+      "chinese": "n.合作，协作",
+      "rank": 104,
+      "paraphrase": "support, work together"
+    },
+    {
+      "id": "tier-2-085",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "co-ordinate",
+      "chinese": "v.使……协调",
+      "rank": 105,
+      "paraphrase": "organize, harmonize"
+    },
+    {
+      "id": "tier-2-086",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "differ",
+      "chinese": "v.使……相异； 使……不同",
+      "rank": 106,
+      "paraphrase": "vary"
+    },
+    {
+      "id": "tier-2-087",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "cue",
+      "chinese": "n.线索",
+      "rank": 107,
+      "paraphrase": "hint, clue"
+    },
+    {
+      "id": "tier-2-088",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "signal",
+      "chinese": "n.信号",
+      "rank": 108,
+      "paraphrase": "symbol, mark, sign"
+    },
+    {
+      "id": "tier-2-089",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "abandon",
+      "chinese": "v.放弃，遗弃",
+      "rank": 109,
+      "paraphrase": "quit, give up, forsake, derelict"
+    },
+    {
+      "id": "tier-2-090",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "halt",
+      "chinese": "n.停止",
+      "rank": 110,
+      "paraphrase": "stop, quit"
+    },
+    {
+      "id": "tier-2-091",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "fragile",
+      "chinese": "adj.脆弱的",
+      "rank": 111,
+      "paraphrase": "vulnerable"
+    },
+    {
+      "id": "tier-2-092",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "retain",
+      "chinese": "v.记住",
+      "rank": 112,
+      "paraphrase": "maintain"
+    },
+    {
+      "id": "tier-2-093",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "vanish",
+      "chinese": "n.消失，绝迹",
+      "rank": 113,
+      "paraphrase": "disappear"
+    },
+    {
+      "id": "tier-2-094",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "delivery",
+      "chinese": "n.递送",
+      "rank": 114,
+      "paraphrase": "send"
+    },
+    {
+      "id": "tier-2-095",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "erode",
+      "chinese": "v.侵蚀",
+      "rank": 115,
+      "paraphrase": "rust, damage"
+    },
+    {
+      "id": "tier-2-096",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "induce",
+      "chinese": "v.引起，引诱",
+      "rank": 116,
+      "paraphrase": "cause, lead to"
+    },
+    {
+      "id": "tier-2-097",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "stable",
+      "chinese": "adj.稳定的",
+      "rank": 117,
+      "paraphrase": "constant, unchanged"
+    },
+    {
+      "id": "tier-2-098",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "integrate",
+      "chinese": "v.使……成整体",
+      "rank": 118,
+      "paraphrase": "combine, whole"
+    },
+    {
+      "id": "tier-2-099",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "equal",
+      "chinese": "adj.平等的;相等 的；胜任的",
+      "rank": 119,
+      "paraphrase": "fair, even"
+    },
+    {
+      "id": "tier-2-100",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "grant",
+      "chinese": "v.拨款；授予",
+      "rank": 120,
+      "paraphrase": "offer"
+    },
+    {
+      "id": "tier-3-001",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "accumulate",
+      "chinese": "v.积累，积聚",
+      "paraphrase": "gather"
+    },
+    {
+      "id": "tier-3-002",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "addictive",
+      "chinese": "adj.上瘾的",
+      "paraphrase": "habit"
+    },
+    {
+      "id": "tier-3-003",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "adversity",
+      "chinese": "n.逆境，不幸",
+      "paraphrase": "trouble"
+    },
+    {
+      "id": "tier-3-004",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "aggression",
+      "chinese": "n.侵犯，侵害",
+      "paraphrase": "attack"
+    },
+    {
+      "id": "tier-3-005",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "agreeable",
+      "chinese": "adj.令人愉快的；合 适的；和蔼可亲的",
+      "paraphrase": "pleasant"
+    },
+    {
+      "id": "tier-3-006",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "aid",
+      "chinese": "n.援助，帮助",
+      "paraphrase": "help"
+    },
+    {
+      "id": "tier-3-007",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "allergic",
+      "chinese": "adj.过敏的；对…… 极讨厌的",
+      "paraphrase": "irritate"
+    },
+    {
+      "id": "tier-3-008",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "altitude",
+      "chinese": "n.高度，海拔",
+      "paraphrase": "height"
+    },
+    {
+      "id": "tier-3-009",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "application",
+      "chinese": "n.应用",
+      "paraphrase": "utilization"
+    },
+    {
+      "id": "tier-3-010",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "approve",
+      "chinese": "v.批准",
+      "paraphrase": "agree"
+    },
+    {
+      "id": "tier-3-011",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "array",
+      "chinese": "n.排列，大批",
+      "paraphrase": "order"
+    },
+    {
+      "id": "tier-3-012",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "assign",
+      "chinese": "v.分配，指派",
+      "paraphrase": "allocate"
+    },
+    {
+      "id": "tier-3-013",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "association",
+      "chinese": "n.协会，联盟；联系",
+      "paraphrase": "union"
+    },
+    {
+      "id": "tier-3-014",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "attitude",
+      "chinese": "n.看法，态度",
+      "paraphrase": "opinion"
+    },
+    {
+      "id": "tier-3-015",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "authority",
+      "chinese": "n.当局，权威",
+      "paraphrase": "government"
+    },
+    {
+      "id": "tier-3-016",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "be consistent with",
+      "chinese": "与……一致",
+      "paraphrase": "compatible"
+    },
+    {
+      "id": "tier-3-017",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "bear",
+      "chinese": "v.承担；忍受",
+      "paraphrase": "tolerate"
+    },
+    {
+      "id": "tier-3-018",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "blight",
+      "chinese": "v.损害；枯萎",
+      "paraphrase": "destroy"
+    },
+    {
+      "id": "tier-3-019",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "boundary",
+      "chinese": "n.边界；底线",
+      "paraphrase": "barrier"
+    },
+    {
+      "id": "tier-3-020",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "bungle",
+      "chinese": "v.搞糟，拙劣地工作",
+      "paraphrase": "mishandle"
+    },
+    {
+      "id": "tier-3-021",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "burden",
+      "chinese": "n.负担",
+      "paraphrase": "load"
+    },
+    {
+      "id": "tier-3-022",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "calamity",
+      "chinese": "n.灾难",
+      "paraphrase": "disaster"
+    },
+    {
+      "id": "tier-3-023",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "capacity",
+      "chinese": "n.容量",
+      "paraphrase": "volume"
+    },
+    {
+      "id": "tier-3-024",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "catastrophic",
+      "chinese": "adj.灾难的",
+      "paraphrase": "disastrous"
+    },
+    {
+      "id": "tier-3-025",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "cater",
+      "chinese": "v.迎合；满足需求",
+      "paraphrase": "serve"
+    },
+    {
+      "id": "tier-3-026",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "certify",
+      "chinese": "v.证明,保证",
+      "paraphrase": "verify"
+    },
+    {
+      "id": "tier-3-027",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "civic",
+      "chinese": "adj.实名的",
+      "paraphrase": "municipal"
+    },
+    {
+      "id": "tier-3-028",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "comment",
+      "chinese": "n.评论；意见v.评论",
+      "paraphrase": "remark"
+    },
+    {
+      "id": "tier-3-029",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "commitment",
+      "chinese": "n.承诺，许诺，义 务；致力",
+      "paraphrase": "engagement"
+    },
+    {
+      "id": "tier-3-030",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "communal",
+      "chinese": "adj.公共的，公社的",
+      "paraphrase": "public"
+    },
+    {
+      "id": "tier-3-031",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "commute",
+      "chinese": "v.通勤；用……交换",
+      "paraphrase": "travel"
+    },
+    {
+      "id": "tier-3-032",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "compare",
+      "chinese": "v.与……相比较",
+      "paraphrase": "contrast"
+    },
+    {
+      "id": "tier-3-033",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "conceal",
+      "chinese": "v.隐藏；隐瞒",
+      "paraphrase": "hide"
+    },
+    {
+      "id": "tier-3-034",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "concentrate",
+      "chinese": "v.专心于；集中",
+      "paraphrase": "focus"
+    },
+    {
+      "id": "tier-3-035",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "concur",
+      "chinese": "v.同意",
+      "paraphrase": "agree"
+    },
+    {
+      "id": "tier-3-036",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "confer",
+      "chinese": "v.授予，给予",
+      "paraphrase": "grant"
+    },
+    {
+      "id": "tier-3-037",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "conflict",
+      "chinese": "n.冲突，矛盾",
+      "paraphrase": "unharmonious"
+    },
+    {
+      "id": "tier-3-038",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "confuse",
+      "chinese": "v.使混乱，使迷惑",
+      "paraphrase": "puzzle"
+    },
+    {
+      "id": "tier-3-039",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "conservative",
+      "chinese": "adj.保守的",
+      "paraphrase": "traditional"
+    },
+    {
+      "id": "tier-3-040",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "considerable",
+      "chinese": "adj.相当大的，重要 的",
+      "paraphrase": "significant"
+    },
+    {
+      "id": "tier-3-041",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "contingent",
+      "chinese": "adj.因情况而异的",
+      "paraphrase": "uncertain"
+    },
+    {
+      "id": "tier-3-042",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "controversial",
+      "chinese": "adj.有争论的",
+      "paraphrase": "disputable"
+    },
+    {
+      "id": "tier-3-043",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "correlation",
+      "chinese": "n.相关，关联",
+      "paraphrase": "link"
+    },
+    {
+      "id": "tier-3-044",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "courtship",
+      "chinese": "n.求爱（时期）",
+      "paraphrase": "mate"
+    },
+    {
+      "id": "tier-3-045",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "crash",
+      "chinese": "n.碰撞",
+      "paraphrase": "collapse"
+    },
+    {
+      "id": "tier-3-046",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "credibility",
+      "chinese": "n.可信性",
+      "paraphrase": "reliance"
+    },
+    {
+      "id": "tier-3-047",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "criminal",
+      "chinese": "n.罪犯，犯人",
+      "paraphrase": "conviction"
+    },
+    {
+      "id": "tier-3-048",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "crisis",
+      "chinese": "n.危机",
+      "paraphrase": "risk"
+    },
+    {
+      "id": "tier-3-049",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "criticism",
+      "chinese": "n.评论",
+      "paraphrase": "condemn"
+    },
+    {
+      "id": "tier-3-050",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "curb",
+      "chinese": "v.限制，抑制",
+      "paraphrase": "restrict"
+    },
+    {
+      "id": "tier-3-051",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "damp",
+      "chinese": "adj.潮湿的",
+      "paraphrase": "wet"
+    },
+    {
+      "id": "tier-3-052",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "dazzle",
+      "chinese": "v.使目眩；使…… 眼花",
+      "paraphrase": "flash"
+    },
+    {
+      "id": "tier-3-053",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "deadline",
+      "chinese": "n.最后期限",
+      "paraphrase": "limit"
+    },
+    {
+      "id": "tier-3-054",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "delay",
+      "chinese": "n.延期，耽搁",
+      "paraphrase": "postpone"
+    },
+    {
+      "id": "tier-3-055",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "democratic",
+      "chinese": "adj.民主的",
+      "paraphrase": "republic"
+    },
+    {
+      "id": "tier-3-056",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "demographic",
+      "chinese": "adj.人口统计学的； 人口学",
+      "paraphrase": "population statistic"
+    },
+    {
+      "id": "tier-3-057",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "dental",
+      "chinese": "adj.牙科的，牙齿的",
+      "paraphrase": "teeth"
+    },
+    {
+      "id": "tier-3-058",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "depression",
+      "chinese": "n.抑郁，沮丧",
+      "paraphrase": "frustration"
+    },
+    {
+      "id": "tier-3-059",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "designate",
+      "chinese": "n.指定；指派，标出",
+      "paraphrase": "appoint"
+    },
+    {
+      "id": "tier-3-060",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "detain",
+      "chinese": "v.留住",
+      "paraphrase": "hold"
+    },
+    {
+      "id": "tier-3-061",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "devastate",
+      "chinese": "v.毁坏，毁灭",
+      "paraphrase": "wreck"
+    },
+    {
+      "id": "tier-3-062",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "disclose",
+      "chinese": "v.公开；揭露",
+      "paraphrase": "expose"
+    },
+    {
+      "id": "tier-3-063",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "disparate",
+      "chinese": "adj.不同的",
+      "paraphrase": "different"
+    },
+    {
+      "id": "tier-3-064",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "display",
+      "chinese": "n.显示",
+      "paraphrase": "show"
+    },
+    {
+      "id": "tier-3-065",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "disrupt",
+      "chinese": "v.破坏",
+      "paraphrase": "destroy"
+    },
+    {
+      "id": "tier-3-066",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "distract",
+      "chinese": "v.转移，分心",
+      "paraphrase": "divert"
+    },
+    {
+      "id": "tier-3-067",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "distribute",
+      "chinese": "v.分配，分发",
+      "paraphrase": "spread"
+    },
+    {
+      "id": "tier-3-068",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "documentation",
+      "chinese": "n.文件；文献",
+      "paraphrase": "record"
+    },
+    {
+      "id": "tier-3-069",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "domain",
+      "chinese": "n.领域",
+      "paraphrase": "field"
+    },
+    {
+      "id": "tier-3-070",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "dominant",
+      "chinese": "adj.占优势的，占支 配地位的",
+      "paraphrase": "overbearing"
+    },
+    {
+      "id": "tier-3-071",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "dramatic",
+      "chinese": "adj.戏剧化的；激动 人心的，引人注意的",
+      "paraphrase": "striking"
+    },
+    {
+      "id": "tier-3-072",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "drought",
+      "chinese": "n.干旱",
+      "paraphrase": "dry"
+    },
+    {
+      "id": "tier-3-073",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "durable",
+      "chinese": "adj.持久的",
+      "paraphrase": "lasting"
+    },
+    {
+      "id": "tier-3-074",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "eco-friendly",
+      "chinese": "adj.生态有好的， 环保的",
+      "paraphrase": "environmentally-friendly"
+    },
+    {
+      "id": "tier-3-075",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "elaborate",
+      "chinese": "v.详细阐述，详细叙 述",
+      "paraphrase": "illustrate; illuminate 照射"
+    },
+    {
+      "id": "tier-3-076",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "elderly",
+      "chinese": "adj.高龄的",
+      "paraphrase": "aged"
+    },
+    {
+      "id": "tier-3-077",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "eliminate",
+      "chinese": "v.消除，排除",
+      "paraphrase": "dispose"
+    },
+    {
+      "id": "tier-3-078",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "elusive",
+      "chinese": "adj.难懂的，难捉摸 的；行踪隐秘的",
+      "paraphrase": "hard"
+    },
+    {
+      "id": "tier-3-079",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "encyclopaedia",
+      "chinese": "n.百科全书",
+      "paraphrase": "entire range of knowledge"
+    },
+    {
+      "id": "tier-3-080",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "entrepreneur",
+      "chinese": "n.企业家",
+      "paraphrase": "boss entrepreneurship 企业家精神"
+    },
+    {
+      "id": "tier-3-081",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "equator",
+      "chinese": "n.赤道",
+      "paraphrase": "geography"
+    },
+    {
+      "id": "tier-3-082",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "erratically",
+      "chinese": "adv.不定的，无视规 律地",
+      "paraphrase": "unpredictably"
+    },
+    {
+      "id": "tier-3-083",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "established",
+      "chinese": "adj.确定的；已制定 的，已建立的",
+      "paraphrase": "built"
+    },
+    {
+      "id": "tier-3-084",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "estate",
+      "chinese": "n.房地产",
+      "paraphrase": "property"
+    },
+    {
+      "id": "tier-3-085",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "ethical",
+      "chinese": "adj.道德的",
+      "paraphrase": "moral mortality 死亡人数"
+    },
+    {
+      "id": "tier-3-086",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "eventually",
+      "chinese": "adv.最后，终于",
+      "paraphrase": "finally"
+    },
+    {
+      "id": "tier-3-087",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "evidence",
+      "chinese": "n.迹象；证据",
+      "paraphrase": "proof"
+    },
+    {
+      "id": "tier-3-088",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "evolve",
+      "chinese": "v.进化，发展；逐渐形 成",
+      "paraphrase": "develop"
+    },
+    {
+      "id": "tier-3-089",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "exhausted",
+      "chinese": "adj.疲惫的，耗尽的",
+      "paraphrase": "fatigue"
+    },
+    {
+      "id": "tier-3-090",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "experiment",
+      "chinese": "n.试验，试验",
+      "paraphrase": "test"
+    },
+    {
+      "id": "tier-3-091",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "exceptional",
+      "chinese": "adj.异常的，特别出 色的",
+      "paraphrase": "extreme, utmost"
+    },
+    {
+      "id": "tier-3-092",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "explicit",
+      "chinese": "adj.明确的",
+      "paraphrase": "clear implicit含蓄的"
+    },
+    {
+      "id": "tier-3-093",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "exploit",
+      "chinese": "v.开发，利用",
+      "paraphrase": "use"
+    },
+    {
+      "id": "tier-3-094",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "extend",
+      "chinese": "v.扩展，延伸，推广",
+      "paraphrase": "expand"
+    },
+    {
+      "id": "tier-3-095",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "extract",
+      "chinese": "n.摘录 v.提取",
+      "paraphrase": "quotation"
+    },
+    {
+      "id": "tier-3-096",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "famine",
+      "chinese": "n.饥荒",
+      "paraphrase": "hunger"
+    },
+    {
+      "id": "tier-3-097",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "finite",
+      "chinese": "adj.有限的",
+      "paraphrase": "limited"
+    },
+    {
+      "id": "tier-3-098",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "fitness",
+      "chinese": "n.健康的",
+      "paraphrase": "health"
+    },
+    {
+      "id": "tier-3-099",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "foe",
+      "chinese": "n.敌人，危害物",
+      "paraphrase": "enemy"
+    },
+    {
+      "id": "tier-3-100",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "format",
+      "chinese": "n.格式",
+      "paraphrase": "structure"
+    },
+    {
+      "id": "tier-3-101",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "fragment",
+      "chinese": "n.碎片",
+      "paraphrase": "piece"
+    },
+    {
+      "id": "tier-3-102",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "freeze",
+      "chinese": "n.冰冻，冻结",
+      "paraphrase": "chill"
+    },
+    {
+      "id": "tier-3-103",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "fulfill",
+      "chinese": "v.满足，实现",
+      "paraphrase": "execute; fulfilling令人满足的"
+    },
+    {
+      "id": "tier-3-104",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "gene",
+      "chinese": "n.基因",
+      "paraphrase": "factor"
+    },
+    {
+      "id": "tier-3-105",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "gifted",
+      "chinese": "adj. 有天赋的，有才 华的",
+      "paraphrase": "talented"
+    },
+    {
+      "id": "tier-3-106",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "graphic",
+      "chinese": "adj.形象的；图解的",
+      "paraphrase": "picture"
+    },
+    {
+      "id": "tier-3-107",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "habitat",
+      "chinese": "n.栖息地，住所",
+      "paraphrase": "residence"
+    },
+    {
+      "id": "tier-3-108",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "harbor",
+      "chinese": "v.怀有 n.海港",
+      "paraphrase": "hold; port，harbor海港"
+    },
+    {
+      "id": "tier-3-109",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "hardship",
+      "chinese": "n.困苦；苦难",
+      "paraphrase": "difficult"
+    },
+    {
+      "id": "tier-3-110",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "harsh",
+      "chinese": "adj.艰难的；严酷的",
+      "paraphrase": "rough"
+    },
+    {
+      "id": "tier-3-111",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "hypothesis",
+      "chinese": "n.假设",
+      "paraphrase": "assumption"
+    },
+    {
+      "id": "tier-3-112",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "impact",
+      "chinese": "n.影响",
+      "paraphrase": "influence"
+    },
+    {
+      "id": "tier-3-113",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "impressive",
+      "chinese": "adj.感人的；给人深 刻印象的",
+      "paraphrase": "touching"
+    },
+    {
+      "id": "tier-3-114",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "in accordance with",
+      "chinese": "依照；与……一致",
+      "paraphrase": "conform"
+    },
+    {
+      "id": "tier-3-115",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "inaccurate",
+      "chinese": "adj.错误的",
+      "paraphrase": "incorrect; inadequate不充足的"
+    },
+    {
+      "id": "tier-3-116",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "inactive",
+      "chinese": "adj.不活跃的，不活 动的",
+      "paraphrase": "passive"
+    },
+    {
+      "id": "tier-3-117",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "inappropriate",
+      "chinese": "adj.不适当的",
+      "paraphrase": "hard"
+    },
+    {
+      "id": "tier-3-118",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "indulge",
+      "chinese": "v.沉溺（于）",
+      "paraphrase": "spoil"
+    },
+    {
+      "id": "tier-3-119",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "infest",
+      "chinese": "v.侵害；寄生于",
+      "paraphrase": "plague"
+    },
+    {
+      "id": "tier-3-120",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "installment",
+      "chinese": "n.安装；分期付款",
+      "paraphrase": "payment on its completion"
+    },
+    {
+      "id": "tier-3-121",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "intelligence",
+      "chinese": "n.智力",
+      "paraphrase": "mind"
+    },
+    {
+      "id": "tier-3-122",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "intense",
+      "chinese": "adj.强烈的；紧张的； 热情的",
+      "paraphrase": "strong"
+    },
+    {
+      "id": "tier-3-123",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "interaction",
+      "chinese": "n.相互作用，交流互 动",
+      "paraphrase": "social activities"
+    },
+    {
+      "id": "tier-3-124",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "interference",
+      "chinese": "n.干涉",
+      "paraphrase": "interdependence"
+    },
+    {
+      "id": "tier-3-125",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "interior",
+      "chinese": "n.内部 adj.内部的",
+      "paraphrase": "inner"
+    },
+    {
+      "id": "tier-3-126",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "interrupt",
+      "chinese": "v.中断",
+      "paraphrase": "stop"
+    },
+    {
+      "id": "tier-3-127",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "introverted",
+      "chinese": "adj.内向的，含蓄的",
+      "paraphrase": "shyness"
+    },
+    {
+      "id": "tier-3-128",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "involve",
+      "chinese": "v.包含，牵涉",
+      "paraphrase": "associate"
+    },
+    {
+      "id": "tier-3-129",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "keen",
+      "chinese": "adj.热切的；强迫的， 强烈的",
+      "paraphrase": "strong"
+    },
+    {
+      "id": "tier-3-130",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "label",
+      "chinese": "v.打上标签",
+      "paraphrase": "display"
+    },
+    {
+      "id": "tier-3-131",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "lack",
+      "chinese": "v.缺乏；不足",
+      "paraphrase": "shortage"
+    },
+    {
+      "id": "tier-3-132",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "landscape",
+      "chinese": "n.风景",
+      "paraphrase": "scene scenario; 设想，可能发生的情况"
+    },
+    {
+      "id": "tier-3-133",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "likelihood",
+      "chinese": "n.可能性",
+      "paraphrase": "chance"
+    },
+    {
+      "id": "tier-3-134",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "limb",
+      "chinese": "n.四肢",
+      "paraphrase": "arm or leg"
+    },
+    {
+      "id": "tier-3-135",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "linguistic",
+      "chinese": "adj.语言(学)的",
+      "paraphrase": "language"
+    },
+    {
+      "id": "tier-3-136",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "log",
+      "chinese": "v.记录 n.原木",
+      "paraphrase": "record"
+    },
+    {
+      "id": "tier-3-137",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "look-in",
+      "chinese": "n.成功的机会",
+      "paraphrase": "opportunity, chance"
+    },
+    {
+      "id": "tier-3-138",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "lopsided",
+      "chinese": "adj.不平衡的",
+      "paraphrase": "uneven"
+    },
+    {
+      "id": "tier-3-139",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "mainly",
+      "chinese": "adv.主要的，大体的",
+      "paraphrase": "primarily"
+    },
+    {
+      "id": "tier-3-140",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "malfunction",
+      "chinese": "v.发生故障;不起作用",
+      "paraphrase": "breakdown"
+    },
+    {
+      "id": "tier-3-141",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "mammal",
+      "chinese": "n.哺乳动物",
+      "paraphrase": "creature"
+    },
+    {
+      "id": "tier-3-142",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "mange to do",
+      "chinese": "设法完成某事",
+      "paraphrase": "success"
+    },
+    {
+      "id": "tier-3-143",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "manifest",
+      "chinese": "v.出现，表现",
+      "paraphrase": "obvious"
+    },
+    {
+      "id": "tier-3-144",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "manufacture",
+      "chinese": "n.生产",
+      "paraphrase": "produce"
+    },
+    {
+      "id": "tier-3-145",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "marine",
+      "chinese": "adj.海产的；航海的； 海运的",
+      "paraphrase": "sea"
+    },
+    {
+      "id": "tier-3-146",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "mate",
+      "chinese": "n.配偶",
+      "paraphrase": "spouse"
+    },
+    {
+      "id": "tier-3-147",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "mechanism",
+      "chinese": "n.机制，原理",
+      "paraphrase": "method"
+    },
+    {
+      "id": "tier-3-148",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "mental",
+      "chinese": "adj.精神的，心理的",
+      "paraphrase": "intelligent"
+    },
+    {
+      "id": "tier-3-149",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "mercury",
+      "chinese": "n.汞，水银",
+      "paraphrase": "liquid metal"
+    },
+    {
+      "id": "tier-3-150",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "meteorological",
+      "chinese": "adj.气象学的",
+      "paraphrase": "weather"
+    },
+    {
+      "id": "tier-3-151",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "migrate",
+      "chinese": "v.转移,迁移",
+      "paraphrase": "move"
+    },
+    {
+      "id": "tier-3-152",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "moisture",
+      "chinese": "n.水分，湿度",
+      "paraphrase": "humidity"
+    },
+    {
+      "id": "tier-3-153",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "monitor",
+      "chinese": "v.监控",
+      "paraphrase": "surveillance"
+    },
+    {
+      "id": "tier-3-154",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "motif",
+      "chinese": "n.主题；图形",
+      "paraphrase": "theme"
+    },
+    {
+      "id": "tier-3-155",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "mould",
+      "chinese": "v.模压，塑造；塑造成",
+      "paraphrase": "form"
+    },
+    {
+      "id": "tier-3-156",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "native",
+      "chinese": "adj.本国的，土著的； 天然的；天赋的",
+      "paraphrase": "original"
+    },
+    {
+      "id": "tier-3-157",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "nocturnal",
+      "chinese": "adj.夜间的,夜间发生 的",
+      "paraphrase": "night"
+    },
+    {
+      "id": "tier-3-158",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "norm",
+      "chinese": "n.规范",
+      "paraphrase": "regulation"
+    },
+    {
+      "id": "tier-3-159",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "notoriety",
+      "chinese": "n.名声",
+      "paraphrase": "famous"
+    },
+    {
+      "id": "tier-3-160",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "objective",
+      "chinese": "n.目标，目的 adj.客观的",
+      "paraphrase": "goal"
+    },
+    {
+      "id": "tier-3-161",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "obligation",
+      "chinese": "n.义务",
+      "paraphrase": "responsibility"
+    },
+    {
+      "id": "tier-3-162",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "obscure",
+      "chinese": "v.掩盖，使模糊不清",
+      "paraphrase": "hide"
+    },
+    {
+      "id": "tier-3-163",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "obtain",
+      "chinese": "v.获得",
+      "paraphrase": "get"
+    },
+    {
+      "id": "tier-3-164",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "odd",
+      "chinese": "adj.古怪的",
+      "paraphrase": "strange"
+    },
+    {
+      "id": "tier-3-165",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "odour",
+      "chinese": "n.气味",
+      "paraphrase": "smell"
+    },
+    {
+      "id": "tier-3-166",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "offensive",
+      "chinese": "adj.冒犯的，无礼的",
+      "paraphrase": "hostile 热情好客 hospitality"
+    },
+    {
+      "id": "tier-3-167",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "official",
+      "chinese": "n.官员 adj.官方的",
+      "paraphrase": "authority hospitable好客的"
+    },
+    {
+      "id": "tier-3-168",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "optimum",
+      "chinese": "n.最佳效果 adj.最适宜的",
+      "paraphrase": "best"
+    },
+    {
+      "id": "tier-3-169",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "ordinary",
+      "chinese": "adj.普通的；平凡的； 平常的",
+      "paraphrase": "common"
+    },
+    {
+      "id": "tier-3-170",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "organ",
+      "chinese": "n.器官；机构",
+      "paraphrase": "a part of a body"
+    },
+    {
+      "id": "tier-3-171",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "out of the question",
+      "chinese": "不可能",
+      "paraphrase": "impossible"
+    },
+    {
+      "id": "tier-3-172",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "overcome",
+      "chinese": "v.克服",
+      "paraphrase": "defeat"
+    },
+    {
+      "id": "tier-3-173",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "overtake",
+      "chinese": "v.赶上",
+      "paraphrase": "surpass"
+    },
+    {
+      "id": "tier-3-174",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "paralyse",
+      "chinese": "v.使……麻痹；使…… 瘫痪",
+      "paraphrase": "cannot move"
+    },
+    {
+      "id": "tier-3-175",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "paramount",
+      "chinese": "adj.最重要的，主要 的",
+      "paraphrase": "principal"
+    },
+    {
+      "id": "tier-3-176",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "participate",
+      "chinese": "v.参加",
+      "paraphrase": "join"
+    },
+    {
+      "id": "tier-3-177",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "patient",
+      "chinese": "adj.有耐性的，能容 忍的 n.病人；患者",
+      "paraphrase": "repetitive"
+    },
+    {
+      "id": "tier-3-178",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "peak",
+      "chinese": "n.最高峰，顶点 v.使……达到顶峰",
+      "paraphrase": "top"
+    },
+    {
+      "id": "tier-3-179",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "permit",
+      "chinese": "n.许可证，执照 v.许可",
+      "paraphrase": "allow"
+    },
+    {
+      "id": "tier-3-180",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "persuade",
+      "chinese": "v.说服，劝说",
+      "paraphrase": "influence"
+    },
+    {
+      "id": "tier-3-181",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "pessimistic",
+      "chinese": "adj.悲观的",
+      "paraphrase": "negative"
+    },
+    {
+      "id": "tier-3-182",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "phase",
+      "chinese": "n.阶段",
+      "paraphrase": "process"
+    },
+    {
+      "id": "tier-3-183",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "physical",
+      "chinese": "adj.身体上的；物质 的",
+      "paraphrase": "body"
+    },
+    {
+      "id": "tier-3-184",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "plagiarise",
+      "chinese": "v.抄袭",
+      "paraphrase": "copy"
+    },
+    {
+      "id": "tier-3-185",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "plenty of",
+      "chinese": "大量的",
+      "paraphrase": "many"
+    },
+    {
+      "id": "tier-3-186",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "plot",
+      "chinese": "v.密谋",
+      "paraphrase": "plan"
+    },
+    {
+      "id": "tier-3-187",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "pose",
+      "chinese": "v.提出，造成，形成",
+      "paraphrase": "cause"
+    },
+    {
+      "id": "tier-3-188",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "portable",
+      "chinese": "adj.可携带的",
+      "paraphrase": "conveyable"
+    },
+    {
+      "id": "tier-3-189",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "poverty",
+      "chinese": "n.贫穷",
+      "paraphrase": "poor"
+    },
+    {
+      "id": "tier-3-190",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "praise",
+      "chinese": "n.赞扬",
+      "paraphrase": "commend"
+    },
+    {
+      "id": "tier-3-191",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "predict",
+      "chinese": "v.预测，预知",
+      "paraphrase": "expect"
+    },
+    {
+      "id": "tier-3-192",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "pressing",
+      "chinese": "adj.迫切的",
+      "paraphrase": "urgent"
+    },
+    {
+      "id": "tier-3-193",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "private",
+      "chinese": "adj.私人的；私有的； 私下的",
+      "paraphrase": "personal"
+    },
+    {
+      "id": "tier-3-194",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "prohibit",
+      "chinese": "v.禁止的",
+      "paraphrase": "not allowed"
+    },
+    {
+      "id": "tier-3-195",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "prolong",
+      "chinese": "v.拉长，延长",
+      "paraphrase": "extend"
+    },
+    {
+      "id": "tier-3-196",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "promote",
+      "chinese": "v.促进，推销",
+      "paraphrase": "improve"
+    },
+    {
+      "id": "tier-3-197",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "prosper",
+      "chinese": "v.使成功，使繁荣",
+      "paraphrase": "success"
+    },
+    {
+      "id": "tier-3-198",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "purify",
+      "chinese": "v.净化",
+      "paraphrase": "clean"
+    },
+    {
+      "id": "tier-3-199",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "qualify",
+      "chinese": "v.取得资格",
+      "paraphrase": "fulfill"
+    },
+    {
+      "id": "tier-3-200",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "radical",
+      "chinese": "adj.彻底的，根本的",
+      "paraphrase": "utmost wear a radiant smile 露出灿烂的笑"
+    },
+    {
+      "id": "tier-3-201",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "range",
+      "chinese": "n.范围；幅度",
+      "paraphrase": "scope spectrum范围"
+    },
+    {
+      "id": "tier-3-202",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "rare",
+      "chinese": "adj.稀有的",
+      "paraphrase": "unusual"
+    },
+    {
+      "id": "tier-3-203",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "rate",
+      "chinese": "n.等级 v.评估",
+      "paraphrase": "rank;measure"
+    },
+    {
+      "id": "tier-3-204",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "react",
+      "chinese": "v.反应",
+      "paraphrase": "respond"
+    },
+    {
+      "id": "tier-3-205",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "recreation",
+      "chinese": "n.娱乐，消遣",
+      "paraphrase": "entertainment"
+    },
+    {
+      "id": "tier-3-206",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "reduction",
+      "chinese": "n.下降，减少",
+      "paraphrase": "decrease"
+    },
+    {
+      "id": "tier-3-207",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "refer to",
+      "chinese": "指(的是)，涉及，提及",
+      "paraphrase": "talk about"
+    },
+    {
+      "id": "tier-3-208",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "rehearsal",
+      "chinese": "n.排演；预演；练习",
+      "paraphrase": "preparation"
+    },
+    {
+      "id": "tier-3-209",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "reject",
+      "chinese": "v.拒绝，排斥，丢弃",
+      "paraphrase": "exclude"
+    },
+    {
+      "id": "tier-3-210",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "relevant",
+      "chinese": "adj.相关的",
+      "paraphrase": "relative"
+    },
+    {
+      "id": "tier-3-211",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "religious",
+      "chinese": "adj.宗教的；虔诚的",
+      "paraphrase": "sacred"
+    },
+    {
+      "id": "tier-3-212",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "reluctant",
+      "chinese": "adj.不情愿的",
+      "paraphrase": "unwilling"
+    },
+    {
+      "id": "tier-3-213",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "reproduce",
+      "chinese": "v.繁殖",
+      "paraphrase": "breed"
+    },
+    {
+      "id": "tier-3-214",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "responsible",
+      "chinese": "adj.负责的，可靠的； 有责任的",
+      "paraphrase": "liable; reliance 依靠，信任"
+    },
+    {
+      "id": "tier-3-215",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "revision",
+      "chinese": "n.修正",
+      "paraphrase": "editing"
+    },
+    {
+      "id": "tier-3-216",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "revive",
+      "chinese": "v.使复苏，恢复",
+      "paraphrase": "renaissance"
+    },
+    {
+      "id": "tier-3-217",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "ruin",
+      "chinese": "v.毁灭",
+      "paraphrase": "destroy"
+    },
+    {
+      "id": "tier-3-218",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "scenic",
+      "chinese": "adj.风景优美的",
+      "paraphrase": "beautiful"
+    },
+    {
+      "id": "tier-3-219",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "shade",
+      "chinese": "n.遮阳；阴影",
+      "paraphrase": "shelter"
+    },
+    {
+      "id": "tier-3-220",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "skepticism",
+      "chinese": "n.怀疑",
+      "paraphrase": "doubt"
+    },
+    {
+      "id": "tier-3-221",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "soar",
+      "chinese": "v.激增",
+      "paraphrase": "increase"
+    },
+    {
+      "id": "tier-3-222",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "solely",
+      "chinese": "adv.唯一地",
+      "paraphrase": "alone"
+    },
+    {
+      "id": "tier-3-223",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "solicitor",
+      "chinese": "n.律师",
+      "paraphrase": "lawyer"
+    },
+    {
+      "id": "tier-3-224",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "steer",
+      "chinese": "v.控制，引导",
+      "paraphrase": "manage"
+    },
+    {
+      "id": "tier-3-225",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "stimulate",
+      "chinese": "v.刺激，激励",
+      "paraphrase": "motivate stimulus刺激（物）, 促"
+    },
+    {
+      "id": "tier-3-226",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "stride",
+      "chinese": "n.进展",
+      "paraphrase": "progress advance"
+    },
+    {
+      "id": "tier-3-227",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "succumb",
+      "chinese": "vi.屈服",
+      "paraphrase": "yield unyielding不屈的；坚强的"
+    },
+    {
+      "id": "tier-3-228",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "subdivide",
+      "chinese": "v.把……细分",
+      "paraphrase": "break down"
+    },
+    {
+      "id": "tier-3-229",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "subtle",
+      "chinese": "adj.微妙的",
+      "paraphrase": "delicate dedicate 致力于"
+    },
+    {
+      "id": "tier-3-230",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "substance",
+      "chinese": "n.物质；实质",
+      "paraphrase": "matter"
+    },
+    {
+      "id": "tier-3-231",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "sufficiency",
+      "chinese": "n.足量，充足",
+      "paraphrase": "enough suffice (V) sufficien"
+    },
+    {
+      "id": "tier-3-232",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "supersede",
+      "chinese": "v.取代，代替",
+      "paraphrase": "replace"
+    },
+    {
+      "id": "tier-3-233",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "suppress",
+      "chinese": "v.抑制，隐瞒",
+      "paraphrase": "hold"
+    },
+    {
+      "id": "tier-3-234",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "inferior",
+      "chinese": "n.至高无上，很高的 地位",
+      "paraphrase": "priority; prioritize"
+    },
+    {
+      "id": "tier-3-235",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "suspicious",
+      "chinese": "adj.可疑的",
+      "paraphrase": "odd; 怀疑的 doubtful，skeptical"
+    },
+    {
+      "id": "tier-3-236",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "sustainable",
+      "chinese": "adj.可持续的",
+      "paraphrase": "long-term"
+    },
+    {
+      "id": "tier-3-237",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "symptom",
+      "chinese": "n.症状，征兆",
+      "paraphrase": "sign"
+    },
+    {
+      "id": "tier-3-238",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "tension",
+      "chinese": "n.紧张，不安",
+      "paraphrase": "upset"
+    },
+    {
+      "id": "tier-3-239",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "term",
+      "chinese": "n.术语",
+      "paraphrase": "word"
+    },
+    {
+      "id": "tier-3-240",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "throughout",
+      "chinese": "adv.自始至终，到处； 全部",
+      "paraphrase": "anywhere"
+    },
+    {
+      "id": "tier-3-241",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "toll",
+      "chinese": "n.通行费 v.征收",
+      "paraphrase": "charge"
+    },
+    {
+      "id": "tier-3-242",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "trace",
+      "chinese": "n.追溯；痕迹",
+      "paraphrase": "track"
+    },
+    {
+      "id": "tier-3-243",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "transcend",
+      "chinese": "v.胜过，超越",
+      "paraphrase": "excel"
+    },
+    {
+      "id": "tier-3-244",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "transit",
+      "chinese": "n.运输；经过 v.运送",
+      "paraphrase": "send"
+    },
+    {
+      "id": "tier-3-245",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "tremendous",
+      "chinese": "adj.巨大的，惊人的",
+      "paraphrase": "vast"
+    },
+    {
+      "id": "tier-3-246",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "trigger",
+      "chinese": "n.触发，引发，引起",
+      "paraphrase": "begin"
+    },
+    {
+      "id": "tier-3-247",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "tropical",
+      "chinese": "adj.热带的",
+      "paraphrase": "hot"
+    },
+    {
+      "id": "tier-3-248",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "unbiased",
+      "chinese": "adj.公正的，无偏见 的",
+      "paraphrase": "fair"
+    },
+    {
+      "id": "tier-3-249",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "uniform",
+      "chinese": "adj.始终如一的",
+      "paraphrase": "consistent"
+    },
+    {
+      "id": "tier-3-250",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "valuable",
+      "chinese": "adj.宝贵的，有价值 的",
+      "paraphrase": "benefit"
+    },
+    {
+      "id": "tier-3-251",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "versatile",
+      "chinese": "adj.多功能",
+      "paraphrase": "all-around"
+    },
+    {
+      "id": "tier-3-252",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "view",
+      "chinese": "v.看",
+      "paraphrase": "overlook"
+    },
+    {
+      "id": "tier-3-253",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "violent",
+      "chinese": "adj.暴力的；猛烈的",
+      "paraphrase": "fierce"
+    },
+    {
+      "id": "tier-3-254",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "visible",
+      "chinese": "adj.明显的，看得见 的",
+      "paraphrase": "see"
+    },
+    {
+      "id": "tier-3-255",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "visual",
+      "chinese": "adj.是觉得",
+      "paraphrase": "image"
+    },
+    {
+      "id": "tier-3-256",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "well-being",
+      "chinese": "n.健康，康乐",
+      "paraphrase": "health"
+    },
+    {
+      "id": "tier-1-021",
+      "category_id": "tier-1",
+      "tier": 1,
+      "english": "similar"
+    },
+    {
+      "id": "tier-1-022",
+      "category_id": "tier-1",
+      "tier": 1,
+      "english": "perceive"
+    },
+    {
+      "id": "tier-1-023",
+      "category_id": "tier-1",
+      "tier": 1,
+      "english": "acknowledge"
+    },
+    {
+      "id": "tier-1-024",
+      "category_id": "tier-1",
+      "tier": 1,
+      "english": "realize"
+    },
+    {
+      "id": "tier-1-025",
+      "category_id": "tier-1",
+      "tier": 1,
+      "english": "appreciate"
+    },
+    {
+      "id": "tier-1-026",
+      "category_id": "tier-1",
+      "tier": 1,
+      "english": "admit"
+    },
+    {
+      "id": "tier-1-027",
+      "category_id": "tier-1",
+      "tier": 1,
+      "english": "identify"
+    },
+    {
+      "id": "tier-1-028",
+      "category_id": "tier-1",
+      "tier": 1,
+      "english": "comprehend"
+    },
+    {
+      "id": "tier-1-029",
+      "category_id": "tier-1",
+      "tier": 1,
+      "english": "change"
+    },
+    {
+      "id": "tier-1-030",
+      "category_id": "tier-1",
+      "tier": 1,
+      "english": "modify"
+    },
+    {
+      "id": "tier-1-031",
+      "category_id": "tier-1",
+      "tier": 1,
+      "english": "shift"
+    },
+    {
+      "id": "tier-1-032",
+      "category_id": "tier-1",
+      "tier": 1,
+      "english": "alter"
+    },
+    {
+      "id": "tier-1-033",
+      "category_id": "tier-1",
+      "tier": 1,
+      "english": "method"
+    },
+    {
+      "id": "tier-1-034",
+      "category_id": "tier-1",
+      "tier": 1,
+      "english": "rudimentary"
+    },
+    {
+      "id": "tier-1-035",
+      "category_id": "tier-1",
+      "tier": 1,
+      "english": "preliminary"
+    },
+    {
+      "id": "tier-1-036",
+      "category_id": "tier-1",
+      "tier": 1,
+      "english": "depend on"
+    },
+    {
+      "id": "tier-1-037",
+      "category_id": "tier-1",
+      "tier": 1,
+      "english": "calculate"
+    },
+    {
+      "id": "tier-1-038",
+      "category_id": "tier-1",
+      "tier": 1,
+      "english": "assess"
+    },
+    {
+      "id": "tier-1-039",
+      "category_id": "tier-1",
+      "tier": 1,
+      "english": "evaluate"
+    },
+    {
+      "id": "tier-1-040",
+      "category_id": "tier-1",
+      "tier": 1,
+      "english": "apply"
+    },
+    {
+      "id": "tier-1-041",
+      "category_id": "tier-1",
+      "tier": 1,
+      "english": "to"
+    },
+    {
+      "id": "tier-1-042",
+      "category_id": "tier-1",
+      "tier": 1,
+      "english": "based on"
+    },
+    {
+      "id": "tier-1-043",
+      "category_id": "tier-1",
+      "tier": 1,
+      "english": "neglect"
+    },
+    {
+      "id": "tier-1-044",
+      "category_id": "tier-1",
+      "tier": 1,
+      "english": "overlook"
+    },
+    {
+      "id": "tier-1-045",
+      "category_id": "tier-1",
+      "tier": 1,
+      "english": "underestimate"
+    },
+    {
+      "id": "tier-1-046",
+      "category_id": "tier-1",
+      "tier": 1,
+      "english": "toxic"
+    },
+    {
+      "id": "tier-1-047",
+      "category_id": "tier-1",
+      "tier": 1,
+      "english": "stem from"
+    },
+    {
+      "id": "tier-1-048",
+      "category_id": "tier-1",
+      "tier": 1,
+      "english": "derive"
+    },
+    {
+      "id": "tier-2-101",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "variety"
+    },
+    {
+      "id": "tier-2-102",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "seek"
+    },
+    {
+      "id": "tier-2-103",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "inaccessible"
+    },
+    {
+      "id": "tier-2-104",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "escape"
+    },
+    {
+      "id": "tier-2-105",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "evitable"
+    },
+    {
+      "id": "tier-2-106",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "fund"
+    },
+    {
+      "id": "tier-2-107",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "financial"
+    },
+    {
+      "id": "tier-2-108",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "substitute"
+    },
+    {
+      "id": "tier-2-109",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "make up"
+    },
+    {
+      "id": "tier-2-110",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "offset"
+    },
+    {
+      "id": "tier-2-111",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "proportion"
+    },
+    {
+      "id": "tier-2-112",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "standard"
+    },
+    {
+      "id": "tier-2-113",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "syllabus"
+    },
+    {
+      "id": "tier-2-114",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "realistic"
+    },
+    {
+      "id": "tier-2-115",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "viable"
+    },
+    {
+      "id": "tier-2-116",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "defect"
+    },
+    {
+      "id": "tier-2-117",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "provision"
+    },
+    {
+      "id": "tier-2-118",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "differentiate"
+    },
+    {
+      "id": "tier-2-119",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "diagnose"
+    },
+    {
+      "id": "tier-2-120",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "focus on"
+    },
+    {
+      "id": "tier-2-121",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "stress"
+    },
+    {
+      "id": "tier-2-122",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "massive"
+    },
+    {
+      "id": "tier-2-123",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "mimic"
+    },
+    {
+      "id": "tier-2-124",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "diminish"
+    },
+    {
+      "id": "tier-2-125",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "impede"
+    },
+    {
+      "id": "tier-2-126",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "prevent"
+    },
+    {
+      "id": "tier-2-127",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "deter"
+    },
+    {
+      "id": "tier-2-128",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "obstacle"
+    },
+    {
+      "id": "tier-2-129",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "legal"
+    },
+    {
+      "id": "tier-2-130",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "restriction"
+    },
+    {
+      "id": "tier-2-131",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "wholesome"
+    },
+    {
+      "id": "tier-2-132",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "aware"
+    },
+    {
+      "id": "tier-2-133",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "resistance"
+    },
+    {
+      "id": "tier-2-134",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "necessary"
+    },
+    {
+      "id": "tier-2-135",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "discharge"
+    },
+    {
+      "id": "tier-2-136",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "exude"
+    },
+    {
+      "id": "tier-2-137",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "only"
+    },
+    {
+      "id": "tier-2-138",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "assure"
+    },
+    {
+      "id": "tier-2-139",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "rather"
+    },
+    {
+      "id": "tier-2-140",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "preference"
+    },
+    {
+      "id": "tier-2-141",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "main"
+    },
+    {
+      "id": "tier-2-142",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "complicate"
+    },
+    {
+      "id": "tier-2-143",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "detailed"
+    },
+    {
+      "id": "tier-2-144",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "particular"
+    },
+    {
+      "id": "tier-2-145",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "setting"
+    },
+    {
+      "id": "tier-2-146",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "environment"
+    },
+    {
+      "id": "tier-2-147",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "contribute"
+    },
+    {
+      "id": "tier-2-148",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "motive"
+    },
+    {
+      "id": "tier-2-149",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "stimulus"
+    },
+    {
+      "id": "tier-2-150",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "endanger"
+    },
+    {
+      "id": "tier-2-151",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "jeopardize"
+    },
+    {
+      "id": "tier-2-152",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "risk"
+    },
+    {
+      "id": "tier-2-153",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "hazard"
+    },
+    {
+      "id": "tier-2-154",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "virus"
+    },
+    {
+      "id": "tier-2-155",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "germ"
+    },
+    {
+      "id": "tier-2-156",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "microbe"
+    },
+    {
+      "id": "tier-2-157",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "formation"
+    },
+    {
+      "id": "tier-2-158",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "initial"
+    },
+    {
+      "id": "tier-2-159",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "obey"
+    },
+    {
+      "id": "tier-2-160",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "organize"
+    },
+    {
+      "id": "tier-2-161",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "harmonize"
+    },
+    {
+      "id": "tier-2-162",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "vary"
+    },
+    {
+      "id": "tier-2-163",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "hint"
+    },
+    {
+      "id": "tier-2-164",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "clue"
+    },
+    {
+      "id": "tier-2-165",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "symbol"
+    },
+    {
+      "id": "tier-2-166",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "vulnerable"
+    },
+    {
+      "id": "tier-2-167",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "fair"
+    },
+    {
+      "id": "tier-2-168",
+      "category_id": "tier-2",
+      "tier": 2,
+      "english": "even"
+    },
+    {
+      "id": "tier-3-257",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "utilization"
+    },
+    {
+      "id": "tier-3-258",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "allocate"
+    },
+    {
+      "id": "tier-3-259",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "compatible"
+    },
+    {
+      "id": "tier-3-260",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "tolerate"
+    },
+    {
+      "id": "tier-3-261",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "barrier"
+    },
+    {
+      "id": "tier-3-262",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "disaster"
+    },
+    {
+      "id": "tier-3-263",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "volume"
+    },
+    {
+      "id": "tier-3-264",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "municipal"
+    },
+    {
+      "id": "tier-3-265",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "engagement"
+    },
+    {
+      "id": "tier-3-266",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "contrast"
+    },
+    {
+      "id": "tier-3-267",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "puzzle"
+    },
+    {
+      "id": "tier-3-268",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "link"
+    },
+    {
+      "id": "tier-3-269",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "collapse"
+    },
+    {
+      "id": "tier-3-270",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "reliance"
+    },
+    {
+      "id": "tier-3-271",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "conviction"
+    },
+    {
+      "id": "tier-3-272",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "condemn"
+    },
+    {
+      "id": "tier-3-273",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "postpone"
+    },
+    {
+      "id": "tier-3-274",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "frustration"
+    },
+    {
+      "id": "tier-3-275",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "wreck"
+    },
+    {
+      "id": "tier-3-276",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "expose"
+    },
+    {
+      "id": "tier-3-277",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "divert"
+    },
+    {
+      "id": "tier-3-278",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "record"
+    },
+    {
+      "id": "tier-3-279",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "illustrate"
+    },
+    {
+      "id": "tier-3-280",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "moral"
+    },
+    {
+      "id": "tier-3-281",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "proof"
+    },
+    {
+      "id": "tier-3-282",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "fatigue"
+    },
+    {
+      "id": "tier-3-283",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "extreme"
+    },
+    {
+      "id": "tier-3-284",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "quotation"
+    },
+    {
+      "id": "tier-3-285",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "execute"
+    },
+    {
+      "id": "tier-3-286",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "talented"
+    },
+    {
+      "id": "tier-3-287",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "assumption"
+    },
+    {
+      "id": "tier-3-288",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "influence"
+    },
+    {
+      "id": "tier-3-289",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "conform"
+    },
+    {
+      "id": "tier-3-290",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "spoil"
+    },
+    {
+      "id": "tier-3-291",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "plague"
+    },
+    {
+      "id": "tier-3-292",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "opportunity"
+    },
+    {
+      "id": "tier-3-293",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "spouse"
+    },
+    {
+      "id": "tier-3-294",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "surveillance"
+    },
+    {
+      "id": "tier-3-295",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "theme"
+    },
+    {
+      "id": "tier-3-296",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "regulation"
+    },
+    {
+      "id": "tier-3-297",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "hostile"
+    },
+    {
+      "id": "tier-3-298",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "defeat"
+    },
+    {
+      "id": "tier-3-299",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "surpass"
+    },
+    {
+      "id": "tier-3-300",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "expect"
+    },
+    {
+      "id": "tier-3-301",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "scope"
+    },
+    {
+      "id": "tier-3-302",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "respond"
+    },
+    {
+      "id": "tier-3-303",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "entertainment"
+    },
+    {
+      "id": "tier-3-304",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "exclude"
+    },
+    {
+      "id": "tier-3-305",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "relative"
+    },
+    {
+      "id": "tier-3-306",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "shelter"
+    },
+    {
+      "id": "tier-3-307",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "motivate"
+    },
+    {
+      "id": "tier-3-308",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "delicate"
+    },
+    {
+      "id": "tier-3-309",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "replace"
+    },
+    {
+      "id": "tier-3-310",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "track"
+    },
+    {
+      "id": "tier-3-311",
+      "category_id": "tier-3",
+      "tier": 3,
+      "english": "excel"
+    }
+  ]
+}

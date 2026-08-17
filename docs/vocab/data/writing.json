@@ -1,0 +1,2602 @@
+{
+  "source_doc": "writing",
+  "source_label": "写作 collocation",
+  "categories": [
+    {
+      "id": "education",
+      "ordinal": "一",
+      "label": "教育",
+      "label_zh": "一、教育类",
+      "inferred": false
+    },
+    {
+      "id": "language",
+      "ordinal": "二",
+      "label": "语言",
+      "label_zh": "二、语言类",
+      "inferred": true
+    },
+    {
+      "id": "culture",
+      "ordinal": "三",
+      "label": "文化",
+      "label_zh": "三、文化类",
+      "inferred": false
+    },
+    {
+      "id": "government",
+      "ordinal": "四",
+      "label": "政府社会",
+      "label_zh": "四、政府社会类",
+      "inferred": true
+    },
+    {
+      "id": "work",
+      "ordinal": "五",
+      "label": "工作",
+      "label_zh": "五、工作类",
+      "inferred": false
+    },
+    {
+      "id": "environment",
+      "ordinal": "六",
+      "label": "环境",
+      "label_zh": "六、环境类",
+      "inferred": true
+    },
+    {
+      "id": "society",
+      "ordinal": "七",
+      "label": "社会",
+      "label_zh": "七、社会类",
+      "inferred": true
+    },
+    {
+      "id": "animal-protection",
+      "ordinal": "八",
+      "label": "动物保护",
+      "label_zh": "八、动物保护类",
+      "inferred": false
+    },
+    {
+      "id": "technology",
+      "ordinal": "九",
+      "label": "科技",
+      "label_zh": "九、科技类",
+      "inferred": false
+    }
+  ],
+  "items": [
+    {
+      "id": "education-1",
+      "category_id": "education",
+      "english": "subject",
+      "chinese": "科 目",
+      "example_en": "history 历史 science ; arts 艺 术"
+    },
+    {
+      "id": "education-2",
+      "category_id": "education",
+      "english": "humanities",
+      "chinese": "人 文学 科"
+    },
+    {
+      "id": "education-3",
+      "category_id": "education",
+      "english": "social sciences",
+      "chinese": "社 会 学 科",
+      "example_en": "economics, sociology, psychology, law, etc."
+    },
+    {
+      "id": "education-4",
+      "category_id": "education",
+      "english": "basic sciences",
+      "chinese": "基 础 学 科"
+    },
+    {
+      "id": "education-5",
+      "category_id": "education",
+      "english": "applied science",
+      "chinese": "应 用 学 科"
+    },
+    {
+      "id": "education-6",
+      "category_id": "education",
+      "english": "distance education",
+      "chinese": "远 程 教育"
+    },
+    {
+      "id": "education-7",
+      "category_id": "education",
+      "english": "compulsory course",
+      "chinese": "必 修 课"
+    },
+    {
+      "id": "education-8",
+      "category_id": "education",
+      "english": "optional course",
+      "chinese": "选 修 课"
+    },
+    {
+      "id": "education-9",
+      "category_id": "education",
+      "english": "credits",
+      "chinese": "学 分"
+    },
+    {
+      "id": "education-10",
+      "category_id": "education",
+      "english": "awareness",
+      "chinese": "意 识",
+      "example_en": "promote our awareness of.,. 提 高 对 .…. 的 意识"
+    },
+    {
+      "id": "education-11",
+      "category_id": "education",
+      "english": "creative",
+      "chinese": "有 创造 性 的"
+    },
+    {
+      "id": "education-12",
+      "category_id": "education",
+      "english": "original",
+      "chinese": "新 颖 的 ， 原 创 的"
+    },
+    {
+      "id": "education-13",
+      "category_id": "education",
+      "english": "physical",
+      "chinese": "身体 上 的 ， 生 理 上 的"
+    },
+    {
+      "id": "education-14",
+      "category_id": "education",
+      "english": "emotional",
+      "chinese": "情 感 上 的"
+    },
+    {
+      "id": "education-15",
+      "category_id": "education",
+      "english": "psychological",
+      "chinese": "心 理 上 的"
+    },
+    {
+      "id": "education-16",
+      "category_id": "education",
+      "english": "peers",
+      "chinese": "同 擒 人"
+    },
+    {
+      "id": "education-17",
+      "category_id": "education",
+      "english": "motivation",
+      "chinese": "动 力",
+      "example_en": "highly motivated students 有 很 强 动力 的 学 生"
+    },
+    {
+      "id": "education-18",
+      "category_id": "education",
+      "english": "stimulating",
+      "chinese": "令 人 激动 的",
+      "example_en": "=very Interesting"
+    },
+    {
+      "id": "education-19",
+      "category_id": "education",
+      "english": "acqulre",
+      "chinese": "获 取",
+      "example_en": "~ knowledge 学 习 知 识 ; 不 能 说 learn knowledge"
+    },
+    {
+      "id": "education-20",
+      "category_id": "education",
+      "english": "practical",
+      "chinese": "实 际 的"
+    },
+    {
+      "id": "education-21",
+      "category_id": "education",
+      "english": "philosophical",
+      "chinese": "哲 学 的 ,抽象 的 (e.g, Nowadays many people prefer more practical subjects",
+      "example_en": "such as math and physics to philosophical subjects such as history and arts."
+    },
+    {
+      "id": "education-22",
+      "category_id": "education",
+      "english": "versatile",
+      "chinese": "全 面 发 展 的 ;多 才 多 艺 的"
+    },
+    {
+      "id": "language-1",
+      "category_id": "language",
+      "english": "theoretical knowledge",
+      "chinese": "理 论 知 识"
+    },
+    {
+      "id": "language-2",
+      "category_id": "language",
+      "english": "Job skis",
+      "chinese": "就 业 技 能"
+    },
+    {
+      "id": "language-3",
+      "category_id": "language",
+      "english": "distance education",
+      "chinese": "远程 教育"
+    },
+    {
+      "id": "language-4",
+      "category_id": "language",
+      "english": "solid professional working experience",
+      "chinese": "扎实 的 职业 王 作 经 验"
+    },
+    {
+      "id": "language-5",
+      "category_id": "language",
+      "english": "vocational education",
+      "chinese": "职业 教育"
+    },
+    {
+      "id": "language-6",
+      "category_id": "language",
+      "english": "stress-related Illness",
+      "chinese": "与 压力 有 关 的 疾病"
+    },
+    {
+      "id": "language-7",
+      "category_id": "language",
+      "english": "vocational guidance",
+      "chinese": "职业 指导"
+    },
+    {
+      "id": "language-8",
+      "category_id": "language",
+      "english": "vocational training",
+      "chinese": "职业 训练"
+    },
+    {
+      "id": "language-9",
+      "category_id": "language",
+      "english": "exam-oriented education",
+      "chinese": "应 试 教育"
+    },
+    {
+      "id": "language-10",
+      "category_id": "language",
+      "english": "compulsory education",
+      "chinese": "义务 教育"
+    },
+    {
+      "id": "language-11",
+      "category_id": "language",
+      "english": "quality Education",
+      "chinese": "察 质 教育"
+    },
+    {
+      "id": "language-12",
+      "category_id": "language",
+      "english": "Student-oriented education",
+      "chinese": "以 学 生 为 主体 的 教育"
+    },
+    {
+      "id": "language-13",
+      "category_id": "language",
+      "english": "bias of culture",
+      "chinese": "文化 偏见"
+    },
+    {
+      "id": "culture-1",
+      "category_id": "culture",
+      "english": "mainstream culture",
+      "chinese": "主流 文化"
+    },
+    {
+      "id": "culture-2",
+      "category_id": "culture",
+      "english": "system of education",
+      "chinese": "教育 体制"
+    },
+    {
+      "id": "culture-3",
+      "category_id": "culture",
+      "english": "Intellectual development",
+      "chinese": "智力 发 展"
+    },
+    {
+      "id": "culture-4",
+      "category_id": "culture",
+      "english": "thinking capacity",
+      "chinese": "思考 能 力"
+    },
+    {
+      "id": "culture-5",
+      "category_id": "culture",
+      "english": "universal language",
+      "chinese": "世界 语"
+    },
+    {
+      "id": "culture-6",
+      "category_id": "culture",
+      "english": "linguistle studies",
+      "chinese": "语言 学 研究"
+    },
+    {
+      "id": "culture-7",
+      "category_id": "culture",
+      "english": "a means of communication",
+      "chinese": "一 种 交流 工具"
+    },
+    {
+      "id": "culture-8",
+      "category_id": "culture",
+      "english": "verbal communication",
+      "chinese": "口头 交流"
+    },
+    {
+      "id": "culture-9",
+      "category_id": "culture",
+      "english": "grammatical rules",
+      "chinese": "语法 规则"
+    },
+    {
+      "id": "culture-10",
+      "category_id": "culture",
+      "english": "a complex progress",
+      "chinese": "一 个 复杂 过 程"
+    },
+    {
+      "id": "culture-11",
+      "category_id": "culture",
+      "english": "an unrealistic dream",
+      "chinese": "一 个 不 切实 际 的 梦想"
+    },
+    {
+      "id": "culture-12",
+      "category_id": "culture",
+      "english": "comprehensive knowledge",
+      "chinese": "全 面 的 知识"
+    },
+    {
+      "id": "culture-13",
+      "category_id": "culture",
+      "english": "face-to-face communication",
+      "chinese": "面对面 交流"
+    },
+    {
+      "id": "culture-14",
+      "category_id": "culture",
+      "english": "artificial Intelligence",
+      "chinese": "人 工 智 能"
+    },
+    {
+      "id": "culture-15",
+      "category_id": "culture",
+      "english": "easy accessibility",
+      "chinese": "易于 操作"
+    },
+    {
+      "id": "culture-16",
+      "category_id": "culture",
+      "english": "speedy communication",
+      "chinese": "快速 的 交流"
+    },
+    {
+      "id": "culture-17",
+      "category_id": "culture",
+      "english": "language acquisition",
+      "chinese": "语言 习 得"
+    },
+    {
+      "id": "culture-18",
+      "category_id": "culture",
+      "english": "Precious gift",
+      "chinese": "宝贵 的 礼物"
+    },
+    {
+      "id": "culture-19",
+      "category_id": "culture",
+      "english": "mission Impossible",
+      "chinese": "不 可 能 的 任务"
+    },
+    {
+      "id": "culture-20",
+      "category_id": "culture",
+      "english": "cultural Insights",
+      "chinese": "文化 视野"
+    },
+    {
+      "id": "culture-21",
+      "category_id": "culture",
+      "english": "culture shock",
+      "chinese": "文化 冲击"
+    },
+    {
+      "id": "culture-22",
+      "category_id": "culture",
+      "english": "explore the foreign culture",
+      "chinese": "探索 外 国文 化"
+    },
+    {
+      "id": "culture-23",
+      "category_id": "culture",
+      "english": "conflict/discord/dissension",
+      "chinese": "冲突 ; 争端"
+    },
+    {
+      "id": "culture-24",
+      "category_id": "culture",
+      "english": "overcome the prejudices/blas",
+      "chinese": "克服 偏见"
+    },
+    {
+      "id": "culture-25",
+      "category_id": "culture",
+      "english": "exotic/foreign",
+      "chinese": "异族 的 ;异国 风味 的"
+    },
+    {
+      "id": "culture-26",
+      "category_id": "culture",
+      "english": "first-hand experience",
+      "chinese": "亲身 体验"
+    },
+    {
+      "id": "culture-27",
+      "category_id": "culture",
+      "english": "second-hand source",
+      "chinese": "二 手 资源"
+    },
+    {
+      "id": "culture-28",
+      "category_id": "culture",
+      "english": "refreshing",
+      "chinese": "提神 的"
+    },
+    {
+      "id": "culture-29",
+      "category_id": "culture",
+      "english": "tourist attractions/tourist spots/places of Interest",
+      "chinese": "旅游 县 点"
+    },
+    {
+      "id": "culture-30",
+      "category_id": "culture",
+      "english": "expand one's vision/horizon/become open-minded",
+      "chinese": "开阔 眼界"
+    },
+    {
+      "id": "culture-31",
+      "category_id": "culture",
+      "english": "Tourists can interact with the locals,",
+      "chinese": "游 客 可 以 和 当地 人 互动 。"
+    },
+    {
+      "id": "culture-32",
+      "category_id": "culture",
+      "english": "promote cultural communication",
+      "chinese": "促进 文化 交流"
+    },
+    {
+      "id": "culture-33",
+      "category_id": "culture",
+      "english": "mutual understanding",
+      "chinese": "相互 了 解"
+    },
+    {
+      "id": "culture-34",
+      "category_id": "culture",
+      "english": "seclude/isolate the tourists from the locals",
+      "chinese": "把 游客 和 当地 人 隔离"
+    },
+    {
+      "id": "culture-35",
+      "category_id": "culture",
+      "english": "tourist trap",
+      "chinese": "斯 骗 游 客 的 手段 文化 视角"
+    },
+    {
+      "id": "culture-36",
+      "category_id": "culture",
+      "english": "a thrilling experience",
+      "chinese": "一 种 令 人 激动 的 经 历"
+    },
+    {
+      "id": "culture-37",
+      "category_id": "culture",
+      "english": "scope of knowledge",
+      "chinese": "知识 面"
+    },
+    {
+      "id": "culture-38",
+      "category_id": "culture",
+      "english": "lasting artistic works",
+      "chinese": "永恒 的 艺术 作品"
+    },
+    {
+      "id": "culture-39",
+      "category_id": "culture",
+      "english": "direct experience",
+      "chinese": "直接 经 验"
+    },
+    {
+      "id": "culture-40",
+      "category_id": "culture",
+      "english": "spiritual enhancement",
+      "chinese": "精神 升华"
+    },
+    {
+      "id": "culture-41",
+      "category_id": "culture",
+      "english": "a sense of cool and satisfaction",
+      "chinese": "一 种 尾 意 的 感觉"
+    },
+    {
+      "id": "culture-42",
+      "category_id": "culture",
+      "english": "an essence of immortality",
+      "chinese": "永恒 的 精 咒"
+    },
+    {
+      "id": "culture-43",
+      "category_id": "culture",
+      "english": "value of knowledge",
+      "chinese": "知识 的 价值"
+    },
+    {
+      "id": "culture-44",
+      "category_id": "culture",
+      "english": "cultural differences",
+      "chinese": "文化 差异 性"
+    },
+    {
+      "id": "culture-45",
+      "category_id": "culture",
+      "english": "cultural diversity",
+      "chinese": "文化 多 元 化"
+    },
+    {
+      "id": "culture-46",
+      "category_id": "culture",
+      "english": "cultural treasures",
+      "chinese": "文化 宝藏"
+    },
+    {
+      "id": "culture-47",
+      "category_id": "culture",
+      "english": "cross—cultural communication",
+      "chinese": "跨 文化 交流"
+    },
+    {
+      "id": "culture-48",
+      "category_id": "culture",
+      "english": "cultural reconstruction",
+      "chinese": "文化 重建"
+    },
+    {
+      "id": "culture-49",
+      "category_id": "culture",
+      "english": "spiritual cjyillzatlon",
+      "chinese": "精神 文明"
+    },
+    {
+      "id": "culture-50",
+      "category_id": "culture",
+      "english": "achievements of art",
+      "chinese": "艺术 成 就"
+    },
+    {
+      "id": "culture-51",
+      "category_id": "culture",
+      "english": "humane historical sites",
+      "chinese": "人 文 历史 遗址"
+    },
+    {
+      "id": "culture-52",
+      "category_id": "culture",
+      "english": "high-rise office buildings",
+      "chinese": "高 层 写 字 楼"
+    },
+    {
+      "id": "culture-53",
+      "category_id": "culture",
+      "english": "city construction",
+      "chinese": "城市 建设"
+    },
+    {
+      "id": "culture-54",
+      "category_id": "culture",
+      "english": "visual enjoyment",
+      "chinese": "视觉 享受"
+    },
+    {
+      "id": "culture-55",
+      "category_id": "culture",
+      "english": "driving force",
+      "chinese": "驱动 力"
+    },
+    {
+      "id": "culture-56",
+      "category_id": "culture",
+      "english": "architectural Industry",
+      "chinese": "建筑 工业"
+    },
+    {
+      "id": "government-1",
+      "category_id": "government",
+      "english": "city designing",
+      "chinese": "城市 设计"
+    },
+    {
+      "id": "government-2",
+      "category_id": "government",
+      "english": "architectural vandalism",
+      "chinese": "破坏 建筑 行为"
+    },
+    {
+      "id": "government-3",
+      "category_id": "government",
+      "english": "cultural needs",
+      "chinese": "文化 需求"
+    },
+    {
+      "id": "government-4",
+      "category_id": "government",
+      "english": "Independent travel:",
+      "chinese": "目 由 行"
+    },
+    {
+      "id": "government-5",
+      "category_id": "government",
+      "english": "tourist-facing businesses/tourism Industry",
+      "chinese": "旅游 产业"
+    },
+    {
+      "id": "government-6",
+      "category_id": "government",
+      "english": "Voyagers/travelers/visitors/tourists",
+      "chinese": "游客"
+    },
+    {
+      "id": "government-7",
+      "category_id": "government",
+      "english": "information era",
+      "chinese": "信息 时 代"
+    },
+    {
+      "id": "government-8",
+      "category_id": "government",
+      "english": "audience/viewers",
+      "chinese": "观众"
+    },
+    {
+      "id": "government-9",
+      "category_id": "government",
+      "english": "information—explosion society",
+      "chinese": "信息 爆炸 的 社会"
+    },
+    {
+      "id": "government-10",
+      "category_id": "government",
+      "english": "various thrilling programs",
+      "chinese": "各 种 各 样 激动 人 心 的 节目"
+    },
+    {
+      "id": "government-11",
+      "category_id": "government",
+      "english": "Popular/prevalent/universal/ubiquitous/widespread",
+      "chinese": "流行 的 , 受 欢 迎 的"
+    },
+    {
+      "id": "government-12",
+      "category_id": "government",
+      "english": "Objective",
+      "chinese": "客观 的 / subjective 主观 的"
+    },
+    {
+      "id": "government-13",
+      "category_id": "government",
+      "english": "be biased against..",
+      "chinese": "对 ,...， 有 偏见 的"
+    },
+    {
+      "id": "government-14",
+      "category_id": "government",
+      "english": "celebrity",
+      "chinese": "名 人"
+    },
+    {
+      "id": "government-15",
+      "category_id": "government",
+      "english": "propaganda/publicize/advertise",
+      "chinese": "宣传"
+    },
+    {
+      "id": "government-16",
+      "category_id": "government",
+      "english": "popularity",
+      "chinese": "知名 度"
+    },
+    {
+      "id": "government-17",
+      "category_id": "government",
+      "english": "cover",
+      "chinese": "报道",
+      "example_en": "=report"
+    },
+    {
+      "id": "government-18",
+      "category_id": "government",
+      "english": "misleading",
+      "chinese": "误导 的",
+      "example_en": "misleading report 误导 性 报道"
+    },
+    {
+      "id": "government-19",
+      "category_id": "government",
+      "english": "cheating",
+      "chinese": "合 骗 性 的"
+    },
+    {
+      "id": "government-20",
+      "category_id": "government",
+      "english": "trustworthy",
+      "chinese": "值得 信任 的"
+    },
+    {
+      "id": "government-21",
+      "category_id": "government",
+      "english": "informative",
+      "chinese": "信息 重 很 大 的"
+    },
+    {
+      "id": "government-22",
+      "category_id": "government",
+      "english": "entertalning",
+      "chinese": "娱乐 性 质 的"
+    },
+    {
+      "id": "government-23",
+      "category_id": "government",
+      "english": "responsible",
+      "chinese": "负责 任 的 ;有 责任 心 的"
+    },
+    {
+      "id": "government-24",
+      "category_id": "government",
+      "english": "rising atar",
+      "chinese": "新 昌"
+    },
+    {
+      "id": "government-25",
+      "category_id": "government",
+      "english": "commercials",
+      "chinese": "电视 广告"
+    },
+    {
+      "id": "government-26",
+      "category_id": "government",
+      "english": "audience ratings",
+      "chinese": "收视 床"
+    },
+    {
+      "id": "government-27",
+      "category_id": "government",
+      "english": "Insight",
+      "chinese": "洞察 力"
+    },
+    {
+      "id": "government-28",
+      "category_id": "government",
+      "english": "arbitration",
+      "chinese": "调停"
+    },
+    {
+      "id": "government-29",
+      "category_id": "government",
+      "english": "deadlock",
+      "chinese": "僵局"
+    },
+    {
+      "id": "government-30",
+      "category_id": "government",
+      "english": "summit conference",
+      "chinese": "首脑 会 议"
+    },
+    {
+      "id": "government-31",
+      "category_id": "government",
+      "english": "abstain from voting",
+      "chinese": "弃权"
+    },
+    {
+      "id": "government-32",
+      "category_id": "government",
+      "english": "alr of tension",
+      "chinese": "紧张 气 所"
+    },
+    {
+      "id": "government-33",
+      "category_id": "government",
+      "english": "authorities",
+      "chinese": "当局"
+    },
+    {
+      "id": "government-34",
+      "category_id": "government",
+      "english": "amendment",
+      "chinese": "修正 案"
+    },
+    {
+      "id": "government-35",
+      "category_id": "government",
+      "english": "briefing meeting",
+      "chinese": "简要 新 闻 发 布 会"
+    },
+    {
+      "id": "government-36",
+      "category_id": "government",
+      "english": "face-to-face talk",
+      "chinese": "会 隔 面 晤"
+    },
+    {
+      "id": "government-37",
+      "category_id": "government",
+      "english": "long-standing Issue",
+      "chinese": "由 来 己 久 的 问题"
+    },
+    {
+      "id": "government-38",
+      "category_id": "government",
+      "english": "poverty-stricken— area",
+      "chinese": "贫困 地 区"
+    },
+    {
+      "id": "government-39",
+      "category_id": "government",
+      "english": "highly-sophisticated/cutting-edge/advanced technology",
+      "chinese": "尖端 技术"
+    },
+    {
+      "id": "government-40",
+      "category_id": "government",
+      "english": "conspiracy",
+      "chinese": "阴谋"
+    },
+    {
+      "id": "government-41",
+      "category_id": "government",
+      "english": "Imprisonment/custody sentence",
+      "chinese": "监禁"
+    },
+    {
+      "id": "government-42",
+      "category_id": "government",
+      "english": "release",
+      "chinese": "释放 ;出 狱"
+    },
+    {
+      "id": "government-43",
+      "category_id": "government",
+      "english": "social welfare/Insurance",
+      "chinese": "社会 福利 /社会 保障"
+    },
+    {
+      "id": "government-44",
+      "category_id": "government",
+      "english": "radical",
+      "chinese": "激进 的"
+    },
+    {
+      "id": "government-45",
+      "category_id": "government",
+      "english": "overturning",
+      "chinese": "和 其 覆 性 的"
+    },
+    {
+      "id": "government-46",
+      "category_id": "government",
+      "english": "Independent",
+      "chinese": "独立 的"
+    },
+    {
+      "id": "government-47",
+      "category_id": "government",
+      "english": "breathtaking",
+      "chinese": "激动 人 心 的"
+    },
+    {
+      "id": "work-1",
+      "category_id": "work",
+      "english": "poor—quality programs",
+      "chinese": "低 质量 节目"
+    },
+    {
+      "id": "work-2",
+      "category_id": "work",
+      "english": "electromagnetic radiation",
+      "chinese": "电磁 辐射"
+    },
+    {
+      "id": "work-3",
+      "category_id": "work",
+      "english": "psychological ilinesses",
+      "chinese": "心理 疾病"
+    },
+    {
+      "id": "work-4",
+      "category_id": "work",
+      "english": "global village",
+      "chinese": "地 球 村"
+    },
+    {
+      "id": "work-5",
+      "category_id": "work",
+      "english": "critical thinking",
+      "chinese": "批判 性 思维"
+    },
+    {
+      "id": "work-6",
+      "category_id": "work",
+      "english": "powerful means of communication",
+      "chinese": "有 力 的 允 流 工具"
+    },
+    {
+      "id": "work-7",
+      "category_id": "work",
+      "english": "main cause",
+      "chinese": "主因"
+    },
+    {
+      "id": "work-8",
+      "category_id": "work",
+      "english": "family attachment",
+      "chinese": "家 庭 归 属 感"
+    },
+    {
+      "id": "work-9",
+      "category_id": "work",
+      "english": "mutual understanding",
+      "chinese": "福 互 了 解"
+    },
+    {
+      "id": "work-10",
+      "category_id": "work",
+      "english": "alienation of affection",
+      "chinese": "感情 跌 远"
+    },
+    {
+      "id": "work-11",
+      "category_id": "work",
+      "english": "generation gap",
+      "chinese": "代沟"
+    },
+    {
+      "id": "work-12",
+      "category_id": "work",
+      "english": "a great deal of information",
+      "chinese": "大 量 的 信息"
+    },
+    {
+      "id": "work-13",
+      "category_id": "work",
+      "english": "emotional bond",
+      "chinese": "感情 纽带"
+    },
+    {
+      "id": "work-14",
+      "category_id": "work",
+      "english": "physical and mental health",
+      "chinese": "身心 健康"
+    },
+    {
+      "id": "work-15",
+      "category_id": "work",
+      "english": "unwholesome lifestyle",
+      "chinese": "不 健康 的 生活 方式"
+    },
+    {
+      "id": "work-16",
+      "category_id": "work",
+      "english": "exchanges of feelings",
+      "chinese": "感情 交流"
+    },
+    {
+      "id": "work-17",
+      "category_id": "work",
+      "english": "fiow of personnel",
+      "chinese": "人 才 流 动"
+    },
+    {
+      "id": "work-18",
+      "category_id": "work",
+      "english": "brain drain/talent outflow",
+      "chinese": "人 才 流 失"
+    },
+    {
+      "id": "work-19",
+      "category_id": "work",
+      "english": "gender equality",
+      "chinese": "男女 平等 ,性 别 平 等"
+    },
+    {
+      "id": "work-20",
+      "category_id": "work",
+      "english": "gender discrimination",
+      "chinese": "性 别 歧 视"
+    },
+    {
+      "id": "work-21",
+      "category_id": "work",
+      "english": "stereotype",
+      "chinese": "刻板 印象 ,思维 定式",
+      "example_en": "stereotyped image of a woman"
+    },
+    {
+      "id": "work-22",
+      "category_id": "work",
+      "english": "feminism",
+      "chinese": "女性 主义"
+    },
+    {
+      "id": "work-23",
+      "category_id": "work",
+      "english": "ambitious",
+      "chinese": "礁 心 壮志 的 ,野心 勃勃 的"
+    },
+    {
+      "id": "work-24",
+      "category_id": "work",
+      "english": "adapt oneself to,",
+      "chinese": "使 自己 适应 ,,，"
+    },
+    {
+      "id": "work-25",
+      "category_id": "work",
+      "english": "prosperity",
+      "chinese": "繁荣"
+    },
+    {
+      "id": "work-26",
+      "category_id": "work",
+      "english": "be disadvantageous to.,,",
+      "chinese": "对 ,不 利"
+    },
+    {
+      "id": "work-27",
+      "category_id": "work",
+      "english": "mechanism of personnel flow",
+      "chinese": "人 才 流 动机 制"
+    },
+    {
+      "id": "work-28",
+      "category_id": "work",
+      "english": "sense of accomplishment",
+      "chinese": "成 就 感"
+    },
+    {
+      "id": "work-29",
+      "category_id": "work",
+      "english": "potentiality",
+      "chinese": "潜能"
+    },
+    {
+      "id": "work-30",
+      "category_id": "work",
+      "english": "learn to cooperate and comprise",
+      "chinese": "学 习 合作 和 妥协"
+    },
+    {
+      "id": "work-31",
+      "category_id": "work",
+      "english": "company philosophy",
+      "chinese": "企业 文化"
+    },
+    {
+      "id": "work-32",
+      "category_id": "work",
+      "english": "flexibility",
+      "chinese": "灵活 性"
+    },
+    {
+      "id": "work-33",
+      "category_id": "work",
+      "english": "competitive",
+      "chinese": "竞争 激烈 的"
+    },
+    {
+      "id": "work-34",
+      "category_id": "work",
+      "english": "arena",
+      "chinese": "舞台"
+    },
+    {
+      "id": "work-35",
+      "category_id": "work",
+      "english": "team-work spirit",
+      "chinese": "团队 合作 精神"
+    },
+    {
+      "id": "work-36",
+      "category_id": "work",
+      "english": "treasure opportunity",
+      "chinese": "珍惜 机 会"
+    },
+    {
+      "id": "work-37",
+      "category_id": "work",
+      "english": "harmonious interpersonal relationship",
+      "chinese": "和 谐 的 人 际 关系"
+    },
+    {
+      "id": "work-38",
+      "category_id": "work",
+      "english": "sense of responsibility",
+      "chinese": "责任 感"
+    },
+    {
+      "id": "work-39",
+      "category_id": "work",
+      "english": "material gains",
+      "chinese": "物质 待遇"
+    },
+    {
+      "id": "work-40",
+      "category_id": "work",
+      "english": "promising future",
+      "chinese": "光明 的 前 途"
+    },
+    {
+      "id": "work-41",
+      "category_id": "work",
+      "english": "bright prospect",
+      "chinese": "光明 的 前 景"
+    },
+    {
+      "id": "work-42",
+      "category_id": "work",
+      "english": "a decent/well-paid job/occupation/profession",
+      "chinese": "一 份 体面 /高 薪 的 工作"
+    },
+    {
+      "id": "work-43",
+      "category_id": "work",
+      "english": "promising/bright career prospect",
+      "chinese": "光明 的 职业 前 景"
+    },
+    {
+      "id": "work-44",
+      "category_id": "work",
+      "english": "turning point",
+      "chinese": "转折 点"
+    },
+    {
+      "id": "work-45",
+      "category_id": "work",
+      "english": "be closely related to,",
+      "chinese": "与 ,,.,,, 息 息 相 关"
+    },
+    {
+      "id": "work-46",
+      "category_id": "work",
+      "english": "get advanced in the society",
+      "chinese": "出 人 头 地"
+    },
+    {
+      "id": "work-47",
+      "category_id": "work",
+      "english": "chance of promotlon",
+      "chinese": "升迁 机 会"
+    },
+    {
+      "id": "work-48",
+      "category_id": "work",
+      "english": "keep skills fresh and up-to-date",
+      "chinese": "使 技能 可 以 不 断 更 新"
+    },
+    {
+      "id": "work-49",
+      "category_id": "work",
+      "english": "balance work and life",
+      "chinese": "平衡 工作 和 生活"
+    },
+    {
+      "id": "work-50",
+      "category_id": "work",
+      "english": "from-nine-to-five",
+      "chinese": "朝 九 晚 五 一 族"
+    },
+    {
+      "id": "work-51",
+      "category_id": "work",
+      "english": "shoulder/undertake one’s responsibility",
+      "chinese": "承担 起 自己 的 足 任"
+    },
+    {
+      "id": "work-52",
+      "category_id": "work",
+      "english": "stand up to/meet the challenge",
+      "chinese": "迎接 挑战"
+    },
+    {
+      "id": "work-53",
+      "category_id": "work",
+      "english": "realize/fulfill the value of life ”",
+      "chinese": "实现 人 生 价 值"
+    },
+    {
+      "id": "environment-1",
+      "category_id": "environment",
+      "english": "enrich one's social experience",
+      "chinese": "丰富 社会 阅历"
+    },
+    {
+      "id": "environment-2",
+      "category_id": "environment",
+      "english": "cultivate one's independence and toughness",
+      "chinese": "丰富 一 个 人 的 社会 阅历"
+    },
+    {
+      "id": "environment-3",
+      "category_id": "environment",
+      "english": "display one’s talent",
+      "chinese": "展示 才能"
+    },
+    {
+      "id": "environment-4",
+      "category_id": "environment",
+      "english": "sense of self—fulfillment",
+      "chinese": "自我 实现 感"
+    },
+    {
+      "id": "environment-5",
+      "category_id": "environment",
+      "english": "promotion opportunity",
+      "chinese": "提升 机 会"
+    },
+    {
+      "id": "environment-6",
+      "category_id": "environment",
+      "english": "meet one's' personalized needs",
+      "chinese": "满足 某 人 个 性 化 需求"
+    },
+    {
+      "id": "environment-7",
+      "category_id": "environment",
+      "english": "define one's' role",
+      "chinese": "确定 自己 的 角色"
+    },
+    {
+      "id": "environment-8",
+      "category_id": "environment",
+      "english": "social recognition",
+      "chinese": "社会 认可"
+    },
+    {
+      "id": "environment-9",
+      "category_id": "environment",
+      "english": "accumulate experience",
+      "chinese": "获取 经 验"
+    },
+    {
+      "id": "environment-10",
+      "category_id": "environment",
+      "english": "motivation",
+      "chinese": "动机"
+    },
+    {
+      "id": "environment-11",
+      "category_id": "environment",
+      "english": "workaholic",
+      "chinese": "工作 狂"
+    },
+    {
+      "id": "environment-12",
+      "category_id": "environment",
+      "english": "working environment",
+      "chinese": "工作 环境"
+    },
+    {
+      "id": "environment-13",
+      "category_id": "environment",
+      "english": "work overtime",
+      "chinese": "加 班"
+    },
+    {
+      "id": "environment-14",
+      "category_id": "environment",
+      "english": "frequently business trip",
+      "chinese": "频繁 的 出 差"
+    },
+    {
+      "id": "environment-15",
+      "category_id": "environment",
+      "english": "improve one's’ capabilities",
+      "chinese": "提高 某 人 能 力"
+    },
+    {
+      "id": "environment-16",
+      "category_id": "environment",
+      "english": "develop one's' talents",
+      "chinese": "培养 才智"
+    },
+    {
+      "id": "environment-17",
+      "category_id": "environment",
+      "english": "ideal workplace",
+      "chinese": "理想 工作 场所"
+    },
+    {
+      "id": "environment-18",
+      "category_id": "environment",
+      "english": "master interpersonal skills",
+      "chinese": "掌 扬 人 际 交往 技能"
+    },
+    {
+      "id": "environment-19",
+      "category_id": "environment",
+      "english": "benefit from",
+      "chinese": "从 中 受益"
+    },
+    {
+      "id": "environment-20",
+      "category_id": "environment",
+      "english": "put forward valuable suggestions/advice(advice",
+      "chinese": "不 可 数 ) 提 出 宝贵 建议"
+    },
+    {
+      "id": "environment-21",
+      "category_id": "environment",
+      "english": "play major role in easing traffic",
+      "chinese": "在 缓解 交通 压力 上 扮演 了 重要 角色"
+    },
+    {
+      "id": "environment-22",
+      "category_id": "environment",
+      "english": "participate in the reconstruction of the city",
+      "chinese": "参与 城市 重建"
+    },
+    {
+      "id": "environment-23",
+      "category_id": "environment",
+      "english": "raise the environmental management level",
+      "chinese": "提高 环境 管理 水 平"
+    },
+    {
+      "id": "environment-24",
+      "category_id": "environment",
+      "english": "create pleasant ecological environment",
+      "chinese": "创造 出 一 种 和 谐 的 生态 环境"
+    },
+    {
+      "id": "environment-25",
+      "category_id": "environment",
+      "english": "give priority to/prioritize",
+      "chinese": "优先 关注"
+    },
+    {
+      "id": "environment-26",
+      "category_id": "environment",
+      "english": "catch much attention",
+      "chinese": "引起 很 大 关注"
+    },
+    {
+      "id": "environment-27",
+      "category_id": "environment",
+      "english": "resource allocation",
+      "chinese": "资源 配置"
+    },
+    {
+      "id": "environment-28",
+      "category_id": "environment",
+      "english": "perfeat the construation of urban Infraatrue ture",
+      "chinese": "罚 着 成 市 达 而 设施 瑚 设"
+    },
+    {
+      "id": "environment-29",
+      "category_id": "environment",
+      "english": "rising crime rate",
+      "chinese": "犯罪 率 上 升"
+    },
+    {
+      "id": "environment-30",
+      "category_id": "environment",
+      "english": "Intellectual",
+      "chinese": "智力 的"
+    },
+    {
+      "id": "environment-31",
+      "category_id": "environment",
+      "english": "liberation",
+      "chinese": "解放"
+    },
+    {
+      "id": "environment-32",
+      "category_id": "environment",
+      "english": "job market",
+      "chinese": "工作 市 场"
+    },
+    {
+      "id": "environment-33",
+      "category_id": "environment",
+      "english": "company philosophy",
+      "chinese": "企业 文化"
+    },
+    {
+      "id": "environment-34",
+      "category_id": "environment",
+      "english": "a harmonious Interpersonal relationship",
+      "chinese": "和 谐 的 人 际 头 系"
+    },
+    {
+      "id": "environment-35",
+      "category_id": "environment",
+      "english": "material gains",
+      "chinese": "物质 待 这"
+    },
+    {
+      "id": "environment-36",
+      "category_id": "environment",
+      "english": "promising future",
+      "chinese": "光阴 的 前 谊"
+    },
+    {
+      "id": "environment-37",
+      "category_id": "environment",
+      "english": "bright prospect",
+      "chinese": "光阴 的 前 景"
+    },
+    {
+      "id": "environment-38",
+      "category_id": "environment",
+      "english": "automobile Industry",
+      "chinese": "汽车 工业"
+    },
+    {
+      "id": "environment-39",
+      "category_id": "environment",
+      "english": "pollution=free fuel",
+      "chinese": "死 汝 染 燃料"
+    },
+    {
+      "id": "society-1",
+      "category_id": "society",
+      "english": "chronic lead poisoning",
+      "chinese": "慢性 铅 中 毒"
+    },
+    {
+      "id": "society-2",
+      "category_id": "society",
+      "english": "popularization of cars",
+      "chinese": "汽车 普及"
+    },
+    {
+      "id": "society-3",
+      "category_id": "society",
+      "english": "rush hour",
+      "chinese": "上 下 班 高 峰 时 间"
+    },
+    {
+      "id": "society-4",
+      "category_id": "society",
+      "english": "zebra crossing",
+      "chinese": "斑马 线"
+    },
+    {
+      "id": "society-5",
+      "category_id": "society",
+      "english": "non-renewable resources",
+      "chinese": "不 可 再 生 资 源"
+    },
+    {
+      "id": "society-6",
+      "category_id": "society",
+      "english": "carbon dioxide",
+      "chinese": "二 和 氧化 碳"
+    },
+    {
+      "id": "society-7",
+      "category_id": "society",
+      "english": "a pillar industry",
+      "chinese": "支柱 产业"
+    },
+    {
+      "id": "society-8",
+      "category_id": "society",
+      "english": "road networks",
+      "chinese": "公路 网"
+    },
+    {
+      "id": "society-9",
+      "category_id": "society",
+      "english": "traffic engineering",
+      "chinese": "交通 运输 工程"
+    },
+    {
+      "id": "society-10",
+      "category_id": "society",
+      "english": "the number of car ownership",
+      "chinese": "汽车 拥有 量"
+    },
+    {
+      "id": "society-11",
+      "category_id": "society",
+      "english": "traffic accidents",
+      "chinese": "交通 事故"
+    },
+    {
+      "id": "society-12",
+      "category_id": "society",
+      "english": "tertiary industry",
+      "chinese": "第 三 产业",
+      "example_en": "tertiary 还 可 和 education 搭配 表示 高 等 教育"
+    },
+    {
+      "id": "society-13",
+      "category_id": "society",
+      "english": "traffic congestion",
+      "chinese": "交通 拥挤"
+    },
+    {
+      "id": "society-14",
+      "category_id": "society",
+      "english": "water scarcity",
+      "chinese": "水 短缺"
+    },
+    {
+      "id": "society-15",
+      "category_id": "society",
+      "english": "the environmental pollution",
+      "chinese": "环境 污染"
+    },
+    {
+      "id": "society-16",
+      "category_id": "society",
+      "english": "Over—industrialization",
+      "chinese": "过 度 工 业 化"
+    },
+    {
+      "id": "society-17",
+      "category_id": "society",
+      "english": "over—crowdedness",
+      "chinese": "过 度 拥挤"
+    },
+    {
+      "id": "society-18",
+      "category_id": "society",
+      "english": "wealth distribution",
+      "chinese": "财富 分 配"
+    },
+    {
+      "id": "society-19",
+      "category_id": "society",
+      "english": "social instability",
+      "chinese": "社会 动荡"
+    },
+    {
+      "id": "society-20",
+      "category_id": "society",
+      "english": "urban construction",
+      "chinese": "城市 建设"
+    },
+    {
+      "id": "society-21",
+      "category_id": "society",
+      "english": "population explosion",
+      "chinese": "人 口 激增"
+    },
+    {
+      "id": "society-22",
+      "category_id": "society",
+      "english": "a rising crime rate",
+      "chinese": "犯罪 率 上 升"
+    },
+    {
+      "id": "society-23",
+      "category_id": "society",
+      "english": "drain of energy and resources",
+      "chinese": "能 源 和 资源 消耗"
+    },
+    {
+      "id": "society-24",
+      "category_id": "society",
+      "english": "a rapid pace of life",
+      "chinese": "快 节 奏 生 活"
+    },
+    {
+      "id": "society-25",
+      "category_id": "society",
+      "english": "stress—related IIinesses",
+      "chinese": "与 压力 有 关 的 疾病"
+    },
+    {
+      "id": "society-26",
+      "category_id": "society",
+      "english": "pastoral life",
+      "chinese": "田园 生活"
+    },
+    {
+      "id": "society-27",
+      "category_id": "society",
+      "english": "class polarization",
+      "chinese": "阶级 两 极 分 化"
+    },
+    {
+      "id": "society-28",
+      "category_id": "society",
+      "english": "social welfare",
+      "chinese": "社会 福利"
+    },
+    {
+      "id": "society-29",
+      "category_id": "society",
+      "english": "urban sprawl",
+      "chinese": "城市 扩张"
+    },
+    {
+      "id": "society-30",
+      "category_id": "society",
+      "english": "better medical services",
+      "chinese": "更 好 的 医疗 服务"
+    },
+    {
+      "id": "society-31",
+      "category_id": "society",
+      "english": "pressure of modem life In city",
+      "chinese": "城市 生活 压力"
+    },
+    {
+      "id": "society-32",
+      "category_id": "society",
+      "english": "pollutant",
+      "chinese": "污染 性 物质"
+    },
+    {
+      "id": "society-33",
+      "category_id": "society",
+      "english": "waste disposal",
+      "chinese": "废物 处 理"
+    },
+    {
+      "id": "society-34",
+      "category_id": "society",
+      "english": "ways of consumption",
+      "chinese": "消费 方式"
+    },
+    {
+      "id": "society-35",
+      "category_id": "society",
+      "english": "family members",
+      "chinese": "家 庭 成 员"
+    },
+    {
+      "id": "society-36",
+      "category_id": "society",
+      "english": "relations, relatives, kinfolk, kin",
+      "chinese": "系 属"
+    },
+    {
+      "id": "society-37",
+      "category_id": "society",
+      "english": "community",
+      "chinese": "社区"
+    },
+    {
+      "id": "society-38",
+      "category_id": "society",
+      "english": "generation gap",
+      "chinese": "代沟"
+    },
+    {
+      "id": "society-39",
+      "category_id": "society",
+      "english": "harmony",
+      "chinese": "和 谐"
+    },
+    {
+      "id": "society-40",
+      "category_id": "society",
+      "english": "excessive",
+      "chinese": "过 多 的"
+    },
+    {
+      "id": "society-41",
+      "category_id": "society",
+      "english": "single-parent- family",
+      "chinese": "单亲 家 庭"
+    },
+    {
+      "id": "society-42",
+      "category_id": "society",
+      "english": "broken family",
+      "chinese": "破裂 的 家 庭"
+    },
+    {
+      "id": "society-43",
+      "category_id": "society",
+      "english": "domestic violence",
+      "chinese": "家 庭 暴 力"
+    },
+    {
+      "id": "society-44",
+      "category_id": "society",
+      "english": "emotional refuge",
+      "chinese": "情感 避难 所"
+    },
+    {
+      "id": "society-45",
+      "category_id": "society",
+      "english": "caste",
+      "chinese": "社会 地 位"
+    },
+    {
+      "id": "society-46",
+      "category_id": "society",
+      "english": "race, breed",
+      "chinese": "种 族"
+    },
+    {
+      "id": "society-47",
+      "category_id": "society",
+      "english": "lineage",
+      "chinese": "宗族 ,世系"
+    },
+    {
+      "id": "society-48",
+      "category_id": "society",
+      "english": "stock",
+      "chinese": "门 第 ,血统"
+    },
+    {
+      "id": "society-49",
+      "category_id": "society",
+      "english": "of noble birth",
+      "chinese": "贵族 出 身"
+    },
+    {
+      "id": "society-50",
+      "category_id": "society",
+      "english": "of humble birth",
+      "chinese": "平民 出 身"
+    },
+    {
+      "id": "society-51",
+      "category_id": "society",
+      "english": "dynasty",
+      "chinese": "朝代"
+    },
+    {
+      "id": "animal-protection-1",
+      "category_id": "animal-protection",
+      "english": "origin",
+      "chinese": "出 身"
+    },
+    {
+      "id": "animal-protection-2",
+      "category_id": "animal-protection",
+      "english": "ancestors/forebears/forefathers",
+      "chinese": "祖先"
+    },
+    {
+      "id": "animal-protection-3",
+      "category_id": "animal-protection",
+      "english": "descent, offspring/descendants",
+      "chinese": "后 代 ， 后 由"
+    },
+    {
+      "id": "animal-protection-4",
+      "category_id": "animal-protection",
+      "english": "succession",
+      "chinese": "继承"
+    },
+    {
+      "id": "animal-protection-5",
+      "category_id": "animal-protection",
+      "english": "consanguinity, blood relationship",
+      "chinese": "血缘"
+    },
+    {
+      "id": "animal-protection-6",
+      "category_id": "animal-protection",
+      "english": "kinsmen by blood",
+      "chinese": "血亲"
+    },
+    {
+      "id": "animal-protection-7",
+      "category_id": "animal-protection",
+      "english": "affinity",
+      "chinese": "姻亲 关系 ， 靖 威 天 系"
+    },
+    {
+      "id": "animal-protection-8",
+      "category_id": "animal-protection",
+      "english": "kinsmen by affinity",
+      "chinese": "姻亲"
+    },
+    {
+      "id": "animal-protection-9",
+      "category_id": "animal-protection",
+      "english": "ways of consumption",
+      "chinese": "消费 方式"
+    },
+    {
+      "id": "animal-protection-10",
+      "category_id": "animal-protection",
+      "english": "suffer heavy losses",
+      "chinese": "遭受 重大 损失"
+    },
+    {
+      "id": "animal-protection-11",
+      "category_id": "animal-protection",
+      "english": "be confronted with.",
+      "chinese": "面 临 着 .."
+    },
+    {
+      "id": "animal-protection-12",
+      "category_id": "animal-protection",
+      "english": "city planners",
+      "chinese": "城市 规划 者"
+    },
+    {
+      "id": "animal-protection-13",
+      "category_id": "animal-protection",
+      "english": "a feasible measure",
+      "chinese": "一 种 可 行 的 措施"
+    },
+    {
+      "id": "animal-protection-14",
+      "category_id": "animal-protection",
+      "english": "vicious cycle",
+      "chinese": "恶性 循环"
+    },
+    {
+      "id": "animal-protection-15",
+      "category_id": "animal-protection",
+      "english": "test animals",
+      "chinese": "用 于 实验 的 动物"
+    },
+    {
+      "id": "animal-protection-16",
+      "category_id": "animal-protection",
+      "english": "animal rights",
+      "chinese": "动物 权利"
+    },
+    {
+      "id": "animal-protection-17",
+      "category_id": "animal-protection",
+      "english": "clinical research",
+      "chinese": "临床 研究"
+    },
+    {
+      "id": "animal-protection-18",
+      "category_id": "animal-protection",
+      "english": "medical research",
+      "chinese": "医学 研究"
+    },
+    {
+      "id": "animal-protection-19",
+      "category_id": "animal-protection",
+      "english": "endangered species",
+      "chinese": "濒危 动物"
+    },
+    {
+      "id": "animal-protection-20",
+      "category_id": "animal-protection",
+      "english": "on the verge of extinction",
+      "chinese": "处 于 灭绝 边缘"
+    },
+    {
+      "id": "animal-protection-21",
+      "category_id": "animal-protection",
+      "english": "harmonious",
+      "chinese": "和 谐 的"
+    },
+    {
+      "id": "animal-protection-22",
+      "category_id": "animal-protection",
+      "english": "coexist/coexistence",
+      "chinese": "共存"
+    },
+    {
+      "id": "animal-protection-23",
+      "category_id": "animal-protection",
+      "english": "food chain",
+      "chinese": "食物 链"
+    },
+    {
+      "id": "animal-protection-24",
+      "category_id": "animal-protection",
+      "english": "afford their masters consolation and comfort",
+      "chinese": "给 主人 心理 农 辟"
+    },
+    {
+      "id": "animal-protection-25",
+      "category_id": "animal-protection",
+      "english": "vaccine",
+      "chinese": "疫苗"
+    },
+    {
+      "id": "animal-protection-26",
+      "category_id": "animal-protection",
+      "english": "animal experiments",
+      "chinese": "动物 实验"
+    },
+    {
+      "id": "animal-protection-27",
+      "category_id": "animal-protection",
+      "english": "medical research",
+      "chinese": "医学 研究"
+    },
+    {
+      "id": "animal-protection-28",
+      "category_id": "animal-protection",
+      "english": "alleviate/ease animals ‘pain",
+      "chinese": "减 经 动物 的 痛苦"
+    },
+    {
+      "id": "animal-protection-29",
+      "category_id": "animal-protection",
+      "english": "be brought to justice",
+      "chinese": "被 强 之 以 法"
+    },
+    {
+      "id": "animal-protection-30",
+      "category_id": "animal-protection",
+      "english": "cruel/mercilessg/inhuman/callous/brutal",
+      "chinese": "残忍 的"
+    },
+    {
+      "id": "animal-protection-31",
+      "category_id": "animal-protection",
+      "english": "Poaching",
+      "chinese": "偷 猎"
+    },
+    {
+      "id": "animal-protection-32",
+      "category_id": "animal-protection",
+      "english": "perform experiments on animals “",
+      "chinese": "在 5) 物 身 上 做 试验"
+    },
+    {
+      "id": "animal-protection-33",
+      "category_id": "animal-protection",
+      "english": "test animals",
+      "chinese": "用 于 实验 的 动物"
+    },
+    {
+      "id": "animal-protection-34",
+      "category_id": "animal-protection",
+      "english": "be subjected to experiments",
+      "chinese": "被 迫 接受 试验"
+    },
+    {
+      "id": "animal-protection-35",
+      "category_id": "animal-protection",
+      "english": "clinical research",
+      "chinese": "临床 研究"
+    },
+    {
+      "id": "animal-protection-36",
+      "category_id": "animal-protection",
+      "english": "medical research",
+      "chinese": "医学 研究"
+    },
+    {
+      "id": "animal-protection-37",
+      "category_id": "animal-protection",
+      "english": "origin of species",
+      "chinese": "物种 起 源"
+    },
+    {
+      "id": "animal-protection-38",
+      "category_id": "animal-protection",
+      "english": "biological diversity",
+      "chinese": "生物 多 样 性"
+    },
+    {
+      "id": "animal-protection-39",
+      "category_id": "animal-protection",
+      "english": "equilibrium of ecosystem",
+      "chinese": "生态 平衡"
+    },
+    {
+      "id": "animal-protection-40",
+      "category_id": "animal-protection",
+      "english": "live and let live",
+      "chinese": "与 万 物 共 存"
+    },
+    {
+      "id": "animal-protection-41",
+      "category_id": "animal-protection",
+      "english": "dominant species",
+      "chinese": "优势 物种"
+    },
+    {
+      "id": "animal-protection-42",
+      "category_id": "animal-protection",
+      "english": "infringement",
+      "chinese": "践踏"
+    },
+    {
+      "id": "animal-protection-43",
+      "category_id": "animal-protection",
+      "english": "right to live",
+      "chinese": "生存 权"
+    },
+    {
+      "id": "animal-protection-44",
+      "category_id": "animal-protection",
+      "english": "torture",
+      "chinese": "折磨"
+    },
+    {
+      "id": "animal-protection-45",
+      "category_id": "animal-protection",
+      "english": "anti-science",
+      "chinese": "反 科 学 的"
+    },
+    {
+      "id": "animal-protection-46",
+      "category_id": "animal-protection",
+      "english": "life-threatening diseases",
+      "chinese": "危及 生命 的 疾病"
+    },
+    {
+      "id": "animal-protection-47",
+      "category_id": "animal-protection",
+      "english": "scientific gains",
+      "chinese": "科学 成 果"
+    },
+    {
+      "id": "animal-protection-48",
+      "category_id": "animal-protection",
+      "english": "evolution",
+      "chinese": "进化"
+    },
+    {
+      "id": "animal-protection-49",
+      "category_id": "animal-protection",
+      "english": "computer simulation",
+      "chinese": "电脑 模拟"
+    },
+    {
+      "id": "animal-protection-50",
+      "category_id": "animal-protection",
+      "english": "groundless",
+      "chinese": "没有 理由 的"
+    },
+    {
+      "id": "animal-protection-51",
+      "category_id": "animal-protection",
+      "english": "humane",
+      "chinese": "人 道 的"
+    },
+    {
+      "id": "animal-protection-52",
+      "category_id": "animal-protection",
+      "english": "medical technology",
+      "chinese": "医疗 技术"
+    },
+    {
+      "id": "animal-protection-53",
+      "category_id": "animal-protection",
+      "english": "anatomy",
+      "chinese": "解剖"
+    },
+    {
+      "id": "animal-protection-54",
+      "category_id": "animal-protection",
+      "english": "equal",
+      "chinese": "公平 的"
+    },
+    {
+      "id": "animal-protection-55",
+      "category_id": "animal-protection",
+      "english": "unreliable",
+      "chinese": "不 可 信赖 的"
+    },
+    {
+      "id": "animal-protection-56",
+      "category_id": "animal-protection",
+      "english": "valid",
+      "chinese": "有 效 的 ;正当 的"
+    },
+    {
+      "id": "animal-protection-57",
+      "category_id": "animal-protection",
+      "english": "be convicted of",
+      "chinese": "被 判 有 .… 罪 ,宣布 有 罪"
+    },
+    {
+      "id": "animal-protection-58",
+      "category_id": "animal-protection",
+      "english": "alternative method",
+      "chinese": "蔡 代 的 方法"
+    },
+    {
+      "id": "animal-protection-59",
+      "category_id": "animal-protection",
+      "english": "biological diversity",
+      "chinese": "生物 多 样 性"
+    },
+    {
+      "id": "animal-protection-60",
+      "category_id": "animal-protection",
+      "english": "natural balance",
+      "chinese": "自然 平衡"
+    },
+    {
+      "id": "animal-protection-61",
+      "category_id": "animal-protection",
+      "english": "equilibrium of ecosystem",
+      "chinese": "生态 平衡"
+    },
+    {
+      "id": "animal-protection-62",
+      "category_id": "animal-protection",
+      "english": "endangered animals",
+      "chinese": "濒危 动物"
+    },
+    {
+      "id": "animal-protection-63",
+      "category_id": "animal-protection",
+      "english": "diversity of species",
+      "chinese": "物种 多 样 性"
+    },
+    {
+      "id": "animal-protection-64",
+      "category_id": "animal-protection",
+      "english": "dominant species",
+      "chinese": "优势 物种"
+    },
+    {
+      "id": "animal-protection-65",
+      "category_id": "animal-protection",
+      "english": "right to live",
+      "chinese": "生存 权"
+    },
+    {
+      "id": "animal-protection-66",
+      "category_id": "animal-protection",
+      "english": "life-threatening diseases",
+      "chinese": "危及 生命 的 疾病"
+    },
+    {
+      "id": "animal-protection-67",
+      "category_id": "animal-protection",
+      "english": "scientific gains",
+      "chinese": "科学 成 果"
+    },
+    {
+      "id": "animal-protection-68",
+      "category_id": "animal-protection",
+      "english": "computer simulation",
+      "chinese": "电脑 模拟"
+    },
+    {
+      "id": "animal-protection-69",
+      "category_id": "animal-protection",
+      "english": "medical technology",
+      "chinese": "医疗 技术"
+    },
+    {
+      "id": "animal-protection-70",
+      "category_id": "animal-protection",
+      "english": "an ever-|lasting theme",
+      "chinese": "一 个 永恒 的 主题"
+    },
+    {
+      "id": "technology-1",
+      "category_id": "technology",
+      "english": "advanced science",
+      "chinese": "尖端 科学"
+    },
+    {
+      "id": "technology-2",
+      "category_id": "technology",
+      "english": "double-edged sword",
+      "chinese": "双 刃 剑"
+    },
+    {
+      "id": "technology-3",
+      "category_id": "technology",
+      "english": "earth-shaking changes",
+      "chinese": "翻天 覆 地 的 改变"
+    },
+    {
+      "id": "technology-4",
+      "category_id": "technology",
+      "english": "energy crisis",
+      "chinese": "能 源 危 机"
+    },
+    {
+      "id": "technology-5",
+      "category_id": "technology",
+      "english": "breakthrough",
+      "chinese": "突破"
+    },
+    {
+      "id": "technology-6",
+      "category_id": "technology",
+      "english": "advance",
+      "chinese": "进展 ， 发 展",
+      "example_en": "scientific advances 科技 进步"
+    },
+    {
+      "id": "technology-7",
+      "category_id": "technology",
+      "english": "advanced",
+      "chinese": "高 级 的"
+    },
+    {
+      "id": "technology-8",
+      "category_id": "technology",
+      "english": "potential",
+      "chinese": "潜在 的"
+    },
+    {
+      "id": "technology-9",
+      "category_id": "technology",
+      "english": "available",
+      "chinese": "可 以 得 到 的 ;可 以 使 用 的"
+    },
+    {
+      "id": "technology-10",
+      "category_id": "technology",
+      "english": "enhance",
+      "chinese": "提升",
+      "example_en": "enhance our awareness of .增强 对 .… 的 意识"
+    },
+    {
+      "id": "technology-11",
+      "category_id": "technology",
+      "english": "productivity",
+      "chinese": "生产 力"
+    },
+    {
+      "id": "technology-12",
+      "category_id": "technology",
+      "english": "beneficial",
+      "chinese": "有 益 的"
+    },
+    {
+      "id": "technology-13",
+      "category_id": "technology",
+      "english": "positive",
+      "chinese": "积极 的"
+    },
+    {
+      "id": "technology-14",
+      "category_id": "technology",
+      "english": "negative",
+      "chinese": "消极 的"
+    },
+    {
+      "id": "technology-15",
+      "category_id": "technology",
+      "english": "double-edged sword",
+      "chinese": "双 刃 剑"
+    },
+    {
+      "id": "technology-16",
+      "category_id": "technology",
+      "english": "labor—consuming",
+      "chinese": "费力 的"
+    },
+    {
+      "id": "technology-17",
+      "category_id": "technology",
+      "english": "time-consuming",
+      "chinese": "耗 时 的"
+    },
+    {
+      "id": "technology-18",
+      "category_id": "technology",
+      "english": "labor- intensive industry",
+      "chinese": "劳动 密集 型 产业"
+    },
+    {
+      "id": "technology-19",
+      "category_id": "technology",
+      "english": "information explosion",
+      "chinese": "信息 爆炸"
+    },
+    {
+      "id": "technology-20",
+      "category_id": "technology",
+      "english": "virtual classroom",
+      "chinese": "虚拟 教室"
+    },
+    {
+      "id": "technology-21",
+      "category_id": "technology",
+      "english": "online fraud",
+      "chinese": "网 络 诈骗"
+    },
+    {
+      "id": "technology-22",
+      "category_id": "technology",
+      "english": "artificial intelligence (Al)",
+      "chinese": "人 工 智能"
+    },
+    {
+      "id": "technology-23",
+      "category_id": "technology",
+      "english": "altemative",
+      "chinese": "蔡 换 的 ， 另 一 种 的 ， 不 同 的"
+    },
+    {
+      "id": "technology-24",
+      "category_id": "technology",
+      "english": "industrial revolution",
+      "chinese": "工业 革命"
+    },
+    {
+      "id": "technology-25",
+      "category_id": "technology",
+      "english": "automation",
+      "chinese": "自动 化"
+    },
+    {
+      "id": "technology-26",
+      "category_id": "technology",
+      "english": "considerably boost Industrial efficiency",
+      "chinese": "极 大 地 提高 工业 效率"
+    },
+    {
+      "id": "technology-27",
+      "category_id": "technology",
+      "english": "pervasive application",
+      "chinese": "广泛 应 用"
+    },
+    {
+      "id": "technology-28",
+      "category_id": "technology",
+      "english": "social dissatisfaction",
+      "chinese": "社会 不 满"
+    },
+    {
+      "id": "technology-29",
+      "category_id": "technology",
+      "english": "increase burden on the government",
+      "chinese": "提高 政府 的 负担"
+    },
+    {
+      "id": "technology-30",
+      "category_id": "technology",
+      "english": "social welfare",
+      "chinese": "社会 福利"
+    },
+    {
+      "id": "technology-31",
+      "category_id": "technology",
+      "english": "non-renewable fossil fuels",
+      "chinese": "不 可 再 生 的 化 石 燃料"
+    },
+    {
+      "id": "technology-32",
+      "category_id": "technology",
+      "english": "hi-tech library",
+      "chinese": "高 科技 图 书 蚀"
+    },
+    {
+      "id": "technology-33",
+      "category_id": "technology",
+      "english": "multimedia facility",
+      "chinese": "多 媒体 设备"
+    },
+    {
+      "id": "technology-34",
+      "category_id": "technology",
+      "english": "storage capacity",
+      "chinese": "储存 容量"
+    },
+    {
+      "id": "technology-35",
+      "category_id": "technology",
+      "english": "improve working efficiency(time-conserving)",
+      "chinese": "提 高 工作 效率",
+      "example_en": "省 时 的"
+    },
+    {
+      "id": "technology-36",
+      "category_id": "technology",
+      "english": "bring convenience to people's' life",
+      "chinese": "给 人 们 生活 带 来 便利"
+    },
+    {
+      "id": "technology-37",
+      "category_id": "technology",
+      "english": "facilitate communication",
+      "chinese": "方便 沟通 区 演"
+    },
+    {
+      "id": "technology-38",
+      "category_id": "technology",
+      "english": "entertainment/recreation enrich people's life",
+      "chinese": "娱乐 ,丰富 生活"
+    },
+    {
+      "id": "technology-39",
+      "category_id": "technology",
+      "english": "lack face-to-face communication",
+      "chinese": "面对面 交流 变 少"
+    },
+    {
+      "id": "technology-40",
+      "category_id": "technology",
+      "english": "infringe people's' privacy",
+      "chinese": "侵犯 隐私"
+    },
+    {
+      "id": "technology-41",
+      "category_id": "technology",
+      "english": "intense radiation(failing eyesight health hazard)",
+      "chinese": "强 辐射",
+      "example_en": "视力 衰退"
+    },
+    {
+      "id": "technology-42",
+      "category_id": "technology",
+      "english": "promote/boost economic development",
+      "chinese": "促进 经 济 发 展"
+    },
+    {
+      "id": "technology-43",
+      "category_id": "technology",
+      "english": "improve people's' living standard",
+      "chinese": "提高 人 们 生活 水 平"
+    },
+    {
+      "id": "technology-44",
+      "category_id": "technology",
+      "english": "provide opportunities of employment",
+      "chinese": "增加 就 业 机 会"
+    },
+    {
+      "id": "technology-45",
+      "category_id": "technology",
+      "english": "have access to all kinds of information",
+      "chinese": "接触 各 种 各 样 的 信息"
+    },
+    {
+      "id": "technology-46",
+      "category_id": "technology",
+      "english": "be flooded with negative Information(pornography and violence)",
+      "chinese": "不 良 信息 泛滥",
+      "example_en": "色情 与 暴力"
+    },
+    {
+      "id": "technology-47",
+      "category_id": "technology",
+      "english": "security(cybercrime)",
+      "chinese": "安 全 问题",
+      "example_en": "网 络 犯罪"
+    },
+    {
+      "id": "technology-48",
+      "category_id": "technology",
+      "english": "depletion of resources",
+      "chinese": "能 源 消 耗"
+    },
+    {
+      "id": "technology-49",
+      "category_id": "technology",
+      "english": "milestone",
+      "chinese": "里 程 碑"
+    },
+    {
+      "id": "technology-50",
+      "category_id": "technology",
+      "english": "sophisticated equipment",
+      "chinese": "尖端 设备"
+    },
+    {
+      "id": "technology-51",
+      "category_id": "technology",
+      "english": "technical Innovation",
+      "chinese": "科技 创新"
+    },
+    {
+      "id": "technology-52",
+      "category_id": "technology",
+      "english": "expediency",
+      "chinese": "权宜 之 计"
+    },
+    {
+      "id": "technology-53",
+      "category_id": "technology",
+      "english": "scientific invention",
+      "chinese": "科学 发 明"
+    },
+    {
+      "id": "technology-54",
+      "category_id": "technology",
+      "english": "a heated discussion",
+      "chinese": "热烈 的 讨论"
+    },
+    {
+      "id": "technology-55",
+      "category_id": "technology",
+      "english": "exhaust gas",
+      "chinese": "废气"
+    },
+    {
+      "id": "technology-56",
+      "category_id": "technology",
+      "english": "Opposite forces",
+      "chinese": "负面 影响"
+    },
+    {
+      "id": "technology-57",
+      "category_id": "technology",
+      "english": "a fatal breakdown",
+      "chinese": "致命 故障"
+    },
+    {
+      "id": "technology-58",
+      "category_id": "technology",
+      "english": "potential hazards",
+      "chinese": "潜在 危险"
+    },
+    {
+      "id": "technology-59",
+      "category_id": "technology",
+      "english": "means of transportation",
+      "chinese": "交通 方式"
+    },
+    {
+      "id": "technology-60",
+      "category_id": "technology",
+      "english": "transportation tools",
+      "chinese": "交通 工具"
+    },
+    {
+      "id": "technology-61",
+      "category_id": "technology",
+      "english": "social status",
+      "chinese": "社会 地 位"
+    },
+    {
+      "id": "technology-62",
+      "category_id": "technology",
+      "english": "environmentally-friendly resources",
+      "chinese": "环保 的 能 源"
+    },
+    {
+      "id": "technology-63",
+      "category_id": "technology",
+      "english": "alternative fuel",
+      "chinese": "可 蔡 代 燃料"
+    },
+    {
+      "id": "technology-64",
+      "category_id": "technology",
+      "english": "sustainable development",
+      "chinese": "可 持续 性 发 展"
+    },
+    {
+      "id": "technology-65",
+      "category_id": "technology",
+      "english": "scientific exploration",
+      "chinese": "科学 探索"
+    },
+    {
+      "id": "technology-66",
+      "category_id": "technology",
+      "english": "air travel",
+      "chinese": "航空 旅行"
+    },
+    {
+      "id": "technology-67",
+      "category_id": "technology",
+      "english": "cure-all solution",
+      "chinese": "万 能 良药"
+    },
+    {
+      "id": "technology-68",
+      "category_id": "technology",
+      "english": "a sense of national pride",
+      "chinese": "民族 自豪 感"
+    }
+  ]
+}

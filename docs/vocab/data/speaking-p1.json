@@ -1,0 +1,584 @@
+{
+  "source_doc": "speaking-p1",
+  "source_label": "口语 Part1 5-8月 collocations",
+  "categories": [
+    {
+      "id": "p1-hometown",
+      "label": "Hometown"
+    },
+    {
+      "id": "p1-work-or-studies",
+      "label": "Work or Studies"
+    },
+    {
+      "id": "p1-home-accommodation",
+      "label": "Home / Accommodation"
+    },
+    {
+      "id": "p1-the-area-you-live-in",
+      "label": "The Area You Live In"
+    },
+    {
+      "id": "p1-the-city-you-live-in",
+      "label": "The City You Live In"
+    },
+    {
+      "id": "p1f-parks",
+      "label": "Parks"
+    },
+    {
+      "id": "p1f-outer-space-and-stars",
+      "label": "Outer Space and Stars"
+    },
+    {
+      "id": "p1f-buildings",
+      "label": "Buildings"
+    },
+    {
+      "id": "p1f-scenery",
+      "label": "Scenery"
+    },
+    {
+      "id": "p1f-views",
+      "label": "Views"
+    },
+    {
+      "id": "p1f-science",
+      "label": "Science"
+    },
+    {
+      "id": "p1f-cars",
+      "label": "Cars"
+    },
+    {
+      "id": "p1f-teachers",
+      "label": "Teachers"
+    },
+    {
+      "id": "p1f-social-media",
+      "label": "Social Media"
+    },
+    {
+      "id": "p1f-watch",
+      "label": "Watch"
+    },
+    {
+      "id": "p1f-websites",
+      "label": "Websites"
+    },
+    {
+      "id": "p1f-mirrors",
+      "label": "Mirrors"
+    },
+    {
+      "id": "p1f-gifts",
+      "label": "Gifts"
+    },
+    {
+      "id": "p1f-pets-and-animals",
+      "label": "Pets and Animals"
+    },
+    {
+      "id": "p1f-food",
+      "label": "Food"
+    },
+    {
+      "id": "p1f-sports-team",
+      "label": "Sports Team"
+    },
+    {
+      "id": "p1f-childhood-activities",
+      "label": "Childhood Activities"
+    },
+    {
+      "id": "p1f-shopping",
+      "label": "Shopping"
+    },
+    {
+      "id": "p1f-singing",
+      "label": "Singing"
+    },
+    {
+      "id": "p1f-life-stages",
+      "label": "Life Stages"
+    },
+    {
+      "id": "p1f-morning-time",
+      "label": "Morning Time"
+    },
+    {
+      "id": "p1f-reading",
+      "label": "Reading"
+    },
+    {
+      "id": "p1f-walking",
+      "label": "Walking"
+    },
+    {
+      "id": "p1f-typing",
+      "label": "Typing"
+    },
+    {
+      "id": "p1f-tidiness",
+      "label": "Tidiness"
+    },
+    {
+      "id": "p1f-music",
+      "label": "Music"
+    },
+    {
+      "id": "p1f-hobby",
+      "label": "Hobby"
+    }
+  ],
+  "items": [
+    {
+      "id": "p1-hometown-1",
+      "category_id": "p1-hometown",
+      "english": "a sense of belonging",
+      "chinese": "归属感",
+      "example_en": "My hometown gives me a strong sense of belonging because I have many childhood memories there."
+    },
+    {
+      "id": "p1-hometown-2",
+      "category_id": "p1-hometown",
+      "english": "be deeply rooted in",
+      "chinese": "深深扎根于",
+      "example_en": "My family is deeply rooted in my hometown, so I still feel connected to that place."
+    },
+    {
+      "id": "p1-work-or-studies-1",
+      "category_id": "p1-work-or-studies",
+      "english": "develop practical skills",
+      "chinese": "培养实践技能",
+      "example_en": "Studying English helps me develop practical skills that are useful in my future career."
+    },
+    {
+      "id": "p1-work-or-studies-2",
+      "category_id": "p1-work-or-studies",
+      "english": "keep up with the latest developments",
+      "chinese": "跟上最新发展",
+      "example_en": "I need to keep up with the latest developments in education because teaching methods are changing quickly."
+    },
+    {
+      "id": "p1-home-accommodation-1",
+      "category_id": "p1-home-accommodation",
+      "english": "a peaceful environment",
+      "chinese": "安静舒适的环境",
+      "example_en": "I prefer living in a place with a peaceful environment because it helps me relax after a long day."
+    },
+    {
+      "id": "p1-home-accommodation-2",
+      "category_id": "p1-home-accommodation",
+      "english": "meet my needs",
+      "chinese": "满足我的需求",
+      "example_en": "My apartment is not very big, but it meets my needs because it has everything I need."
+    },
+    {
+      "id": "p1-the-area-you-live-in-1",
+      "category_id": "p1-the-area-you-live-in",
+      "english": "have easy access to",
+      "chinese": "方便获得 / 去往",
+      "example_en": "I have easy access to supermarkets, restaurants and public transportation."
+    },
+    {
+      "id": "p1-the-area-you-live-in-2",
+      "category_id": "p1-the-area-you-live-in",
+      "english": "a well-connected area",
+      "chinese": "交通便利的区域",
+      "example_en": "I live in a well-connected area, so it’s easy for me to travel around the city."
+    },
+    {
+      "id": "p1-the-city-you-live-in-1",
+      "category_id": "p1-the-city-you-live-in",
+      "english": "a fast-paced lifestyle",
+      "chinese": "快节奏生活",
+      "example_en": "Shenzhen has a fast-paced lifestyle, which attracts many young professionals."
+    },
+    {
+      "id": "p1-the-city-you-live-in-2",
+      "category_id": "p1-the-city-you-live-in",
+      "english": "a high standard of living",
+      "chinese": "高生活水平",
+      "example_en": "One advantage of living in Shenzhen is the high standard of living."
+    },
+    {
+      "id": "p1f-parks-1",
+      "category_id": "p1f-parks",
+      "english": "green spaces",
+      "chinese": "绿色空间",
+      "example_en": "Parks provide green spaces where people can relax and escape from busy city life."
+    },
+    {
+      "id": "p1f-parks-2",
+      "category_id": "p1f-parks",
+      "english": "unwind after a long day",
+      "chinese": "忙碌一天后放松",
+      "example_en": "I often go to parks to unwind after a long day at work."
+    },
+    {
+      "id": "p1f-outer-space-and-stars-1",
+      "category_id": "p1f-outer-space-and-stars",
+      "english": "spark my curiosity",
+      "chinese": "激发我的好奇心",
+      "example_en": "Space exploration has always sparked my curiosity about the universe."
+    },
+    {
+      "id": "p1f-outer-space-and-stars-2",
+      "category_id": "p1f-outer-space-and-stars",
+      "english": "scientific breakthroughs",
+      "chinese": "科学突破",
+      "example_en": "Many scientific breakthroughs come from space research."
+    },
+    {
+      "id": "p1f-buildings-1",
+      "category_id": "p1f-buildings",
+      "english": "architectural features",
+      "chinese": "建筑特色",
+      "example_en": "I like old buildings because they have unique architectural features."
+    },
+    {
+      "id": "p1f-buildings-2",
+      "category_id": "p1f-buildings",
+      "english": "cultural significance",
+      "chinese": "文化意义",
+      "example_en": "Historical buildings often have great cultural significance."
+    },
+    {
+      "id": "p1f-scenery-1",
+      "category_id": "p1f-scenery",
+      "english": "breathtaking scenery",
+      "chinese": "令人惊叹的风景",
+      "example_en": "I enjoy travelling because I can experience breathtaking scenery."
+    },
+    {
+      "id": "p1f-scenery-2",
+      "category_id": "p1f-scenery",
+      "english": "natural beauty",
+      "chinese": "自然美景",
+      "example_en": "Mountains and lakes attract people because of their natural beauty."
+    },
+    {
+      "id": "p1f-views-1",
+      "category_id": "p1f-views",
+      "english": "enjoy a panoramic view of",
+      "chinese": "欣赏全景",
+      "example_en": "I like places where I can enjoy a panoramic view of the city."
+    },
+    {
+      "id": "p1f-views-2",
+      "category_id": "p1f-views",
+      "english": "a sense of tranquillity",
+      "chinese": "宁静感",
+      "example_en": "Beautiful views give me a sense of tranquillity."
+    },
+    {
+      "id": "p1f-science-1",
+      "category_id": "p1f-science",
+      "english": "scientific discoveries",
+      "chinese": "科学发现",
+      "example_en": "Many scientific discoveries have changed the way we understand the world."
+    },
+    {
+      "id": "p1f-science-2",
+      "category_id": "p1f-science",
+      "english": "practical applications",
+      "chinese": "实际应用",
+      "example_en": "I’m interested in science because many discoveries have practical applications in our daily lives."
+    },
+    {
+      "id": "p1f-cars-1",
+      "category_id": "p1f-cars",
+      "english": "fuel-efficient vehicles",
+      "chinese": "节能汽车",
+      "example_en": "I think fuel-efficient vehicles will become more popular because people are becoming more environmentally conscious."
+    },
+    {
+      "id": "p1f-cars-2",
+      "category_id": "p1f-cars",
+      "english": "a convenient means of transportation",
+      "chinese": "便利的交通方式",
+      "example_en": "Cars are still a convenient means of transportation, especially for families."
+    },
+    {
+      "id": "p1f-teachers-1",
+      "category_id": "p1f-teachers",
+      "english": "have a positive influence on",
+      "chinese": "产生积极影响",
+      "example_en": "Good teachers can have a positive influence on students’ confidence and motivation."
+    },
+    {
+      "id": "p1f-teachers-2",
+      "category_id": "p1f-teachers",
+      "english": "inspire students to",
+      "chinese": "激励学生去……",
+      "example_en": "A great teacher can inspire students to explore new ideas."
+    },
+    {
+      "id": "p1f-social-media-1",
+      "category_id": "p1f-social-media",
+      "english": "stay connected with",
+      "chinese": "保持联系",
+      "example_en": "Social media allows people to stay connected with friends and family more easily."
+    },
+    {
+      "id": "p1f-social-media-2",
+      "category_id": "p1f-social-media",
+      "english": "addictive nature",
+      "chinese": "容易上瘾的特性",
+      "example_en": "The addictive nature of social media can cause people to spend too much time online."
+    },
+    {
+      "id": "p1f-watch-1",
+      "category_id": "p1f-watch",
+      "english": "keep track of time",
+      "chinese": "掌握时间 / 记录时间",
+      "example_en": "I wear a watch because it helps me keep track of time during busy days."
+    },
+    {
+      "id": "p1f-watch-2",
+      "category_id": "p1f-watch",
+      "english": "serve a practical purpose",
+      "chinese": "具有实际用途",
+      "example_en": "For me, a watch should serve a practical purpose rather than just look fashionable."
+    },
+    {
+      "id": "p1f-websites-1",
+      "category_id": "p1f-websites",
+      "english": "reliable sources of information",
+      "chinese": "可靠的信息来源",
+      "example_en": "I prefer websites that provide reliable sources of information."
+    },
+    {
+      "id": "p1f-websites-2",
+      "category_id": "p1f-websites",
+      "english": "user-friendly interface",
+      "chinese": "用户友好的界面",
+      "example_en": "I like websites with a user-friendly interface because they are easier to navigate."
+    },
+    {
+      "id": "p1f-mirrors-1",
+      "category_id": "p1f-mirrors",
+      "english": "pay attention to my appearance",
+      "chinese": "注意自己的外表",
+      "example_en": "I don’t spend too much time in front of a mirror, but I do pay attention to my appearance before going out."
+    },
+    {
+      "id": "p1f-mirrors-2",
+      "category_id": "p1f-mirrors",
+      "english": "personal grooming",
+      "chinese": "个人仪表管理",
+      "example_en": "Mirrors are useful for personal grooming, especially before important occasions."
+    },
+    {
+      "id": "p1f-gifts-1",
+      "category_id": "p1f-gifts",
+      "english": "a thoughtful gift",
+      "chinese": "用心准备的礼物",
+      "example_en": "I prefer giving a thoughtful gift rather than something expensive."
+    },
+    {
+      "id": "p1f-gifts-2",
+      "category_id": "p1f-gifts",
+      "english": "show appreciation",
+      "chinese": "表达感谢",
+      "example_en": "Giving gifts is a good way to show appreciation to people who have helped us."
+    },
+    {
+      "id": "p1f-pets-and-animals-1",
+      "category_id": "p1f-pets-and-animals",
+      "english": "provide emotional support",
+      "chinese": "提供情感支持",
+      "example_en": "Pets can provide emotional support when people feel stressed or lonely."
+    },
+    {
+      "id": "p1f-pets-and-animals-2",
+      "category_id": "p1f-pets-and-animals",
+      "english": "take responsibility for",
+      "chinese": "承担责任",
+      "example_en": "Keeping a pet means taking responsibility for another living creature."
+    },
+    {
+      "id": "p1f-food-1",
+      "category_id": "p1f-food",
+      "english": "a balanced diet",
+      "chinese": "均衡饮食",
+      "example_en": "I try to maintain a balanced diet because health is closely related to what we eat."
+    },
+    {
+      "id": "p1f-food-2",
+      "category_id": "p1f-food",
+      "english": "traditional cuisine",
+      "chinese": "传统美食",
+      "example_en": "I enjoy traditional cuisine because it represents local culture and history."
+    },
+    {
+      "id": "p1f-sports-team-1",
+      "category_id": "p1f-sports-team",
+      "english": "work as a team",
+      "chinese": "团队合作",
+      "example_en": "Being part of a sports team taught me how to work as a team and communicate with others."
+    },
+    {
+      "id": "p1f-sports-team-2",
+      "category_id": "p1f-sports-team",
+      "english": "build team spirit",
+      "chinese": "培养团队精神",
+      "example_en": "Team sports are a great way to build team spirit because everyone needs to cooperate."
+    },
+    {
+      "id": "p1f-childhood-activities-1",
+      "category_id": "p1f-childhood-activities",
+      "english": "create lasting memories",
+      "chinese": "创造持久的回忆",
+      "example_en": "Playing outdoors with my friends created lasting memories that I still remember today."
+    },
+    {
+      "id": "p1f-childhood-activities-2",
+      "category_id": "p1f-childhood-activities",
+      "english": "spend time outdoors",
+      "chinese": "花时间在户外",
+      "example_en": "I used to spend a lot of time outdoors because there were many interesting activities to do."
+    },
+    {
+      "id": "p1f-shopping-1",
+      "category_id": "p1f-shopping",
+      "english": "make an informed decision",
+      "chinese": "做出明智决定",
+      "example_en": "I usually read reviews before buying something so that I can make an informed decision."
+    },
+    {
+      "id": "p1f-shopping-2",
+      "category_id": "p1f-shopping",
+      "english": "good value for money",
+      "chinese": "物有所值",
+      "example_en": "I don’t always choose the cheapest product. I prefer something that offers good value for money."
+    },
+    {
+      "id": "p1f-singing-1",
+      "category_id": "p1f-singing",
+      "english": "express my emotions",
+      "chinese": "表达情感",
+      "example_en": "Singing is a good way to express my emotions and relieve stress."
+    },
+    {
+      "id": "p1f-singing-2",
+      "category_id": "p1f-singing",
+      "english": "boost my mood",
+      "chinese": "改善心情",
+      "example_en": "Listening to or singing songs can easily boost my mood when I feel tired."
+    },
+    {
+      "id": "p1f-life-stages-1",
+      "category_id": "p1f-life-stages",
+      "english": "go through different stages of life",
+      "chinese": "经历不同人生阶段",
+      "example_en": "Everyone has to go through different stages of life and learn from each experience."
+    },
+    {
+      "id": "p1f-life-stages-2",
+      "category_id": "p1f-life-stages",
+      "english": "personal growth",
+      "chinese": "个人成长",
+      "example_en": "Each stage of life contributes to personal growth because we learn from challenges."
+    },
+    {
+      "id": "p1f-morning-time-1",
+      "category_id": "p1f-morning-time",
+      "english": "start the day on the right foot",
+      "chinese": "以良好状态开始一天",
+      "example_en": "Having a healthy morning routine helps me start the day on the right foot."
+    },
+    {
+      "id": "p1f-morning-time-2",
+      "category_id": "p1f-morning-time",
+      "english": "morning routine",
+      "chinese": "早晨习惯",
+      "example_en": "My morning routine usually includes having breakfast and planning my schedule."
+    },
+    {
+      "id": "p1f-reading-1",
+      "category_id": "p1f-reading",
+      "english": "broaden my knowledge",
+      "chinese": "拓宽知识面",
+      "example_en": "Reading helps me broaden my knowledge and learn about different topics."
+    },
+    {
+      "id": "p1f-reading-2",
+      "category_id": "p1f-reading",
+      "english": "get absorbed in a book",
+      "chinese": "沉浸在书中",
+      "example_en": "I enjoy reading because I can easily get absorbed in a book and forget about daily stress."
+    },
+    {
+      "id": "p1f-walking-1",
+      "category_id": "p1f-walking",
+      "english": "clear my mind",
+      "chinese": "放空思绪",
+      "example_en": "I like walking because it helps me clear my mind after a busy day."
+    },
+    {
+      "id": "p1f-walking-2",
+      "category_id": "p1f-walking",
+      "english": "stay physically active",
+      "chinese": "保持身体活跃",
+      "example_en": "Walking is a simple way to stay physically active without putting too much pressure on my body."
+    },
+    {
+      "id": "p1f-typing-1",
+      "category_id": "p1f-typing",
+      "english": "improve my efficiency",
+      "chinese": "提高效率",
+      "example_en": "Typing allows me to improve my efficiency because I can finish tasks much faster."
+    },
+    {
+      "id": "p1f-typing-2",
+      "category_id": "p1f-typing",
+      "english": "digital skills",
+      "chinese": "数字技能",
+      "example_en": "Typing is an important digital skill that people need in modern society."
+    },
+    {
+      "id": "p1f-tidiness-1",
+      "category_id": "p1f-tidiness",
+      "english": "keep my surroundings tidy",
+      "chinese": "保持周围整洁",
+      "example_en": "I try to keep my surroundings tidy because a clean environment helps me focus."
+    },
+    {
+      "id": "p1f-tidiness-2",
+      "category_id": "p1f-tidiness",
+      "english": "a clutter-free environment",
+      "chinese": "没有杂物的环境",
+      "example_en": "I prefer a clutter-free environment because it makes me feel more relaxed."
+    },
+    {
+      "id": "p1f-music-1",
+      "category_id": "p1f-music",
+      "english": "have a strong emotional connection with",
+      "chinese": "与……有强烈情感联系",
+      "example_en": "I have a strong emotional connection with some songs because they remind me of certain memories."
+    },
+    {
+      "id": "p1f-music-2",
+      "category_id": "p1f-music",
+      "english": "a source of relaxation",
+      "chinese": "放松来源",
+      "example_en": "Music is a great source of relaxation when I feel stressed."
+    },
+    {
+      "id": "p1f-hobby-1",
+      "category_id": "p1f-hobby",
+      "english": "pursue a hobby",
+      "chinese": "培养/追求兴趣爱好",
+      "example_en": "I think it’s important to pursue a hobby because it makes life more interesting."
+    },
+    {
+      "id": "p1f-hobby-2",
+      "category_id": "p1f-hobby",
+      "english": "take up a new hobby",
+      "chinese": "开始一个新爱好",
+      "example_en": "Recently, I decided to take up a new hobby because I wanted to learn something different."
+    }
+  ]
+}

@@ -1,0 +1,2095 @@
+{
+  "source_doc": "cambridge",
+  "source_label": "剑桥雅思口语写作词汇",
+  "categories": [
+    {
+      "id": "life-vitality",
+      "label": "life / vitality 生命"
+    },
+    {
+      "id": "enjoy",
+      "label": "enjoy"
+    },
+    {
+      "id": "catch",
+      "label": "catch"
+    },
+    {
+      "id": "open",
+      "label": "open"
+    },
+    {
+      "id": "hit",
+      "label": "hit"
+    },
+    {
+      "id": "fix",
+      "label": "fix"
+    },
+    {
+      "id": "fancy",
+      "label": "fancy"
+    },
+    {
+      "id": "star",
+      "label": "star"
+    },
+    {
+      "id": "fame",
+      "label": "fame"
+    },
+    {
+      "id": "long",
+      "label": "long"
+    },
+    {
+      "id": "mind",
+      "label": "mind"
+    },
+    {
+      "id": "example",
+      "label": "example"
+    },
+    {
+      "id": "build",
+      "label": "build"
+    },
+    {
+      "id": "hang",
+      "label": "hang"
+    },
+    {
+      "id": "sense",
+      "label": "sense"
+    },
+    {
+      "id": "humour",
+      "label": "humour"
+    },
+    {
+      "id": "keen",
+      "label": "keen"
+    },
+    {
+      "id": "chic",
+      "label": "chic"
+    },
+    {
+      "id": "cafe",
+      "label": "a coffee shop = café"
+    },
+    {
+      "id": "lie",
+      "label": "lie"
+    },
+    {
+      "id": "pick",
+      "label": "pick"
+    },
+    {
+      "id": "favourite",
+      "label": "favourite"
+    },
+    {
+      "id": "fit",
+      "label": "fit"
+    },
+    {
+      "id": "photo",
+      "label": "photo"
+    },
+    {
+      "id": "ace",
+      "label": "ace"
+    },
+    {
+      "id": "shape",
+      "label": "shape"
+    },
+    {
+      "id": "reflect",
+      "label": "reflect"
+    },
+    {
+      "id": "lost",
+      "label": "lost"
+    },
+    {
+      "id": "deep",
+      "label": "deep"
+    },
+    {
+      "id": "taste",
+      "label": "taste"
+    },
+    {
+      "id": "inspire",
+      "label": "inspire"
+    },
+    {
+      "id": "gift",
+      "label": "gift"
+    },
+    {
+      "id": "work",
+      "label": "work"
+    },
+    {
+      "id": "genuine",
+      "label": "genuine"
+    },
+    {
+      "id": "approach",
+      "label": "approach"
+    },
+    {
+      "id": "down",
+      "label": "down"
+    },
+    {
+      "id": "gravity",
+      "label": "gravity"
+    },
+    {
+      "id": "share",
+      "label": "share"
+    },
+    {
+      "id": "freeze",
+      "label": "freeze"
+    },
+    {
+      "id": "muse",
+      "label": "muse"
+    },
+    {
+      "id": "interest",
+      "label": "interest"
+    },
+    {
+      "id": "word",
+      "label": "word"
+    },
+    {
+      "id": "book",
+      "label": "book"
+    },
+    {
+      "id": "energy",
+      "label": "energy"
+    },
+    {
+      "id": "raise",
+      "label": "raise"
+    },
+    {
+      "id": "pay",
+      "label": "pay"
+    },
+    {
+      "id": "credit",
+      "label": "credit"
+    },
+    {
+      "id": "proud",
+      "label": "proud"
+    },
+    {
+      "id": "worth",
+      "label": "worth"
+    },
+    {
+      "id": "perform",
+      "label": "perform"
+    },
+    {
+      "id": "buzz",
+      "label": "buzz"
+    },
+    {
+      "id": "bring",
+      "label": "bring"
+    },
+    {
+      "id": "play",
+      "label": "play"
+    },
+    {
+      "id": "gain",
+      "label": "gain"
+    },
+    {
+      "id": "understand",
+      "label": "understand"
+    },
+    {
+      "id": "engage",
+      "label": "engage"
+    },
+    {
+      "id": "harbour",
+      "label": "harbour"
+    },
+    {
+      "id": "pool",
+      "label": "pool"
+    },
+    {
+      "id": "mirror",
+      "label": "mirror"
+    },
+    {
+      "id": "bridge",
+      "label": "bridge"
+    },
+    {
+      "id": "tailor",
+      "label": "tailor"
+    },
+    {
+      "id": "hook",
+      "label": "hook"
+    },
+    {
+      "id": "have",
+      "label": "have"
+    },
+    {
+      "id": "help",
+      "label": "help"
+    },
+    {
+      "id": "end",
+      "label": "end"
+    }
+  ],
+  "items": [
+    {
+      "id": "life-vitality-001",
+      "category_id": "life-vitality",
+      "english": "an easy life",
+      "chinese": "安逸的生活"
+    },
+    {
+      "id": "life-vitality-002",
+      "category_id": "life-vitality",
+      "english": "start a new life",
+      "chinese": "开始新的生活"
+    },
+    {
+      "id": "life-vitality-003",
+      "category_id": "life-vitality",
+      "english": "social life",
+      "chinese": "社交生活"
+    },
+    {
+      "id": "life-vitality-004",
+      "category_id": "life-vitality",
+      "english": "come to life",
+      "chinese": "变得更有趣"
+    },
+    {
+      "id": "life-vitality-005",
+      "category_id": "life-vitality",
+      "english": "be full of life",
+      "chinese": "充满活力"
+    },
+    {
+      "id": "life-vitality-006",
+      "category_id": "life-vitality",
+      "english": "lifelong friend",
+      "chinese": "一生的挚友"
+    },
+    {
+      "id": "life-vitality-007",
+      "category_id": "life-vitality",
+      "english": "vitality",
+      "chinese": "生命力"
+    },
+    {
+      "id": "life-vitality-008",
+      "category_id": "life-vitality",
+      "english": "vitamin",
+      "chinese": "维生素"
+    },
+    {
+      "id": "life-vitality-009",
+      "category_id": "life-vitality",
+      "english": "vivid",
+      "chinese": "生动的"
+    },
+    {
+      "id": "life-vitality-010",
+      "category_id": "life-vitality",
+      "english": "vibrant",
+      "chinese": "有活力的"
+    },
+    {
+      "id": "life-vitality-011",
+      "category_id": "life-vitality",
+      "english": "Viva La Vida",
+      "chinese": "生命万岁"
+    },
+    {
+      "id": "enjoy-001",
+      "category_id": "enjoy",
+      "english": "enjoy",
+      "chinese": "喜欢/享受/享有"
+    },
+    {
+      "id": "enjoy-002",
+      "category_id": "enjoy",
+      "english": "influence on me",
+      "chinese": ""
+    },
+    {
+      "id": "enjoy-003",
+      "category_id": "enjoy",
+      "english": "strong sentimental value to me",
+      "chinese": ""
+    },
+    {
+      "id": "enjoy-004",
+      "category_id": "enjoy",
+      "english": "enjoyable",
+      "chinese": "享受的",
+      "part_label": "Part 3"
+    },
+    {
+      "id": "enjoy-005",
+      "category_id": "enjoy",
+      "english": "enjoyment get a lot of enjoyment",
+      "chinese": "快乐",
+      "part_label": "Part 3"
+    },
+    {
+      "id": "catch-001",
+      "category_id": "catch",
+      "english": "catch a film",
+      "chinese": "看电影"
+    },
+    {
+      "id": "catch-002",
+      "category_id": "catch",
+      "english": "catch my eye",
+      "chinese": "吸引我"
+    },
+    {
+      "id": "catch-003",
+      "category_id": "catch",
+      "english": "catch my fancy",
+      "chinese": "让我中意"
+    },
+    {
+      "id": "catch-004",
+      "category_id": "catch",
+      "english": "Part",
+      "chinese": "纪念品",
+      "part_label": "Part 2"
+    },
+    {
+      "id": "catch-005",
+      "category_id": "catch",
+      "english": "catch up with someone",
+      "chinese": "",
+      "part_label": "Part 2"
+    },
+    {
+      "id": "catch-006",
+      "category_id": "catch",
+      "english": "catchy lyrics and tunes",
+      "chinese": "肯明上口的歌词和曲调",
+      "part_label": "Part 2"
+    },
+    {
+      "id": "catch-007",
+      "category_id": "catch",
+      "english": "sing along with them",
+      "chinese": "",
+      "part_label": "Part 2"
+    },
+    {
+      "id": "open-001",
+      "category_id": "open",
+      "english": "an open person",
+      "chinese": "开朗的人"
+    },
+    {
+      "id": "open-002",
+      "category_id": "open",
+      "english": "open my mind",
+      "chinese": "打开思路"
+    },
+    {
+      "id": "open-003",
+      "category_id": "open",
+      "english": "open my eyes",
+      "chinese": "开阔视野"
+    },
+    {
+      "id": "open-004",
+      "category_id": "open",
+      "english": "open the door to",
+      "chinese": "打开通往.…的大门"
+    },
+    {
+      "id": "hit-001",
+      "category_id": "hit",
+      "english": "hit it off",
+      "chinese": "投缘/相处的融洽"
+    },
+    {
+      "id": "hit-002",
+      "category_id": "hit",
+      "english": "a hit film",
+      "chinese": ""
+    },
+    {
+      "id": "hit-003",
+      "category_id": "hit",
+      "english": "a hit song",
+      "chinese": ""
+    },
+    {
+      "id": "fix-001",
+      "category_id": "fix",
+      "english": "fix my mind on",
+      "chinese": "专注"
+    },
+    {
+      "id": "fix-002",
+      "category_id": "fix",
+      "english": "fix a problem",
+      "chinese": "解决问题"
+    },
+    {
+      "id": "fix-003",
+      "category_id": "fix",
+      "english": "fix the environment",
+      "chinese": "治理环境"
+    },
+    {
+      "id": "fix-004",
+      "category_id": "fix",
+      "english": "fixed",
+      "chinese": "固定的"
+    },
+    {
+      "id": "fancy-001",
+      "category_id": "fancy",
+      "english": "a fancy gift/ restaurant",
+      "chinese": ""
+    },
+    {
+      "id": "fancy-002",
+      "category_id": "fancy",
+      "english": "fancy someone",
+      "chinese": ""
+    },
+    {
+      "id": "fancy-003",
+      "category_id": "fancy",
+      "english": "catch my fancy",
+      "chinese": ""
+    },
+    {
+      "id": "star-001",
+      "category_id": "star",
+      "english": "look at the stars",
+      "chinese": ""
+    },
+    {
+      "id": "star-002",
+      "category_id": "star",
+      "english": "a famous star",
+      "chinese": "明星"
+    },
+    {
+      "id": "star-003",
+      "category_id": "star",
+      "english": "v. star someone",
+      "chinese": "由...出演"
+    },
+    {
+      "id": "fame-001",
+      "category_id": "fame",
+      "english": "rise to fame",
+      "chinese": "成名"
+    },
+    {
+      "id": "fame-002",
+      "category_id": "fame",
+      "english": "famous",
+      "chinese": "著名的"
+    },
+    {
+      "id": "long-001",
+      "category_id": "long",
+      "english": "go on along journey",
+      "chinese": "长途旅行"
+    },
+    {
+      "id": "long-002",
+      "category_id": "long",
+      "english": "enjoy long history",
+      "chinese": "享有悠久的历史"
+    },
+    {
+      "id": "long-003",
+      "category_id": "long",
+      "english": "long to do something",
+      "chinese": "渴望做某事"
+    },
+    {
+      "id": "long-004",
+      "category_id": "long",
+      "english": "water sports",
+      "chinese": ""
+    },
+    {
+      "id": "mind-001",
+      "category_id": "mind",
+      "english": "have peace of mind",
+      "chinese": "心平气和"
+    },
+    {
+      "id": "mind-002",
+      "category_id": "mind",
+      "english": "beautiful mind",
+      "chinese": "美丽心灵"
+    },
+    {
+      "id": "mind-003",
+      "category_id": "mind",
+      "english": "fix my mind on",
+      "chinese": "专注"
+    },
+    {
+      "id": "mind-004",
+      "category_id": "mind",
+      "english": "have a good state of mind",
+      "chinese": "有好的心态"
+    },
+    {
+      "id": "mind-005",
+      "category_id": "mind",
+      "english": "have a keen mind",
+      "chinese": "有敏锁的头脑"
+    },
+    {
+      "id": "mind-006",
+      "category_id": "mind",
+      "english": "brains",
+      "chinese": ""
+    },
+    {
+      "id": "mind-007",
+      "category_id": "mind",
+      "english": "a keen hiker",
+      "chinese": ""
+    },
+    {
+      "id": "mind-008",
+      "category_id": "mind",
+      "english": "be in two minds about",
+      "chinese": "纠结"
+    },
+    {
+      "id": "mind-009",
+      "category_id": "mind",
+      "english": "make up my mind",
+      "chinese": "决定"
+    },
+    {
+      "id": "mind-010",
+      "category_id": "mind",
+      "english": "blow my mind",
+      "chinese": "打动我的心"
+    },
+    {
+      "id": "example-001",
+      "category_id": "example",
+      "english": "For example",
+      "chinese": ""
+    },
+    {
+      "id": "example-002",
+      "category_id": "example",
+      "english": "a perfect example",
+      "chinese": "一个典型的例子|"
+    },
+    {
+      "id": "example-003",
+      "category_id": "example",
+      "english": "set a good example for",
+      "chinese": "树立好的榜样"
+    },
+    {
+      "id": "build-001",
+      "category_id": "build",
+      "english": "build up confidence",
+      "chinese": "建立信心"
+    },
+    {
+      "id": "hang-001",
+      "category_id": "hang",
+      "english": "hang out",
+      "chinese": "出去玩"
+    },
+    {
+      "id": "hang-002",
+      "category_id": "hang",
+      "english": "get the hang of",
+      "chinese": "熟练的运用"
+    },
+    {
+      "id": "sense-001",
+      "category_id": "sense",
+      "english": "language sense",
+      "chinese": "预感"
+    },
+    {
+      "id": "sense-002",
+      "category_id": "sense",
+      "english": "a sense of inner peace/excitement/happiness/security/freedom/humour",
+      "chinese": "一种感觉"
+    },
+    {
+      "id": "sense-003",
+      "category_id": "sense",
+      "english": "make sense",
+      "chinese": "有道理"
+    },
+    {
+      "id": "humour-001",
+      "category_id": "humour",
+      "english": "a sense of humour",
+      "chinese": "幽默感"
+    },
+    {
+      "id": "humour-002",
+      "category_id": "humour",
+      "english": "humorous",
+      "chinese": ""
+    },
+    {
+      "id": "humour-003",
+      "category_id": "humour",
+      "english": "British Humour",
+      "chinese": ""
+    },
+    {
+      "id": "keen-001",
+      "category_id": "keen",
+      "english": "be keen on",
+      "chinese": "喜爱"
+    },
+    {
+      "id": "keen-002",
+      "category_id": "keen",
+      "english": "a keen hiker/reader/player/swimmer",
+      "chinese": "热袁于.…的人"
+    },
+    {
+      "id": "chic-001",
+      "category_id": "chic",
+      "english": "=fashionable",
+      "chinese": "时尚的"
+    },
+    {
+      "id": "lie-001",
+      "category_id": "lie",
+      "english": "lie at/on/in",
+      "chinese": "位于"
+    },
+    {
+      "id": "lie-002",
+      "category_id": "lie",
+      "english": "lie back chill out",
+      "chinese": "放松"
+    },
+    {
+      "id": "lie-003",
+      "category_id": "lie",
+      "english": "tell a lie",
+      "chinese": ""
+    },
+    {
+      "id": "pick-001",
+      "category_id": "pick",
+      "english": "pick choose",
+      "chinese": "选择"
+    },
+    {
+      "id": "pick-002",
+      "category_id": "pick",
+      "english": "pick and choose",
+      "chinese": "精挑细选"
+    },
+    {
+      "id": "pick-003",
+      "category_id": "pick",
+      "english": "pick some out",
+      "chinese": "选出"
+    },
+    {
+      "id": "pick-004",
+      "category_id": "pick",
+      "english": "pick up something",
+      "chinese": "学习"
+    },
+    {
+      "id": "pick-005",
+      "category_id": "pick",
+      "english": "pick up a skill",
+      "chinese": "学习一个技能"
+    },
+    {
+      "id": "pick-006",
+      "category_id": "pick",
+      "english": "pick one’ s brains",
+      "chinese": "学习某人的智慧"
+    },
+    {
+      "id": "pick-007",
+      "category_id": "pick",
+      "english": "a picky person",
+      "chinese": "挑剔的人"
+    },
+    {
+      "id": "pick-008",
+      "category_id": "pick",
+      "english": "a pick-me-up",
+      "chinese": "提神的饮料"
+    },
+    {
+      "id": "favourite-001",
+      "category_id": "favourite",
+      "english": "old favourites",
+      "chinese": ""
+    },
+    {
+      "id": "favourite-002",
+      "category_id": "favourite",
+      "english": "v. favour doing",
+      "chinese": "偏爱某事"
+    },
+    {
+      "id": "fit-001",
+      "category_id": "fit",
+      "english": "fit me well",
+      "chinese": "适合我"
+    },
+    {
+      "id": "fit-002",
+      "category_id": "fit",
+      "english": "fit in with someone",
+      "chinese": "和某人相处的很融洽"
+    },
+    {
+      "id": "fit-003",
+      "category_id": "fit",
+      "english": "keep fit",
+      "chinese": "保持健康"
+    },
+    {
+      "id": "fit-004",
+      "category_id": "fit",
+      "english": "be fit as a fiddle",
+      "chinese": "特别健康"
+    },
+    {
+      "id": "photo-001",
+      "category_id": "photo",
+      "english": "take a photo",
+      "chinese": "照相"
+    },
+    {
+      "id": "photo-002",
+      "category_id": "photo",
+      "english": "photography",
+      "chinese": "摄影"
+    },
+    {
+      "id": "photo-003",
+      "category_id": "photo",
+      "english": "photogenic",
+      "chinese": "上相的"
+    },
+    {
+      "id": "ace-001",
+      "category_id": "ace",
+      "english": "hold all the aces",
+      "chinese": "占据天时地利"
+    },
+    {
+      "id": "ace-002",
+      "category_id": "ace",
+      "english": "be ace at",
+      "chinese": "擅长"
+    },
+    {
+      "id": "ace-003",
+      "category_id": "ace",
+      "english": "have an ace time",
+      "chinese": "度过愉快的时光"
+    },
+    {
+      "id": "shape-001",
+      "category_id": "shape",
+      "english": "keep in shape",
+      "chinese": "保持身材"
+    },
+    {
+      "id": "shape-002",
+      "category_id": "shape",
+      "english": "shape the mind",
+      "chinese": "塑造思想"
+    },
+    {
+      "id": "reflect-001",
+      "category_id": "reflect",
+      "english": "reflect well on someone",
+      "chinese": "给某人好的印象"
+    },
+    {
+      "id": "reflect-002",
+      "category_id": "reflect",
+      "english": "reflect on my life",
+      "chinese": "反甩生活"
+    },
+    {
+      "id": "lost-001",
+      "category_id": "lost",
+      "english": "get lost",
+      "chinese": "迷路"
+    },
+    {
+      "id": "lost-002",
+      "category_id": "lost",
+      "english": "be lost in something",
+      "chinese": "沉浸在其中"
+    },
+    {
+      "id": "lost-003",
+      "category_id": "lost",
+      "english": "lost to the world",
+      "chinese": ""
+    },
+    {
+      "id": "deep-001",
+      "category_id": "deep",
+      "english": "deep profound",
+      "chinese": "有深度的"
+    },
+    {
+      "id": "deep-002",
+      "category_id": "deep",
+      "english": "ina deep sleep",
+      "chinese": ""
+    },
+    {
+      "id": "deep-003",
+      "category_id": "deep",
+      "english": "think deeply",
+      "chinese": "深度思考"
+    },
+    {
+      "id": "deep-004",
+      "category_id": "deep",
+      "english": "leave a deep impression on",
+      "chinese": "留下深刻的印象"
+    },
+    {
+      "id": "taste-001",
+      "category_id": "taste",
+      "english": "a salty/bitter/sweet/spicy taste",
+      "chinese": "味道"
+    },
+    {
+      "id": "taste-002",
+      "category_id": "taste",
+      "english": "my first taste",
+      "chinese": "第一次体验"
+    },
+    {
+      "id": "taste-003",
+      "category_id": "taste",
+      "english": "have very good taste in",
+      "chinese": "对...有很高的鉴赏力"
+    },
+    {
+      "id": "taste-004",
+      "category_id": "taste",
+      "english": "be a matter of personal taste",
+      "chinese": "个人爱好的问题"
+    },
+    {
+      "id": "inspire-001",
+      "category_id": "inspire",
+      "english": "inspire someone",
+      "chinese": "激励"
+    },
+    {
+      "id": "inspire-002",
+      "category_id": "inspire",
+      "english": "inspire me with confidence",
+      "chinese": "给我信心"
+    },
+    {
+      "id": "inspire-003",
+      "category_id": "inspire",
+      "english": "inspiration",
+      "chinese": "灵感"
+    },
+    {
+      "id": "inspire-004",
+      "category_id": "inspire",
+      "english": "inspirational",
+      "chinese": "鼓舞人心的"
+    },
+    {
+      "id": "gift-001",
+      "category_id": "gift",
+      "english": "gift present",
+      "chinese": "礼物=现在"
+    },
+    {
+      "id": "gift-002",
+      "category_id": "gift",
+      "english": "have a great gift for",
+      "chinese": ""
+    },
+    {
+      "id": "work-001",
+      "category_id": "work",
+      "english": "work",
+      "chinese": "工作"
+    },
+    {
+      "id": "work-002",
+      "category_id": "work",
+      "english": "work hard",
+      "chinese": ""
+    },
+    {
+      "id": "work-003",
+      "category_id": "work",
+      "english": "work out",
+      "chinese": "锻炼身体"
+    },
+    {
+      "id": "work-004",
+      "category_id": "work",
+      "english": "art work",
+      "chinese": "艺术品"
+    },
+    {
+      "id": "genuine-001",
+      "category_id": "genuine",
+      "english": "a genuine art work",
+      "chinese": "真迹"
+    },
+    {
+      "id": "genuine-002",
+      "category_id": "genuine",
+      "english": "have a genuine liking for",
+      "chinese": "真心喜欢"
+    },
+    {
+      "id": "genuine-003",
+      "category_id": "genuine",
+      "english": "genuinely",
+      "chinese": "真心地"
+    },
+    {
+      "id": "approach-001",
+      "category_id": "approach",
+      "english": "approachable",
+      "chinese": "平易近人的"
+    },
+    {
+      "id": "down-001",
+      "category_id": "down",
+      "english": "feel down",
+      "chinese": "感到不开心"
+    },
+    {
+      "id": "down-002",
+      "category_id": "down",
+      "english": "be down-to-earth",
+      "chinese": "脚踏实地"
+    },
+    {
+      "id": "down-003",
+      "category_id": "down",
+      "english": "let someone down it",
+      "chinese": ""
+    },
+    {
+      "id": "down-004",
+      "category_id": "down",
+      "english": "look down on my phone",
+      "chinese": "看手机"
+    },
+    {
+      "id": "gravity-001",
+      "category_id": "gravity",
+      "english": "the gravity of the situation",
+      "chinese": "问题的严重性"
+    },
+    {
+      "id": "gravity-002",
+      "category_id": "gravity",
+      "english": "gravitate to someone",
+      "chinese": "被.所吸引"
+    },
+    {
+      "id": "share-001",
+      "category_id": "share",
+      "english": "share something",
+      "chinese": "分京"
+    },
+    {
+      "id": "share-002",
+      "category_id": "share",
+      "english": "shared bicycle",
+      "chinese": "共享单车"
+    },
+    {
+      "id": "freeze-001",
+      "category_id": "freeze",
+      "english": "freezing days",
+      "chinese": "寒冷的天"
+    },
+    {
+      "id": "freeze-002",
+      "category_id": "freeze",
+      "english": "freeze happy moments",
+      "chinese": "定格快乐的时刻"
+    },
+    {
+      "id": "muse-001",
+      "category_id": "muse",
+      "english": "muse inspiration",
+      "chinese": "灵感"
+    },
+    {
+      "id": "muse-002",
+      "category_id": "muse",
+      "english": "amuse",
+      "chinese": ""
+    },
+    {
+      "id": "muse-003",
+      "category_id": "muse",
+      "english": "music",
+      "chinese": ""
+    },
+    {
+      "id": "muse-004",
+      "category_id": "muse",
+      "english": "museum",
+      "chinese": ""
+    },
+    {
+      "id": "muse-005",
+      "category_id": "muse",
+      "english": "amusing",
+      "chinese": "有趣的"
+    },
+    {
+      "id": "interest-001",
+      "category_id": "interest",
+      "english": "have an interest in",
+      "chinese": "有利益关系"
+    },
+    {
+      "id": "interest-002",
+      "category_id": "interest",
+      "english": "show great interest in",
+      "chinese": "特别感兴趣"
+    },
+    {
+      "id": "interest-003",
+      "category_id": "interest",
+      "english": "show no interest in",
+      "chinese": "没兴趣"
+    },
+    {
+      "id": "interest-004",
+      "category_id": "interest",
+      "english": "interesting",
+      "chinese": "有趣的"
+    },
+    {
+      "id": "interest-005",
+      "category_id": "interest",
+      "english": "interested",
+      "chinese": "感兴趣的"
+    },
+    {
+      "id": "word-001",
+      "category_id": "word",
+      "english": "words",
+      "chinese": "语言"
+    },
+    {
+      "id": "word-002",
+      "category_id": "word",
+      "english": "words of wisdom",
+      "chinese": "智慧的语言"
+    },
+    {
+      "id": "word-003",
+      "category_id": "word",
+      "english": "give someone my word",
+      "chinese": "承话"
+    },
+    {
+      "id": "word-004",
+      "category_id": "word",
+      "english": "keep my word",
+      "chinese": "遵守承诺"
+    },
+    {
+      "id": "word-005",
+      "category_id": "word",
+      "english": "have a word with someone",
+      "chinese": ""
+    },
+    {
+      "id": "word-006",
+      "category_id": "word",
+      "english": "Ina word",
+      "chinese": ""
+    },
+    {
+      "id": "book-001",
+      "category_id": "book",
+      "english": "a book lover",
+      "chinese": "喜欢读书的人"
+    },
+    {
+      "id": "book-002",
+      "category_id": "book",
+      "english": "a book of stamps",
+      "chinese": "一套邮票"
+    },
+    {
+      "id": "book-003",
+      "category_id": "book",
+      "english": "book hotels",
+      "chinese": "预定酒店"
+    },
+    {
+      "id": "book-004",
+      "category_id": "book",
+      "english": "an open book",
+      "chinese": "开朗的人"
+    },
+    {
+      "id": "energy-001",
+      "category_id": "energy",
+      "english": "be full of energy",
+      "chinese": "充满精力"
+    },
+    {
+      "id": "energy-002",
+      "category_id": "energy",
+      "english": "put all his/her heart and energy into",
+      "chinese": "全身心投入"
+    },
+    {
+      "id": "energy-003",
+      "category_id": "energy",
+      "english": "give someone positive energy",
+      "chinese": "给我正能量"
+    },
+    {
+      "id": "energy-004",
+      "category_id": "energy",
+      "english": "energetic",
+      "chinese": "有活力的"
+    },
+    {
+      "id": "raise-001",
+      "category_id": "raise",
+      "english": "raise salaries/prices/taxes",
+      "chinese": "提高"
+    },
+    {
+      "id": "raise-002",
+      "category_id": "raise",
+      "english": "raise our green awareness",
+      "chinese": "提升我们的环保意识"
+    },
+    {
+      "id": "raise-003",
+      "category_id": "raise",
+      "english": "raise someone up",
+      "chinese": "抚养/培育"
+    },
+    {
+      "id": "raise-004",
+      "category_id": "raise",
+      "english": "be born and raised",
+      "chinese": "土生士长"
+    },
+    {
+      "id": "pay-001",
+      "category_id": "pay",
+      "english": "pay a bill",
+      "chinese": "支付"
+    },
+    {
+      "id": "pay-002",
+      "category_id": "pay",
+      "english": "Pay me compliments",
+      "chinese": "赞美我"
+    },
+    {
+      "id": "pay-003",
+      "category_id": "pay",
+      "english": "Pay good money for something",
+      "chinese": "花很多钱"
+    },
+    {
+      "id": "pay-004",
+      "category_id": "pay",
+      "english": "pay off",
+      "chinese": "功不唐捐"
+    },
+    {
+      "id": "pay-005",
+      "category_id": "pay",
+      "english": "pay attention to",
+      "chinese": "天注"
+    },
+    {
+      "id": "credit-001",
+      "category_id": "credit",
+      "english": "credit cards",
+      "chinese": "信用卡"
+    },
+    {
+      "id": "proud-001",
+      "category_id": "proud",
+      "english": "take a pride in someone",
+      "chinese": "为基人感到骄傲自豪"
+    },
+    {
+      "id": "worth-001",
+      "category_id": "worth",
+      "english": "be worth doing",
+      "chinese": "值得做某事"
+    },
+    {
+      "id": "worth-002",
+      "category_id": "worth",
+      "english": "worthwhile",
+      "chinese": "值得的"
+    },
+    {
+      "id": "worth-003",
+      "category_id": "worth",
+      "english": "It is worthwhile to do",
+      "chinese": "值得做某事"
+    },
+    {
+      "id": "perform-001",
+      "category_id": "perform",
+      "english": "perform well",
+      "chinese": "表现地好"
+    },
+    {
+      "id": "perform-002",
+      "category_id": "perform",
+      "english": "asinging performance a gig",
+      "chinese": "演唱会"
+    },
+    {
+      "id": "perform-003",
+      "category_id": "perform",
+      "english": "a born performer",
+      "chinese": "天生的演员"
+    },
+    {
+      "id": "buzz-001",
+      "category_id": "buzz",
+      "english": "give someone a buzz",
+      "chinese": "打电话"
+    },
+    {
+      "id": "buzz-002",
+      "category_id": "buzz",
+      "english": "get buzz out of something",
+      "chinese": "获得快乐感"
+    },
+    {
+      "id": "bring-001",
+      "category_id": "bring",
+      "english": "bring people closer together",
+      "chinese": "拉近人们直接的距离"
+    },
+    {
+      "id": "play-001",
+      "category_id": "play",
+      "english": "play sports",
+      "chinese": ""
+    },
+    {
+      "id": "play-002",
+      "category_id": "play",
+      "english": "play an important role in",
+      "chinese": "扮演重要的角色"
+    },
+    {
+      "id": "gain-001",
+      "category_id": "gain",
+      "english": "gain benefits",
+      "chinese": "获得好处"
+    },
+    {
+      "id": "gain-002",
+      "category_id": "gain",
+      "english": "gain in confidence",
+      "chinese": "增加信心"
+    },
+    {
+      "id": "gain-003",
+      "category_id": "gain",
+      "english": "gain an insight into",
+      "chinese": "深度了解"
+    },
+    {
+      "id": "understand-001",
+      "category_id": "understand",
+      "english": "have a better understanding of",
+      "chinese": "更好的理解"
+    },
+    {
+      "id": "engage-001",
+      "category_id": "engage",
+      "english": "engage in",
+      "chinese": "参加"
+    },
+    {
+      "id": "engage-002",
+      "category_id": "engage",
+      "english": "engaging",
+      "chinese": "有趣的"
+    },
+    {
+      "id": "hook-001",
+      "category_id": "hook",
+      "english": "be hooked on",
+      "chinese": "着迷"
+    },
+    {
+      "id": "have-001",
+      "category_id": "have",
+      "english": "have positive/negative effect on",
+      "chinese": "有影响"
+    },
+    {
+      "id": "have-002",
+      "category_id": "have",
+      "english": "have a direct impact on",
+      "chinese": "有直接影响"
+    },
+    {
+      "id": "have-003",
+      "category_id": "have",
+      "english": "have the great impact on",
+      "chinese": "有重要影响"
+    },
+    {
+      "id": "help-001",
+      "category_id": "help",
+      "english": "help alot in doing",
+      "chinese": "有助于做某事"
+    },
+    {
+      "id": "end-001",
+      "category_id": "end",
+      "english": "cometoanend",
+      "chinese": "结束"
+    },
+    {
+      "id": "end-002",
+      "category_id": "end",
+      "english": "at the end of the day",
+      "chinese": "在最后"
+    },
+    {
+      "id": "end-003",
+      "category_id": "end",
+      "english": "md up doing something",
+      "chinese": "结果.…"
+    },
+    {
+      "id": "end-004",
+      "category_id": "end",
+      "english": "nd up becoming a teacher",
+      "chinese": "结果成了一名老师"
+    },
+    {
+      "id": "hit-004",
+      "category_id": "hit",
+      "english": "hit",
+      "chinese": "adj.火"
+    },
+    {
+      "id": "fix-005",
+      "category_id": "fix",
+      "english": "fix",
+      "chinese": "读书的地方:"
+    },
+    {
+      "id": "fancy-004",
+      "category_id": "fancy",
+      "english": "fancy",
+      "chinese": "adj.精致的/高级的"
+    },
+    {
+      "id": "cafe-001",
+      "category_id": "cafe",
+      "english": "coffee",
+      "chinese": "咖啡厅"
+    },
+    {
+      "id": "harbour-001",
+      "category_id": "harbour",
+      "english": "harbour",
+      "chinese": "海港/Ria/HA"
+    },
+    {
+      "id": "pool-001",
+      "category_id": "pool",
+      "english": "pool",
+      "chinese": "池子/整合/汇聚"
+    },
+    {
+      "id": "mirror-001",
+      "category_id": "mirror",
+      "english": "mirror",
+      "chinese": "镜子/反映"
+    },
+    {
+      "id": "bridge-001",
+      "category_id": "bridge",
+      "english": "bridge",
+      "chinese": "桥/ER"
+    },
+    {
+      "id": "tailor-001",
+      "category_id": "tailor",
+      "english": "tailor",
+      "chinese": "裁缝/定制"
+    },
+    {
+      "id": "open-005",
+      "category_id": "open",
+      "english": "open （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "hit-005",
+      "category_id": "hit",
+      "english": "hit （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "fancy-005",
+      "category_id": "fancy",
+      "english": "fancy （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "star-004",
+      "category_id": "star",
+      "english": "star （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "star-005",
+      "category_id": "star",
+      "english": "star （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "fame-003",
+      "category_id": "fame",
+      "english": "fame （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "fame-004",
+      "category_id": "fame",
+      "english": "fame （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "fame-005",
+      "category_id": "fame",
+      "english": "fame （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "long-005",
+      "category_id": "long",
+      "english": "long （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "example-004",
+      "category_id": "example",
+      "english": "example （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "example-005",
+      "category_id": "example",
+      "english": "example （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "build-002",
+      "category_id": "build",
+      "english": "build （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "build-003",
+      "category_id": "build",
+      "english": "build （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "build-004",
+      "category_id": "build",
+      "english": "build （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "build-005",
+      "category_id": "build",
+      "english": "build （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "hang-003",
+      "category_id": "hang",
+      "english": "hang （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "hang-004",
+      "category_id": "hang",
+      "english": "hang （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "hang-005",
+      "category_id": "hang",
+      "english": "hang （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "sense-004",
+      "category_id": "sense",
+      "english": "sense （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "sense-005",
+      "category_id": "sense",
+      "english": "sense （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "humour-004",
+      "category_id": "humour",
+      "english": "humour （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "humour-005",
+      "category_id": "humour",
+      "english": "humour （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "keen-003",
+      "category_id": "keen",
+      "english": "keen （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "keen-004",
+      "category_id": "keen",
+      "english": "keen （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "keen-005",
+      "category_id": "keen",
+      "english": "keen （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "chic-002",
+      "category_id": "chic",
+      "english": "chic （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "chic-003",
+      "category_id": "chic",
+      "english": "chic （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "chic-004",
+      "category_id": "chic",
+      "english": "chic （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "chic-005",
+      "category_id": "chic",
+      "english": "chic （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "cafe-002",
+      "category_id": "cafe",
+      "english": "coffee （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "cafe-003",
+      "category_id": "cafe",
+      "english": "coffee （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "cafe-004",
+      "category_id": "cafe",
+      "english": "coffee （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "cafe-005",
+      "category_id": "cafe",
+      "english": "coffee （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "lie-004",
+      "category_id": "lie",
+      "english": "lie （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "lie-005",
+      "category_id": "lie",
+      "english": "lie （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "favourite-003",
+      "category_id": "favourite",
+      "english": "favourite （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "favourite-004",
+      "category_id": "favourite",
+      "english": "favourite （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "favourite-005",
+      "category_id": "favourite",
+      "english": "favourite （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "fit-005",
+      "category_id": "fit",
+      "english": "fit （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "photo-004",
+      "category_id": "photo",
+      "english": "photo （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "photo-005",
+      "category_id": "photo",
+      "english": "photo （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "ace-004",
+      "category_id": "ace",
+      "english": "ace （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "ace-005",
+      "category_id": "ace",
+      "english": "ace （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "shape-003",
+      "category_id": "shape",
+      "english": "shape （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "shape-004",
+      "category_id": "shape",
+      "english": "shape （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "shape-005",
+      "category_id": "shape",
+      "english": "shape （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "reflect-003",
+      "category_id": "reflect",
+      "english": "reflect （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "reflect-004",
+      "category_id": "reflect",
+      "english": "reflect （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "reflect-005",
+      "category_id": "reflect",
+      "english": "reflect （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "lost-004",
+      "category_id": "lost",
+      "english": "lost （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "lost-005",
+      "category_id": "lost",
+      "english": "lost （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "deep-005",
+      "category_id": "deep",
+      "english": "deep （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "taste-005",
+      "category_id": "taste",
+      "english": "taste （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "inspire-005",
+      "category_id": "inspire",
+      "english": "inspire （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "gift-003",
+      "category_id": "gift",
+      "english": "gift （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "gift-004",
+      "category_id": "gift",
+      "english": "gift （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "gift-005",
+      "category_id": "gift",
+      "english": "gift （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "work-005",
+      "category_id": "work",
+      "english": "work （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "genuine-004",
+      "category_id": "genuine",
+      "english": "genuine （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "genuine-005",
+      "category_id": "genuine",
+      "english": "genuine （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "approach-002",
+      "category_id": "approach",
+      "english": "approach （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "approach-003",
+      "category_id": "approach",
+      "english": "approach （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "approach-004",
+      "category_id": "approach",
+      "english": "approach （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "approach-005",
+      "category_id": "approach",
+      "english": "approach （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "down-005",
+      "category_id": "down",
+      "english": "down （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "gravity-003",
+      "category_id": "gravity",
+      "english": "gravity （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    },
+    {
+      "id": "gravity-004",
+      "category_id": "gravity",
+      "english": "gravity （见正文）",
+      "chinese": "（OCR不可用）",
+      "tags": [
+        "填充项"
+      ]
+    }
+  ]
+}

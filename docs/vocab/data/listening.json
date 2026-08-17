@@ -1,0 +1,6297 @@
+{
+  "source_doc": "listening",
+  "source_label": "听力高频词汇",
+  "categories": [
+    {
+      "id": "accommodation",
+      "label": "食宿篇"
+    },
+    {
+      "id": "travelling",
+      "label": "休闲旅行"
+    },
+    {
+      "id": "banking",
+      "label": "银行交易"
+    },
+    {
+      "id": "freshman",
+      "label": "新生入学"
+    },
+    {
+      "id": "school-life",
+      "label": "学校生活"
+    },
+    {
+      "id": "library",
+      "label": "图书馆场景"
+    },
+    {
+      "id": "medical",
+      "label": "医疗场景"
+    },
+    {
+      "id": "interview",
+      "label": "面试就职"
+    },
+    {
+      "id": "dining",
+      "label": "休闲娱乐"
+    },
+    {
+      "id": "science",
+      "label": "科普类场景"
+    },
+    {
+      "id": "society-economy",
+      "label": "社会经济类场景"
+    }
+  ],
+  "items": [
+    {
+      "id": "accommodation-1",
+      "category_id": "accommodation",
+      "english": "campus",
+      "chinese": "校园",
+      "ipa": "‘kempos"
+    },
+    {
+      "id": "accommodation-2",
+      "category_id": "accommodation",
+      "english": "live on campus",
+      "chinese": "住学校"
+    },
+    {
+      "id": "accommodation-3",
+      "category_id": "accommodation",
+      "english": "hall ofresidence",
+      "chinese": "学生公寓，大学宿舍",
+      "tips": "IPS: 考 试 中 可 以 简写 为 dornm, 这 样 不 容易 出 现 拼 写 错误 。"
+    },
+    {
+      "id": "accommodation-4",
+      "category_id": "accommodation",
+      "english": "live offcampus",
+      "chinese": "住校外"
+    },
+    {
+      "id": "accommodation-5",
+      "category_id": "accommodation",
+      "english": "rent a house",
+      "chinese": "租房"
+    },
+    {
+      "id": "accommodation-6",
+      "category_id": "accommodation",
+      "english": "studio apartment",
+      "chinese": "单间公寓"
+    },
+    {
+      "id": "accommodation-7",
+      "category_id": "accommodation",
+      "english": "en-suite",
+      "chinese": "带独立卫生间的套间",
+      "ipa": "on'swi:t"
+    },
+    {
+      "id": "accommodation-8",
+      "category_id": "accommodation",
+      "english": "bedsit",
+      "chinese": "卧室兼起居室",
+      "ipa": "bed'sit"
+    },
+    {
+      "id": "accommodation-9",
+      "category_id": "accommodation",
+      "english": "house",
+      "chinese": "独幢住宅",
+      "ipa": "haus",
+      "tips": "注 意 发 音 中 爆破 音 的 失 爆 现象"
+    },
+    {
+      "id": "accommodation-10",
+      "category_id": "accommodation",
+      "english": "cottage",
+      "chinese": "村舍，小别墅",
+      "ipa": "‘kotid3"
+    },
+    {
+      "id": "accommodation-11",
+      "category_id": "accommodation",
+      "english": "village",
+      "chinese": "村庄",
+      "ipa": "‘vilidz"
+    },
+    {
+      "id": "accommodation-12",
+      "category_id": "accommodation",
+      "english": "neighbourhood",
+      "chinese": "美)小区",
+      "tips": "上 听力 中 提 到 房子 周围 太 吵 : neighbours too noisy, need a quiet place"
+    },
+    {
+      "id": "accommodation-13",
+      "category_id": "accommodation",
+      "english": "noprivacy",
+      "chinese": "没有私人空间",
+      "tips": "IRA neighbour 区 分 意思 : neighbour/ neighbor 指 的 是 周围 的 邻居 ， 而 ncighbourhood 是 小 区 的 意思 。 考 试 中 所 到 过 房客 搬家 的 原因 是 起 去 一 个 more attractive ncighbourhood， 与 小 区 环境 有 关 ， 上 所 以 是 environment 的 蔡 换 词 。"
+    },
+    {
+      "id": "accommodation-14",
+      "category_id": "accommodation",
+      "english": "private",
+      "chinese": "私密的",
+      "ipa": "praivit"
+    },
+    {
+      "id": "accommodation-15",
+      "category_id": "accommodation",
+      "english": "owner of the house",
+      "chinese": "房东"
+    },
+    {
+      "id": "accommodation-16",
+      "category_id": "accommodation",
+      "english": "unhelpful/unsympathetic owner",
+      "chinese": "不合作/不共有同情心的房东"
+    },
+    {
+      "id": "accommodation-17",
+      "category_id": "accommodation",
+      "english": "landlady",
+      "chinese": "女房东",
+      "ipa": "laend leidi"
+    },
+    {
+      "id": "accommodation-18",
+      "category_id": "accommodation",
+      "english": "close to work/ school/ station",
+      "chinese": "离工作地点、学校、公交车站近"
+    },
+    {
+      "id": "accommodation-19",
+      "category_id": "accommodation",
+      "english": "pets are not allowed",
+      "chinese": "禁止养宠物"
+    },
+    {
+      "id": "accommodation-20",
+      "category_id": "accommodation",
+      "english": "rural area",
+      "chinese": "乡村"
+    },
+    {
+      "id": "accommodation-21",
+      "category_id": "accommodation",
+      "english": "city centre",
+      "chinese": "市中心"
+    },
+    {
+      "id": "accommodation-22",
+      "category_id": "accommodation",
+      "english": "north-eastern part",
+      "chinese": "东北部"
+    },
+    {
+      "id": "accommodation-23",
+      "category_id": "accommodation",
+      "english": "hall",
+      "chinese": "大厅"
+    },
+    {
+      "id": "accommodation-24",
+      "category_id": "accommodation",
+      "english": "main hall",
+      "chinese": "大厅"
+    },
+    {
+      "id": "accommodation-25",
+      "category_id": "accommodation",
+      "english": "dining hall",
+      "chinese": "餐厅"
+    },
+    {
+      "id": "accommodation-26",
+      "category_id": "accommodation",
+      "english": "Town Hall",
+      "chinese": "市政厅",
+      "tips": "IER dining 中 间 是 一 个 n"
+    },
+    {
+      "id": "accommodation-27",
+      "category_id": "accommodation",
+      "english": "lobby",
+      "chinese": "大厅，休息室",
+      "ipa": "obi",
+      "tips": "专 有 名 词 ， 首 字母 需要 大 写"
+    },
+    {
+      "id": "accommodation-28",
+      "category_id": "accommodation",
+      "english": "lounge",
+      "chinese": "休息室",
+      "ipa": "laund3"
+    },
+    {
+      "id": "accommodation-29",
+      "category_id": "accommodation",
+      "english": "room",
+      "chinese": "房间",
+      "ipa": "ru:m"
+    },
+    {
+      "id": "accommodation-30",
+      "category_id": "accommodation",
+      "english": "single room",
+      "chinese": "单人间"
+    },
+    {
+      "id": "accommodation-31",
+      "category_id": "accommodation",
+      "english": "twin room",
+      "chinese": "个单人床的双人间"
+    },
+    {
+      "id": "accommodation-32",
+      "category_id": "accommodation",
+      "english": "double room",
+      "chinese": "张双人床的双人间"
+    },
+    {
+      "id": "accommodation-33",
+      "category_id": "accommodation",
+      "english": "triple room",
+      "chinese": "人间"
+    },
+    {
+      "id": "accommodation-34",
+      "category_id": "accommodation",
+      "english": "bedroom",
+      "chinese": "卧室",
+      "ipa": "bedrum"
+    },
+    {
+      "id": "accommodation-35",
+      "category_id": "accommodation",
+      "english": "livingroom",
+      "chinese": "起居室，客厅"
+    },
+    {
+      "id": "accommodation-36",
+      "category_id": "accommodation",
+      "english": "study",
+      "chinese": "书房",
+      "ipa": "‘stadi"
+    },
+    {
+      "id": "accommodation-37",
+      "category_id": "accommodation",
+      "english": "furnished",
+      "chinese": "有家县的",
+      "ipa": "fo:nift"
+    },
+    {
+      "id": "accommodation-38",
+      "category_id": "accommodation",
+      "english": "Decoration",
+      "chinese": "装饰",
+      "ipa": ",deka'reifan",
+      "tips": "这 是 不 可 数 名 词 ， 一 件 家 具 可 以 说 a piece of furniture."
+    },
+    {
+      "id": "accommodation-39",
+      "category_id": "accommodation",
+      "english": "roof",
+      "chinese": "屋顶",
+      "ipa": "kufan"
+    },
+    {
+      "id": "accommodation-40",
+      "category_id": "accommodation",
+      "english": "cabinet",
+      "chinese": "橱柜，内阁",
+      "ipa": "kebinit"
+    },
+    {
+      "id": "accommodation-41",
+      "category_id": "accommodation",
+      "english": "bookshelf",
+      "chinese": "书橱",
+      "ipa": "bukfelf"
+    },
+    {
+      "id": "accommodation-42",
+      "category_id": "accommodation",
+      "english": "bed sheet",
+      "chinese": "床单",
+      "tips": "注 意 单 词 的 拼写 ， 中 间 两 个 {"
+    },
+    {
+      "id": "accommodation-43",
+      "category_id": "accommodation",
+      "english": "pillow",
+      "chinese": "枕头",
+      "ipa": "pilou"
+    },
+    {
+      "id": "accommodation-44",
+      "category_id": "accommodation",
+      "english": "microwave oven",
+      "chinese": "微波炉"
+    },
+    {
+      "id": "accommodation-45",
+      "category_id": "accommodation",
+      "english": "washing machine",
+      "chinese": "洗衣机"
+    },
+    {
+      "id": "accommodation-46",
+      "category_id": "accommodation",
+      "english": "door",
+      "chinese": "门",
+      "ipa": "do:(r)",
+      "tips": "可 以 简写 们 dgc， 注 意 中 间 有 字母 d 考 试 中 建议 使 用 简写 ， 不 容易 出 错 。"
+    },
+    {
+      "id": "accommodation-47",
+      "category_id": "accommodation",
+      "english": "waterheater",
+      "chinese": "热水器"
+    },
+    {
+      "id": "accommodation-48",
+      "category_id": "accommodation",
+      "english": "fire",
+      "chinese": "火",
+      "ipa": "‘faio"
+    },
+    {
+      "id": "accommodation-49",
+      "category_id": "accommodation",
+      "english": "fire blanket",
+      "chinese": "灭火秸"
+    },
+    {
+      "id": "accommodation-50",
+      "category_id": "accommodation",
+      "english": "fire alarm",
+      "chinese": "报火警"
+    },
+    {
+      "id": "accommodation-51",
+      "category_id": "accommodation",
+      "english": "air conditioner",
+      "chinese": "空调"
+    },
+    {
+      "id": "accommodation-52",
+      "category_id": "accommodation",
+      "english": "air conditioning",
+      "chinese": "空调"
+    },
+    {
+      "id": "accommodation-53",
+      "category_id": "accommodation",
+      "english": "rent",
+      "chinese": "房租",
+      "ipa": "rent"
+    },
+    {
+      "id": "accommodation-54",
+      "category_id": "accommodation",
+      "english": "Deposit",
+      "chinese": "押金",
+      "ipa": "di'pozit",
+      "tips": "租金 一 般 分 为 周 付 (weekly), 月 付 (monthly)， 季 付 (quarterly)。 注意 在 考试 中 提 到 支付 频率 的 词组 on a(an) daily/ weekly/ monthly/ annual basis， 其 意思 分 别 等 于 daily/weekly/monthly/annually。"
+    },
+    {
+      "id": "accommodation-55",
+      "category_id": "accommodation",
+      "english": "bill",
+      "chinese": "账单",
+      "ipa": "bil",
+      "tips": "x 押金 可 以 是 具体 的 钱 数 ， 比 方 说 于 200， 也 有 可 能 是 一 个 月 的 房租 one month’s rent, 也 可 以 写成 ]-month rent， 注 意 根 据 speaker 的 发 音 判 断 是 第 几 种 书写 方式 ， 第 一 种 拼写 方式 当中 的 不 要 忘记 ， 如 果 是 复数 的 话 要 写成 8 ,例如 two months’ rent."
+    },
+    {
+      "id": "accommodation-56",
+      "category_id": "accommodation",
+      "english": "water bill",
+      "chinese": "水费"
+    },
+    {
+      "id": "accommodation-57",
+      "category_id": "accommodation",
+      "english": "electricity bill",
+      "chinese": "电费"
+    },
+    {
+      "id": "accommodation-58",
+      "category_id": "accommodation",
+      "english": "gas bill",
+      "chinese": "煤气费"
+    },
+    {
+      "id": "accommodation-59",
+      "category_id": "accommodation",
+      "english": "phone bill",
+      "chinese": "电话费"
+    },
+    {
+      "id": "accommodation-60",
+      "category_id": "accommodation",
+      "english": "internet bill",
+      "chinese": "网费"
+    },
+    {
+      "id": "travelling-1",
+      "category_id": "travelling",
+      "english": "tour",
+      "chinese": "旅行",
+      "ipa": "tuo"
+    },
+    {
+      "id": "travelling-2",
+      "category_id": "travelling",
+      "english": "trip",
+      "chinese": "旅行",
+      "ipa": "trip"
+    },
+    {
+      "id": "travelling-3",
+      "category_id": "travelling",
+      "english": "travel",
+      "chinese": "旅行",
+      "ipa": "travol"
+    },
+    {
+      "id": "travelling-4",
+      "category_id": "travelling",
+      "english": "journey",
+      "chinese": "旅行",
+      "ipa": "‘d3o:ni"
+    },
+    {
+      "id": "travelling-5",
+      "category_id": "travelling",
+      "english": "voyage",
+      "chinese": "航海",
+      "ipa": "‘voi-id3"
+    },
+    {
+      "id": "travelling-6",
+      "category_id": "travelling",
+      "english": "guided tour",
+      "chinese": "有回导的旅行"
+    },
+    {
+      "id": "travelling-7",
+      "category_id": "travelling",
+      "english": "self-service tour",
+      "chinese": "自助游"
+    },
+    {
+      "id": "travelling-8",
+      "category_id": "travelling",
+      "english": "package tour",
+      "chinese": "团队游"
+    },
+    {
+      "id": "travelling-9",
+      "category_id": "travelling",
+      "english": "travel.agency",
+      "chinese": "旅行团"
+    },
+    {
+      "id": "travelling-10",
+      "category_id": "travelling",
+      "english": "picnic",
+      "chinese": "野餐",
+      "ipa": "piknik"
+    },
+    {
+      "id": "travelling-11",
+      "category_id": "travelling",
+      "english": "tourist industry",
+      "chinese": "旅游业"
+    },
+    {
+      "id": "travelling-12",
+      "category_id": "travelling",
+      "english": "ecotourism",
+      "chinese": "生态游",
+      "ipa": "i:kou,tuarizom"
+    },
+    {
+      "id": "travelling-13",
+      "category_id": "travelling",
+      "english": "reserve",
+      "chinese": "预订",
+      "ipa": "ri'ze:v"
+    },
+    {
+      "id": "travelling-14",
+      "category_id": "travelling",
+      "english": "seat reservation",
+      "chinese": "预订一个座位"
+    },
+    {
+      "id": "travelling-15",
+      "category_id": "travelling",
+      "english": "to reserve a seat",
+      "chinese": "预订一个座位"
+    },
+    {
+      "id": "travelling-16",
+      "category_id": "travelling",
+      "english": "kansell",
+      "chinese": "取消",
+      "tips": "一 般 预 订 都 需要 提前 一 段 时 间 ， 因 此 in advance 这 个 词组 曾经 考 到 ， 表 示 提 前 。"
+    },
+    {
+      "id": "travelling-17",
+      "category_id": "travelling",
+      "english": "cancellation",
+      "chinese": "取消",
+      "ipa": "kensa'leifon"
+    },
+    {
+      "id": "travelling-18",
+      "category_id": "travelling",
+      "english": "notice",
+      "chinese": "通知",
+      "ipa": "‘noutis"
+    },
+    {
+      "id": "travelling-19",
+      "category_id": "travelling",
+      "english": "notice board",
+      "chinese": "公告栏"
+    },
+    {
+      "id": "travelling-20",
+      "category_id": "travelling",
+      "english": "week’s notice 2-week notice",
+      "chinese": "提前两周题型"
+    },
+    {
+      "id": "travelling-21",
+      "category_id": "travelling",
+      "english": "public transport",
+      "chinese": "公共交通",
+      "tips": "注 意 表示 “两 周 的 ”这 一 概念 的 拼写 方式 ， 考 试 时 需要 注意 听 结尾 是 否 有 s"
+    },
+    {
+      "id": "travelling-22",
+      "category_id": "travelling",
+      "english": "transportation",
+      "chinese": "交通运输",
+      "ipa": "traenspo:'teifon"
+    },
+    {
+      "id": "travelling-23",
+      "category_id": "travelling",
+      "english": "traffic",
+      "chinese": "交通堵塞"
+    },
+    {
+      "id": "travelling-24",
+      "category_id": "travelling",
+      "english": "traffic lights",
+      "chinese": "交通信号灯"
+    },
+    {
+      "id": "travelling-25",
+      "category_id": "travelling",
+      "english": "congestion",
+      "chinese": "拥挤",
+      "ipa": "ksn' dyestjan"
+    },
+    {
+      "id": "travelling-26",
+      "category_id": "travelling",
+      "english": "flight",
+      "chinese": "航班",
+      "ipa": "flait",
+      "tips": "注 意 单词 发 音 ， 重 音 在 前 面 。"
+    },
+    {
+      "id": "travelling-27",
+      "category_id": "travelling",
+      "english": "flight number",
+      "chinese": "航班号"
+    },
+    {
+      "id": "travelling-28",
+      "category_id": "travelling",
+      "english": "terminal",
+      "chinese": "航站楼",
+      "ipa": "ta:minal"
+    },
+    {
+      "id": "travelling-29",
+      "category_id": "travelling",
+      "english": "economy class",
+      "chinese": "经济舱"
+    },
+    {
+      "id": "travelling-30",
+      "category_id": "travelling",
+      "english": "coach",
+      "chinese": "长途汽车",
+      "ipa": "kout/"
+    },
+    {
+      "id": "travelling-31",
+      "category_id": "travelling",
+      "english": "train",
+      "chinese": "火车",
+      "ipa": "trein"
+    },
+    {
+      "id": "travelling-32",
+      "category_id": "travelling",
+      "english": "underground railway",
+      "chinese": "地铁"
+    },
+    {
+      "id": "travelling-33",
+      "category_id": "travelling",
+      "english": "underground car park",
+      "chinese": "地下停东场"
+    },
+    {
+      "id": "travelling-34",
+      "category_id": "travelling",
+      "english": "wheel",
+      "chinese": "方向盘",
+      "ipa": "hwi:I"
+    },
+    {
+      "id": "travelling-35",
+      "category_id": "travelling",
+      "english": "four-wheel drive",
+      "chinese": "四轮驱动"
+    },
+    {
+      "id": "travelling-36",
+      "category_id": "travelling",
+      "english": "wheelchair",
+      "chinese": "轮椅",
+      "ipa": "wi:l'tfeo"
+    },
+    {
+      "id": "travelling-37",
+      "category_id": "travelling",
+      "english": "cab",
+      "chinese": "出租车",
+      "ipa": "keeb"
+    },
+    {
+      "id": "travelling-38",
+      "category_id": "travelling",
+      "english": "bus system",
+      "chinese": "公交系统"
+    },
+    {
+      "id": "travelling-39",
+      "category_id": "travelling",
+      "english": "bus route",
+      "chinese": "公交线路"
+    },
+    {
+      "id": "travelling-40",
+      "category_id": "travelling",
+      "english": "motel",
+      "chinese": "汽车旅馆",
+      "ipa": "hou'tel"
+    },
+    {
+      "id": "travelling-41",
+      "category_id": "travelling",
+      "english": "hostel",
+      "chinese": "旅社，招待所",
+      "ipa": "hostal"
+    },
+    {
+      "id": "travelling-42",
+      "category_id": "travelling",
+      "english": "student hostel",
+      "chinese": "学生宿舍"
+    },
+    {
+      "id": "travelling-43",
+      "category_id": "travelling",
+      "english": "youth hostel",
+      "chinese": "青年旅馆"
+    },
+    {
+      "id": "travelling-44",
+      "category_id": "travelling",
+      "english": "cottage",
+      "chinese": "小屋，小别墅",
+      "ipa": "‘kotidg",
+      "tips": "青 年 旅馆 是 一 种 比较 经 济 实惠 的 住宿 类 型 ， 相 对 于 很 多 宾馆 饭店 价格 便宜 很 多 , 是 很 多 年 轻 人 出游 选 择 的 住宿 方式 。 不 过 缺点 是 设施 一 般 比 较 简 单 ， 而 且 可 能 需要 和 陌生 人 住 在 一 个 屋子 里 ， 而 且 卫 生 间 一 般 是 共用 的 。"
+    },
+    {
+      "id": "travelling-45",
+      "category_id": "travelling",
+      "english": "holiday house",
+      "chinese": "度假屋"
+    },
+    {
+      "id": "travelling-46",
+      "category_id": "travelling",
+      "english": "passport",
+      "chinese": "护照",
+      "ipa": "pa:spo:t"
+    },
+    {
+      "id": "travelling-47",
+      "category_id": "travelling",
+      "english": "visa",
+      "chinese": "签证",
+      "ipa": "\"vi:zs"
+    },
+    {
+      "id": "travelling-48",
+      "category_id": "travelling",
+      "english": "driving license/driving licence",
+      "chinese": "驾照"
+    },
+    {
+      "id": "travelling-49",
+      "category_id": "travelling",
+      "english": "charge",
+      "chinese": "收费，费用",
+      "ipa": "tfa:dz",
+      "tips": "投 保 一 般 用 到 词组 : take out an insurance."
+    },
+    {
+      "id": "travelling-50",
+      "category_id": "travelling",
+      "english": "service charge",
+      "chinese": "服务费"
+    },
+    {
+      "id": "travelling-51",
+      "category_id": "travelling",
+      "english": "free of charge",
+      "chinese": "免费"
+    },
+    {
+      "id": "travelling-52",
+      "category_id": "travelling",
+      "english": "refund",
+      "chinese": "退款",
+      "ipa": "ri'fand, ‘ri:fand"
+    },
+    {
+      "id": "travelling-53",
+      "category_id": "travelling",
+      "english": "full refund",
+      "chinese": "全额退款"
+    },
+    {
+      "id": "travelling-54",
+      "category_id": "travelling",
+      "english": "traveler’s check",
+      "chinese": "旅行支票"
+    },
+    {
+      "id": "travelling-55",
+      "category_id": "travelling",
+      "english": "currency",
+      "chinese": "货币",
+      "ipa": "‘karonsi"
+    },
+    {
+      "id": "travelling-56",
+      "category_id": "travelling",
+      "english": "torch",
+      "chinese": "手电筒",
+      "ipa": "to:t{"
+    },
+    {
+      "id": "travelling-57",
+      "category_id": "travelling",
+      "english": "sunglasses",
+      "chinese": "太阳镜",
+      "ipa": "san gla:siz"
+    },
+    {
+      "id": "travelling-58",
+      "category_id": "travelling",
+      "english": "tent",
+      "chinese": "帐篷",
+      "ipa": "tent"
+    },
+    {
+      "id": "travelling-59",
+      "category_id": "travelling",
+      "english": "hiking boots",
+      "chinese": "步行者",
+      "tips": "W 7 AGED) canvas portable building〈 可 移动 帆布 建筑 ) (EA tent 的 替换 词 。"
+    },
+    {
+      "id": "travelling-60",
+      "category_id": "travelling",
+      "english": "compass",
+      "chinese": "指南针-",
+      "ipa": "‘kampos"
+    },
+    {
+      "id": "travelling-61",
+      "category_id": "travelling",
+      "english": "sun cream",
+      "chinese": "防叮霜",
+      "tips": "YEE compass 和 校园 campus 的 区 分 。"
+    },
+    {
+      "id": "travelling-62",
+      "category_id": "travelling",
+      "english": "resort",
+      "chinese": "旅游胜地",
+      "ipa": "ri'zo:t"
+    },
+    {
+      "id": "travelling-63",
+      "category_id": "travelling",
+      "english": "historical interest",
+      "chinese": "历史名胜"
+    },
+    {
+      "id": "travelling-64",
+      "category_id": "travelling",
+      "english": "tourist attraction",
+      "chinese": "旅游景点"
+    },
+    {
+      "id": "travelling-65",
+      "category_id": "travelling",
+      "english": "scenic spot",
+      "chinese": "旅游景点"
+    },
+    {
+      "id": "travelling-66",
+      "category_id": "travelling",
+      "english": "indigenous",
+      "chinese": "本土的",
+      "ipa": "in'didgones"
+    },
+    {
+      "id": "travelling-67",
+      "category_id": "travelling",
+      "english": "domestic",
+      "chinese": "国内的",
+      "ipa": "da mestik"
+    },
+    {
+      "id": "travelling-68",
+      "category_id": "travelling",
+      "english": "local",
+      "chinese": "当地的",
+      "ipa": "‘loukal"
+    },
+    {
+      "id": "travelling-69",
+      "category_id": "travelling",
+      "english": "exotic",
+      "chinese": "异国的，外来的",
+      "ipa": "eg'zotik"
+    },
+    {
+      "id": "travelling-70",
+      "category_id": "travelling",
+      "english": "museum",
+      "chinese": "博物馆",
+      "ipa": "mju(:)'ziem"
+    },
+    {
+      "id": "travelling-71",
+      "category_id": "travelling",
+      "english": "American Museum",
+      "chinese": "美国博物馆"
+    },
+    {
+      "id": "travelling-72",
+      "category_id": "travelling",
+      "english": "art gallery",
+      "chinese": "艺术画廊|"
+    },
+    {
+      "id": "travelling-73",
+      "category_id": "travelling",
+      "english": "tower",
+      "chinese": "塔",
+      "ipa": "taus"
+    },
+    {
+      "id": "travelling-74",
+      "category_id": "travelling",
+      "english": "Tower of London",
+      "chinese": "伦敦塔"
+    },
+    {
+      "id": "travelling-75",
+      "category_id": "travelling",
+      "english": "waterfall",
+      "chinese": "瀑布",
+      "ipa": "wo:tofo:)",
+      "tips": "伦 敦 著名 景点 ， 在 考试 当中 考 到 过 。 由 于 是 知名 景点 ， 所 以 考试 当中 考 到 不 会 给 拼写 ， 大 家 要 注意 平时 积累 知名 景点 的 拼写 ， 比 如 ，Thames River (泰晤士 河 ), Great Barrier Reef (X 堡礁 )，Sydney Opera House (悉尼 歌剧 院 )。 这 些 单词 都 是 专用 名 词 ， 需 要 首 字母 大 写 。"
+    },
+    {
+      "id": "travelling-76",
+      "category_id": "travelling",
+      "english": "harbour",
+      "chinese": "海港",
+      "ipa": "‘ha:bo"
+    },
+    {
+      "id": "travelling-77",
+      "category_id": "travelling",
+      "english": "cathedral",
+      "chinese": "大教堂",
+      "ipa": "ka'0i:dral"
+    },
+    {
+      "id": "travelling-78",
+      "category_id": "travelling",
+      "english": "marshland",
+      "chinese": "沼泽地",
+      "ipa": "ma:fland"
+    },
+    {
+      "id": "travelling-79",
+      "category_id": "travelling",
+      "english": "souvenir",
+      "chinese": "纪念品",
+      "ipa": "su:ye'nis"
+    },
+    {
+      "id": "travelling-80",
+      "category_id": "travelling",
+      "english": "souvenir shop",
+      "chinese": "纪念品商店"
+    },
+    {
+      "id": "travelling-81",
+      "category_id": "travelling",
+      "english": "giftshop",
+      "chinese": "纪念品商店"
+    },
+    {
+      "id": "travelling-82",
+      "category_id": "travelling",
+      "english": "viewpoint",
+      "chinese": "观点",
+      "ipa": "‘vju:point"
+    },
+    {
+      "id": "travelling-83",
+      "category_id": "travelling",
+      "english": "footbridge",
+      "chinese": "步行桥",
+      "ipa": "futbrids"
+    },
+    {
+      "id": "travelling-84",
+      "category_id": "travelling",
+      "english": "activity",
+      "chinese": "活动",
+      "ipa": "ek'tivoti"
+    },
+    {
+      "id": "travelling-85",
+      "category_id": "travelling",
+      "english": "cycling",
+      "chinese": "骑脚踏车",
+      "ipa": "saiklin"
+    },
+    {
+      "id": "travelling-86",
+      "category_id": "travelling",
+      "english": "camping",
+      "chinese": "露营",
+      "ipa": "kaempin"
+    },
+    {
+      "id": "travelling-87",
+      "category_id": "travelling",
+      "english": "hiking",
+      "chinese": "徒步旅行",
+      "ipa": "haikin"
+    },
+    {
+      "id": "travelling-88",
+      "category_id": "travelling",
+      "english": "cruising",
+      "chinese": "游轮观光",
+      "ipa": "kru:zin"
+    },
+    {
+      "id": "travelling-89",
+      "category_id": "travelling",
+      "english": "horse riding",
+      "chinese": "骑马"
+    },
+    {
+      "id": "travelling-90",
+      "category_id": "travelling",
+      "english": "caving",
+      "chinese": "\"洞穴探险",
+      "ipa": "keivin"
+    },
+    {
+      "id": "travelling-91",
+      "category_id": "travelling",
+      "english": "cave",
+      "chinese": "洞穴",
+      "ipa": "keiv"
+    },
+    {
+      "id": "travelling-92",
+      "category_id": "travelling",
+      "english": "explore caves",
+      "chinese": "洞穴探险"
+    },
+    {
+      "id": "travelling-93",
+      "category_id": "travelling",
+      "english": "music festival",
+      "chinese": "音乐节"
+    },
+    {
+      "id": "travelling-94",
+      "category_id": "travelling",
+      "english": "art festival",
+      "chinese": "艺术节"
+    },
+    {
+      "id": "banking-1",
+      "category_id": "banking",
+      "english": "open an account",
+      "chinese": "开户"
+    },
+    {
+      "id": "banking-2",
+      "category_id": "banking",
+      "english": "savings account",
+      "chinese": "储蓄账户"
+    },
+    {
+      "id": "banking-3",
+      "category_id": "banking",
+      "english": "current account",
+      "chinese": "活期账户",
+      "tips": "PERM savings 后 面 的 s 不 要 忘记 。"
+    },
+    {
+      "id": "banking-4",
+      "category_id": "banking",
+      "english": "deposit account",
+      "chinese": "定期账户"
+    },
+    {
+      "id": "banking-5",
+      "category_id": "banking",
+      "english": "select account",
+      "chinese": "精选账户"
+    },
+    {
+      "id": "banking-6",
+      "category_id": "banking",
+      "english": "joint account",
+      "chinese": "联名账户"
+    },
+    {
+      "id": "banking-7",
+      "category_id": "banking",
+      "english": "instant account",
+      "chinese": "快速账户"
+    },
+    {
+      "id": "banking-8",
+      "category_id": "banking",
+      "english": "deposit w_",
+      "chinese": "存钱",
+      "ipa": "di'pozit"
+    },
+    {
+      "id": "banking-9",
+      "category_id": "banking",
+      "english": "withdraw",
+      "chinese": "取钱",
+      "ipa": "wid'dro:"
+    },
+    {
+      "id": "banking-10",
+      "category_id": "banking",
+      "english": "overdraw",
+      "chinese": "透支",
+      "ipa": "wid'dro:"
+    },
+    {
+      "id": "banking-11",
+      "category_id": "banking",
+      "english": "overdraft",
+      "chinese": "透支",
+      "ipa": "\"suvodra:ft"
+    },
+    {
+      "id": "banking-12",
+      "category_id": "banking",
+      "english": "creditcard",
+      "chinese": "信用卡"
+    },
+    {
+      "id": "banking-13",
+      "category_id": "banking",
+      "english": "credit limit",
+      "chinese": "信用额度",
+      "tips": "常 见 的 信用 卡 有 Master Card, Visa Card, American Express 等 ， 注 意 这 些 都 是 专 有 名 词 ，"
+    },
+    {
+      "id": "banking-14",
+      "category_id": "banking",
+      "english": "money",
+      "chinese": "钱",
+      "ipa": "‘mani"
+    },
+    {
+      "id": "banking-15",
+      "category_id": "banking",
+      "english": "password",
+      "chinese": "密码",
+      "ipa": "pa:swa:d"
+    },
+    {
+      "id": "banking-16",
+      "category_id": "banking",
+      "english": "internet",
+      "chinese": "网络",
+      "ipa": "inta:net"
+    },
+    {
+      "id": "banking-17",
+      "category_id": "banking",
+      "english": "internet service",
+      "chinese": "网络服务"
+    },
+    {
+      "id": "banking-18",
+      "category_id": "banking",
+      "english": "service charge",
+      "chinese": "服务费"
+    },
+    {
+      "id": "banking-19",
+      "category_id": "banking",
+      "english": "cover charge",
+      "chinese": "饭店等的)服务费"
+    },
+    {
+      "id": "banking-20",
+      "category_id": "banking",
+      "english": "exchange rate",
+      "chinese": "汇率"
+    },
+    {
+      "id": "banking-21",
+      "category_id": "banking",
+      "english": "interest rate",
+      "chinese": "利率"
+    },
+    {
+      "id": "banking-22",
+      "category_id": "banking",
+      "english": "Joan",
+      "chinese": "贷款",
+      "ipa": "loun"
+    },
+    {
+      "id": "banking-23",
+      "category_id": "banking",
+      "english": "be on loan",
+      "chinese": "和暂借的"
+    },
+    {
+      "id": "banking-24",
+      "category_id": "banking",
+      "english": "low-interest loan",
+      "chinese": "低息贷款"
+    },
+    {
+      "id": "banking-25",
+      "category_id": "banking",
+      "english": "no-interest loan",
+      "chinese": "无息贷款"
+    },
+    {
+      "id": "banking-26",
+      "category_id": "banking",
+      "english": "Kno Ml",
+      "chinese": "的发音很像，考试中注意区分这两个单词"
+    },
+    {
+      "id": "banking-27",
+      "category_id": "banking",
+      "english": "debt",
+      "chinese": "债务",
+      "ipa": "det"
+    },
+    {
+      "id": "banking-28",
+      "category_id": "banking",
+      "english": "statement",
+      "chinese": "银行对账单",
+      "ipa": "‘stcitmont"
+    },
+    {
+      "id": "banking-29",
+      "category_id": "banking",
+      "english": "unit",
+      "chinese": "货币单位",
+      "ipa": "junit"
+    },
+    {
+      "id": "banking-30",
+      "category_id": "banking",
+      "english": "bill",
+      "chinese": "钞票，账单",
+      "ipa": "bil"
+    },
+    {
+      "id": "banking-31",
+      "category_id": "banking",
+      "english": "fi, dollars",
+      "chinese": "写作$50",
+      "tips": "前 面 ， 如 SOpounds 写作 £50. ※ 复 数 为 pennies BR pence. ※ 可 数 名 词 ， 大 于 一 的 时 候 要 加 复数 s。 符 号 $， 考 试 中 建议 使 用 符号 ， 符 号 需 写 在 数字 前"
+    },
+    {
+      "id": "banking-32",
+      "category_id": "banking",
+      "english": "teller",
+      "chinese": "出纳员",
+      "ipa": "tela",
+      "tips": "可 数 名 词 ， 大 于 一 的 时 候 要 加 复数 s。 符 号 6， 考 试 中 建议 使 用 符号 ， 符 号 需 写 在 数字 前 面 ， 如 $0 euros 写作 650。"
+    },
+    {
+      "id": "freshman-1",
+      "category_id": "freshman",
+      "english": "facility",
+      "chinese": "设施",
+      "ipa": "fo'siliti"
+    },
+    {
+      "id": "freshman-2",
+      "category_id": "freshman",
+      "english": "equipment",
+      "chinese": "设备",
+      "ipa": "i kwipmont"
+    },
+    {
+      "id": "freshman-3",
+      "category_id": "freshman",
+      "english": "infrastructure",
+      "chinese": "基础设施",
+      "ipa": "infra,straktfo"
+    },
+    {
+      "id": "freshman-4",
+      "category_id": "freshman",
+      "english": "accommodation",
+      "chinese": "食宿",
+      "ipa": "3 koma'deifan"
+    },
+    {
+      "id": "freshman-5",
+      "category_id": "freshman",
+      "english": "live on campus",
+      "chinese": "住校内"
+    },
+    {
+      "id": "freshman-6",
+      "category_id": "freshman",
+      "english": "live off campus",
+      "chinese": "住校外"
+    },
+    {
+      "id": "freshman-7",
+      "category_id": "freshman",
+      "english": "dining hall",
+      "chinese": "食堂"
+    },
+    {
+      "id": "freshman-8",
+      "category_id": "freshman",
+      "english": "cafeteria",
+      "chinese": "食堂，自助餐厅",
+      "tips": "ERHS, dining 中 间 只 有 一 个 n。"
+    },
+    {
+      "id": "freshman-9",
+      "category_id": "freshman",
+      "english": "canteen",
+      "chinese": "食堂"
+    },
+    {
+      "id": "freshman-10",
+      "category_id": "freshman",
+      "english": "refectory",
+      "chinese": "食堂"
+    },
+    {
+      "id": "freshman-11",
+      "category_id": "freshman",
+      "english": "commonroom",
+      "chinese": "英)师生共用休息室"
+    },
+    {
+      "id": "freshman-12",
+      "category_id": "freshman",
+      "english": "restroom",
+      "chinese": "公共厕所",
+      "ipa": "restru:m"
+    },
+    {
+      "id": "freshman-13",
+      "category_id": "freshman",
+      "english": "main building",
+      "chinese": "主楼"
+    },
+    {
+      "id": "freshman-14",
+      "category_id": "freshman",
+      "english": "mainhall",
+      "chinese": "大厅，大礼堂"
+    },
+    {
+      "id": "freshman-15",
+      "category_id": "freshman",
+      "english": "department",
+      "chinese": "学院",
+      "ipa": "di'pa:tmant"
+    },
+    {
+      "id": "freshman-16",
+      "category_id": "freshman",
+      "english": "conference room",
+      "chinese": "会议室"
+    },
+    {
+      "id": "freshman-17",
+      "category_id": "freshman",
+      "english": "lecture room",
+      "chinese": "阶梯教室"
+    },
+    {
+      "id": "freshman-18",
+      "category_id": "freshman",
+      "english": "lecture theatre",
+      "chinese": "阶梯教室"
+    },
+    {
+      "id": "freshman-19",
+      "category_id": "freshman",
+      "english": "teaching building",
+      "chinese": "教学楼"
+    },
+    {
+      "id": "freshman-20",
+      "category_id": "freshman",
+      "english": "administrating office",
+      "chinese": "行政办公室"
+    },
+    {
+      "id": "freshman-21",
+      "category_id": "freshman",
+      "english": "faculty room",
+      "chinese": "教师办公室"
+    },
+    {
+      "id": "freshman-22",
+      "category_id": "freshman",
+      "english": "laboratory",
+      "chinese": "实验室",
+      "ipa": "la \"boretari"
+    },
+    {
+      "id": "freshman-23",
+      "category_id": "freshman",
+      "english": "student union",
+      "chinese": "学生会",
+      "tips": "简 写 是 lab， 考 试 当 中 可 以 使 用 简写 。"
+    },
+    {
+      "id": "freshman-24",
+      "category_id": "freshman",
+      "english": "club",
+      "chinese": "学生俱乐部",
+      "ipa": "klab"
+    },
+    {
+      "id": "freshman-25",
+      "category_id": "freshman",
+      "english": "lavatory",
+      "chinese": "卫生间",
+      "ipa": "‘leveteri"
+    },
+    {
+      "id": "freshman-26",
+      "category_id": "freshman",
+      "english": "bathroom",
+      "chinese": "浴室，卫生间",
+      "ipa": "be@rum"
+    },
+    {
+      "id": "freshman-27",
+      "category_id": "freshman",
+      "english": "library",
+      "chinese": "网书馆",
+      "ipa": "‘laibrori"
+    },
+    {
+      "id": "freshman-28",
+      "category_id": "freshman",
+      "english": "reception",
+      "chinese": "接待处",
+      "ipa": "ri'sepfon"
+    },
+    {
+      "id": "freshman-29",
+      "category_id": "freshman",
+      "english": "language centre",
+      "chinese": "语言中心"
+    },
+    {
+      "id": "freshman-30",
+      "category_id": "freshman",
+      "english": "computer laboratory",
+      "chinese": "机房"
+    },
+    {
+      "id": "freshman-31",
+      "category_id": "freshman",
+      "english": "healthcare",
+      "chinese": "医院"
+    },
+    {
+      "id": "freshman-32",
+      "category_id": "freshman",
+      "english": "medical centre",
+      "chinese": "医院"
+    },
+    {
+      "id": "freshman-33",
+      "category_id": "freshman",
+      "english": "lockerroom",
+      "chinese": "更衣室"
+    },
+    {
+      "id": "freshman-34",
+      "category_id": "freshman",
+      "english": "parking",
+      "chinese": "停车场"
+    },
+    {
+      "id": "freshman-35",
+      "category_id": "freshman",
+      "english": "car park",
+      "chinese": "停车场"
+    },
+    {
+      "id": "freshman-36",
+      "category_id": "freshman",
+      "english": "playground",
+      "chinese": "操场"
+    },
+    {
+      "id": "freshman-37",
+      "category_id": "freshman",
+      "english": "counselling centre",
+      "chinese": "咨询中心"
+    },
+    {
+      "id": "freshman-38",
+      "category_id": "freshman",
+      "english": "career advice centre",
+      "chinese": "就业咨询中心"
+    },
+    {
+      "id": "freshman-39",
+      "category_id": "freshman",
+      "english": "fitness centre",
+      "chinese": "健身中心"
+    },
+    {
+      "id": "freshman-40",
+      "category_id": "freshman",
+      "english": "gym",
+      "chinese": "健身中心",
+      "ipa": "dzim"
+    },
+    {
+      "id": "freshman-41",
+      "category_id": "freshman",
+      "english": "sports centre",
+      "chinese": "健身中心"
+    },
+    {
+      "id": "freshman-42",
+      "category_id": "freshman",
+      "english": "indoor",
+      "chinese": "室内的",
+      "ipa": "indo:"
+    },
+    {
+      "id": "freshman-43",
+      "category_id": "freshman",
+      "english": "indoor arena",
+      "chinese": "室内竞技场"
+    },
+    {
+      "id": "freshman-44",
+      "category_id": "freshman",
+      "english": "indoor stadium",
+      "chinese": "室内体育馆"
+    },
+    {
+      "id": "freshman-45",
+      "category_id": "freshman",
+      "english": "entertainment complex",
+      "chinese": "综合娱乐中心"
+    },
+    {
+      "id": "freshman-46",
+      "category_id": "freshman",
+      "english": "apply",
+      "chinese": "申请",
+      "ipa": "3 plai"
+    },
+    {
+      "id": "freshman-47",
+      "category_id": "freshman",
+      "english": "apply",
+      "chinese": "申请"
+    },
+    {
+      "id": "freshman-48",
+      "category_id": "freshman",
+      "english": "letter of recommendation",
+      "chinese": "推荐信"
+    },
+    {
+      "id": "freshman-49",
+      "category_id": "freshman",
+      "english": "enrolin",
+      "chinese": "注册，登记，报道"
+    },
+    {
+      "id": "freshman-50",
+      "category_id": "freshman",
+      "english": "register",
+      "chinese": "注册，登记，报道"
+    },
+    {
+      "id": "freshman-51",
+      "category_id": "freshman",
+      "english": "sign up",
+      "chinese": "注册，登记，报道"
+    },
+    {
+      "id": "freshman-52",
+      "category_id": "freshman",
+      "english": "be cligible",
+      "chinese": "符合于.…，对...合格"
+    },
+    {
+      "id": "freshman-53",
+      "category_id": "freshman",
+      "english": "orientation",
+      "chinese": "新生入学培训，新员工培训",
+      "ipa": ",o:rion'teifon"
+    },
+    {
+      "id": "freshman-54",
+      "category_id": "freshman",
+      "english": "orientation",
+      "chinese": "报到日"
+    },
+    {
+      "id": "freshman-55",
+      "category_id": "freshman",
+      "english": "orientation week",
+      "chinese": "入学周"
+    },
+    {
+      "id": "freshman-56",
+      "category_id": "freshman",
+      "english": "orientation tour",
+      "chinese": "校园参观"
+    },
+    {
+      "id": "freshman-57",
+      "category_id": "freshman",
+      "english": "orientation talk",
+      "chinese": "情况介绍"
+    },
+    {
+      "id": "freshman-58",
+      "category_id": "freshman",
+      "english": "welcome package",
+      "chinese": "入学欢迎辞"
+    },
+    {
+      "id": "freshman-59",
+      "category_id": "freshman",
+      "english": "packing material",
+      "chinese": "包装材料"
+    },
+    {
+      "id": "freshman-60",
+      "category_id": "freshman",
+      "english": "test",
+      "chinese": "测试",
+      "ipa": "test"
+    },
+    {
+      "id": "freshman-61",
+      "category_id": "freshman",
+      "english": "placement test",
+      "chinese": "分班测试"
+    },
+    {
+      "id": "freshman-62",
+      "category_id": "freshman",
+      "english": "test of leadership",
+      "chinese": "领导才能的测试"
+    },
+    {
+      "id": "freshman-63",
+      "category_id": "freshman",
+      "english": "primary school",
+      "chinese": "小学"
+    },
+    {
+      "id": "freshman-64",
+      "category_id": "freshman",
+      "english": "elementary school",
+      "chinese": "小学"
+    },
+    {
+      "id": "freshman-65",
+      "category_id": "freshman",
+      "english": "pupil",
+      "chinese": "小学生，了瞳孔",
+      "ipa": "pju:pol"
+    },
+    {
+      "id": "freshman-66",
+      "category_id": "freshman",
+      "english": "secondary school",
+      "chinese": "中学"
+    },
+    {
+      "id": "freshman-67",
+      "category_id": "freshman",
+      "english": "higher education",
+      "chinese": "高等教育"
+    },
+    {
+      "id": "freshman-68",
+      "category_id": "freshman",
+      "english": "college",
+      "chinese": "大学，学院",
+      "ipa": "‘kolidg"
+    },
+    {
+      "id": "freshman-69",
+      "category_id": "freshman",
+      "english": "institute",
+      "chinese": "学院，研究所",
+      "ipa": "‘institju:t"
+    },
+    {
+      "id": "freshman-70",
+      "category_id": "freshman",
+      "english": "boarding school",
+      "chinese": "寄宿学校"
+    },
+    {
+      "id": "freshman-71",
+      "category_id": "freshman",
+      "english": "tuition",
+      "chinese": "学费"
+    },
+    {
+      "id": "freshman-72",
+      "category_id": "freshman",
+      "english": "living cost",
+      "chinese": "生活费"
+    },
+    {
+      "id": "freshman-73",
+      "category_id": "freshman",
+      "english": "expenditure",
+      "chinese": "花费，费用",
+      "ipa": "ik'spenditfo"
+    },
+    {
+      "id": "freshman-74",
+      "category_id": "freshman",
+      "english": "grant",
+      "chinese": "奖学金，助学金",
+      "ipa": "gra:nt"
+    },
+    {
+      "id": "freshman-75",
+      "category_id": "freshman",
+      "english": "scholarship",
+      "chinese": "奖学金",
+      "ipa": "skolafip",
+      "tips": "可 数 名 词 ， 复 数 是 grants， 注 意 听 单 复 数 。"
+    },
+    {
+      "id": "freshman-76",
+      "category_id": "freshman",
+      "english": "Xno Mlow",
+      "chinese": "发音接近，考试中注意区分"
+    },
+    {
+      "id": "freshman-77",
+      "category_id": "freshman",
+      "english": "assistantship",
+      "chinese": "助学金",
+      "ipa": "o'sistont Jip"
+    },
+    {
+      "id": "freshman-78",
+      "category_id": "freshman",
+      "english": "qualification",
+      "chinese": "资格，资历，条件",
+      "ipa": "kwolifi'keifon"
+    },
+    {
+      "id": "freshman-79",
+      "category_id": "freshman",
+      "english": "undergraduate diploma",
+      "chinese": "本科学历",
+      "tips": "可 数 名 词 ， 复 数 是 qualifications， 注 意 听 单 复 数 。"
+    },
+    {
+      "id": "freshman-80",
+      "category_id": "freshman",
+      "english": "postgraduate diploma",
+      "chinese": "研究生学历"
+    },
+    {
+      "id": "freshman-81",
+      "category_id": "freshman",
+      "english": "vocational diploma",
+      "chinese": "职业学历证书"
+    },
+    {
+      "id": "freshman-82",
+      "category_id": "freshman",
+      "english": "associate diploma",
+      "chinese": "专科学历"
+    },
+    {
+      "id": "freshman-83",
+      "category_id": "freshman",
+      "english": "degree",
+      "chinese": "学位",
+      "ipa": "di'gri:"
+    },
+    {
+      "id": "freshman-84",
+      "category_id": "freshman",
+      "english": "bachelor’s degree",
+      "chinese": "学士学位"
+    },
+    {
+      "id": "freshman-85",
+      "category_id": "freshman",
+      "english": "master’s degree",
+      "chinese": "硕士学位"
+    },
+    {
+      "id": "freshman-86",
+      "category_id": "freshman",
+      "english": "doctor’s degree",
+      "chinese": "博士学位"
+    },
+    {
+      "id": "freshman-87",
+      "category_id": "freshman",
+      "english": "applicant",
+      "chinese": "申请者",
+      "ipa": "‘eplikont"
+    },
+    {
+      "id": "freshman-88",
+      "category_id": "freshman",
+      "english": "deputy",
+      "chinese": "代表",
+      "ipa": "‘depjuti"
+    },
+    {
+      "id": "freshman-89",
+      "category_id": "freshman",
+      "english": "student representative",
+      "chinese": "学生代表"
+    },
+    {
+      "id": "freshman-90",
+      "category_id": "freshman",
+      "english": "local student",
+      "chinese": "当地学生"
+    },
+    {
+      "id": "freshman-91",
+      "category_id": "freshman",
+      "english": "resident student",
+      "chinese": "当地学生"
+    },
+    {
+      "id": "freshman-92",
+      "category_id": "freshman",
+      "english": "domestic student",
+      "chinese": "当地学生"
+    },
+    {
+      "id": "freshman-93",
+      "category_id": "freshman",
+      "english": "overseas student",
+      "chinese": "留学生"
+    },
+    {
+      "id": "freshman-94",
+      "category_id": "freshman",
+      "english": "international student",
+      "chinese": "国际学生",
+      "tips": "E overseas 结尾 本 身 就 带 s， 考 试 当 中 注意 词组 overseas students 会 连 读 ， 中 间 的 两 个 s 只 读 一 个 ， 但 是 前 面 一 个 单词 结尾 s 必须 要 写 。"
+    },
+    {
+      "id": "freshman-95",
+      "category_id": "freshman",
+      "english": "transfer student",
+      "chinese": "转校生"
+    },
+    {
+      "id": "freshman-96",
+      "category_id": "freshman",
+      "english": "adult student",
+      "chinese": "成年学生"
+    },
+    {
+      "id": "freshman-97",
+      "category_id": "freshman",
+      "english": "mature student",
+      "chinese": "成年学生"
+    },
+    {
+      "id": "freshman-98",
+      "category_id": "freshman",
+      "english": "undergraduate",
+      "chinese": "本科生",
+      "ipa": ",ando'gradzuit"
+    },
+    {
+      "id": "freshman-99",
+      "category_id": "freshman",
+      "english": "postgraduate",
+      "chinese": "研究生",
+      "ipa": ",paust'gradjuit"
+    },
+    {
+      "id": "freshman-100",
+      "category_id": "freshman",
+      "english": "second-year student",
+      "chinese": "大二学后〈英",
+      "tips": "first-year student 人 一 学 生 (aR) ※ 注 意 连 字符 不 要 瑟 记 哦 。"
+    },
+    {
+      "id": "freshman-101",
+      "category_id": "freshman",
+      "english": "junior",
+      "chinese": "大三学生",
+      "ipa": "dyu:nia",
+      "tips": "注 意 连 字符 不 要 蕊 记 哦 。"
+    },
+    {
+      "id": "freshman-102",
+      "category_id": "freshman",
+      "english": "third-year student",
+      "chinese": "大三学生"
+    },
+    {
+      "id": "freshman-103",
+      "category_id": "freshman",
+      "english": "senior",
+      "chinese": "大四学生",
+      "ipa": "sinio",
+      "tips": "兴 注 意 连 字符 不 要 未 记 哦 。"
+    },
+    {
+      "id": "freshman-104",
+      "category_id": "freshman",
+      "english": "forth-year student",
+      "chinese": "大四学生"
+    },
+    {
+      "id": "freshman-105",
+      "category_id": "freshman",
+      "english": "full-time student",
+      "chinese": "全日制学生",
+      "tips": "注 意 连 字符 不 要 芒 记 哦 。"
+    },
+    {
+      "id": "freshman-106",
+      "category_id": "freshman",
+      "english": "part-time student",
+      "chinese": "兼职学生"
+    },
+    {
+      "id": "school-life-1",
+      "category_id": "school-life",
+      "english": "major",
+      "chinese": "专业",
+      "ipa": "‘meidza"
+    },
+    {
+      "id": "school-life-2",
+      "category_id": "school-life",
+      "english": "major",
+      "chinese": "主修"
+    },
+    {
+      "id": "school-life-3",
+      "category_id": "school-life",
+      "english": "specialise",
+      "chinese": "专攻，主修"
+    },
+    {
+      "id": "school-life-4",
+      "category_id": "school-life",
+      "english": "subject",
+      "chinese": "专业",
+      "ipa": "sAbdzikt"
+    },
+    {
+      "id": "school-life-5",
+      "category_id": "school-life",
+      "english": "specialty",
+      "chinese": "专业",
+      "ipa": "‘spefalti"
+    },
+    {
+      "id": "school-life-6",
+      "category_id": "school-life",
+      "english": "sku",
+      "chinese": "学院"
+    },
+    {
+      "id": "school-life-7",
+      "category_id": "school-life",
+      "english": "school of Arts",
+      "chinese": "文学院"
+    },
+    {
+      "id": "school-life-8",
+      "category_id": "school-life",
+      "english": "school of Sciences",
+      "chinese": "理学院"
+    },
+    {
+      "id": "school-life-9",
+      "category_id": "school-life",
+      "english": "school of",
+      "chinese": "法学院"
+    },
+    {
+      "id": "school-life-10",
+      "category_id": "school-life",
+      "english": "department store",
+      "chinese": "百货公司"
+    },
+    {
+      "id": "school-life-11",
+      "category_id": "school-life",
+      "english": "division",
+      "chinese": "部门",
+      "ipa": "di'vizgon"
+    },
+    {
+      "id": "school-life-12",
+      "category_id": "school-life",
+      "english": "compulsory course",
+      "chinese": "必修课"
+    },
+    {
+      "id": "school-life-13",
+      "category_id": "school-life",
+      "english": "required course",
+      "chinese": "必修课"
+    },
+    {
+      "id": "school-life-14",
+      "category_id": "school-life",
+      "english": "selective course",
+      "chinese": "选修课"
+    },
+    {
+      "id": "school-life-15",
+      "category_id": "school-life",
+      "english": "optional course",
+      "chinese": "选修课"
+    },
+    {
+      "id": "school-life-16",
+      "category_id": "school-life",
+      "english": "modular course",
+      "chinese": "单元课程"
+    },
+    {
+      "id": "school-life-17",
+      "category_id": "school-life",
+      "english": "advanced course",
+      "chinese": "高级课程"
+    },
+    {
+      "id": "school-life-18",
+      "category_id": "school-life",
+      "english": "intermediate course",
+      "chinese": "中级课程"
+    },
+    {
+      "id": "school-life-19",
+      "category_id": "school-life",
+      "english": "beginning course",
+      "chinese": "初级课程"
+    },
+    {
+      "id": "school-life-20",
+      "category_id": "school-life",
+      "english": "basic course",
+      "chinese": "入门课程"
+    },
+    {
+      "id": "school-life-21",
+      "category_id": "school-life",
+      "english": "intensive course",
+      "chinese": "强化课"
+    },
+    {
+      "id": "school-life-22",
+      "category_id": "school-life",
+      "english": "refresher course",
+      "chinese": "进修课"
+    },
+    {
+      "id": "school-life-23",
+      "category_id": "school-life",
+      "english": "specialised course",
+      "chinese": "去业课"
+    },
+    {
+      "id": "school-life-24",
+      "category_id": "school-life",
+      "english": "extra-curriculum",
+      "chinese": "课外"
+    },
+    {
+      "id": "school-life-25",
+      "category_id": "school-life",
+      "english": "extra-curriculum activity",
+      "chinese": "课外活动"
+    },
+    {
+      "id": "school-life-26",
+      "category_id": "school-life",
+      "english": "after-school activity",
+      "chinese": "课外活动"
+    },
+    {
+      "id": "school-life-27",
+      "category_id": "school-life",
+      "english": "lecture",
+      "chinese": "授课",
+      "ipa": "Icktfo"
+    },
+    {
+      "id": "school-life-28",
+      "category_id": "school-life",
+      "english": "workshop",
+      "chinese": "研讨会",
+      "ipa": "‘wa:kfop"
+    },
+    {
+      "id": "school-life-29",
+      "category_id": "school-life",
+      "english": "tutorial",
+      "chinese": "个人辅导课程",
+      "ipa": "tju:'to:rial"
+    },
+    {
+      "id": "school-life-30",
+      "category_id": "school-life",
+      "english": "group discussion",
+      "chinese": "小组讨论"
+    },
+    {
+      "id": "school-life-31",
+      "category_id": "school-life",
+      "english": "syllabus",
+      "chinese": "教学大纲",
+      "ipa": "silobas"
+    },
+    {
+      "id": "school-life-32",
+      "category_id": "school-life",
+      "english": "study",
+      "chinese": "学习，研究",
+      "ipa": "stadi"
+    },
+    {
+      "id": "school-life-33",
+      "category_id": "school-life",
+      "english": "environmental studies",
+      "chinese": "环境学",
+      "tips": "为 学 科 名 称 出 现 的 时 候 是 复数 ， 不 要 坊 记 加 s。"
+    },
+    {
+      "id": "school-life-34",
+      "category_id": "school-life",
+      "english": "business studies",
+      "chinese": "商业研究"
+    },
+    {
+      "id": "school-life-35",
+      "category_id": "school-life",
+      "english": "Advanced English Studies",
+      "chinese": "高级英语学"
+    },
+    {
+      "id": "school-life-36",
+      "category_id": "school-life",
+      "english": "case study",
+      "chinese": "案例分析"
+    },
+    {
+      "id": "school-life-37",
+      "category_id": "school-life",
+      "english": "study aids",
+      "chinese": "教具"
+    },
+    {
+      "id": "school-life-38",
+      "category_id": "school-life",
+      "english": "term",
+      "chinese": "学期",
+      "ipa": "te:m"
+    },
+    {
+      "id": "school-life-39",
+      "category_id": "school-life",
+      "english": "end of term",
+      "chinese": "学期末"
+    },
+    {
+      "id": "school-life-40",
+      "category_id": "school-life",
+      "english": "an academic year",
+      "chinese": "一学年"
+    },
+    {
+      "id": "school-life-41",
+      "category_id": "school-life",
+      "english": "academic study",
+      "chinese": "学术研究"
+    },
+    {
+      "id": "school-life-42",
+      "category_id": "school-life",
+      "english": "academic circle",
+      "chinese": "学术界"
+    },
+    {
+      "id": "school-life-43",
+      "category_id": "school-life",
+      "english": "academic record",
+      "chinese": "学习成绩"
+    },
+    {
+      "id": "school-life-44",
+      "category_id": "school-life",
+      "english": "academic writing",
+      "chinese": "学术著作"
+    },
+    {
+      "id": "school-life-45",
+      "category_id": "school-life",
+      "english": "discipline",
+      "chinese": "学科",
+      "ipa": "‘disiplin",
+      "tips": "ER academic 这 个 单词 出 现 的 时 候 会 有 存 音 的 现象 。"
+    },
+    {
+      "id": "school-life-46",
+      "category_id": "school-life",
+      "english": "psychology",
+      "chinese": "心理学",
+      "ipa": "sai kolod3i",
+      "tips": "ARR SIAN s, WE s 才 表 示 文 科 哦"
+    },
+    {
+      "id": "school-life-47",
+      "category_id": "school-life",
+      "english": "psychologist",
+      "chinese": "心理学家",
+      "ipa": "sai’kolodzist"
+    },
+    {
+      "id": "school-life-48",
+      "category_id": "school-life",
+      "english": "psychological",
+      "chinese": "心里的",
+      "ipa": "saika'lodzikal"
+    },
+    {
+      "id": "school-life-49",
+      "category_id": "school-life",
+      "english": "psychological problem",
+      "chinese": "心里问题"
+    },
+    {
+      "id": "school-life-50",
+      "category_id": "school-life",
+      "english": "geological feature",
+      "chinese": "地质特征"
+    },
+    {
+      "id": "school-life-51",
+      "category_id": "school-life",
+      "english": "biology",
+      "chinese": "生物学",
+      "ipa": "bai'slodzi",
+      "tips": "plateau (fala), cliff (RAE), plain CFR) 都 是 地 址 特征 ， 考 试 中 都 曾 作为 地 质 特 征 的"
+    },
+    {
+      "id": "school-life-52",
+      "category_id": "school-life",
+      "english": "archaeology",
+      "chinese": "考古学",
+      "ipa": ",a:ki‘slodzi"
+    },
+    {
+      "id": "school-life-53",
+      "category_id": "school-life",
+      "english": "linguistics",
+      "chinese": "语言学",
+      "ipa": "lin gwistiks",
+      "tips": "IPS: ix 4% 2% BL 4% BK: sociology, psychology, physiology, geology, biology, microbiology, anthropology, archaeology 全 部 都 是 以 -ology Ae, KATE PINAR) LITER"
+    },
+    {
+      "id": "school-life-54",
+      "category_id": "school-life",
+      "english": "sociolinguistics",
+      "chinese": "社会语言学",
+      "ipa": ",soufioulin'gwistiks"
+    },
+    {
+      "id": "school-life-55",
+      "category_id": "school-life",
+      "english": "statistics",
+      "chinese": "统计学",
+      "ipa": "sto'tistiks"
+    },
+    {
+      "id": "school-life-56",
+      "category_id": "school-life",
+      "english": "economy",
+      "chinese": "经济",
+      "ipa": "i'konomi"
+    },
+    {
+      "id": "school-life-57",
+      "category_id": "school-life",
+      "english": "economic",
+      "chinese": "经济的",
+      "ipa": "i:ko'nomik"
+    },
+    {
+      "id": "school-life-58",
+      "category_id": "school-life",
+      "english": "economical",
+      "chinese": "节俭的，合算的",
+      "ipa": "i:ko’nomikal"
+    },
+    {
+      "id": "school-life-59",
+      "category_id": "school-life",
+      "english": "physics",
+      "chinese": "物理学",
+      "ipa": "fiziks",
+      "tips": "IER: economic 指 的 是 与 经 济 有 关 的 ，e.8,: economic policy〈 经 济 政策 )，economical 指 的 是 经 济 实惠 的 ，e.g. an economical use ofland〈 经 济 合理 的 使 用 十 地 )。"
+    },
+    {
+      "id": "school-life-60",
+      "category_id": "school-life",
+      "english": "literature review",
+      "chinese": "文献综述",
+      "tips": "IPS: 注意 这 些 学 科 名 称 ， linguistics，sociolinguistics，politics，statistics，cconomics，physics 全 部 都 是 以 -ics HB, TRS, PE RICAN sp"
+    },
+    {
+      "id": "school-life-61",
+      "category_id": "school-life",
+      "english": "architect",
+      "chinese": "建筑师",
+      "ipa": "qikitekt"
+    },
+    {
+      "id": "school-life-62",
+      "category_id": "school-life",
+      "english": "agriculture",
+      "chinese": "农学",
+      "ipa": "egrikaltfo"
+    },
+    {
+      "id": "school-life-63",
+      "category_id": "school-life",
+      "english": "marketing",
+      "chinese": "市场营销学",
+      "ipa": "ma:kitiD",
+      "tips": "IPS: 这 些 学 科 名 称 :literature, architecture, agriculture 都 是 以 -ture 结尾 ， 大 家 可 以 放 到 一 ※ 考 试 中 出 现 过 对 职业 的 描述 ,speaker Wt: I’m an cngineer by profession. ¢£1X # by profession 的 意思 是 “职业 是 \"。 比 方 说 “我 的 职业 是 老师 >， 可 以 说 : I’ma tcacher by profession. KA"
+    },
+    {
+      "id": "school-life-64",
+      "category_id": "school-life",
+      "english": "marketing management",
+      "chinese": "市场营销学"
+    },
+    {
+      "id": "school-life-65",
+      "category_id": "school-life",
+      "english": "accounting",
+      "chinese": "会计学",
+      "ipa": "3 kauntin"
+    },
+    {
+      "id": "school-life-66",
+      "category_id": "school-life",
+      "english": "accountancy",
+      "chinese": "会计学",
+      "ipa": "skauntensi"
+    },
+    {
+      "id": "school-life-67",
+      "category_id": "school-life",
+      "english": "accountant",
+      "chinese": "会计",
+      "ipa": "a'kauntont"
+    },
+    {
+      "id": "school-life-68",
+      "category_id": "school-life",
+      "english": "computing",
+      "chinese": "计算机",
+      "ipa": "kom'pju:t"
+    },
+    {
+      "id": "school-life-69",
+      "category_id": "school-life",
+      "english": "philosophy",
+      "chinese": "哲学",
+      "ipa": "fi'losefi",
+      "tips": "IPS: k#¢#+4 MH: enginecring, marketing, accounting, computing, nursing 都 是 以 -ting 结尾 ， 大 家 可 以 放 到 一 起 来 背 。"
+    },
+    {
+      "id": "school-life-70",
+      "category_id": "school-life",
+      "english": "geography",
+      "chinese": "地理",
+      "ipa": "d3i'ografi"
+    },
+    {
+      "id": "school-life-71",
+      "category_id": "school-life",
+      "english": "financial",
+      "chinese": "财政的，金融的",
+      "ipa": "fo'nzenfal"
+    },
+    {
+      "id": "school-life-72",
+      "category_id": "school-life",
+      "english": "local history",
+      "chinese": "当地历史"
+    },
+    {
+      "id": "school-life-73",
+      "category_id": "school-life",
+      "english": "medical history",
+      "chinese": "疾疙风"
+    },
+    {
+      "id": "school-life-74",
+      "category_id": "school-life",
+      "english": "historical interest",
+      "chinese": "名胜古迹"
+    },
+    {
+      "id": "school-life-75",
+      "category_id": "school-life",
+      "english": "environment {in'",
+      "chinese": "环境"
+    },
+    {
+      "id": "school-life-76",
+      "category_id": "school-life",
+      "english": "environmental",
+      "chinese": "环境的",
+      "ipa": "in vaisran'mentl"
+    },
+    {
+      "id": "school-life-77",
+      "category_id": "school-life",
+      "english": "environmental studies",
+      "chinese": "环境学"
+    },
+    {
+      "id": "school-life-78",
+      "category_id": "school-life",
+      "english": "environmental-friendly",
+      "chinese": "环保的"
+    },
+    {
+      "id": "school-life-79",
+      "category_id": "school-life",
+      "english": "business",
+      "chinese": "商学",
+      "ipa": "biznis",
+      "tips": "很 有 亮点 的 小 词 ， 用 到 作文 或 口语 中 可 以 加 分 ， 类 似 常用 的 合成 词 还 有 consumer-friendly (便于 消费 者 使 用 的 )，user-friendly《〈 易 于 操作 的 )。"
+    },
+    {
+      "id": "school-life-80",
+      "category_id": "school-life",
+      "english": "international business",
+      "chinese": "国际贸易"
+    },
+    {
+      "id": "school-life-81",
+      "category_id": "school-life",
+      "english": "paper",
+      "chinese": "论文",
+      "ipa": "peips"
+    },
+    {
+      "id": "school-life-82",
+      "category_id": "school-life",
+      "english": "dissertation",
+      "chinese": "毕业论文，博士论文",
+      "ipa": "diso'teifon",
+      "tips": "复 数 papers， 注 意 这 个 词 也 可 以 表示 报纸 ，paper=newspaper。 ※ 复 数 theses."
+    },
+    {
+      "id": "school-life-83",
+      "category_id": "school-life",
+      "english": "dissertation tutorial",
+      "chinese": "论文辅导"
+    },
+    {
+      "id": "school-life-84",
+      "category_id": "school-life",
+      "english": "report",
+      "chinese": "报告"
+    },
+    {
+      "id": "school-life-85",
+      "category_id": "school-life",
+      "english": "report writing",
+      "chinese": "报告撰写"
+    },
+    {
+      "id": "school-life-86",
+      "category_id": "school-life",
+      "english": "reporter",
+      "chinese": "记者",
+      "ipa": "ri'po:ta"
+    },
+    {
+      "id": "school-life-87",
+      "category_id": "school-life",
+      "english": "conference reports",
+      "chinese": "会议报告"
+    },
+    {
+      "id": "school-life-88",
+      "category_id": "school-life",
+      "english": "study report",
+      "chinese": "研究报告"
+    },
+    {
+      "id": "school-life-89",
+      "category_id": "school-life",
+      "english": "academic report",
+      "chinese": "学术报告"
+    },
+    {
+      "id": "school-life-90",
+      "category_id": "school-life",
+      "english": "annual report",
+      "chinese": "年度报告"
+    },
+    {
+      "id": "school-life-91",
+      "category_id": "school-life",
+      "english": "report to",
+      "chinese": "报警"
+    },
+    {
+      "id": "school-life-92",
+      "category_id": "school-life",
+      "english": "case study",
+      "chinese": "案例分析"
+    },
+    {
+      "id": "school-life-93",
+      "category_id": "school-life",
+      "english": "written work",
+      "chinese": "书面作业"
+    },
+    {
+      "id": "school-life-94",
+      "category_id": "school-life",
+      "english": "oral work",
+      "chinese": "口头作业"
+    },
+    {
+      "id": "school-life-95",
+      "category_id": "school-life",
+      "english": "course work",
+      "chinese": "课程作业"
+    },
+    {
+      "id": "school-life-96",
+      "category_id": "school-life",
+      "english": "Introduction",
+      "chinese": "序言，导论。这部分主要包含整片文章内容的概括"
+    },
+    {
+      "id": "school-life-97",
+      "category_id": "school-life",
+      "english": "Mecthodology DRE. ik ial EH method",
+      "chinese": "演必过来的，大家可",
+      "tips": "文章 框架 结构 的 介绍 , 有 的 文章 会 在 这 部 分 包含 对 论 Literature review 文献 综述 。 这 部 分 主要 介绍 其 他 researcher 到 目前 为 止 对 领域 所 做 的 一 些 调查 研究 (previous studies) 和 研究 结果 (results and findings) 进行 汇总 ， 但 是 一 般 学 生 不 能 只 是 单纯 的 罗列 实验 成 果 , 通常 需要 学 生 辩 WEA 4) HT (critically analyse)， 可 以 对 实验 过 程 进行 适当 的 分 析 ， 或 者 对 不 同 实验 当中 的 手法 进行 对 比 ， 也 可 对 实验 结果 进行 分 类 等 等 , 这 些 能 力 是 国外 寻 师 | | 非常 看 重 的 ， 也 是 一 片 文章 中 的 亮点 。"
+    },
+    {
+      "id": "school-life-98",
+      "category_id": "school-life",
+      "english": "Conclusion",
+      "chinese": "结论。对文章进行总结，也可提出一些文章的局限性",
+      "tips": "以 放 到 一 起 来 寄 , 在 剑桥 题 日 中 这 山 个 单词 曾经 也 作 为 蔡 换 词 出 项 ， 具 体 的 研究 方法 包括 ， 调 查 问卷 (questionnaire), Vj (intervicw )，obscrvation 〈 观 Research findings 研究 结果 分 析 ， 也 是 论文 的 main body 部 分 。"
+    },
+    {
+      "id": "school-life-99",
+      "category_id": "school-life",
+      "english": "index",
+      "chinese": "六索引",
+      "ipa": "indeks",
+      "tips": "(limitations) 或 者 建议 (suggestions) 等 。"
+    },
+    {
+      "id": "school-life-100",
+      "category_id": "school-life",
+      "english": "keyword",
+      "chinese": "关键词",
+      "ipa": "ki:wo:d"
+    },
+    {
+      "id": "school-life-101",
+      "category_id": "school-life",
+      "english": "summary",
+      "chinese": "概要",
+      "ipa": "‘samori"
+    },
+    {
+      "id": "school-life-102",
+      "category_id": "school-life",
+      "english": "summarise",
+      "chinese": "总结",
+      "ipa": "’samoraiz"
+    },
+    {
+      "id": "school-life-103",
+      "category_id": "school-life",
+      "english": "title",
+      "chinese": "标题"
+    },
+    {
+      "id": "school-life-104",
+      "category_id": "school-life",
+      "english": "subtitle",
+      "chinese": "副标题，字幕",
+      "ipa": "sAb taitl"
+    },
+    {
+      "id": "school-life-105",
+      "category_id": "school-life",
+      "english": "subheading",
+      "chinese": "副标题",
+      "ipa": "sab hedin"
+    },
+    {
+      "id": "school-life-106",
+      "category_id": "school-life",
+      "english": "outline",
+      "chinese": "提纲",
+      "ipa": "autlain"
+    },
+    {
+      "id": "school-life-107",
+      "category_id": "school-life",
+      "english": "handout",
+      "chinese": "讲义",
+      "ipa": "handaut"
+    },
+    {
+      "id": "school-life-108",
+      "category_id": "school-life",
+      "english": "teaching material",
+      "chinese": "讲义"
+    },
+    {
+      "id": "school-life-109",
+      "category_id": "school-life",
+      "english": "worksheet",
+      "chinese": "工作记录表",
+      "ipa": "wa:kfi:t"
+    },
+    {
+      "id": "school-life-110",
+      "category_id": "school-life",
+      "english": "theoretical background",
+      "chinese": "理论背景",
+      "tips": "真 题 中 有 个 选择 题 把 handout (FW worksheet 作为 同义词 考察 ， 大 家 注意 这 两 个 词 都 可 以"
+    },
+    {
+      "id": "school-life-111",
+      "category_id": "school-life",
+      "english": "purpose",
+      "chinese": "目的",
+      "ipa": "pa:pas"
+    },
+    {
+      "id": "school-life-112",
+      "category_id": "school-life",
+      "english": "goal",
+      "chinese": "目的",
+      "ipa": "goul"
+    },
+    {
+      "id": "school-life-113",
+      "category_id": "school-life",
+      "english": "area",
+      "chinese": "部分",
+      "ipa": "seri3"
+    },
+    {
+      "id": "school-life-114",
+      "category_id": "school-life",
+      "english": "review",
+      "chinese": "评论"
+    },
+    {
+      "id": "school-life-115",
+      "category_id": "school-life",
+      "english": "review of literature",
+      "chinese": "文献综述"
+    },
+    {
+      "id": "school-life-116",
+      "category_id": "school-life",
+      "english": "teaching method",
+      "chinese": "教学方法"
+    },
+    {
+      "id": "school-life-117",
+      "category_id": "school-life",
+      "english": "assessment method",
+      "chinese": "评估方法"
+    },
+    {
+      "id": "school-life-118",
+      "category_id": "school-life",
+      "english": "payment method",
+      "chinese": "付款方式"
+    },
+    {
+      "id": "school-life-119",
+      "category_id": "school-life",
+      "english": "selection method",
+      "chinese": "选择方法"
+    },
+    {
+      "id": "school-life-120",
+      "category_id": "school-life",
+      "english": "research method",
+      "chinese": "研究方法"
+    },
+    {
+      "id": "school-life-121",
+      "category_id": "school-life",
+      "english": "key approach",
+      "chinese": "主要方法"
+    },
+    {
+      "id": "school-life-122",
+      "category_id": "school-life",
+      "english": "skill",
+      "chinese": "方法，技巧",
+      "ipa": "ski:"
+    },
+    {
+      "id": "school-life-123",
+      "category_id": "school-life",
+      "english": "tactic",
+      "chinese": "战略，技巧",
+      "ipa": "‘tacktik"
+    },
+    {
+      "id": "school-life-124",
+      "category_id": "school-life",
+      "english": "reference material",
+      "chinese": "参考资料",
+      "tips": "注 意 ， 这 三 个 词 经 常 在 听力 中 作为 蔡 换 词 出 现"
+    },
+    {
+      "id": "school-life-125",
+      "category_id": "school-life",
+      "english": "reference list",
+      "chinese": "参考书日"
+    },
+    {
+      "id": "school-life-126",
+      "category_id": "school-life",
+      "english": "well-organised",
+      "chinese": "结构很好",
+      "tips": "可 数 名 词 ， 复 数 是 references。reference 和 bibliography 虽然 都 表示 参考 书目 ， 但 是 这 两 种 之 间 有 一 些 区 分 ,如 果 在 一 篇 论文 中 引用 到 其 他 书 里 面 坐 着 提 到 的 观点 , 或 者 直接 引用 作者 原文 的 时 候 需 要 把 作者 信息 和 数 名 放 到 reference list 里 面 , 对 于 那些 广泛 参考 阅读 而 没有 引 用 观点 或 者 原 句 的 文章 信息 放 在 bibliography 里 面 就 可 以 了 。 参考 文献 的 引用 是 论文 撰写 中 很 重要 的 一 部 分 ， 也 是 学 生 论 文 撰写 能 力 的 体现 ， 恰 当 正 确 的 引用 可 以 使 文章 更 具有 说 服 力 ， 使 论证 言 之 有 物 。 通 常 导师 会 建议 学 生 引 用 权 威 书籍 杂志 等 的 信息 ， 有 时 也 会 对 出 版 年 代 有 所 要 求 ， 比 如 引用 刊物 大 多 要 是 1980 年 以 后 出 版 的 。"
+    },
+    {
+      "id": "school-life-127",
+      "category_id": "school-life",
+      "english": "presentation",
+      "chinese": "演讲",
+      "ipa": "prezon'teifon"
+    },
+    {
+      "id": "school-life-128",
+      "category_id": "school-life",
+      "english": "presentation skill",
+      "chinese": "演讲技巧"
+    },
+    {
+      "id": "school-life-129",
+      "category_id": "school-life",
+      "english": "white board",
+      "chinese": "白板"
+    },
+    {
+      "id": "school-life-130",
+      "category_id": "school-life",
+      "english": "draft",
+      "chinese": "草稿",
+      "ipa": "dra:ft"
+    },
+    {
+      "id": "school-life-131",
+      "category_id": "school-life",
+      "english": "duration",
+      "chinese": "期限",
+      "ipa": "djuo'reifon"
+    },
+    {
+      "id": "school-life-132",
+      "category_id": "school-life",
+      "english": "due",
+      "chinese": "到期的",
+      "ipa": "dju:"
+    },
+    {
+      "id": "school-life-133",
+      "category_id": "school-life",
+      "english": "due date",
+      "chinese": "到期日"
+    },
+    {
+      "id": "school-life-134",
+      "category_id": "school-life",
+      "english": "be",
+      "chinese": "到期"
+    },
+    {
+      "id": "school-life-135",
+      "category_id": "school-life",
+      "english": "overdue auve'dju",
+      "chinese": "过期的"
+    },
+    {
+      "id": "school-life-136",
+      "category_id": "school-life",
+      "english": "extension",
+      "chinese": "/延期",
+      "ipa": "ik'stenfon"
+    },
+    {
+      "id": "school-life-137",
+      "category_id": "school-life",
+      "english": "word",
+      "chinese": "字数",
+      "ipa": "wo:d"
+    },
+    {
+      "id": "school-life-138",
+      "category_id": "school-life",
+      "english": "word limit",
+      "chinese": "字数要求"
+    },
+    {
+      "id": "school-life-139",
+      "category_id": "school-life",
+      "english": "subject",
+      "chinese": "主题",
+      "ipa": "sabdgikt"
+    },
+    {
+      "id": "school-life-140",
+      "category_id": "school-life",
+      "english": "transcript",
+      "chinese": "成绩单",
+      "ipa": "treenskript",
+      "tips": "会 使 用 软件 来 检测 学 生 论 文 与 其 他 文章 之 间 的 相似 度 ， 比 方 说 Turnitin 系统 ， 它 会 用 百分比 的 形式 告诉 你 你 的 论文 与 其 他 论文 之 间 有 多 少 相 似 的 地 方 。 建 议 大 家 写 论 文 的 时 候 一 定 要 注意 ， 如 果 引 用 别人 的 观点 一 点 要 标注 ， 另 外 ， 大 家 还 需要 培养 自己 paraphrase 的 能 力 , 用 自己 的 话 把 别人 的 观点 表达 出 来 。"
+    },
+    {
+      "id": "school-life-141",
+      "category_id": "school-life",
+      "english": "credit f'",
+      "chinese": "学分"
+    },
+    {
+      "id": "school-life-142",
+      "category_id": "school-life",
+      "english": "transfer credit",
+      "chinese": "转学分"
+    },
+    {
+      "id": "school-life-143",
+      "category_id": "school-life",
+      "english": "credit system",
+      "chinese": "学分制"
+    },
+    {
+      "id": "school-life-144",
+      "category_id": "school-life",
+      "english": "mark",
+      "chinese": "分数",
+      "ipa": "ina:k"
+    },
+    {
+      "id": "school-life-145",
+      "category_id": "school-life",
+      "english": "evaluation {i,valju'",
+      "chinese": "评估"
+    },
+    {
+      "id": "school-life-146",
+      "category_id": "school-life",
+      "english": "participation",
+      "chinese": "出勤",
+      "ipa": "pa: tisi'peifan",
+      "tips": "这 两 个 词 可 以 用 来 表示 老师 对 学 生 学 习 情 况 的 评估 或 者 学 生 对 老师 教学 情况 的 评估 。"
+    },
+    {
+      "id": "school-life-147",
+      "category_id": "school-life",
+      "english": "attendance",
+      "chinese": "/出勤率",
+      "ipa": "o'tendons"
+    },
+    {
+      "id": "school-life-148",
+      "category_id": "school-life",
+      "english": "placement test",
+      "chinese": "分班考试"
+    },
+    {
+      "id": "school-life-149",
+      "category_id": "school-life",
+      "english": "quiz",
+      "chinese": "六课堂小测试",
+      "ipa": "kwiz"
+    },
+    {
+      "id": "school-life-150",
+      "category_id": "school-life",
+      "english": "honour",
+      "chinese": "优秀",
+      "ipa": "ono",
+      "tips": "MD: A+ 读 作 Aplus, A- 读 作 A minus."
+    },
+    {
+      "id": "school-life-151",
+      "category_id": "school-life",
+      "english": "fail",
+      "chinese": "不及格",
+      "ipa": "feil"
+    },
+    {
+      "id": "school-life-152",
+      "category_id": "school-life",
+      "english": "fail the exam",
+      "chinese": "挂科"
+    },
+    {
+      "id": "school-life-153",
+      "category_id": "school-life",
+      "english": "failure",
+      "chinese": "不及格",
+      "ipa": "‘feilja"
+    },
+    {
+      "id": "school-life-154",
+      "category_id": "school-life",
+      "english": "risitl",
+      "chinese": "补考"
+    },
+    {
+      "id": "school-life-155",
+      "category_id": "school-life",
+      "english": "sitin",
+      "chinese": "试听"
+    },
+    {
+      "id": "school-life-156",
+      "category_id": "school-life",
+      "english": "drop-out",
+      "chinese": "辍学",
+      "tips": "真 题 中 出 现 过 sit in ona teaching session 的 说 法 ， 表 示 试 听 一 节 课 。"
+    },
+    {
+      "id": "school-life-157",
+      "category_id": "school-life",
+      "english": "drop-out rate",
+      "chinese": "辍学率"
+    },
+    {
+      "id": "school-life-158",
+      "category_id": "school-life",
+      "english": "incomplete",
+      "chinese": "未完成的",
+      "ipa": ",inkam'pli:t"
+    },
+    {
+      "id": "school-life-159",
+      "category_id": "school-life",
+      "english": "proofread",
+      "chinese": "校对",
+      "ipa": "pru:f ri:d"
+    },
+    {
+      "id": "school-life-160",
+      "category_id": "school-life",
+      "english": "data",
+      "chinese": "数据",
+      "ipa": "‘deito",
+      "tips": "对 于 第 一 语言 不 是 英语 的 学 生 来 说 在 国外 写 论 文 会 遇 到 的 一 个 问题 就 是 表达 和 语法 的 问题 ， 如 果 大 家 对 于 上 自己 写 的 论文 是 否 通 畅 ， 表 达 是 否 准 确 没有 信 心 ， 可 以 找 一 个 proofreader 来 帮助 自己 校对 , 不 过 proofreader"
+    },
+    {
+      "id": "school-life-161",
+      "category_id": "school-life",
+      "english": "data analysis",
+      "chinese": "数据分析"
+    },
+    {
+      "id": "school-life-162",
+      "category_id": "school-life",
+      "english": "database",
+      "chinese": "数据库"
+    },
+    {
+      "id": "school-life-163",
+      "category_id": "school-life",
+      "english": "collect data",
+      "chinese": "收集数据"
+    },
+    {
+      "id": "school-life-164",
+      "category_id": "school-life",
+      "english": "survey",
+      "chinese": "调查研究",
+      "ipa": "‘sa:vei"
+    },
+    {
+      "id": "school-life-165",
+      "category_id": "school-life",
+      "english": "investigation",
+      "chinese": "调查研究",
+      "ipa": "in vesti'geifon"
+    },
+    {
+      "id": "school-life-166",
+      "category_id": "school-life",
+      "english": "research methodology",
+      "chinese": "研究方法"
+    },
+    {
+      "id": "school-life-167",
+      "category_id": "school-life",
+      "english": "research instrument",
+      "chinese": "研究手段"
+    },
+    {
+      "id": "school-life-168",
+      "category_id": "school-life",
+      "english": "research results",
+      "chinese": "研究结果"
+    },
+    {
+      "id": "school-life-169",
+      "category_id": "school-life",
+      "english": "independent research",
+      "chinese": "独立研究"
+    },
+    {
+      "id": "school-life-170",
+      "category_id": "school-life",
+      "english": "scientific research",
+      "chinese": "科学研究"
+    },
+    {
+      "id": "school-life-171",
+      "category_id": "school-life",
+      "english": "interview",
+      "chinese": "采访",
+      "ipa": "‘intevju:",
+      "tips": "注 意 单词 拼写 ， 中 间 两 个 n。"
+    },
+    {
+      "id": "school-life-172",
+      "category_id": "school-life",
+      "english": "face-to-face interview",
+      "chinese": "面对面采访"
+    },
+    {
+      "id": "school-life-173",
+      "category_id": "school-life",
+      "english": "telephone interview",
+      "chinese": "电话访问"
+    },
+    {
+      "id": "school-life-174",
+      "category_id": "school-life",
+      "english": "fieldtrip",
+      "chinese": "实地考察"
+    },
+    {
+      "id": "school-life-175",
+      "category_id": "school-life",
+      "english": "sample",
+      "chinese": "抽样样本",
+      "ipa": "‘sempl"
+    },
+    {
+      "id": "school-life-176",
+      "category_id": "school-life",
+      "english": "interviewer",
+      "chinese": "采访者，面试官",
+      "ipa": "intevju:o"
+    },
+    {
+      "id": "school-life-177",
+      "category_id": "school-life",
+      "english": "interviewee",
+      "chinese": "受访者",
+      "ipa": "intarvju:i:"
+    },
+    {
+      "id": "school-life-178",
+      "category_id": "school-life",
+      "english": "respondent",
+      "chinese": "回答者",
+      "ipa": "ri'spondont"
+    },
+    {
+      "id": "school-life-179",
+      "category_id": "school-life",
+      "english": "participant",
+      "chinese": "参与者",
+      "ipa": "pda''tisipsnt"
+    },
+    {
+      "id": "school-life-180",
+      "category_id": "school-life",
+      "english": "random selection",
+      "chinese": "随机挑选"
+    },
+    {
+      "id": "school-life-181",
+      "category_id": "school-life",
+      "english": "aim",
+      "chinese": "目的"
+    },
+    {
+      "id": "school-life-182",
+      "category_id": "school-life",
+      "english": "headmaster",
+      "chinese": "中小学)校区",
+      "ipa": "hed’ ma:sto"
+    },
+    {
+      "id": "school-life-183",
+      "category_id": "school-life",
+      "english": "vice-president",
+      "chinese": "副校长"
+    },
+    {
+      "id": "school-life-184",
+      "category_id": "school-life",
+      "english": "dean",
+      "chinese": "系主任，学院院长",
+      "ipa": "di:n"
+    },
+    {
+      "id": "school-life-185",
+      "category_id": "school-life",
+      "english": "professor",
+      "chinese": "/教授",
+      "ipa": "pra'fesa"
+    },
+    {
+      "id": "school-life-186",
+      "category_id": "school-life",
+      "english": "associate professor",
+      "chinese": "副教授"
+    },
+    {
+      "id": "school-life-187",
+      "category_id": "school-life",
+      "english": "assistant professor",
+      "chinese": "助理教授"
+    },
+    {
+      "id": "school-life-188",
+      "category_id": "school-life",
+      "english": "tutor",
+      "chinese": "导师",
+      "ipa": "iu:te"
+    },
+    {
+      "id": "school-life-189",
+      "category_id": "school-life",
+      "english": "tutorial",
+      "chinese": "辅导课程",
+      "ipa": "tjusto:riol"
+    },
+    {
+      "id": "school-life-190",
+      "category_id": "school-life",
+      "english": "chancellor",
+      "chinese": "名誉校长，教育官员",
+      "ipa": "Ua:nsolo"
+    },
+    {
+      "id": "school-life-191",
+      "category_id": "school-life",
+      "english": "advisor",
+      "chinese": "导师",
+      "ipa": "ed'vaize"
+    },
+    {
+      "id": "school-life-192",
+      "category_id": "school-life",
+      "english": "mentor",
+      "chinese": "导师",
+      "ipa": "mcnte"
+    },
+    {
+      "id": "school-life-193",
+      "category_id": "school-life",
+      "english": "instructor",
+      "chinese": "讲师，教师",
+      "ipa": "in'strakto"
+    },
+    {
+      "id": "school-life-194",
+      "category_id": "school-life",
+      "english": "head",
+      "chinese": "主任",
+      "ipa": "hed"
+    },
+    {
+      "id": "school-life-195",
+      "category_id": "school-life",
+      "english": "counselor",
+      "chinese": "顾问",
+      "ipa": "‘kaunsalo"
+    },
+    {
+      "id": "school-life-196",
+      "category_id": "school-life",
+      "english": "consultant",
+      "chinese": "顾问",
+      "ipa": "kon'saltont"
+    },
+    {
+      "id": "school-life-197",
+      "category_id": "school-life",
+      "english": "expert",
+      "chinese": "专家",
+      "ipa": "‘ekspa:t"
+    },
+    {
+      "id": "school-life-198",
+      "category_id": "school-life",
+      "english": "expertise",
+      "chinese": "专业知识",
+      "ipa": "ekspo:'ti:z"
+    },
+    {
+      "id": "school-life-199",
+      "category_id": "school-life",
+      "english": "specialist knowledge",
+      "chinese": "专业知识"
+    },
+    {
+      "id": "school-life-200",
+      "category_id": "school-life",
+      "english": "teaching assistant",
+      "chinese": "助教"
+    },
+    {
+      "id": "school-life-201",
+      "category_id": "school-life",
+      "english": "office assistant",
+      "chinese": "办公室助理"
+    },
+    {
+      "id": "school-life-202",
+      "category_id": "school-life",
+      "english": "research assistant",
+      "chinese": "研究助理"
+    },
+    {
+      "id": "school-life-203",
+      "category_id": "school-life",
+      "english": "library assistant",
+      "chinese": "图书馆员"
+    },
+    {
+      "id": "school-life-204",
+      "category_id": "school-life",
+      "english": "sta:f",
+      "chinese": "全体员工"
+    },
+    {
+      "id": "school-life-205",
+      "category_id": "school-life",
+      "english": "staff member",
+      "chinese": "职员"
+    },
+    {
+      "id": "school-life-206",
+      "category_id": "school-life",
+      "english": "faculty",
+      "chinese": "全体教员",
+      "ipa": "‘fekolti"
+    },
+    {
+      "id": "library-1",
+      "category_id": "library",
+      "english": "newspaper",
+      "chinese": "报纸",
+      "ipa": "‘nju:s peipa"
+    },
+    {
+      "id": "library-2",
+      "category_id": "library",
+      "english": "paper",
+      "chinese": "报纸",
+      "ipa": "‘peipa"
+    },
+    {
+      "id": "library-3",
+      "category_id": "library",
+      "english": "local paper",
+      "chinese": "地方性报纸"
+    },
+    {
+      "id": "library-4",
+      "category_id": "library",
+      "english": "national paper",
+      "chinese": "国家性报纸"
+    },
+    {
+      "id": "library-5",
+      "category_id": "library",
+      "english": "videotape",
+      "chinese": "录像带"
+    },
+    {
+      "id": "library-6",
+      "category_id": "library",
+      "english": "magazine",
+      "chinese": "杂志",
+      "ipa": "msgo zin"
+    },
+    {
+      "id": "library-7",
+      "category_id": "library",
+      "english": "journal",
+      "chinese": "期刊，杂志",
+      "ipa": "‘dgo:nol"
+    },
+    {
+      "id": "library-8",
+      "category_id": "library",
+      "english": "journal article",
+      "chinese": "期刊论文"
+    },
+    {
+      "id": "library-9",
+      "category_id": "library",
+      "english": "journalism",
+      "chinese": "新闻业",
+      "ipa": "\"dzonalizom"
+    },
+    {
+      "id": "library-10",
+      "category_id": "library",
+      "english": "bound volume",
+      "chinese": "合订本",
+      "tips": "journalist |‘dgo:nolist] 7、 记 者 KARE BAX PS BARAT WAGES period 这 个 词 一 起 米 记 ，period 指 的 是 〈 一 段 ) 时 间 ， 加 上 -ical 就 变 成 了 期 刊 一 定期 出 现 的 刊物 。 复 数 是 periodicals."
+    },
+    {
+      "id": "library-11",
+      "category_id": "library",
+      "english": "biography",
+      "chinese": "传记",
+      "ipa": "bai'ogrofi"
+    },
+    {
+      "id": "library-12",
+      "category_id": "library",
+      "english": "textbook",
+      "chinese": "课本，教科书",
+      "ipa": "‘tekstbuk"
+    },
+    {
+      "id": "library-13",
+      "category_id": "library",
+      "english": "key textbook",
+      "chinese": "核心教科书"
+    },
+    {
+      "id": "library-14",
+      "category_id": "library",
+      "english": "current issue",
+      "chinese": "现期期刊"
+    },
+    {
+      "id": "library-15",
+      "category_id": "library",
+      "english": "back issue",
+      "chinese": "过期期刊"
+    },
+    {
+      "id": "library-16",
+      "category_id": "library",
+      "english": "reference materials",
+      "chinese": "参考资料"
+    },
+    {
+      "id": "library-17",
+      "category_id": "library",
+      "english": "reference book",
+      "chinese": "参考书"
+    },
+    {
+      "id": "library-18",
+      "category_id": "library",
+      "english": "reference resources",
+      "chinese": "人参考资料"
+    },
+    {
+      "id": "library-19",
+      "category_id": "library",
+      "english": "fiction",
+      "chinese": "小说",
+      "ipa": "fikfan"
+    },
+    {
+      "id": "library-20",
+      "category_id": "library",
+      "english": "novel",
+      "chinese": "小说",
+      "ipa": "‘noval"
+    },
+    {
+      "id": "library-21",
+      "category_id": "library",
+      "english": "short story",
+      "chinese": "小说"
+    },
+    {
+      "id": "library-22",
+      "category_id": "library",
+      "english": "librarian {lai'",
+      "chinese": "图书管理员"
+    },
+    {
+      "id": "library-23",
+      "category_id": "library",
+      "english": "information desk",
+      "chinese": "问讯处",
+      "tips": "炎 注 意 这 个 单词 的 拼写 ，-ian 结尾 表示 人 。 类 似 单 词 还 有 素食 主义 者 vegctarian。"
+    },
+    {
+      "id": "library-24",
+      "category_id": "library",
+      "english": "inquiry desk",
+      "chinese": "问讯处"
+    },
+    {
+      "id": "library-25",
+      "category_id": "library",
+      "english": "delivery desk",
+      "chinese": "借书台"
+    },
+    {
+      "id": "library-26",
+      "category_id": "library",
+      "english": "circulation desk",
+      "chinese": "借书台"
+    },
+    {
+      "id": "library-27",
+      "category_id": "library",
+      "english": "seference section",
+      "chinese": "参考书部"
+    },
+    {
+      "id": "library-28",
+      "category_id": "library",
+      "english": "ry card index",
+      "chinese": "凸片索引"
+    },
+    {
+      "id": "library-29",
+      "category_id": "library",
+      "english": "classification",
+      "chinese": "分类",
+      "ipa": "klesifi'keifon"
+    },
+    {
+      "id": "library-30",
+      "category_id": "library",
+      "english": "category",
+      "chinese": "六种类，类别",
+      "ipa": "‘katigori"
+    },
+    {
+      "id": "library-31",
+      "category_id": "library",
+      "english": "close shelves",
+      "chinese": "内架书库"
+    },
+    {
+      "id": "library-32",
+      "category_id": "library",
+      "english": "reference stack",
+      "chinese": "工具书库"
+    },
+    {
+      "id": "library-33",
+      "category_id": "library",
+      "english": "audio-visual resource centre",
+      "chinese": "视听资料室-",
+      "tips": "catalogue NF catalog 两 种 拼写 方式 都 可 以 。 v a > return area 还 书 处 ae sii"
+    },
+    {
+      "id": "library-34",
+      "category_id": "library",
+      "english": "photocopy room",
+      "chinese": "复印室"
+    },
+    {
+      "id": "library-35",
+      "category_id": "library",
+      "english": "photocopier",
+      "chinese": "复印机",
+      "ipa": "feute kopio"
+    },
+    {
+      "id": "library-36",
+      "category_id": "library",
+      "english": "copy machine",
+      "chinese": "复印机"
+    },
+    {
+      "id": "library-37",
+      "category_id": "library",
+      "english": "copier",
+      "chinese": "复印机",
+      "ipa": "kopis"
+    },
+    {
+      "id": "library-38",
+      "category_id": "library",
+      "english": "color copicr",
+      "chinese": "彩色打印机"
+    },
+    {
+      "id": "library-39",
+      "category_id": "library",
+      "english": "printer",
+      "chinese": "打印机",
+      "ipa": "printe"
+    },
+    {
+      "id": "library-40",
+      "category_id": "library",
+      "english": "laptop",
+      "chinese": "笔记本电脑",
+      "ipa": "aptop"
+    },
+    {
+      "id": "library-41",
+      "category_id": "library",
+      "english": "scanner",
+      "chinese": "扫描仪",
+      "ipa": "skeeno"
+    },
+    {
+      "id": "library-42",
+      "category_id": "library",
+      "english": "interlibrary service",
+      "chinese": "图书馆及服务"
+    },
+    {
+      "id": "library-43",
+      "category_id": "library",
+      "english": "internet access",
+      "chinese": "网络接入"
+    },
+    {
+      "id": "library-44",
+      "category_id": "library",
+      "english": "digital system",
+      "chinese": "数字系统"
+    },
+    {
+      "id": "library-45",
+      "category_id": "library",
+      "english": "computer terminal",
+      "chinese": "电脑终端"
+    },
+    {
+      "id": "library-46",
+      "category_id": "library",
+      "english": "publisher",
+      "chinese": "出版者，发行人",
+      "ipa": "pablifo",
+      "tips": "上 SS Wey’ i) lj \" be f 7 if"
+    },
+    {
+      "id": "library-47",
+      "category_id": "library",
+      "english": "press",
+      "chinese": "出版社，新闻",
+      "ipa": "pres"
+    },
+    {
+      "id": "library-48",
+      "category_id": "library",
+      "english": "press conference",
+      "chinese": "新闻发布会"
+    },
+    {
+      "id": "library-49",
+      "category_id": "library",
+      "english": "Oxford University Press",
+      "chinese": "牛津大学出版社"
+    },
+    {
+      "id": "library-50",
+      "category_id": "library",
+      "english": "Cambridge University Press",
+      "chinese": "剑桥大学出版社"
+    },
+    {
+      "id": "library-51",
+      "category_id": "library",
+      "english": "library card",
+      "chinese": "借书卡"
+    },
+    {
+      "id": "library-52",
+      "category_id": "library",
+      "english": "admission card",
+      "chinese": "借书卡"
+    },
+    {
+      "id": "library-53",
+      "category_id": "library",
+      "english": "passport photo",
+      "chinese": "护照照片"
+    },
+    {
+      "id": "library-54",
+      "category_id": "library",
+      "english": "bank statement",
+      "chinese": "银行对账单"
+    },
+    {
+      "id": "library-55",
+      "category_id": "library",
+      "english": "student card",
+      "chinese": "学生证",
+      "tips": "ERMPH-TER ERT TAWA ABE A TEA, 当 询 问 办 理 借 书 卡 需要 携带 的 证 明 身 份 的 证 件 时 ， 图 书 管 工 作 人 员 说 可 以 携带 银行 对 账单 ,因为 对 账单 上 一 般 会 有 地 址 及 个 人 信息 。"
+    },
+    {
+      "id": "library-56",
+      "category_id": "library",
+      "english": "callslip",
+      "chinese": "索书单"
+    },
+    {
+      "id": "library-57",
+      "category_id": "library",
+      "english": "checklist",
+      "chinese": "选忆清单"
+    },
+    {
+      "id": "library-58",
+      "category_id": "library",
+      "english": "index",
+      "chinese": "索引",
+      "ipa": "indcks"
+    },
+    {
+      "id": "library-59",
+      "category_id": "library",
+      "english": "bibliography",
+      "chinese": "参考文献",
+      "ipa": "bibli'ografi"
+    },
+    {
+      "id": "library-60",
+      "category_id": "library",
+      "english": "available",
+      "chinese": "可借阅的，可利用的",
+      "ipa": "a'veilabal"
+    },
+    {
+      "id": "library-61",
+      "category_id": "library",
+      "english": "onthe shelf",
+      "chinese": "在书架上"
+    },
+    {
+      "id": "library-62",
+      "category_id": "library",
+      "english": "loan 2A",
+      "chinese": "借出",
+      "ipa": "loun"
+    },
+    {
+      "id": "library-63",
+      "category_id": "library",
+      "english": "out on loan",
+      "chinese": "已供出"
+    },
+    {
+      "id": "library-64",
+      "category_id": "library",
+      "english": "loan period",
+      "chinese": "截止日期"
+    },
+    {
+      "id": "library-65",
+      "category_id": "library",
+      "english": "circulation",
+      "chinese": "流通",
+      "ipa": ",so:kju'leifon"
+    },
+    {
+      "id": "library-66",
+      "category_id": "library",
+      "english": "reserved in circulation",
+      "chinese": "在书库里"
+    },
+    {
+      "id": "library-67",
+      "category_id": "library",
+      "english": "not for circulation",
+      "chinese": "不外借"
+    },
+    {
+      "id": "library-68",
+      "category_id": "library",
+      "english": "reserve",
+      "chinese": "预订",
+      "ipa": "ri‘za:v"
+    },
+    {
+      "id": "library-69",
+      "category_id": "library",
+      "english": "reserve section",
+      "chinese": "预借书库"
+    },
+    {
+      "id": "library-70",
+      "category_id": "library",
+      "english": "closed reserve",
+      "chinese": "非外借书库"
+    },
+    {
+      "id": "library-71",
+      "category_id": "library",
+      "english": "book in advance",
+      "chinese": "预借"
+    },
+    {
+      "id": "library-72",
+      "category_id": "library",
+      "english": "checkout",
+      "chinese": "登记借出"
+    },
+    {
+      "id": "library-73",
+      "category_id": "library",
+      "english": "issue",
+      "chinese": "借〈书",
+      "ipa": "ifu:, ‘isju:"
+    },
+    {
+      "id": "library-74",
+      "category_id": "library",
+      "english": "renew",
+      "chinese": "续借，更新",
+      "ipa": "inju:"
+    },
+    {
+      "id": "library-75",
+      "category_id": "library",
+      "english": "renew the book",
+      "chinese": "续借这本书"
+    },
+    {
+      "id": "library-76",
+      "category_id": "library",
+      "english": "require",
+      "chinese": "要求",
+      "ipa": "rikwais"
+    },
+    {
+      "id": "library-77",
+      "category_id": "library",
+      "english": "recall system",
+      "chinese": "召回系统"
+    },
+    {
+      "id": "library-78",
+      "category_id": "library",
+      "english": "return",
+      "chinese": "归还"
+    },
+    {
+      "id": "library-79",
+      "category_id": "library",
+      "english": "return in time",
+      "chinese": "及时归还"
+    },
+    {
+      "id": "library-80",
+      "category_id": "library",
+      "english": "return within working days",
+      "chinese": "个工作日内归还"
+    },
+    {
+      "id": "library-81",
+      "category_id": "library",
+      "english": "expiry date",
+      "chinese": "鹤止日期"
+    },
+    {
+      "id": "library-82",
+      "category_id": "library",
+      "english": "overdue book",
+      "chinese": "过期的书",
+      "tips": "> overdue { ouva'dju:| ad， 过 期 的"
+    },
+    {
+      "id": "library-83",
+      "category_id": "library",
+      "english": "date slip",
+      "chinese": "借书期期限"
+    },
+    {
+      "id": "library-84",
+      "category_id": "library",
+      "english": "fine",
+      "chinese": "罚单",
+      "ipa": "fain"
+    },
+    {
+      "id": "library-85",
+      "category_id": "library",
+      "english": "fine system",
+      "chinese": "衣款制度"
+    },
+    {
+      "id": "library-86",
+      "category_id": "library",
+      "english": "pay the fine",
+      "chinese": "支付罚单"
+    },
+    {
+      "id": "medical-1",
+      "category_id": "medical",
+      "english": "campus clinic",
+      "chinese": "学校医务室"
+    },
+    {
+      "id": "medical-2",
+      "category_id": "medical",
+      "english": "medical centre",
+      "chinese": "医疗中心"
+    },
+    {
+      "id": "medical-3",
+      "category_id": "medical",
+      "english": "health centre",
+      "chinese": "医疗中心"
+    },
+    {
+      "id": "medical-4",
+      "category_id": "medical",
+      "english": "pharmacy",
+      "chinese": "药店",
+      "ipa": "‘fa:mosi"
+    },
+    {
+      "id": "medical-5",
+      "category_id": "medical",
+      "english": "drugstore",
+      "chinese": "”药店",
+      "ipa": "dragsto:"
+    },
+    {
+      "id": "medical-6",
+      "category_id": "medical",
+      "english": "community hospital",
+      "chinese": "社区医院"
+    },
+    {
+      "id": "medical-7",
+      "category_id": "medical",
+      "english": "general practitioner",
+      "chinese": "全科医师，家庭医生"
+    },
+    {
+      "id": "medical-8",
+      "category_id": "medical",
+      "english": "doctor",
+      "chinese": "医生",
+      "ipa": "’dokto"
+    },
+    {
+      "id": "medical-9",
+      "category_id": "medical",
+      "english": "send for a doctor",
+      "chinese": "请医生",
+      "tips": "当 这 个 词 作为 人 的 称谓 (title) 出 现 表 示 博 士 的 时 候 需 要 大 写 。"
+    },
+    {
+      "id": "medical-10",
+      "category_id": "medical",
+      "english": "register with a doctor",
+      "chinese": "注册一个医生"
+    },
+    {
+      "id": "medical-11",
+      "category_id": "medical",
+      "english": "physician",
+      "chinese": "内科医生",
+      "ipa": "fi'zifon"
+    },
+    {
+      "id": "medical-12",
+      "category_id": "medical",
+      "english": "surgeon",
+      "chinese": "外科医生",
+      "ipa": "「'so:dzon"
+    },
+    {
+      "id": "medical-13",
+      "category_id": "medical",
+      "english": "oculist",
+      "chinese": "了腿科医生",
+      "ipa": "‘okjulist"
+    },
+    {
+      "id": "medical-14",
+      "category_id": "medical",
+      "english": "eye doctor",
+      "chinese": "眼科医生"
+    },
+    {
+      "id": "medical-15",
+      "category_id": "medical",
+      "english": "shrink",
+      "chinese": "心理医生",
+      "ipa": "fink",
+      "tips": "x-ian 结尾 表示 人 的 单词 很 多 ， 大 家 可 以 放 在 一 起 来 记 ， 比 如 librarian 和 vegetarian， 这 些 都 是 雅思 中 常 考 的 单词 。"
+    },
+    {
+      "id": "medical-16",
+      "category_id": "medical",
+      "english": "specialist knowledge",
+      "chinese": "专业知识"
+    },
+    {
+      "id": "medical-17",
+      "category_id": "medical",
+      "english": "nurse",
+      "chinese": "护士",
+      "ipa": "na:s"
+    },
+    {
+      "id": "medical-18",
+      "category_id": "medical",
+      "english": "nursery",
+      "chinese": "托儿所，育幼院",
+      "ipa": "ne:ssri"
+    },
+    {
+      "id": "medical-19",
+      "category_id": "medical",
+      "english": "psychiatrist",
+      "chinese": "精神病医学家",
+      "ipa": "sai'kaiatrist"
+    },
+    {
+      "id": "medical-20",
+      "category_id": "medical",
+      "english": "patient",
+      "chinese": "病人，耐心的",
+      "ipa": "pcifsnt"
+    },
+    {
+      "id": "medical-21",
+      "category_id": "medical",
+      "english": "make an appointment",
+      "chinese": "预约",
+      "tips": "复 数 patients 。"
+    },
+    {
+      "id": "medical-22",
+      "category_id": "medical",
+      "english": "appointment system",
+      "chinese": "预约系统"
+    },
+    {
+      "id": "medical-23",
+      "category_id": "medical",
+      "english": "ambulance",
+      "chinese": "救护车",
+      "ipa": "‘embjulons"
+    },
+    {
+      "id": "medical-24",
+      "category_id": "medical",
+      "english": "check-up",
+      "chinese": "体检"
+    },
+    {
+      "id": "medical-25",
+      "category_id": "medical",
+      "english": "physical cxamination",
+      "chinese": "健康检查"
+    },
+    {
+      "id": "medical-26",
+      "category_id": "medical",
+      "english": "charge",
+      "chinese": "收费",
+      "ipa": "tfa:d3"
+    },
+    {
+      "id": "medical-27",
+      "category_id": "medical",
+      "english": "cancer",
+      "chinese": "癌症",
+      "ipa": "‘kaenso",
+      "tips": "\"在 欧美 的 一 些 国 家 看 病 都 是 需要 提前 预约 的 (make an appointment), BRIE 急诊 (emergency)， 很 少 会 有 人 直接 到 医院 找 医生 。 没 有 预约 ， 医 院 一 般 也 不 会 接 诊 。 一 般 如 果 人 们 想 就 医 的 话 需要 按照 以 下 步骤 1. 提前 注册 Fic (register with) 一 个 家 庭 医 生 〈general practitioner); 2. 生病 的 时 候 ， 打 电 话 给 家 庭 医 生 所 在 诊所 进行 预约 , 如 果 你 希望 医生 到 家 里 出 诊 你 需要 中 请 一 个 home visit, 当然 你 也 可 以 自己 去 hcalth centre 看 病 ，3. 看 医生 时 ， 医 生 一 般 会 病人 开具 处 方 〈prescription)， 病 人 需要 自己 拿 着 处 方 去 药店 买 约 ， 有 些 国家 ， 比 方 说 英国 ， 会 对 小 孩 ， 孕 妇 ， 失 业 人 员 和 退休 老"
+    },
+    {
+      "id": "medical-28",
+      "category_id": "medical",
+      "english": "liver trouble",
+      "chinese": "肝病"
+    },
+    {
+      "id": "medical-29",
+      "category_id": "medical",
+      "english": "influenza",
+      "chinese": "感冒",
+      "ipa": ",influ'cnza",
+      "tips": "注 意 back trouble EIN RASA AGAR, back 结尾 的 [k] 的 音 会 春 掉 不 读 。"
+    },
+    {
+      "id": "medical-30",
+      "category_id": "medical",
+      "english": "fever",
+      "chinese": "发烧",
+      "ipa": "‘fi:va"
+    },
+    {
+      "id": "medical-31",
+      "category_id": "medical",
+      "english": "have fever",
+      "chinese": "发烧"
+    },
+    {
+      "id": "medical-32",
+      "category_id": "medical",
+      "english": "yellow fever",
+      "chinese": "黄热病"
+    },
+    {
+      "id": "medical-33",
+      "category_id": "medical",
+      "english": "temperature",
+      "chinese": "温度",
+      "ipa": "temp(o)ritfo"
+    },
+    {
+      "id": "medical-34",
+      "category_id": "medical",
+      "english": "have temperature",
+      "chinese": "发烧"
+    },
+    {
+      "id": "medical-35",
+      "category_id": "medical",
+      "english": "take one’s temperature",
+      "chinese": "量体温"
+    },
+    {
+      "id": "medical-36",
+      "category_id": "medical",
+      "english": "food allergy",
+      "chinese": "食物过敏"
+    },
+    {
+      "id": "medical-37",
+      "category_id": "medical",
+      "english": "be allergic",
+      "chinese": "对.过敏"
+    },
+    {
+      "id": "medical-38",
+      "category_id": "medical",
+      "english": "poison",
+      "chinese": "毒药，使中毒",
+      "ipa": "poizon"
+    },
+    {
+      "id": "medical-39",
+      "category_id": "medical",
+      "english": "food poisoning",
+      "chinese": "食物中毒"
+    },
+    {
+      "id": "medical-40",
+      "category_id": "medical",
+      "english": "eyesight",
+      "chinese": "视力"
+    },
+    {
+      "id": "medical-41",
+      "category_id": "medical",
+      "english": "bad/poor eyesight",
+      "chinese": "视力不好"
+    },
+    {
+      "id": "medical-42",
+      "category_id": "medical",
+      "english": "heart disease",
+      "chinese": "心脏病"
+    },
+    {
+      "id": "medical-43",
+      "category_id": "medical",
+      "english": "heart attack",
+      "chinese": "心脏病发作"
+    },
+    {
+      "id": "medical-44",
+      "category_id": "medical",
+      "english": "injury",
+      "chinese": "受伤",
+      "ipa": "indgori"
+    },
+    {
+      "id": "medical-45",
+      "category_id": "medical",
+      "english": "wound",
+      "chinese": "伤口",
+      "ipa": "wu:nd"
+    },
+    {
+      "id": "medical-46",
+      "category_id": "medical",
+      "english": "symptom",
+      "chinese": "”症状",
+      "ipa": "simptem"
+    },
+    {
+      "id": "medical-47",
+      "category_id": "medical",
+      "english": "cough",
+      "chinese": "咳嗽",
+      "ipa": "kof"
+    },
+    {
+      "id": "medical-48",
+      "category_id": "medical",
+      "english": "stuffed nose",
+      "chinese": "鼻塞"
+    },
+    {
+      "id": "medical-49",
+      "category_id": "medical",
+      "english": "epidemic",
+      "chinese": "流行的",
+      "ipa": ",epi'demik"
+    },
+    {
+      "id": "medical-50",
+      "category_id": "medical",
+      "english": "epidemic disease",
+      "chinese": "流行疾病"
+    },
+    {
+      "id": "medical-51",
+      "category_id": "medical",
+      "english": "pulse",
+      "chinese": "脉搏",
+      "ipa": "pals"
+    },
+    {
+      "id": "medical-52",
+      "category_id": "medical",
+      "english": "feel one’s pulse",
+      "chinese": "量脉搏"
+    },
+    {
+      "id": "medical-53",
+      "category_id": "medical",
+      "english": "pressure",
+      "chinese": "血压",
+      "ipa": "prefo"
+    },
+    {
+      "id": "medical-54",
+      "category_id": "medical",
+      "english": "high blood pressure",
+      "chinese": "高血压"
+    },
+    {
+      "id": "medical-55",
+      "category_id": "medical",
+      "english": "remedy",
+      "chinese": "六、药物，治疗法",
+      "ipa": "remidi"
+    },
+    {
+      "id": "medical-56",
+      "category_id": "medical",
+      "english": "therapy",
+      "chinese": "治疗",
+      "ipa": "9eropi"
+    },
+    {
+      "id": "medical-57",
+      "category_id": "medical",
+      "english": "treatment",
+      "chinese": "治疗",
+      "ipa": "tri:tmant"
+    },
+    {
+      "id": "medical-58",
+      "category_id": "medical",
+      "english": "relaxation therapy",
+      "chinese": "放松疗法"
+    },
+    {
+      "id": "medical-59",
+      "category_id": "medical",
+      "english": "diagnose",
+      "chinese": "诊断",
+      "ipa": "‘daiagneuz"
+    },
+    {
+      "id": "medical-60",
+      "category_id": "medical",
+      "english": "exercise",
+      "chinese": "锻炼",
+      "ipa": "‘cksasaiz"
+    },
+    {
+      "id": "medical-61",
+      "category_id": "medical",
+      "english": "medicine",
+      "chinese": "药物",
+      "ipa": "medisin"
+    },
+    {
+      "id": "medical-62",
+      "category_id": "medical",
+      "english": "painkiller",
+      "chinese": "止痛片",
+      "ipa": "‘pein, kilo"
+    },
+    {
+      "id": "medical-63",
+      "category_id": "medical",
+      "english": "drop",
+      "chinese": "滴剂",
+      "ipa": "drop"
+    },
+    {
+      "id": "medical-64",
+      "category_id": "medical",
+      "english": "eyedrops",
+      "chinese": "眼药水",
+      "ipa": "ai,drop"
+    },
+    {
+      "id": "medical-65",
+      "category_id": "medical",
+      "english": "vaccine",
+      "chinese": "疫苗",
+      "ipa": "veksi:n"
+    },
+    {
+      "id": "medical-66",
+      "category_id": "medical",
+      "english": "injection of vaccine",
+      "chinese": "注射疫苗"
+    },
+    {
+      "id": "interview-1",
+      "category_id": "interview",
+      "english": "interview",
+      "chinese": "儿面试",
+      "ipa": "intayju:"
+    },
+    {
+      "id": "interview-2",
+      "category_id": "interview",
+      "english": "interviewee",
+      "chinese": "被面试者"
+    },
+    {
+      "id": "interview-3",
+      "category_id": "interview",
+      "english": "candidate",
+      "chinese": "候选人",
+      "ipa": "‘kzndideit"
+    },
+    {
+      "id": "interview-4",
+      "category_id": "interview",
+      "english": "recruit",
+      "chinese": "招聘",
+      "ipa": "ri'kru:t"
+    },
+    {
+      "id": "interview-5",
+      "category_id": "interview",
+      "english": "hire",
+      "chinese": "雇用",
+      "ipa": "‘haio"
+    },
+    {
+      "id": "interview-6",
+      "category_id": "interview",
+      "english": "be sacked/ get the sack",
+      "chinese": "被解雇",
+      "tips": "fire |'faio] v. 解雇"
+    },
+    {
+      "id": "interview-7",
+      "category_id": "interview",
+      "english": "employment",
+      "chinese": "雇用",
+      "ipa": "im'ploimont"
+    },
+    {
+      "id": "interview-8",
+      "category_id": "interview",
+      "english": "unemployment",
+      "chinese": "六失业，失业人数",
+      "ipa": "anim'ploimant"
+    },
+    {
+      "id": "interview-9",
+      "category_id": "interview",
+      "english": "unemployment rate",
+      "chinese": "失业率"
+    },
+    {
+      "id": "interview-10",
+      "category_id": "interview",
+      "english": "self-employment",
+      "chinese": "自主创业"
+    },
+    {
+      "id": "interview-11",
+      "category_id": "interview",
+      "english": "retire",
+      "chinese": "退休",
+      "ipa": "ri‘taio"
+    },
+    {
+      "id": "interview-12",
+      "category_id": "interview",
+      "english": "retirement",
+      "chinese": "退休",
+      "ipa": "ri'taiomant"
+    },
+    {
+      "id": "interview-13",
+      "category_id": "interview",
+      "english": "job hunter",
+      "chinese": "求职者"
+    },
+    {
+      "id": "interview-14",
+      "category_id": "interview",
+      "english": "job seeker",
+      "chinese": "求职者"
+    },
+    {
+      "id": "interview-15",
+      "category_id": "interview",
+      "english": "job prospect",
+      "chinese": "工作前景"
+    },
+    {
+      "id": "interview-16",
+      "category_id": "interview",
+      "english": "pressure",
+      "chinese": "压力",
+      "ipa": "prefa"
+    },
+    {
+      "id": "interview-17",
+      "category_id": "interview",
+      "english": "strain",
+      "chinese": "压力",
+      "ipa": "strein"
+    },
+    {
+      "id": "interview-18",
+      "category_id": "interview",
+      "english": "salary",
+      "chinese": "薪水",
+      "ipa": "szlori"
+    },
+    {
+      "id": "interview-19",
+      "category_id": "interview",
+      "english": "payment",
+      "chinese": "工资",
+      "ipa": "peiment"
+    },
+    {
+      "id": "interview-20",
+      "category_id": "interview",
+      "english": "well-paid",
+      "chinese": "高工资的"
+    },
+    {
+      "id": "interview-21",
+      "category_id": "interview",
+      "english": "incentive",
+      "chinese": "奖励",
+      "ipa": "in sentiv"
+    },
+    {
+      "id": "interview-22",
+      "category_id": "interview",
+      "english": "rewarding",
+      "chinese": "有回报的，有报酬的",
+      "ipa": "ri'wo:din"
+    },
+    {
+      "id": "interview-23",
+      "category_id": "interview",
+      "english": "nominate",
+      "chinese": "提名，委任",
+      "ipa": "nomineit"
+    },
+    {
+      "id": "interview-24",
+      "category_id": "interview",
+      "english": "promote",
+      "chinese": "升职",
+      "ipa": "pre' meut"
+    },
+    {
+      "id": "interview-25",
+      "category_id": "interview",
+      "english": "get promoted",
+      "chinese": "被升职"
+    },
+    {
+      "id": "interview-26",
+      "category_id": "interview",
+      "english": "accomplish",
+      "chinese": "完成",
+      "ipa": "o'kamplif"
+    },
+    {
+      "id": "interview-27",
+      "category_id": "interview",
+      "english": "experience",
+      "chinese": "经验，经历",
+      "ipa": "ik'spiorions"
+    },
+    {
+      "id": "interview-28",
+      "category_id": "interview",
+      "english": "application form",
+      "chinese": "申请表"
+    },
+    {
+      "id": "interview-29",
+      "category_id": "interview",
+      "english": "CV",
+      "chinese": "履历"
+    },
+    {
+      "id": "interview-30",
+      "category_id": "interview",
+      "english": "resume",
+      "chinese": "简历",
+      "ipa": "rezju:mei"
+    },
+    {
+      "id": "interview-31",
+      "category_id": "interview",
+      "english": "letter",
+      "chinese": "信",
+      "ipa": "leto"
+    },
+    {
+      "id": "interview-32",
+      "category_id": "interview",
+      "english": "recommendation letter",
+      "chinese": "推荐信"
+    },
+    {
+      "id": "interview-33",
+      "category_id": "interview",
+      "english": "cover letter",
+      "chinese": "求职信"
+    },
+    {
+      "id": "interview-34",
+      "category_id": "interview",
+      "english": "reference",
+      "chinese": "推荐信",
+      "ipa": "‘reforons"
+    },
+    {
+      "id": "interview-35",
+      "category_id": "interview",
+      "english": "letter of reference",
+      "chinese": "推荐信"
+    },
+    {
+      "id": "interview-36",
+      "category_id": "interview",
+      "english": "probation",
+      "chinese": "见习，试用期",
+      "ipa": "pre'beifon"
+    },
+    {
+      "id": "interview-37",
+      "category_id": "interview",
+      "english": "intern",
+      "chinese": "实习生",
+      "ipa": "in'to:n"
+    },
+    {
+      "id": "interview-38",
+      "category_id": "interview",
+      "english": "internship",
+      "chinese": "实习期",
+      "ipa": "inta:nfip"
+    },
+    {
+      "id": "interview-39",
+      "category_id": "interview",
+      "english": "day shift",
+      "chinese": "日班"
+    },
+    {
+      "id": "interview-40",
+      "category_id": "interview",
+      "english": "night shift",
+      "chinese": "夜班"
+    },
+    {
+      "id": "interview-41",
+      "category_id": "interview",
+      "english": "day-off",
+      "chinese": "休息日"
+    },
+    {
+      "id": "interview-42",
+      "category_id": "interview",
+      "english": "Sales Depariment",
+      "chinese": "销售部门"
+    },
+    {
+      "id": "interview-43",
+      "category_id": "interview",
+      "english": "Personnel Department",
+      "chinese": "人事部门"
+    },
+    {
+      "id": "interview-44",
+      "category_id": "interview",
+      "english": "Finance Department",
+      "chinese": "财务部"
+    },
+    {
+      "id": "interview-45",
+      "category_id": "interview",
+      "english": "Marketing Department",
+      "chinese": "市场部"
+    },
+    {
+      "id": "interview-46",
+      "category_id": "interview",
+      "english": "Quality Control Department",
+      "chinese": "质量监管部"
+    },
+    {
+      "id": "interview-47",
+      "category_id": "interview",
+      "english": "vacancy",
+      "chinese": "空缺",
+      "ipa": "veikonsi"
+    },
+    {
+      "id": "interview-48",
+      "category_id": "interview",
+      "english": "chairman",
+      "chinese": "主席",
+      "ipa": "tfeomon"
+    },
+    {
+      "id": "interview-49",
+      "category_id": "interview",
+      "english": "representative",
+      "chinese": "代表",
+      "ipa": "repri'zentotiv"
+    },
+    {
+      "id": "interview-50",
+      "category_id": "interview",
+      "english": "staff",
+      "chinese": "员工",
+      "ipa": "sta:f"
+    },
+    {
+      "id": "interview-51",
+      "category_id": "interview",
+      "english": "bank clerk",
+      "chinese": "银行职员"
+    },
+    {
+      "id": "interview-52",
+      "category_id": "interview",
+      "english": "blue-collar",
+      "chinese": "蓝领"
+    },
+    {
+      "id": "interview-53",
+      "category_id": "interview",
+      "english": "white-collar",
+      "chinese": "白领"
+    },
+    {
+      "id": "interview-54",
+      "category_id": "interview",
+      "english": "uniform",
+      "chinese": "制服",
+      "ipa": "‘ju:nifo:m"
+    },
+    {
+      "id": "interview-55",
+      "category_id": "interview",
+      "english": "assistant",
+      "chinese": "助理",
+      "ipa": "o'sistont"
+    },
+    {
+      "id": "interview-56",
+      "category_id": "interview",
+      "english": "library assistant",
+      "chinese": "图书馆员"
+    },
+    {
+      "id": "interview-57",
+      "category_id": "interview",
+      "english": "office assistant",
+      "chinese": "办公室助理"
+    },
+    {
+      "id": "interview-58",
+      "category_id": "interview",
+      "english": "cleaner",
+      "chinese": "清洁工",
+      "ipa": "3'sistant"
+    },
+    {
+      "id": "dining-1",
+      "category_id": "dining",
+      "english": "Chinese restaurant",
+      "chinese": "中餐馆"
+    },
+    {
+      "id": "dining-2",
+      "category_id": "dining",
+      "english": "Indian restaurant",
+      "chinese": "印度餐厅"
+    },
+    {
+      "id": "dining-3",
+      "category_id": "dining",
+      "english": "Mexico restaurant",
+      "chinese": "墨西哥餐厅"
+    },
+    {
+      "id": "dining-4",
+      "category_id": "dining",
+      "english": "tearoom",
+      "chinese": "茶社"
+    },
+    {
+      "id": "dining-5",
+      "category_id": "dining",
+      "english": "cafeteria",
+      "chinese": "小餐馆，上自助餐厅",
+      "ipa": "kefi'tiorio",
+      "tips": "SARE PERE AEH, SINR A e 上 面 的 小 撤 可 以 写 也 可 以 省 掉 。 注 意 把 这 个 词 和 coffee KF}, coffee 指 的 是 喝 的 咖啡 ， 而 café HEAT AWE"
+    },
+    {
+      "id": "dining-6",
+      "category_id": "dining",
+      "english": "bar",
+      "chinese": "酒吧",
+      "ipa": "ba:"
+    },
+    {
+      "id": "dining-7",
+      "category_id": "dining",
+      "english": "coffee",
+      "chinese": "咖啡馆"
+    },
+    {
+      "id": "dining-8",
+      "category_id": "dining",
+      "english": "salad",
+      "chinese": "沙拉吧"
+    },
+    {
+      "id": "dining-9",
+      "category_id": "dining",
+      "english": "take-away",
+      "chinese": "外卖的"
+    },
+    {
+      "id": "dining-10",
+      "category_id": "dining",
+      "english": "take-away pizza",
+      "chinese": "外卖披萨"
+    },
+    {
+      "id": "dining-11",
+      "category_id": "dining",
+      "english": "take-away restaurant",
+      "chinese": "外卖餐厅"
+    },
+    {
+      "id": "dining-12",
+      "category_id": "dining",
+      "english": "eatin",
+      "chinese": "堂食"
+    },
+    {
+      "id": "dining-13",
+      "category_id": "dining",
+      "english": "togo",
+      "chinese": "外卖"
+    },
+    {
+      "id": "dining-14",
+      "category_id": "dining",
+      "english": "cup of coffee to",
+      "chinese": "一杯外带咖啡"
+    },
+    {
+      "id": "dining-15",
+      "category_id": "dining",
+      "english": "drive-in",
+      "chinese": "免下车的"
+    },
+    {
+      "id": "dining-16",
+      "category_id": "dining",
+      "english": "spoon",
+      "chinese": "勺子",
+      "ipa": "spu:n"
+    },
+    {
+      "id": "dining-17",
+      "category_id": "dining",
+      "english": "chopsticks",
+      "chinese": "筷子",
+      "ipa": "tfopstik"
+    },
+    {
+      "id": "dining-18",
+      "category_id": "dining",
+      "english": "napkin",
+      "chinese": "和餐巾纸",
+      "ipa": "nepkin"
+    },
+    {
+      "id": "dining-19",
+      "category_id": "dining",
+      "english": "tissue",
+      "chinese": "纸巾",
+      "ipa": "tifu:, -sju:"
+    },
+    {
+      "id": "dining-20",
+      "category_id": "dining",
+      "english": "tip",
+      "chinese": "小费",
+      "ipa": "tip"
+    },
+    {
+      "id": "dining-21",
+      "category_id": "dining",
+      "english": "drink",
+      "chinese": "饮料",
+      "ipa": "drink"
+    },
+    {
+      "id": "dining-22",
+      "category_id": "dining",
+      "english": "beverage",
+      "chinese": "饮料",
+      "ipa": "bevaridz"
+    },
+    {
+      "id": "dining-23",
+      "category_id": "dining",
+      "english": "milk",
+      "chinese": "牛奶",
+      "ipa": "milk",
+      "tips": "> wine(wain]n. 葡萄 酒"
+    },
+    {
+      "id": "dining-24",
+      "category_id": "dining",
+      "english": "coffee machine",
+      "chinese": "咖啡机"
+    },
+    {
+      "id": "dining-25",
+      "category_id": "dining",
+      "english": "fruit juice",
+      "chinese": "水果汁"
+    },
+    {
+      "id": "dining-26",
+      "category_id": "dining",
+      "english": "apple juice",
+      "chinese": "苹果汁"
+    },
+    {
+      "id": "dining-27",
+      "category_id": "dining",
+      "english": "black",
+      "chinese": "红茶"
+    },
+    {
+      "id": "dining-28",
+      "category_id": "dining",
+      "english": "yellow",
+      "chinese": "黄茶"
+    },
+    {
+      "id": "dining-29",
+      "category_id": "dining",
+      "english": "lunch",
+      "chinese": "午餐",
+      "ipa": "lant{"
+    },
+    {
+      "id": "dining-30",
+      "category_id": "dining",
+      "english": "supper",
+      "chinese": "晚餐",
+      "ipa": "sapo"
+    },
+    {
+      "id": "dining-31",
+      "category_id": "dining",
+      "english": "brunch",
+      "chinese": "时午饭",
+      "ipa": "brant"
+    },
+    {
+      "id": "dining-32",
+      "category_id": "dining",
+      "english": "burger",
+      "chinese": "/汉堡",
+      "ipa": "bo:go"
+    },
+    {
+      "id": "dining-33",
+      "category_id": "dining",
+      "english": "vegetarian",
+      "chinese": "素食主义者",
+      "ipa": ",ved3i'teorion"
+    },
+    {
+      "id": "dining-34",
+      "category_id": "dining",
+      "english": "vegetarian restaurant",
+      "chinese": "素食餐厅"
+    },
+    {
+      "id": "dining-35",
+      "category_id": "dining",
+      "english": "sandwich",
+      "chinese": "三明治"
+    },
+    {
+      "id": "dining-36",
+      "category_id": "dining",
+      "english": "bread",
+      "chinese": "面包",
+      "ipa": "bred",
+      "tips": "snacks Al refreshments 这 两 个 单词 都 表示 小 吃 点 心 ,经常 在 听力 中 作为 蔡 换 词 出 现 ， 且 出"
+    },
+    {
+      "id": "dining-37",
+      "category_id": "dining",
+      "english": "butter",
+      "chinese": "黄油",
+      "ipa": "bate"
+    },
+    {
+      "id": "dining-38",
+      "category_id": "dining",
+      "english": "cheese",
+      "chinese": "芝士",
+      "ipa": "tfi()z"
+    },
+    {
+      "id": "dining-39",
+      "category_id": "dining",
+      "english": "scafood",
+      "chinese": "海鲜",
+      "ipa": "sifu:d"
+    },
+    {
+      "id": "dining-40",
+      "category_id": "dining",
+      "english": "tomato",
+      "chinese": "西红柿",
+      "ipa": "te ma':teu"
+    },
+    {
+      "id": "dining-41",
+      "category_id": "dining",
+      "english": "potato",
+      "chinese": "土豆",
+      "ipa": "pa teitau",
+      "tips": "注 意 复数 是 tomatoes."
+    },
+    {
+      "id": "dining-42",
+      "category_id": "dining",
+      "english": "nut",
+      "chinese": "坚果",
+      "ipa": "nAf",
+      "tips": "注 意 复数 是 potatoes。"
+    },
+    {
+      "id": "dining-43",
+      "category_id": "dining",
+      "english": "saltiness",
+      "chinese": "咸味"
+    },
+    {
+      "id": "dining-44",
+      "category_id": "dining",
+      "english": "sweetness",
+      "chinese": "甜味",
+      "ipa": "‘swi:tnis"
+    },
+    {
+      "id": "dining-45",
+      "category_id": "dining",
+      "english": "bitterness",
+      "chinese": "苦味",
+      "ipa": "‘bitanis"
+    },
+    {
+      "id": "dining-46",
+      "category_id": "dining",
+      "english": "spicy",
+      "chinese": "辛辣的",
+      "ipa": "spaisi"
+    },
+    {
+      "id": "dining-47",
+      "category_id": "dining",
+      "english": "department store",
+      "chinese": "百货商店"
+    },
+    {
+      "id": "dining-48",
+      "category_id": "dining",
+      "english": "mall{",
+      "chinese": "购物中心"
+    },
+    {
+      "id": "dining-49",
+      "category_id": "dining",
+      "english": "shopping mall",
+      "chinese": "购物中心"
+    },
+    {
+      "id": "dining-50",
+      "category_id": "dining",
+      "english": "shop",
+      "chinese": "商店",
+      "ipa": "fop"
+    },
+    {
+      "id": "dining-51",
+      "category_id": "dining",
+      "english": "supermarket",
+      "chinese": "超市",
+      "ipa": "sju:po,ma:kit"
+    },
+    {
+      "id": "dining-52",
+      "category_id": "dining",
+      "english": "advertisement {ad'va",
+      "chinese": "六广告"
+    },
+    {
+      "id": "dining-53",
+      "category_id": "dining",
+      "english": "se",
+      "chinese": "让促销，出售",
+      "tips": "可 以 简写 为 ads。"
+    },
+    {
+      "id": "dining-54",
+      "category_id": "dining",
+      "english": "be on sale",
+      "chinese": "打折"
+    },
+    {
+      "id": "dining-55",
+      "category_id": "dining",
+      "english": "bargain",
+      "chinese": "讨价还价，特价商品",
+      "ipa": "ba:gin"
+    },
+    {
+      "id": "dining-56",
+      "category_id": "dining",
+      "english": "promotion",
+      "chinese": "促销",
+      "ipa": "pro moufon"
+    },
+    {
+      "id": "dining-57",
+      "category_id": "dining",
+      "english": "stock",
+      "chinese": "存货，储备",
+      "ipa": "stok"
+    },
+    {
+      "id": "dining-58",
+      "category_id": "dining",
+      "english": "shop assistant",
+      "chinese": "店员",
+      "tips": "关于 折扣 的 说 法 国外 和 国内 刚好 是 相反 的 ,中 国 一 般 说 打 几 折 ， 比 方 说 打 九 折 指 的 是 顾客 沛 要 付 物 品 价格 的 90%,， 而 同 样 的 折扣 ， 外 国人 会 用 剪 掉 部 分 的 价格 来 描述 ，10% off. 在 - 些 英 联邦 国家 和 一 些 欧洲 国家 , 商场 会 在 圣诞 节 的 第 二 RK boxing day( 节 礼 日 ) 这 一 天 摘 促 销 活 动 ， 银 多 商品 都 会 有 非常 低 的 折扣 ， 因 此 吸引 了 很 多 顾客 在 这 一 天 前 去 购物 ， 一 般 在 这 天 人 们 能 买 到 一 些 物美 价 康 的 东西 〈bargains ) 。"
+    },
+    {
+      "id": "dining-59",
+      "category_id": "dining",
+      "english": "membership",
+      "chinese": "会员身份",
+      "ipa": "membofip"
+    },
+    {
+      "id": "dining-60",
+      "category_id": "dining",
+      "english": "customer",
+      "chinese": "顾客",
+      "ipa": "kAstamas"
+    },
+    {
+      "id": "dining-61",
+      "category_id": "dining",
+      "english": "gift",
+      "chinese": "礼物",
+      "ipa": "gift"
+    },
+    {
+      "id": "dining-62",
+      "category_id": "dining",
+      "english": "till",
+      "chinese": "收银台",
+      "ipa": "til"
+    },
+    {
+      "id": "dining-63",
+      "category_id": "dining",
+      "english": "counter",
+      "chinese": "柜台",
+      "ipa": "kaunto"
+    },
+    {
+      "id": "dining-64",
+      "category_id": "dining",
+      "english": "receipt",
+      "chinese": "发票",
+      "ipa": "ri'si:t"
+    },
+    {
+      "id": "dining-65",
+      "category_id": "dining",
+      "english": "refund",
+      "chinese": "退款",
+      "ipa": "ri'fand, 'ri:fand"
+    },
+    {
+      "id": "dining-66",
+      "category_id": "dining",
+      "english": "must",
+      "chinese": "必买物品"
+    },
+    {
+      "id": "dining-67",
+      "category_id": "dining",
+      "english": "cosmetic",
+      "chinese": "化妆品",
+      "ipa": "koz'metik"
+    },
+    {
+      "id": "dining-68",
+      "category_id": "dining",
+      "english": "wool",
+      "chinese": "羊毛",
+      "ipa": "wul",
+      "tips": "> silk (silk]n. 丝绸"
+    },
+    {
+      "id": "dining-69",
+      "category_id": "dining",
+      "english": "fo:ln",
+      "chinese": "毛皮"
+    },
+    {
+      "id": "dining-70",
+      "category_id": "dining",
+      "english": "casual clothes",
+      "chinese": "休闲服"
+    },
+    {
+      "id": "dining-71",
+      "category_id": "dining",
+      "english": "small",
+      "chinese": "小号的",
+      "ipa": "smo:!"
+    },
+    {
+      "id": "dining-72",
+      "category_id": "dining",
+      "english": "extra large",
+      "chinese": "加大"
+    },
+    {
+      "id": "dining-73",
+      "category_id": "dining",
+      "english": "fitting room",
+      "chinese": "试衣间"
+    },
+    {
+      "id": "dining-74",
+      "category_id": "dining",
+      "english": "fitness centre",
+      "chinese": "健身中心"
+    },
+    {
+      "id": "dining-75",
+      "category_id": "dining",
+      "english": "sports centre",
+      "chinese": "健身中心"
+    },
+    {
+      "id": "dining-76",
+      "category_id": "dining",
+      "english": "sports complex",
+      "chinese": "综合体育馆"
+    },
+    {
+      "id": "dining-77",
+      "category_id": "dining",
+      "english": "keep-fit studio",
+      "chinese": "健身房"
+    },
+    {
+      "id": "dining-78",
+      "category_id": "dining",
+      "english": "arena",
+      "chinese": "竞技场地，表演场地",
+      "ipa": "o'ri:no"
+    },
+    {
+      "id": "dining-79",
+      "category_id": "dining",
+      "english": "football",
+      "chinese": "足球",
+      "ipa": "futbo:1"
+    },
+    {
+      "id": "dining-80",
+      "category_id": "dining",
+      "english": "skating",
+      "chinese": "滑冰",
+      "ipa": "skcitin"
+    },
+    {
+      "id": "dining-81",
+      "category_id": "dining",
+      "english": "tennis court",
+      "chinese": "网球场"
+    },
+    {
+      "id": "dining-82",
+      "category_id": "dining",
+      "english": "table tennis",
+      "chinese": "乒乓球"
+    },
+    {
+      "id": "dining-83",
+      "category_id": "dining",
+      "english": "swimming",
+      "chinese": "游泳",
+      "ipa": "‘swimin"
+    },
+    {
+      "id": "dining-84",
+      "category_id": "dining",
+      "english": "swimming pool",
+      "chinese": "游泳池"
+    },
+    {
+      "id": "dining-85",
+      "category_id": "dining",
+      "english": "yoga",
+      "chinese": "瑜伽",
+      "ipa": "‘jouge"
+    },
+    {
+      "id": "dining-86",
+      "category_id": "dining",
+      "english": "kick-boxing",
+      "chinese": "拳击"
+    },
+    {
+      "id": "dining-87",
+      "category_id": "dining",
+      "english": "judo",
+      "chinese": "柔道",
+      "ipa": "‘dzu:dou"
+    },
+    {
+      "id": "dining-88",
+      "category_id": "dining",
+      "english": "activity",
+      "chinese": "活动",
+      "ipa": "ak'tiveti"
+    },
+    {
+      "id": "dining-89",
+      "category_id": "dining",
+      "english": "outdoor activity",
+      "chinese": "户外活动"
+    },
+    {
+      "id": "dining-90",
+      "category_id": "dining",
+      "english": "indoor activity",
+      "chinese": "室内活动"
+    },
+    {
+      "id": "dining-91",
+      "category_id": "dining",
+      "english": "cycling",
+      "chinese": "脚踏车",
+      "ipa": "‘saiklin"
+    },
+    {
+      "id": "dining-92",
+      "category_id": "dining",
+      "english": "subscription",
+      "chinese": "报名费"
+    },
+    {
+      "id": "dining-93",
+      "category_id": "dining",
+      "english": "discount",
+      "chinese": "六折扣",
+      "ipa": "‘diskaunt"
+    },
+    {
+      "id": "dining-94",
+      "category_id": "dining",
+      "english": "assessinent",
+      "chinese": "评估",
+      "ipa": "o'sesmont"
+    },
+    {
+      "id": "dining-95",
+      "category_id": "dining",
+      "english": "performance",
+      "chinese": "表演",
+      "ipa": "po'fo:mons",
+      "tips": "有 的 健身 中 心 入 会 前 需要 跟 教 练 预约 做 一 个 评估 (book an assessment)."
+    },
+    {
+      "id": "dining-96",
+      "category_id": "dining",
+      "english": "show 7A",
+      "chinese": "演出，放呐",
+      "ipa": "fou"
+    },
+    {
+      "id": "dining-97",
+      "category_id": "dining",
+      "english": "soloist",
+      "chinese": "独唱者",
+      "ipa": "‘soulouist"
+    },
+    {
+      "id": "dining-98",
+      "category_id": "dining",
+      "english": "band",
+      "chinese": "乐队",
+      "ipa": "bend"
+    },
+    {
+      "id": "dining-99",
+      "category_id": "dining",
+      "english": "singer",
+      "chinese": "歌手，演唱者",
+      "ipa": "sins"
+    },
+    {
+      "id": "dining-100",
+      "category_id": "dining",
+      "english": "dancer",
+      "chinese": "舞者，舞中演员",
+      "ipa": "dansa"
+    },
+    {
+      "id": "dining-101",
+      "category_id": "dining",
+      "english": "pop",
+      "chinese": "流行的",
+      "ipa": "pop"
+    },
+    {
+      "id": "dining-102",
+      "category_id": "dining",
+      "english": "pop music",
+      "chinese": "流行音乐"
+    },
+    {
+      "id": "dining-103",
+      "category_id": "dining",
+      "english": "jazz",
+      "chinese": "器士乐",
+      "ipa": "\"dzxzz"
+    },
+    {
+      "id": "dining-104",
+      "category_id": "dining",
+      "english": "light music",
+      "chinese": "轻音乐"
+    },
+    {
+      "id": "dining-105",
+      "category_id": "dining",
+      "english": "classical music",
+      "chinese": "古典乐"
+    },
+    {
+      "id": "dining-106",
+      "category_id": "dining",
+      "english": "folk song",
+      "chinese": "民歌"
+    },
+    {
+      "id": "dining-107",
+      "category_id": "dining",
+      "english": "conductor",
+      "chinese": "指挥",
+      "ipa": "kan'dAkts"
+    },
+    {
+      "id": "dining-108",
+      "category_id": "dining",
+      "english": "easy tune",
+      "chinese": "令人放松的小曲"
+    },
+    {
+      "id": "dining-109",
+      "category_id": "dining",
+      "english": "tone",
+      "chinese": "音调",
+      "ipa": "taun"
+    },
+    {
+      "id": "dining-110",
+      "category_id": "dining",
+      "english": "lyric",
+      "chinese": "歌词",
+      "ipa": "‘lirik"
+    },
+    {
+      "id": "dining-111",
+      "category_id": "dining",
+      "english": "display",
+      "chinese": "陈列，展示",
+      "ipa": "dis'plei"
+    },
+    {
+      "id": "dining-112",
+      "category_id": "dining",
+      "english": "exhibit",
+      "chinese": "展览",
+      "ipa": "ig'zibit"
+    },
+    {
+      "id": "dining-113",
+      "category_id": "dining",
+      "english": "sculpture",
+      "chinese": "雕塑",
+      "ipa": "skalptfo"
+    },
+    {
+      "id": "dining-114",
+      "category_id": "dining",
+      "english": "photographer",
+      "chinese": "/摄影师",
+      "ipa": "fo'togrofo",
+      "tips": "考 试 中 可 以 简写 为 photo， 复 数 photos。"
+    },
+    {
+      "id": "dining-115",
+      "category_id": "dining",
+      "english": "studio theatre",
+      "chinese": "实验剧场"
+    },
+    {
+      "id": "dining-116",
+      "category_id": "dining",
+      "english": "cinema",
+      "chinese": "电影院",
+      "ipa": "sinimo"
+    },
+    {
+      "id": "dining-117",
+      "category_id": "dining",
+      "english": "movie",
+      "chinese": "六电影",
+      "ipa": "mu:vi"
+    },
+    {
+      "id": "dining-118",
+      "category_id": "dining",
+      "english": "documentary",
+      "chinese": "纪录片",
+      "ipa": ",dokju'mentari"
+    },
+    {
+      "id": "dining-119",
+      "category_id": "dining",
+      "english": "detective film",
+      "chinese": "侦探片"
+    },
+    {
+      "id": "dining-120",
+      "category_id": "dining",
+      "english": "science fiction",
+      "chinese": "科幻片"
+    },
+    {
+      "id": "dining-121",
+      "category_id": "dining",
+      "english": "western",
+      "chinese": "西部片",
+      "ipa": "weston"
+    },
+    {
+      "id": "dining-122",
+      "category_id": "dining",
+      "english": "cowboy film",
+      "chinese": "牛仔片"
+    },
+    {
+      "id": "dining-123",
+      "category_id": "dining",
+      "english": "romance",
+      "chinese": "爱情片",
+      "ipa": "reu'maens"
+    },
+    {
+      "id": "dining-124",
+      "category_id": "dining",
+      "english": "romantic",
+      "chinese": "浪漫的",
+      "ipa": "reu'maentik"
+    },
+    {
+      "id": "dining-125",
+      "category_id": "dining",
+      "english": "love story",
+      "chinese": "爱情片"
+    },
+    {
+      "id": "dining-126",
+      "category_id": "dining",
+      "english": "ethical film",
+      "chinese": "伦理片"
+    },
+    {
+      "id": "science-1",
+      "category_id": "science",
+      "english": "wild animal",
+      "chinese": "野生动物"
+    },
+    {
+      "id": "science-2",
+      "category_id": "science",
+      "english": "endangered species",
+      "chinese": "濒危物种"
+    },
+    {
+      "id": "science-3",
+      "category_id": "science",
+      "english": "creature",
+      "chinese": "生物",
+      "ipa": "‘kri:tfo"
+    },
+    {
+      "id": "science-4",
+      "category_id": "science",
+      "english": "wildlife",
+      "chinese": "野生动物",
+      "ipa": "waildlaif"
+    },
+    {
+      "id": "science-5",
+      "category_id": "science",
+      "english": "population",
+      "chinese": "动物数量",
+      "ipa": "popju'leifon",
+      "tips": "x FETE wildlife 经 常 作 为 animal 的 普 换 闻 出 现 。"
+    },
+    {
+      "id": "science-6",
+      "category_id": "science",
+      "english": "migration",
+      "chinese": "移民，乌类迁徙",
+      "ipa": "mai'greifon"
+    },
+    {
+      "id": "science-7",
+      "category_id": "science",
+      "english": "breeding",
+      "chinese": "生养，繁殖",
+      "ipa": "bri:din"
+    },
+    {
+      "id": "science-8",
+      "category_id": "science",
+      "english": "feeding spot",
+      "chinese": "喂养地"
+    },
+    {
+      "id": "science-9",
+      "category_id": "science",
+      "english": "marine",
+      "chinese": "海洋的，海生的",
+      "ipa": "ma'ri:n"
+    },
+    {
+      "id": "science-10",
+      "category_id": "science",
+      "english": "marine animal",
+      "chinese": "海洋生物"
+    },
+    {
+      "id": "science-11",
+      "category_id": "science",
+      "english": "rare animal",
+      "chinese": "稀有动物"
+    },
+    {
+      "id": "science-12",
+      "category_id": "science",
+      "english": "extinct",
+      "chinese": "灭绝",
+      "ipa": "ik'stinkt"
+    },
+    {
+      "id": "science-13",
+      "category_id": "science",
+      "english": "die",
+      "chinese": "灭绝"
+    },
+    {
+      "id": "science-14",
+      "category_id": "science",
+      "english": "hunt",
+      "chinese": "捕猎",
+      "ipa": "hant"
+    },
+    {
+      "id": "science-15",
+      "category_id": "science",
+      "english": "capture",
+      "chinese": "捕获",
+      "ipa": "keptfo"
+    },
+    {
+      "id": "science-16",
+      "category_id": "science",
+      "english": "drought",
+      "chinese": "干旱",
+      "ipa": "draut"
+    },
+    {
+      "id": "science-17",
+      "category_id": "science",
+      "english": "disease",
+      "chinese": "疾病",
+      "ipa": "di'zi:z"
+    },
+    {
+      "id": "science-18",
+      "category_id": "science",
+      "english": "attack",
+      "chinese": "攻击",
+      "ipa": "otek",
+      "tips": "考 试 中 动物 场景 涉及 到 某 些 动 物 灭 绝 的 原因 ， 主 要 原因 有 人 类 的 捕 猫 〈hunt)， 疾 病 (disease)， 食 物 短 缺 〈shortage of food) 以 及 干旱 〈drought) 等 。"
+    },
+    {
+      "id": "science-19",
+      "category_id": "science",
+      "english": "attack humans",
+      "chinese": "攻击人类"
+    },
+    {
+      "id": "science-20",
+      "category_id": "science",
+      "english": "protect",
+      "chinese": "保护",
+      "ipa": "pro'tekt"
+    },
+    {
+      "id": "science-21",
+      "category_id": "science",
+      "english": "conserve",
+      "chinese": "保护",
+      "ipa": "kon'sa:v"
+    },
+    {
+      "id": "science-22",
+      "category_id": "science",
+      "english": "animal conservation",
+      "chinese": "动物保护"
+    },
+    {
+      "id": "science-23",
+      "category_id": "science",
+      "english": "preserve",
+      "chinese": "保护",
+      "ipa": "prizs:y"
+    },
+    {
+      "id": "science-24",
+      "category_id": "science",
+      "english": "gene",
+      "chinese": "六基因",
+      "ipa": "d3i:n"
+    },
+    {
+      "id": "science-25",
+      "category_id": "science",
+      "english": "gene pool",
+      "chinese": "基因库"
+    },
+    {
+      "id": "science-26",
+      "category_id": "science",
+      "english": "diversity",
+      "chinese": "多样性",
+      "ipa": "dai'vo:siti"
+    },
+    {
+      "id": "science-27",
+      "category_id": "science",
+      "english": "immature ad/",
+      "chinese": "不成熟的",
+      "ipa": ",imo'tfuo"
+    },
+    {
+      "id": "science-28",
+      "category_id": "science",
+      "english": "fully grown",
+      "chinese": "完全成年的"
+    },
+    {
+      "id": "science-29",
+      "category_id": "science",
+      "english": "growth stages",
+      "chinese": "成长阶段",
+      "tips": "复 数 babies."
+    },
+    {
+      "id": "science-30",
+      "category_id": "science",
+      "english": "bird",
+      "chinese": "乌",
+      "ipa": "ba:d"
+    },
+    {
+      "id": "science-31",
+      "category_id": "science",
+      "english": "migratory bird",
+      "chinese": "候鸟"
+    },
+    {
+      "id": "science-32",
+      "category_id": "science",
+      "english": "fish",
+      "chinese": "鱼",
+      "ipa": "fif"
+    },
+    {
+      "id": "science-33",
+      "category_id": "science",
+      "english": "skeleton",
+      "chinese": "骨骼，框架",
+      "ipa": "skeliton"
+    },
+    {
+      "id": "science-34",
+      "category_id": "science",
+      "english": "fin",
+      "chinese": "鱼鱼",
+      "ipa": "fin"
+    },
+    {
+      "id": "science-35",
+      "category_id": "science",
+      "english": "scale",
+      "chinese": "鱼鳞，规模",
+      "ipa": "skeil"
+    },
+    {
+      "id": "science-36",
+      "category_id": "science",
+      "english": "sense of smell",
+      "chinese": "嗅觉"
+    },
+    {
+      "id": "science-37",
+      "category_id": "science",
+      "english": "evaporate",
+      "chinese": "蒸发",
+      "ipa": "i vepereit"
+    },
+    {
+      "id": "science-38",
+      "category_id": "science",
+      "english": "filter",
+      "chinese": "过滤",
+      "ipa": "‘filto"
+    },
+    {
+      "id": "science-39",
+      "category_id": "science",
+      "english": "vegetation",
+      "chinese": "植被",
+      "ipa": ",ved3i'teifon"
+    },
+    {
+      "id": "science-40",
+      "category_id": "science",
+      "english": "willow",
+      "chinese": "柳树",
+      "ipa": "wilou",
+      "tips": "vegetation 和 plant Aw LAA PEAR RAM."
+    },
+    {
+      "id": "science-41",
+      "category_id": "science",
+      "english": "pollen",
+      "chinese": "花粉",
+      "ipa": "polon"
+    },
+    {
+      "id": "science-42",
+      "category_id": "science",
+      "english": "wood",
+      "chinese": "本材，树林",
+      "ipa": "wud"
+    },
+    {
+      "id": "science-43",
+      "category_id": "science",
+      "english": "weed",
+      "chinese": "野草",
+      "ipa": "wi:d"
+    },
+    {
+      "id": "science-44",
+      "category_id": "science",
+      "english": "agriculture",
+      "chinese": "农业",
+      "ipa": "‘agrikaltfa",
+      "tips": "复 数 weeds."
+    },
+    {
+      "id": "science-45",
+      "category_id": "science",
+      "english": "agricultural",
+      "chinese": "农业的",
+      "ipa": "agri'kaltfor(a)l"
+    },
+    {
+      "id": "science-46",
+      "category_id": "science",
+      "english": "produce",
+      "chinese": "农产品,生产",
+      "ipa": "pra'dju:s, ‘prodju:s"
+    },
+    {
+      "id": "science-47",
+      "category_id": "science",
+      "english": "wheat",
+      "chinese": "六小麦",
+      "ipa": "wi:t"
+    },
+    {
+      "id": "science-48",
+      "category_id": "science",
+      "english": "corn",
+      "chinese": "玉米",
+      "ipa": "ko:n"
+    },
+    {
+      "id": "science-49",
+      "category_id": "science",
+      "english": "livestock",
+      "chinese": "牲畜",
+      "ipa": "laivstok"
+    },
+    {
+      "id": "science-50",
+      "category_id": "science",
+      "english": "fertilise",
+      "chinese": "使肥沃",
+      "ipa": "fo:tilaiz"
+    },
+    {
+      "id": "science-51",
+      "category_id": "science",
+      "english": "soil conditioner",
+      "chinese": "土壤改良剂"
+    },
+    {
+      "id": "science-52",
+      "category_id": "science",
+      "english": "loss of soil",
+      "chinese": "土壤流失"
+    },
+    {
+      "id": "science-53",
+      "category_id": "science",
+      "english": "soil damage",
+      "chinese": "土地破坏"
+    },
+    {
+      "id": "science-54",
+      "category_id": "science",
+      "english": "organic food",
+      "chinese": "有机食品"
+    },
+    {
+      "id": "science-55",
+      "category_id": "science",
+      "english": "organic farming",
+      "chinese": "有机农业"
+    },
+    {
+      "id": "science-56",
+      "category_id": "science",
+      "english": "organic material",
+      "chinese": "有机材料"
+    },
+    {
+      "id": "science-57",
+      "category_id": "science",
+      "english": "industry",
+      "chinese": "工业",
+      "ipa": "indastri"
+    },
+    {
+      "id": "science-58",
+      "category_id": "science",
+      "english": "pottery",
+      "chinese": "陶器",
+      "ipa": "‘potori",
+      "tips": "这 个 单词 在 section4 中 考 过 多 次 , 由 于 单词 发 音 较 短 且 在 听力 中 往往 一 常 而 过 很 容易 被 考 生 忽 略 ， 对 于 这 种 比较 小 的 常 考 单词 大 家 要 特别 留心 。"
+    },
+    {
+      "id": "science-59",
+      "category_id": "science",
+      "english": "decoration",
+      "chinese": "装饰",
+      "ipa": ",deka'reifon"
+    },
+    {
+      "id": "science-60",
+      "category_id": "science",
+      "english": "climate",
+      "chinese": "气候",
+      "ipa": "‘klaimit"
+    },
+    {
+      "id": "science-61",
+      "category_id": "science",
+      "english": "climate change",
+      "chinese": "气候变化"
+    },
+    {
+      "id": "science-62",
+      "category_id": "science",
+      "english": "carbon",
+      "chinese": "碳",
+      "ipa": "‘ka:bon"
+    },
+    {
+      "id": "science-63",
+      "category_id": "science",
+      "english": "carbon dioxide",
+      "chinese": "二氧化碳"
+    },
+    {
+      "id": "science-64",
+      "category_id": "science",
+      "english": "acid",
+      "chinese": "酸，酸的"
+    },
+    {
+      "id": "science-65",
+      "category_id": "science",
+      "english": "acid rain",
+      "chinese": "酸雨"
+    },
+    {
+      "id": "science-66",
+      "category_id": "science",
+      "english": "solar energy",
+      "chinese": "太阳能"
+    },
+    {
+      "id": "science-67",
+      "category_id": "science",
+      "english": "nuclear energy",
+      "chinese": "核能"
+    },
+    {
+      "id": "science-68",
+      "category_id": "science",
+      "english": "global warming",
+      "chinese": "全球变暖",
+      "tips": "> greenhouse |‘gri:nhaus] n. 温室 效 应"
+    },
+    {
+      "id": "science-69",
+      "category_id": "science",
+      "english": "deterioration",
+      "chinese": "恶化",
+      "ipa": "di tirio'reifon"
+    },
+    {
+      "id": "science-70",
+      "category_id": "science",
+      "english": "ocean current",
+      "chinese": "洋流"
+    },
+    {
+      "id": "science-71",
+      "category_id": "science",
+      "english": "sealevel",
+      "chinese": "海平面"
+    },
+    {
+      "id": "science-72",
+      "category_id": "science",
+      "english": "latitude",
+      "chinese": "纬度",
+      "ipa": "‘letitju:d"
+    },
+    {
+      "id": "science-73",
+      "category_id": "science",
+      "english": "contamination",
+      "chinese": "污染",
+      "ipa": "kan temi'ncifan"
+    },
+    {
+      "id": "science-74",
+      "category_id": "science",
+      "english": "pollution",
+      "chinese": "污染",
+      "ipa": "po'lu;fon"
+    },
+    {
+      "id": "science-75",
+      "category_id": "science",
+      "english": "air pollution",
+      "chinese": "大气污染"
+    },
+    {
+      "id": "science-76",
+      "category_id": "science",
+      "english": "recycle",
+      "chinese": "回收"
+    },
+    {
+      "id": "science-77",
+      "category_id": "science",
+      "english": "reuse",
+      "chinese": "重新使用",
+      "ipa": "riju:zl"
+    },
+    {
+      "id": "science-78",
+      "category_id": "science",
+      "english": "reusable",
+      "chinese": "可重复使用的",
+      "ipa": "ri:'ju:zabl"
+    },
+    {
+      "id": "science-79",
+      "category_id": "science",
+      "english": "intact gd/",
+      "chinese": "未经触碰的，原封不动的",
+      "ipa": "in'tekt"
+    },
+    {
+      "id": "science-80",
+      "category_id": "science",
+      "english": "plastic",
+      "chinese": "塑料",
+      "ipa": "‘plestik"
+    },
+    {
+      "id": "science-81",
+      "category_id": "science",
+      "english": "drop-off site",
+      "chinese": "垃圾投放点"
+    },
+    {
+      "id": "science-82",
+      "category_id": "science",
+      "english": "incineration plant",
+      "chinese": "分化车间",
+      "tips": "中 间 的 连 字符 不 可 以 省 掉 。"
+    },
+    {
+      "id": "science-83",
+      "category_id": "science",
+      "english": "goods",
+      "chinese": "物品",
+      "ipa": "gudz"
+    },
+    {
+      "id": "science-84",
+      "category_id": "science",
+      "english": "granite",
+      "chinese": "花岗岩",
+      "ipa": "granit",
+      "tips": "必 须要 加 s 才 表 示 物 品"
+    },
+    {
+      "id": "science-85",
+      "category_id": "science",
+      "english": "concrete",
+      "chinese": "混凝土",
+      "ipa": "‘konkri:t"
+    },
+    {
+      "id": "science-86",
+      "category_id": "science",
+      "english": "dump",
+      "chinese": "倾倒",
+      "ipa": "damp"
+    },
+    {
+      "id": "science-87",
+      "category_id": "science",
+      "english": "power",
+      "chinese": "能量",
+      "ipa": "‘pauo"
+    },
+    {
+      "id": "science-88",
+      "category_id": "science",
+      "english": "gas",
+      "chinese": "气"
+    },
+    {
+      "id": "science-89",
+      "category_id": "science",
+      "english": "greenhouse",
+      "chinese": "温室气体"
+    },
+    {
+      "id": "science-90",
+      "category_id": "science",
+      "english": "exhausted",
+      "chinese": "尾气"
+    },
+    {
+      "id": "science-91",
+      "category_id": "science",
+      "english": "local resource",
+      "chinese": "当地资源"
+    },
+    {
+      "id": "science-92",
+      "category_id": "science",
+      "english": "natural resource",
+      "chinese": "自然资源"
+    },
+    {
+      "id": "science-93",
+      "category_id": "science",
+      "english": "diesel",
+      "chinese": "柴油"
+    },
+    {
+      "id": "science-94",
+      "category_id": "science",
+      "english": "Sustainable",
+      "chinese": "可持续的",
+      "ipa": "so'stcinabl"
+    },
+    {
+      "id": "science-95",
+      "category_id": "science",
+      "english": "sustainable development",
+      "chinese": "可持续发展"
+    },
+    {
+      "id": "science-96",
+      "category_id": "science",
+      "english": "restore",
+      "chinese": "修复",
+      "ipa": "ri'sto:"
+    },
+    {
+      "id": "society-economy-1",
+      "category_id": "society-economy",
+      "english": "economy",
+      "chinese": "经济",
+      "ipa": "i'konomi"
+    },
+    {
+      "id": "society-economy-2",
+      "category_id": "society-economy",
+      "english": "cconomist",
+      "chinese": "经济学家",
+      "ipa": "i konomist"
+    },
+    {
+      "id": "society-economy-3",
+      "category_id": "society-economy",
+      "english": "boom",
+      "chinese": "繁荣",
+      "ipa": "bu:m"
+    },
+    {
+      "id": "society-economy-4",
+      "category_id": "society-economy",
+      "english": "recover",
+      "chinese": "恢复",
+      "ipa": "ri kavo"
+    },
+    {
+      "id": "society-economy-5",
+      "category_id": "society-economy",
+      "english": "recession",
+      "chinese": "衰退，萧条",
+      "ipa": "ri'sefon"
+    },
+    {
+      "id": "society-economy-6",
+      "category_id": "society-economy",
+      "english": "depression",
+      "chinese": "衰退",
+      "ipa": "di'pres"
+    },
+    {
+      "id": "society-economy-7",
+      "category_id": "society-economy",
+      "english": "stagnation",
+      "chinese": "衰退",
+      "ipa": "steg'neifon"
+    },
+    {
+      "id": "society-economy-8",
+      "category_id": "society-economy",
+      "english": "import",
+      "chinese": "进口",
+      "ipa": "im'po:t, ‘impo:t"
+    },
+    {
+      "id": "society-economy-9",
+      "category_id": "society-economy",
+      "english": "export",
+      "chinese": "出口",
+      "ipa": "ekspo:t,cks'po:t"
+    },
+    {
+      "id": "society-economy-10",
+      "category_id": "society-economy",
+      "english": "inflation",
+      "chinese": "通货膨胀",
+      "ipa": "in'fleifon"
+    },
+    {
+      "id": "society-economy-11",
+      "category_id": "society-economy",
+      "english": "politician",
+      "chinese": "”政治家",
+      "ipa": "poli'tifon"
+    },
+    {
+      "id": "society-economy-12",
+      "category_id": "society-economy",
+      "english": "Foreign Department",
+      "chinese": "外交部"
+    },
+    {
+      "id": "society-economy-13",
+      "category_id": "society-economy",
+      "english": "Security Department",
+      "chinese": "安全部"
+    },
+    {
+      "id": "society-economy-14",
+      "category_id": "society-economy",
+      "english": "representative repri",
+      "chinese": "代表"
+    },
+    {
+      "id": "society-economy-15",
+      "category_id": "society-economy",
+      "english": "embassy",
+      "chinese": "岂.大使馆",
+      "ipa": "embasi"
+    },
+    {
+      "id": "society-economy-16",
+      "category_id": "society-economy",
+      "english": "election",
+      "chinese": "选举",
+      "ipa": "ilekfan"
+    },
+    {
+      "id": "society-economy-17",
+      "category_id": "society-economy",
+      "english": "severe competition",
+      "chinese": "激烈竞争"
+    },
+    {
+      "id": "society-economy-18",
+      "category_id": "society-economy",
+      "english": "software",
+      "chinese": "软件",
+      "ipa": "softweo"
+    },
+    {
+      "id": "society-economy-19",
+      "category_id": "society-economy",
+      "english": "technology",
+      "chinese": "科技",
+      "ipa": "tck'noladgi"
+    },
+    {
+      "id": "society-economy-20",
+      "category_id": "society-economy",
+      "english": "technique",
+      "chinese": "技巧，技能",
+      "ipa": "tck’ni:k"
+    },
+    {
+      "id": "society-economy-21",
+      "category_id": "society-economy",
+      "english": "donation",
+      "chinese": "捐赠",
+      "ipa": "dou'ncifan"
+    }
+  ]
+}
