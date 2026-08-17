@@ -35,6 +35,8 @@
 
 ## 三、5 类问题 + 应对框架
 
+> 💡 **叠加汉堡结构**：以下 5 类框架（OREO 等）是 Part 3 的"骨架"。若想冲 7+ 分，可在骨架基础上叠加**汉堡 6 层**（酱料 / 芝士 / 竹签层）——详见 `references/burger-structure.md` 第三节 3.3 Part 3 应用范例。
+
 ### 1. Opinion（观点）
 
 > "Do you think X is important?" / "Is X a positive development?"
@@ -121,6 +123,8 @@
 ## 五、Part 3 的核心技能：**Hedging（保留意见）**
 
 > 这是 **Band 6 → 7/8 的最大杠杆**。
+
+> 💡 **Be Real + Hedging**：Hedging ≠ 没立场——必须有真实观点，只是把肯定程度包在 hedge 里。详见 `references/part1-guide.md` 第九节末尾 Be Real 哲学。
 
 | 类别 | 表达 |
 |---|---|

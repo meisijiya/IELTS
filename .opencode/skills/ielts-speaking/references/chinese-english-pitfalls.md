@@ -102,6 +102,34 @@
 
 ---
 
+## 第一节 B 必会的 5 个「解释触发词」——Create a Window（课程核心）
+
+> **原理**：回答时主动埋入"可扩展"的钩子词，给"展开解释"留出接口。**中国学生最常犯的错误是"只给信息不解释"**——考官听到 30 秒没听到 because / so / why，分数立刻掉一档。
+>
+> **为什么必会**：所有 4 项评分标准里，FC（连贯性）和 LR（解释能力）都要求"展开"。5 个触发词 = 5 把钥匙。
+
+| 触发词 | 用法 | 范例 |
+|---|---|---|
+| **because** | 最直接的因果 | I live in Futian **because** my parents work there. |
+| **so** | 接结果 | ...**so** they bought the apartment in Futian. |
+| **the reason is that...** | 正式表达原因 | **The reason is that** I want to be close to my office. |
+| **which is why...** | 高级因果（接从句） | The area is well connected, **which is why** I chose it. |
+| **so that / in order to** | 表目的 | I chose this place **so that** I could commute easily. |
+
+**对比：没埋钩子 vs 埋钩子**
+
+❌ 没钩子（5.5 答案）：
+> I live in Futian. It's a nice place.
+
+✅ 埋钩子（7 分答案）：
+> I live in Futian **because** my parents work there, **so** they bought the apartment in Futian. **The reason** I like it is that everything is nearby — my office, the subway, even the gym. It's basically designed for convenience, **which is why** I never want to move.
+
+**训练动作**：每次回答前先问自己 3 个 "why"——至少有 2 个能用 because / the reason is that / which is why 表达出来。
+
+详见 `references/speaking-toolkit.md` 第二部分 2.2 节。
+
+---
+
 ## 第二节 可容忍的 10 个「风格型」中式英语（6.5 没事，7+ 才修）
 
 > 这些**不算错误**，但会让你听起来像"翻译过来的"。修掉就从 6.5 → 7。
@@ -118,6 +146,19 @@
 | **many people think...** | a lot of people believe / there's a widespread belief that / it's commonly held that |
 | **nowadays** | these days / at present / currently / in recent years |
 | **in China**（回答 In my country 时太直白） | where I come from / in my home country / in my part of the world |
+
+### 课程强调的额外替换词（6 组核心）
+
+| 基础词 | 替换词（课程强调） | 用法区分 |
+|---|---|---|
+| **delicious**（描述食物） | **mouth-watering** / **satisfying** | mouth-watering = 好吃得流口水（最具体）；satisfying = 吃完感觉满足 |
+| **good**（描述体验） | **fabulous** / **brilliant** / **fantastic** | 泛用赞美词升级 |
+| **satisfied**（描述满足） | **satisfied** vs **thrilled** | satisfied = 拥有需要的一切所以满足（平静）；thrilled = 坐过山车般的激动（强烈） |
+| **very + 形容词** | **absolutely / genuinely / truly / incredibly** + 形容词 | 替换 very，加重语气 |
+| **great**（描述好） | **fabulous / exceptional** | 强调"非同寻常" |
+| **much / many**（描述多） | **a great deal of / a wealth of / plenty of** | 替换口语化的 much / many |
+
+详见 `references/speaking-toolkit.md` 第三部分 3.1–3.7 节。
 
 ---
 

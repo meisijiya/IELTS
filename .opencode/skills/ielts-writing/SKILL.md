@@ -7,6 +7,17 @@ updated: 2026-08
 
 # IELTS Writing 写作教学与评分 skill（2026 版）
 
+> ⚠️ **关于本 skill 的内部教学分类清单**：本 skill 在不同位置出现的多个"分类清单"是**本 skill 内部教学整理**，**非 BC/IDP/ielts.org/Cambridge 官方分类**。具体包括但不限于：
+>
+> | 本 skill 用术语 | 出处 | 官方对应或不存在 |
+> |---|---|---|
+> | **Task 1 Academic 五种题型**（动效图/静态图/地图题/流程图/混合图） | `references/task1-guide.md` | 官方为：graphs（line/bar/pie/table）+ process + map + mixed，本 skill 合并为 5 类 |
+> | **Task 2 五种题型**（Opinion / Discussion / Pros-Cons / Two-part / Problem-Solution） | `references/task2-guide.md` | 官方 5 大类对应 IDP / Magoosh 等第三方分类 |
+> | **Task 1 GT 书信三种语气**（正式 / 半正式 / 非正式） | `references/gt-letter-guide.md` | 与 ielts.org GT 书信分类一致 |
+> | **冲刺时间表 0/5.5 → 4-6 周密集** | `references/2026-updates.md` §九 | 经验估算（已声明"非官方"） |
+>
+> 使用时**不应误传为 BC/IDP/Cambridge 官方分类**——它们是本 skill 为方便教学做的内部整理。
+
 ## 概述
 
 本 skill 是一个面向雅思写作模块（Task 1 + Task 2）的教学与产出助手，覆盖 **Academic（A 类）** 与 **General Training（G 类 / GT）** 两种考试类型。它把「方法论 + 评分量表 + 分档产出 + 评分反馈」封装成一个工作流，让 Agent 可以：
@@ -17,7 +28,22 @@ updated: 2026-08
 
 任何进入本 skill 的请求，都先走「意图路由」再进入对应能力的 SOP。
 
-> ⚠️ **2026 年合规声明**：本 skill 仅用于教学、提纲、语言诊断与范文生成。**严禁**为考生代写并提交为正式考试答卷。IDP / British Council 于 2023 年明确要求写作全程独立完成，监考与阅卷均含 AI 生成文本检测环节。详见 `references/2026-updates.md`。
+> 🆕 **2026 年中期全球停办纸笔考 + Writing on Paper 选项**（ielts.org 2026-03-05 公告）：自 2026 年中期起全球 IELTS 全部转为机考。**部分市场保留 Writing on Paper（WoP）选项**——机考完成听/读/说 + 手写作文。中国大陆 2025-09-01 起已先行完成纸笔考停办，**中国大陆目前不提供 WoP**（BC + NEEA 双运营方确认）。详见 `references/2026-updates.md` §十（OSR + WoP）/ §十一（中国大陆 2026 政策）。
+
+> ⚠️ **2026 年合规声明**：本 skill 仅用于教学、提纲、语言诊断与范文生成。**严禁**为考生代写并提交为正式考试答卷。IDP / British Council 自 2024 年起明确要求写作全程独立完成，监考与阅卷均含 AI 生成文本检测环节。详见 `references/2026-updates.md`。
+
+---
+
+## 姊妹 skill 引用（2026 横跨政策）
+
+> 本 skill 是 4 份 IELTS skill 之一（speaking / writing / reading / listening）。下列政策在 4 份 skill 间共享，遇到时建议互相参照：
+
+| 主题 | 本 skill 位置 | 其它 skill |
+|---|---|---|
+| **2026-03-05 ielts.org 公告**（全球停办纸笔考 + WoP 选项）| SKILL.md 概述 | speaking SKILL.md 概述 + reading/listening SKILL.md 概述 |
+| **One Skill Retake (OSR) 60 天** | `2026-updates.md` §十 + SKILL.md 触发路由表 | speaking `2026-updates.md` §三 + reading `2026-updates.md` §三 + listening `2026-updates.md` §三 |
+| **Writing on Paper (WoP) 2026 规则** | `2026-updates.md` §十 | speaking 不适用（仍 100% 真人）+ reading 不适用 + listening 不适用 |
+| **中国大陆 2026 政策专项**（停办日期、WoP 不提供、OSR 启动、1990 RMB 报名费）| `2026-updates.md` §十一 | speaking `2026-updates.md` §十 + reading `2026-updates.md` §十三 + listening `2026-updates.md` §八 |
 
 ---
 
@@ -35,6 +61,8 @@ updated: 2026-08
 | 「写 + 评」组合 | **先生成再评分** | 给出范文后自评，并标注「目标分数 ≥ 真实估分」时的差距 |
 | 「GT 书信 / General Training / 投诉信 / 求职信 / 道歉信」 | **GT 书信路径** | 加载 `references/gt-letter-guide.md`，走 SOP-D |
 | 「机考 / computer-delivered / 打字输入」 | **机考路径** | 加载 `references/2026-updates.md` 中机考章节 |
+| 「OSR / 重考写作 / 写作重考 / 单科重考 / 60 天」 | **OSR 路径（写作）** | 加载 `references/2026-updates.md` §十；或加载 `references/2026-updates.md` 中 WoP-OSR 同模式要求章节 |
+| 「Writing on Paper / 手写作文 / 不机考写作 / 不打字写作 / WoP」 | **WoP 路径** | 加载 `references/2026-updates.md` §十；明确告知"中国大陆不提供 WoP" |
 
 > ⚠️ **追问最小集**：当用户没说清以下信息时，**一次追问** 同时要齐，再进入生成 / 评分：
 > - **考试类型**：Academic（A 类）/ General Training（G 类）— **2026 年起此问题优先级最高**

@@ -18,6 +18,23 @@
 
 ## 二、五种题型详解
 
+> ⚠️ **官方 5 大类 vs 本 skill 5 类映射**（避免学员误传）：
+>
+> | 官方 5 类（ielts.org / Magoosh / IDP 共识） | 本 skill 章节 | 备注 |
+> |---|---|---|
+> | 1. Opinion / Agree-Disagree | §二 ① Agree or Disagree | 一致 |
+> | 2. Discussion（Discuss Both Views + your opinion）| §二 ④ Discuss Both Views | 一致 |
+> | 3. Advantages / Disadvantages（Pros and Cons）| §二 ③ Pros and Cons | 一致 |
+> | 4. Problem / Solution | §二 ⑤ 末尾子节"Problem & Solution 段落" | 本 skill 合并入 §二 ⑤ |
+> | 5. Two-part Question | §二 ⑤ Two-part Question | 本 skill 合并入 §二 ⑤ |
+>
+> **关键澄清**：
+> - §二 ② **Positive or Negative**（"Do you think this is a positive or negative development?"）**不是独立官方类型**——它是 ① Opinion 的子型（"developments" 是 opinion 类的延伸）。本 skill 单列是教学便利，**官方归入 Opinion**。
+> - §二 ⑤ **Two-part Question / Problem & Solution** 是本 skill 把官方两类（Two-part + Problem-Solution）合并为一节——两者**写作框架基本一致**（intro 双 hook + 双 body），但题型触发词不同：
+>   - Two-part: "Why is this the case? Is it a positive or negative trend?"
+>   - Problem/Solution: "What are the reasons for this? What can be done?"
+>   学员在考场上需根据触发词区分使用。
+
 ### ① Agree or Disagree（同意与否）
 
 **典型问法**：
@@ -49,7 +66,7 @@ Conclusion: 重申我的立场
 
 ---
 
-### ② Positive or Negative（积极 / 消极发展）
+### ② Positive or Negative（积极 / 消极发展）（属 ① Opinion 子型）
 
 **典型问法**：
 > Do you think this is a positive or negative development?
@@ -141,7 +158,7 @@ Conclusion: 站边 / 分类讨论
 
 ---
 
-### ⑤ Two-part Question / Problem & Solution（两问问题）
+### ⑤ Two-part Question / Problem & Solution（两问问题）（含 Problem-Solution 子型）
 
 **典型问法**：
 > What are the reasons for this? What can be done?

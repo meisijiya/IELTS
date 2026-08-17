@@ -82,6 +82,15 @@ Speaking 口语分 = (FC + LR + GRA + P) / 4
   - `important` → `essential / crucial / vital / of great significance`
   - `good` → `helpful / beneficial / favourable / positive`
   - `bad` → `harmful / detrimental / unfavourable / negative`
+- **课程强调的高频替换词**（性价比最高）：
+  - `delicious`（食物）→ `mouth-watering` / `satisfying`
+  - `happy` → `thrilled`（强烈）/ `over the moon`（极开心）/ `pretty chuffed`（英式）
+  - `very + adj` → `absolutely / genuinely / truly / incredibly + adj`
+  - `great` → `fabulous / exceptional`
+  - `much / many` → `a great deal of / a wealth of / plenty of`
+  - `because`（每句都用）→ `The main reason is that / This is largely because / What drives this is`
+
+> 完整替换词清单见 `references/speaking-toolkit.md` 第三部分（7 大类共 50+ 替换词）。
 - **搭配优先于单词**：
   - `make a decision`（√），而不是 `do a decision`（×）
   - `pose a threat`（√），而不是 `give a threat`（×）
@@ -199,7 +208,6 @@ Speaking 口语分 = (FC + LR + GRA + P) / 4
 | 6 | 7 | 6 | 7 | 6.5 | 6.5 |
 
 > ⚠️ **木桶效应**：四项中最低项往往决定总分上限。要冲 7，**最弱项至少要 6**（如 7/6/7/7 = 6.75 → 7.0），但**单项 6 不会自动封顶 7**——参见上方表格。
-> ⚠️ **口语特殊性**：P 项在文本评估中无法精确判断，必须有录音。即便如此，LR / GRA 在文本中足以评估，FC 部分可从填词和停顿标注推断。
 > ⚠️ **口语特殊性**：P 项在文本评估中无法精确判断，必须有录音。即便如此，LR / GRA 在文本中足以评估，FC 部分可从填词和停顿标注推断。
 
 ---

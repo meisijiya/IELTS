@@ -225,3 +225,231 @@
 - ✅ 包含机考策略与 AI 合规提醒。
 - ✅ 不提供代写服务，仅用于教学与学习辅助。
 - ❌ 不承诺 7+ 分结果（分数取决于个人学习与执行）。
+
+---
+
+## 十、🆕 2026 写作 OSR + Writing on Paper（WoP）专项政策
+
+> 写作是 2026 年 IELTS 唯一仍允许"手写 + 不机考"的科目，但有严格的政策约束。这一节专门处理写作的 One Skill Retake（OSR）和 Writing on Paper（WoP）问题。
+
+### 10.1 写作 OSR 规则（One Skill Retake）
+
+**核心规则**（与 reading/listening OSR 一致，来源：ielts.org OSR 页面、British Council OSR FAQs）：
+
+| 项目 | 详情 |
+|---|---|
+| **可用科目** | Listening / Reading / Writing / Speaking **全部 4 项**（包括写作） |
+| **时间限制** | 原考日起 **60 天内** 报名并完成 OSR |
+| **考试方式** | **必须机考**（IELTS on Computer 全套，与原考方式一致） |
+| **每次限制** | 每次全考只能 OSR 一次 |
+| **IELTS Online** | ❌ **不支持 OSR**（仅机考中心支持） |
+| **美国** | ❌ **美国不接受 OSR**（2026 状态） |
+| **中国大陆 OSR** | 见 §十一：中国大陆 OSR 雅思 2026-04-26 启动报名；UKVI OSR 2026-09-10 启动、9-24 首考 |
+| **覆盖范围** | ielts.org 官方表述为 "widely available worldwide"；IDP 官方数据"1200+ 机构接受"；具体国家清单需在 IELTS 报名系统查询 |
+
+### 10.2 写作 OSR 操作流程
+
+1. **原考**（A 类 / GT 类任一）→ 拿到成绩单
+2. **决定是否 OSR**：
+   - 写作 < 6.5 但其他科 ≥ 7 → ✅ 可考虑
+   - 整体水平都低 → ❌ 应整体重考
+   - 申请截止日期紧 → ❌ OSR 前后需 1–2 周准备
+3. **60 天内** → 在 OSR 考点完成**仅写作部分**（Task 1 + Task 2，标准 60 分钟 + 检查 0 分钟）
+4. **新 TRF** → 收到新 Test Report Form（含原 3 项 + 新写作分数，重新计算 overall band）
+5. **选择成绩单** → 候选人自己选择用原 TRF 还是新 TRF
+
+### 10.3 何时考虑写作 OSR
+
+**适合**：
+- ✅ 写作 < 6.5 但其他科 ≥ 7
+- ✅ 写作明显失常（如平时模考 7+ 但考试只 5.5）
+- ✅ 因身体不适 / 设备问题 / 时间分配失误导致写炸
+- ✅ 时间充裕（OSR 前后间隔 < 60 天 + 7 天强化）
+
+**不适合**：
+- ❌ 整体水平都低 → 应整体重考
+- ❌ 写作是长期弱项 → 需要时间系统提升
+- ❌ 申请截止日期紧
+- ❌ 目标考试机构不接受 OSR
+- ❌ 写作 OSR 后依然 < 6.5，无法达标
+
+### 10.4 写作 OSR 前 7 天强化方案
+
+| 天 | 任务 |
+|---|---|
+| **Day 1-2** | 1 套完整真题模考（Task 1 + Task 2 计时）+ 错题分析 |
+| **Day 3-4** | 专攻最弱题型（Task 1 图表/GT 书信 vs Task 2 大作文）；每天 1 套完整写作 |
+| **Day 5-6** | 2 套完整真题模考（机考 UI 模拟 + 计时 + 字数管理） |
+| **Day 7** | 1 次全真模拟 + 考前 30 秒动作清单演练 + 作息调整 |
+
+详见 `references/task2-guide.md` / `references/task1-guide.md` 各章题型策略。
+
+### 10.5 Writing on Paper（WoP）规则
+
+**核心事实**（BC 2026-04-15 公告）：
+
+- ✅ 2026 年中期起，**部分市场**提供 WoP 选项
+- ✅ WoP 仅适用于 **Writing 部分**——Listening / Reading / Speaking 仍必须在机考完成
+- ✅ 选 WoP 的考生：**机考完成听/读/说 + 手写作文**
+- ✅ 适合"打字慢但写字稳"的考生
+- ❌ **UKVI 考试不提供 WoP**——UKVI 必须全数字化
+
+**WoP + OSR 同模式要求**（关键约束）：
+
+> "One Skill Retake will now be available for Writing on Paper but must be taken in the same delivery mode as the original test. If a test taker chose Writing on Paper, their One Skill Retake must also be done with Writing on Paper and not writing on computer."
+> ——IDP 2026 OSR 公告
+
+**实操含义**：
+- 选 WoP 后，OSR 重考写作时**必须仍用 WoP**——不能改回机考
+- 反之，原考机考写作，OSR 重考也只能机考
+- **报名 WoP 时就需明确 OSR 路径倾向**——若以后想 OSR 写作且保留 WoP，必须从一开始就选 WoP
+
+### 10.6 WoP 启用市场清单（部分，已知）
+
+| 市场 | WoP 是否提供 | 来源 |
+|---|---|---|
+| **中国大陆**（BC + NEEA 双运营）| ❌ **目前不提供**（BC + NEEA 双方确认）| chinaielts.org 2026 / BC China 2026 |
+| 香港 | ✅ 提供（具体实施时间见 BC Hong Kong）| BC 2026 |
+| 英国 / 美国 / 加拿大 | ⚠️ 部分考点提供，需在报名系统核实 | BC 2026 |
+| 印度 / 巴基斯坦 / 菲律宾 | ✅ 提供 | IDP 2026 |
+| 澳洲 / 新西兰 | ✅ 提供 | IDP 2026 |
+| 欧洲（德国 / 法国 / 荷兰 等）| ✅ 提供 | BC 2026 |
+
+> ⚠️ **核验状态**：以上清单基于 2026 年 BC / IDP 各市场官方页，**实施日期因考点而异**。报名前必须在目标考点确认。
+
+### 10.7 WoP 操作实操差异（写作手写而非打字）
+
+| 项目 | 机考写作 | **WoP 手写** |
+|---|---|---|
+| **输入方式** | 键盘打字 | 手写作文纸（雅思答题纸 IELTS Writing Answer Sheet）+ 笔 |
+| **字数统计** | 实时显示（屏幕右侧）| 自行数（按词数）|
+| **拼写检查** | 系统提供红线标记 | 无（只能自查）|
+| **修改** | 直接覆盖原文本 | 划掉后重写（保持卷面整洁）|
+| **草稿** | 屏幕底部草稿区 | 试卷空白处 |
+| **Task 1 配图** | 屏幕显示图表 | 试卷印有图表 |
+| **Task 2** | 屏幕显示题目 | 试卷印有题目 |
+
+> ⚠️ **手写卷面要求**：WoP 卷面不整洁会被考官扣 CC 分。建议先在草稿纸打稿，誊写时保持整齐。
+
+### 10.8 写作 OSR / WoP 重要提示（必读）
+
+1. **OSR 不是万能补救**——成绩是独立的，但**取最高**计入最终成绩单
+2. **WoP 与机考分数等效**（IDP / British Council 多次声明机考与纸考分数等效——WoP 视为机考下的写作选项）
+3. **目标机构接受 OSR 需提前核实**——少数机构仅认首次成绩
+4. **WoP 报名前确认考点是否真提供**——中国大陆目前不提供
+5. **写作 OSR 仅适用单次成绩单**——每次完整考试仅 1 次 OSR 机会
+
+### 10.9 本 skill 对 OSR / WoP 的处理
+
+| 用户问 | skill 响应 |
+|---|---|
+| "我想 OSR 重考写作" | ✅ 加载本节 + 引导查看 §十.3 何时考虑 |
+| "我想手写作文，机考听读说"（WoP） | ✅ 加载本节 + 检查市场清单（§十.6） |
+| "我在中国大陆，能选 WoP 吗" | ⚠️ 明确告知"中国大陆目前不提供 WoP，BC + NEEA 双方确认" |
+| "我写作 OSR 后还能改回机考吗" | ❌ 明确告知"不能——OSR 必须与原考同模式，WoP → WoP，机考 → 机考" |
+| "OSR 价格多少" | ✅ 引导查看 §十一（中国大陆定价 380 RMB 转考/退考费，OSR 价格需在报名系统核实）|
+
+---
+
+## 十一、🆕 中国大陆 2026 政策专项
+
+> 中国大陆是 IELTS 最大的市场之一（年考生量数百万），2026 年 IELTS 在中国大陆有以下特殊安排。**这是 iknow English UK / 香港 / 美国等其他市场没有的独家信息**。
+
+### 11.1 中国大陆 2026 考务时间表
+
+| 项目 | 详情 | 来源 |
+|---|---|---|
+| **中国大陆普通 IELTS 停办纸笔** | **2025-09-01 起**已停办纸笔考，全部转 IELTS on Computer（chinaielts.org / BC China / NEEA 三方一致）| chinaielts.org 机考模式页 |
+| **中国大陆 IELTS for UKVI 停办纸笔** | **2025-07-01 起**已停办，全部数字化 | 同上 |
+| **Writing on Paper（WoP）中国大陆** | ❌ **目前不提供**（BC China + NEEA 双运营方均确认）| BC China 2026 |
+| **2026 年考位开放** | **2025-11-21 起**开始 2026 全年考位报名 | chinaielts.org 公告 |
+
+> ⚠️ **关键事实**：中国大陆 IELTS/UKVI 纸笔考已停办（不是即将停办）；2026 年报名已于 2025-11-21 开放。BC + IDP 全球"mid-2026"停办纸笔是全球计划，但中国大陆**先于全球节奏完成停办**——这是中国市场的特殊性。
+
+### 11.2 中国大陆 OSR 时间表
+
+| 项目 | 详情 | 来源 |
+|---|---|---|
+| **中国大陆 IELTS OSR 启动报名** | **2026-04-26** | BC China / NEEA 联合公告 2026 |
+| **中国大陆 IELTS for UKVI OSR** | **2026-09-10 启动报名，2026-09-24 首考** | 同上 |
+| **OSR 唯一路径** | **必须机考**（IELTS on Computer），IELTS Online 不支持 OSR | IDP / BC 官方 |
+| **OSR 价格** | 见 §11.3 2026 价格调整 |
+| **OSR 时间限制** | 必须在原考后 **60 天内**完成 | ielts.org 官方 |
+
+> ⚠️ **与中国市场特殊性**：OSR 2026 年 4-9 月才在中国大陆全面铺开——比 IDP / BC 全球启动晚约 6-12 个月。3 月底前在中国大陆考试且想 OSR 的考生**无中国大陆 OSR 可用**，需考虑出境（如香港、澳门、韩国、菲律宾）申请 OSR。
+
+### 11.3 中国大陆 2026 报名费调整
+
+| 项目 | 2025 旧价 | **2026 新价** | 调整 |
+|---|---|---|---|
+| **普通 IELTS Academic / GT** | 2170 RMB | **1990 RMB** | **降 180 RMB**（36 年来首次降价）|
+| **IELTS for UKVI** | 2170 RMB | **1990 RMB** | 降 180 RMB |
+| **Life Skills A1 / B1** | 1250 RMB | 1250 RMB | 不变 |
+| **转考 / 退考费** | 420 RMB | **380 RMB** | 降 40 RMB |
+
+> ⚠️ **历史性首次降价**：2026 年是 IELTS 进入中国大陆 36 年来**首次降价**。报名费 1990 RMB（折合 ~280 USD）。
+
+> 来源：BC China 官网 + NEEA + 腾讯新闻 2025-10 报道（多源交叉验证）
+
+### 11.4 中国大陆 IDP / BC 双方安排
+
+| 项目 | IDP (NEEA) | British Council (BC China) |
+|---|---|---|
+| 主运营方 | NEEA（教育部考试中心）| BC 中国办公室 |
+| 报名网址 | ielts.neea.cn | britishcouncil.cn / ielts.britishcouncil.org |
+| OSR 受理 | ✅（2026-04-26 起）| ✅（2026-04-26 起）|
+| WoP 提供 | ❌ | ❌ |
+| 转考 / 退考费 | 380 RMB | 380 RMB |
+| 2026 报名费 | 1990 RMB | 1990 RMB |
+
+### 11.5 中国大陆 IELTS Online 状态
+
+> ⚠️ **IELTS Online（在家考）在中国大陆当前状态为不可用**。
+>
+> ielts.org IELTS Online 页：
+> - IELTS Online **仅在选定国家提供**（截至 2026-08）
+> - 中国大陆不在 IELTS Online 提供国家清单内
+> - 考生想"在家考 IELTS"目前**无中国大陆路径**——可考虑出境到香港、澳门、菲律宾等市场（IELTS Online 在这些市场可用）
+
+### 11.6 UKVI 2026-01-08 B2 升档（移民类考试关键）
+
+> **2026 年 1 月 8 日起**：
+> - 英国 Skilled Worker visa（技术工人签证）+ Health and Care Worker visa（医疗护理签证）**英语要求从 B1 升到 B2**
+> - **对应 IELTS 成绩**：CEFR B2 ≈ IELTS 5.5–6.5（具体分数因测试项而异，UKVI 内部映射 B1=4.0 / B2=5.5）
+> - 这意味着 2026 年起申请英国技术工人 / 医疗护理签证的中国考生，**目标分比之前更高**
+> - 来源：[GOV.UK Skilled Worker visa English requirements](https://www.gov.uk/skilled-worker-visa/knowledge-of-english)
+>
+> **影响**：本 skill 用户中如有英国移民路径，必须按 B2 而非 B1 准备。建议 UKVI 目标分 ≥ 6.0（Task 1 + Task 2 均 ≥ 6.0）作为安全垫。
+
+### 11.7 中国大陆 2026 OSR 准备提示
+
+针对中国大陆用户：
+
+1. **首考日**建议在 **2026-04-26 之后**——保证 OSR 选项可用
+2. **4 周冲刺 → 首考**建议在 **2026-05 / 2026-06 / 2026-08**——给 OSR 留时间窗
+3. **2026-04-26 前考试**的考生：OSR 选项**不可用**——考虑以下三条路径：
+   - (a) 不 OSR，整体重考
+   - (b) 申请**境外 OSR**（香港、澳门、韩国、菲律宾等地的 IELTS on Computer 机考）——但需提前确认目标机构是否接受"原考 + 境外 OSR"组合
+   - (c) 等待 NEEA 在中国大陆开放 OSR 后再考
+4. **目标分规划**：UKVI 中国大陆申请者按 6.0+ 准备（一律按 B2 CEFR）；非 UKVI 但申英国移民者同 6.0+；仅申学（美/加/澳/新）的中国大陆考生按目标院校要求 6.5–7.0 准备即可。
+
+### 11.8 中国大陆 2026 政策更新来源汇总
+
+- [chinaielts.org 机考模式](https://www.chinaielts.org/about-ielts/ways-to-take-ielts/computer)
+- [chinaielts.org 报名流程](https://www.chinaielts.org)
+- [BC China 2026 IELTS 报名](https://www.britishcouncil.cn)
+- [NEEA IELTS 报名](https://ielts.neea.cn)
+- [IELTS 官方 2026-03-05 公告](https://ielts.org/news-and-insights/updates-to-ielts-test-delivery)
+- [GOV.UK Skilled Worker visa English requirements](https://www.gov.uk/skilled-worker-visa/knowledge-of-english)
+- [ielts.org One Skill Retake](https://ielts.org/take-a-test/booking-your-test/one-skill-retake)
+
+---
+
+## 十二、本 skill 的 2026 年承诺（含 OSR / WoP / 中国大陆）
+
+- ✅ 与 IDP / British Council / Cambridge 公开版评分标准保持一致。
+- ✅ 覆盖 Academic 与 General Training 两种考试。
+- ✅ 包含机考策略 + AI 合规提醒 + OSR + WoP + 中国大陆政策（2026 年起）。
+- ✅ 不提供代写服务，仅用于教学与学习辅助。
+- ❌ 不承诺 7+ 分结果（分数取决于个人学习与执行）。
+- ❌ 不提供 AI 代写 / 实时辅助类服务（合规风险）。

@@ -109,6 +109,8 @@
 
 ### 视频口语专属 ORE 框架（Optics / Response / Engagement）
 
+> ⚠️ **重要 disclaimer**：**ORE（Optics / Response / Engagement）系本 skill 自定义教学框架，非 BC/IDP/ielts.org 官方术语**。VCS（Video Call Speaking / 视频口语）本身是 BC / IDP / ielts.org 官方选项（IDP 2026 公告 + Lee et al. 2021 VCS 研究），但 ORE 三维框架是本 skill 为统一视频口语备考动作而构造的整理工具，并非 BC/IDP 官方方法。学员可放心使用其结构，但**不应误传为 BC/IDP 官方框架**。
+
 > 把视频口语「3 个不同维度」的问题一次性框住。Part 1/2/3 本身的答题框架见 `references/part1-guide.md` / `part2-guide.md` / `part3-guide.md`，这里只讲视频这一层。
 
 #### O — Optics（视觉准备，考前 30 分钟搞定）
@@ -356,3 +358,81 @@
 | VCS 备考提示 | IDP Australia | https://ielts.com.au/australia/about/news-and-articles/article-tips-for-ielts-vcs-video-call-speaking |
 | 评分标准 | ielts.org Band Descriptors PDF | https://ielts.org/cdn/ielts-guides/ielts-speaking-band-descriptors.pdf |
 | Pronunciation 评分 | ielts.org Key Assessment PDF | https://ielts.org/cdn/ielts-guides/ielts-speaking-key-assessment-criteria.pdf |
+
+---
+
+## 十、🆕 中国大陆 2026 政策专项
+
+> 本 skill 用户大多数来自中国大陆。本节汇总 2026 年中国大陆 IELTS 关键政策——口语部分专题。
+
+### 10.1 现有事实回顾
+
+- ✅ **2025-09-01 起中国大陆普通 IELTS 停办纸笔**，全部机考（chinaielts.org / BC China / NEEA 三方一致）
+- ✅ **2025-07-01 起 UKVI 停办纸笔**，全部数字化
+- ✅ **2025-11-21 起**开放 2026 全年考位报名
+- ⚠️ **WoP 中国大陆不提供**（BC China + NEEA 双运营方均确认）——口语仍 100% 真人考官，但考生在机考中心
+
+### 10.2 中国大陆 OSR 时间表
+
+| 项目 | 详情 | 来源 |
+|---|---|---|
+| **IELTS OSR 启动报名** | **2026-04-26** | BC China + NEEA 联合公告 2026 |
+| **IELTS for UKVI OSR** | **2026-09-10 启动报名，2026-09-24 首考** | 同上 |
+| **OSR 唯一路径** | 必须机考（IELTS on Computer），IELTS Online 不支持 | ielts.org |
+| **OSR 口语单科** | 重新考 1 次完整口语（11–14 分钟），考官、形式、评分标准完全一致，仅不重考其他 3 科 | ielts.org / BC FAQ |
+| **美国不接受 OSR** | 全部 4 科均不接受 | BC FAQ 2026 |
+
+> ⚠️ **中国市场特殊性**：OSR 在中国大陆**比 IDP / BC 全球节奏晚 6-12 个月**铺开。2026-04-26 前在中国大陆考试且想 OSR 口语的中国考生**无中国大陆 OSR 可用**——可考虑：(a) 不 OSR，整体重考；(b) 申请境外 OSR（香港 / 澳门 / 韩国 / 菲律宾 IELTS on Computer 中心）；(c) 等待 NEEA 在中国大陆开放 OSR 后再考。
+
+### 10.3 中国大陆 2026 报名费（首次降价）
+
+| 项目 | 2025 旧价 | **2026 新价** | 调整 |
+|---|---|---|---|
+| **普通 IELTS Academic / GT** | 2170 RMB | **1990 RMB** | **降 180 RMB**（36 年来首次降价）|
+| **IELTS for UKVI** | 2170 RMB | **1990 RMB** | 降 180 RMB |
+| **Life Skills A1 / B1** | 1250 RMB | 1250 RMB | 不变 |
+| **转考 / 退考费** | 420 RMB | **380 RMB** | 降 40 RMB |
+
+> 来源：BC China + NEEA + 腾讯新闻 2025-10 多源验证。
+
+### 10.4 中国大陆 IELTS Online / VCS 状态
+
+- ❌ **IELTS Online 不在中国大陆提供**——考生不能在家考
+- ✅ **VCS（视频口语）在机考中心提供**——中国大陆考试中心可报名 VCS（视频通话真人考官）
+- ⚠️ **WoP 不提供**——口语仍 100% 真人考官，但考生在机考中心
+
+### 10.5 UKVI 2026-01-08 B2 升档
+
+- **2026-01-08 起**，英国 Skilled Worker / Health and Care Worker 签证英语要求 **B1 → B2**
+- B2 ≈ IELTS 5.5–6.5（UKVI 内部 B2 映射约 5.5 单项）
+- 影响：本 skill 用户中如有英国移民路径，**目标分比之前更高**，建议 UKVI Speaking 准备 ≥ 6.0
+- 来源：[GOV.UK Skilled Worker visa English](https://www.gov.uk/skilled-worker-visa/knowledge-of-english)
+
+### 10.6 中国大陆 2026 OSR 准备提示（针对口语 OSR）
+
+针对中国大陆用户准备口语 OSR：
+
+1. **首考日建议在 2026-04-26 之后**——保证 OSR 选项可用
+2. **2026-04-26 前考试**：OSR 选项**不可用**——按"整体重考"准备
+3. **境外 OSR 路径**：可申请香港 / 澳门 / 韩国 / 菲律宾等地的 IELTS on Computer 中心，但需提前确认目标机构是否接受"中国大陆首考 + 境外 OSR"组合
+4. **本 skill OSR 7 天强化方案**见 §三，建议提前 14 天准备 + OSR 口语考试 1 天 + 出分 1 天，**完整周期约 16 天**——早于 60 天限制
+5. **口语 OSR 流程**：重新考 1 次完整口语（11–14 分钟），考官随机分配，**3–5 天出分**——比 Skill 整体 OSR 出分还快（一般为 6–8 天）
+
+### 10.7 中国大陆口语机考 VCS 准备提示
+
+针对中国大陆 VCS（视频口语）考生：
+
+1. **背景 / 光线要求**：见 §二 ORE 框架 Optics 部分
+2. **耳机**：考试中心官方降噪耳机，不接受自备
+3. **真实性挑战**：VCS 考官远程视频，仍是真人判分——任何背稿 / AI 生成答案的痕迹都会被 P / FC / LR 三项压分
+4. **首考建议**：**2026-05 之后的考位**——给 OSR 路径 + VCS UI 适应各留时间
+
+### 10.8 中国大陆 2026 政策更新来源汇总
+
+- [chinaielts.org 机考模式](https://www.chinaielts.org/about-ielts/ways-to-take-ielts/computer)
+- [chinaielts.org 报名流程](https://www.chinaielts.org)
+- [BC China 2026 IELTS 报名](https://www.britishcouncil.cn)
+- [NEEA IELTS 报名](https://ielts.neea.cn)
+- [IELTS 官方 2026-03-05 公告](https://ielts.org/news-and-insights/updates-to-ielts-test-delivery)
+- [GOV.UK Skilled Worker visa English requirements](https://www.gov.uk/skilled-worker-visa/knowledge-of-english)
+- [ielts.org One Skill Retake](https://ielts.org/take-a-test/booking-your-test/one-skill-retake)

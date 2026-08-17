@@ -7,6 +7,22 @@ updated: 2026-08
 
 # IELTS Speaking 口语教学、陪练与评分 skill（2026 版）
 
+> ⚠️ **关于本 skill 的内部教学分类清单**：本 skill 在不同位置出现的多个"分类清单"是**本 skill 内部教学整理**，**非 BC/IDP/ielts.org/Cambridge 官方分类**。具体包括但不限于：
+>
+> | 本 skill 用术语 | 出处 | 官方对应或不存在 |
+> |---|---|---|
+> | **14 类 Part 1 高频话题** | `references/part1-guide.md` | ielts.org 仅给 Part 1 "familiar topics" 概述，未给具体 14 类分类 |
+> | **6 类 Part 2 话题卡片** | `references/part2-guide.md` | ielts.org 仅给 "person / place / event / object / activity" 5 大官方主线，本 skill 合并扩展为 6 类 |
+> | **6 类 Part 3 抽象讨论** | `references/part3-guide.md` | ielts.org 仅给"discussion"概述，未给具体 6 类分类 |
+> | **13 个 L1 干扰点** | `references/pronunciation-guide.md` 第三节 | 内部整理（基于中国学生常见错误） |
+> | **20 个必改硬伤搭配** | `references/chinese-english-pitfalls.md` 第一节 | 内部清单（基于中国学生中式英语） |
+> | **CAST 自检法**（Collocation / Articles / Subject-verb / Tense） | SOP-B 第 7 步 | 本 skill 自创，无任何外部出处 |
+> | **汉堡结构（6 层综合框架）** | `references/burger-structure.md` | 本 skill 综合多方教法的合并框架 |
+> | **OREO / SEER 框架** | SKILL.md 触发路由表 + `references/burger-structure.md` | OREO/SEER 非公认出处，仅作并列框架对比 |
+> | **ORE 框架（Optics/Response/Engagement）** | `references/2026-updates.md` §二 | **本 skill 自定义教学框架**；VCS 本身是 BC/IDP 官方选项 |
+>
+> 使用时**不应误传为 BC/IDP/Cambridge 官方分类**——它们是本 skill 为方便教学做的内部整理。学员可放心使用其结构。
+
 ## 概述
 
 本 skill 是一个面向雅思口语模块（Speaking Test）的教学、陪练与产出助手。它把「方法论 + 评分量表 + 范例产出 + 陪练对话 + 评分反馈」封装成一个工作流，让 Agent 可以：
@@ -18,7 +34,22 @@ updated: 2026-08
 
 任何进入本 skill 的请求，都先走「意图路由」再进入对应能力的 SOP。
 
-> ⚠️ **2026 年合规声明**：本 skill 仅用于教学、提纲、语言诊断、范例学习与陪练对话。**严禁**为考生代答并提交为正式考试答卷。IDP / British Council 自 2023 年起明确要求口语全程独立完成，考场录音与 AI 答题模式识别同步加强。详见 `references/2026-updates.md`。
+> 🆕 **2026 年中期全球停办纸笔考**（ielts.org 2026-03-05 公告）：自 2026 年中期起全球 IELTS 全部转为机考（Listening / Reading / Writing），**口语部分形式不变**（仍为真人考官，但考生在机考中心，部分市场提供 VCS 视频口语选项）。本 skill 默认按机考路径设计；纸笔考仅在过渡期内参照。中国大陆 2025-09-01 起已先行完成纸笔考停办。详见 `references/2026-updates.md` §一 / §二。
+
+> ⚠️ **2026 年合规声明**：本 skill 仅用于教学、提纲、语言诊断、范例学习与陪练对话。**严禁**为考生代答并提交为正式考试答卷。IDP / British Council 自 2024 年起明确要求口语全程独立完成，考场录音与 AI 答题模式识别同步加强。详见 `references/2026-updates.md`。
+
+---
+
+## 姊妹 skill 引用（2026 横跨政策）
+
+> 本 skill 是 4 份 IELTS skill 之一（speaking / writing / reading / listening）。下列政策在 4 份 skill 间共享，遇到时建议互相参照：
+
+| 主题 | 本 skill 位置 | 其它 skill |
+|---|---|---|
+| **2026-03-05 ielts.org 公告**（全球停办纸笔考 + WoP 选项）| SKILL.md 概述 | writing SKILL.md 概述 + reading/listening SKILL.md 概述 |
+| **One Skill Retake (OSR) 60 天** | `2026-updates.md` §三 + SKILL.md 触发路由表 | writing `2026-updates.md` §十 + reading `2026-updates.md` §三 + listening `2026-updates.md` §三 |
+| **Writing on Paper (WoP) 2026 规则** | 不直接适用（speaking 仍 100% 真人）| writing `2026-updates.md` §十 |
+| **中国大陆 2026 政策专项**（停办日期、WoP 不提供、OSR 启动、1990 RMB 报名费）| `2026-updates.md` §十 | writing `2026-updates.md` §十一 + reading `2026-updates.md` §十三 + listening `2026-updates.md` §八 |
 
 ---
 
@@ -37,6 +68,7 @@ updated: 2026-08
 | 「教 + 练」组合 | **先教学再陪练** | 教学一段后启动陪练 |
 | 「练 + 评」组合 | **先陪练再诊断** | 用户答完后再给评分 |
 | 「机考 / computer-delivered / 视频口语 / IELTS Online / One Skill Retake」 | **机考路径** | 加载 `references/2026-updates.md` 中机考章节 |
+| 「OSR / 重考口语 / 口语重考 / 单科重考 / 60 天」 | **OSR 路径（口语）** | 加载 `references/2026-updates.md` §三；明确告知"美国不接受 OSR；中国大陆 OSR 雅思 2026-04-26 启动报名，机考路径必须走完" |
 
 > ⚠️ **追问最小集**：当用户没说清以下信息时，**一次追问** 同时要齐，再进入生成 / 陪练 / 诊断：
 > - **Part 1 / 2 / 3**（默认基于用户上下文）
@@ -68,6 +100,8 @@ updated: 2026-08
 | `references/band-examples.md` | 同题 5 / 6 / 6.5 / 7 / 8 分范例对比样本（覆盖 Part 1/2/3，教学示例 / 非官方）+ 升级自检清单 | 生成 / 诊断 |
 | `references/2026-updates.md` | AI 政策、机考（含 VCS / One Skill Retake / 视频口语 ORE 框架）、2026 年话题趋势、近期评分微调 | 任何 2026 年相关问题 |
 | `references/chinese-english-pitfalls.md` | 中国学生 20 个必改硬伤搭配 + 10 个风格型 + 8 个加分 idiom + CAST 自查法 + 14 天训练计划 | 生成模式生成前必查；诊断模式中国学生专项 |
+| `references/speaking-toolkit.md` | 填充词 + 常用短语（含万能句型 / Create a Window）+ 常用词替换清单 + 考前 30 分钟速查 | 生成 / 教学（任何需要"可直接背诵套用"的输出） |
+| `references/burger-structure.md` | **汉堡结构**（6 层综合框架）的权威入口：定义 + 决策树（vs SEER/OREO/STAR）+ Part 1/2/3 应用范例 + 同题三框架对比 + 训练动作 + 5 个常见陷阱 | 任何需要"答题不知道用什么框架"的场景——默认用汉堡 |
 
 ---
 
@@ -89,6 +123,8 @@ updated: 2026-08
    - 发音 / 语调 / 口音 → `references/pronunciation-guide.md`
    - 中国学生常见问题 → `references/pronunciation-guide.md` 第三节 + `references/band-examples.md`
    - 2026 新动向 / 机考 / AI → `references/2026-updates.md`
+   - 填充词 / 替换词 / 短语模板 / 考前速查 → `references/speaking-toolkit.md`
+   - 答题框架（汉堡 vs SEER vs OREO vs STAR 怎么选）→ `references/burger-structure.md`
 2. **结构化回答**：用"框架 → 评分对应 → 句式 / 词汇 → 常见坑 → 立刻可做"五段式回答。避免堆砌。
 3. **落点**：最后给一个学生最容易立刻做对的动作（如"下次 Part 2 准备时先写 4 个 bullet 关键词，再用 STAR 框架串成 90 秒"），让用户有抓手。
 

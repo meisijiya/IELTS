@@ -1,11 +1,27 @@
 ---
 name: ielts-listening
 description: 雅思 A 类听力（Listening）专项训练，覆盖 4 个 Section（日常对话、独白、学术讨论、学术讲座）的题型策略、同义替换识别、信号词、场景词汇、拼写规范、干扰项陷阱与个性化备考路径。当用户提到雅思听力、雅思听力练习、雅思听力模考、听力 Section 技巧、听力同义替换、听力场景词汇、听力信号词、听力错题分析、剑桥雅思听力真题、机考听力、One Skill Retake 等场景时触发。仅适用于 A 类（Academic）雅思听力；不适用于 G 类听力（注：A/G 类听力内容完全相同，仅在 Reading/Writing 有差异——见 SOP-A 末尾说明）、雅思口语/阅读/写作、雅思报名、培训机构选择、AI 代练（2024 年起 IDP/British Council 明令禁止监考 AI 检测）。
-version: 2026.1
-updated: 2026-08
+version: 2026.2
+updated: 2026-08-17
 ---
 
 # IELTS Listening 听力教学与训练 skill（2026 版）
+
+> ⚠️ **关于本 skill 的内部教学分类清单**：本 skill 在不同位置出现的多个"分类清单"是**本 skill 内部教学整理**，**非 BC/IDP/ielts.org/Cambridge 官方分类**。具体包括但不限于：
+>
+> | 本 skill 用术语 | 出处 | 官方对应或不存在 |
+> |---|---|---|
+> | **8 类信号词**（因果/序列/转折/列举/举例/并列/强调/否定） | `references/listening-signal-words.md` | 内部整理（基于学术听力训练教法） |
+> | **13 潜规则**（顺序/修正/转折/否定/字数/拼写/同义替换/信号词/多说话人/地图/流程图/S4 笔记/誊抄） | `references/listening-traps.md` | 内部整理（基于错题分析经验） |
+> | **约 60 个核心同义替换词族** | `references/listening-paraphrase.md` | 内部整理（基于高频考点经验，非官方数据） |
+> | **9 大 S1/S2 场景词 + 6 大 S4 学术话题词** | `references/listening-scenario-vocabulary.md` | 内部整理（基于剑桥真题经验） |
+> | **必背易错词清单（20 词）** | `references/listening-spelling-rules.md` | 内部整理（基于拼写错题经验） |
+> | **S2 地图题 2024 H2 约 27%** | SKILL.md §教学原则 + `2026-updates.md` §六.1 | **无官方或公开统计来源，民间未核实占比**——可参考但不应作为权威 |
+> | **冲刺时间表 0/5.5 → 4-6 周密集** | SOP-F 现实主义路径 | 经验估算（已声明"非官方"） |
+>
+> **官方依据本 skill 已显式声明**：ielts.org Listening 6 大题型（Multiple choice / Matching / Plan-Map-Diagram labeling / Form-Note-Table-Flow-Chart-Summary completion / Sentence completion / Short-answer）+ 30 min 音频 + 10 min 纸笔誊写 / 2 min 机考 review + A/G 类听力完全相同 + OSR 60 天——这些是**官方依据**部分。
+>
+> 使用时**不应误传为 BC/IDP/Cambridge 官方分类**——上方表格里的清单是本 skill 内部教学整理。
 
 ## 概述
 
@@ -23,13 +39,26 @@ updated: 2026-08
 
 ---
 
+## 姊妹 skill 引用（2026 横跨政策）
+
+> 本 skill 是 4 份 IELTS skill 之一（speaking / writing / reading / listening）。下列政策在 4 份 skill 间共享，遇到时建议互相参照：
+
+| 主题 | 本 skill 位置 | 其它 skill |
+|---|---|---|
+| **2026-03-05 ielts.org 公告**（全球停办纸笔考 + WoP 选项）| SKILL.md 概述 + `2026-updates.md` §二 | speaking SKILL.md 概述 + writing SKILL.md 概述 + reading SKILL.md 概述 |
+| **One Skill Retake (OSR) 60 天** | `2026-updates.md` §三 | speaking `2026-updates.md` §三 + writing `2026-updates.md` §十 + reading `2026-updates.md` §三 |
+| **Writing on Paper (WoP) 2026 规则** | 不直接适用（listening 必须在机考完成）| writing `2026-updates.md` §十 |
+| **中国大陆 2026 政策专项**（停办日期、WoP 不提供、OSR 启动、1990 RMB 报名费）| `2026-updates.md` §八 | speaking `2026-updates.md` §十 + writing `2026-updates.md` §十一 + reading `2026-updates.md` §十三 |
+
+---
+
 ## 触发与意图路由
 
 每次接到请求，先用下面这张决策表判断走哪个能力。若一句话包含多个意图，按顺序串起来执行。
 
 | 用户意图关键词 / 动作 | 路由到 | 加载 references |
 |---|---|---|
-| 「怎么做 / 怎么提分 / Section 怎么听 / 同义替换是什么 / 信号词有哪些 / 拼写规范 / 怎么避坑」 | **教学模式 SOP-A** | `listening-overview.md` / `listening-question-types.md` / `listening-paraphrase.md` / `listening-signal-words.md` / `listening-spelling-rules.md` / `listening-traps.md` |
+| 「怎么做 / 怎么提分 / Section 怎么听 / 同义替换是什么 / 信号词有哪些 / 拼写规范 / 怎么避坑 / 填空题怎么做 / 笔记型填空 / 怎么预判 / 怎么定位」 | **教学模式 SOP-A** | `listening-overview.md` / `listening-question-types.md` / `listening-fill-in-blanks.md`（填空专项）/ `listening-paraphrase.md` / `listening-signal-words.md` / `listening-spelling-rules.md` / `listening-traps.md` |
 | 「出一套 / 给我做 / 模考 / Section 2 出 5 道填空题 / 同义替换练习」 | **练习模式 SOP-B** | `listening-question-types.md` + 必要时 `listening-scenario-vocabulary.md` |
 | 「帮我估分 / 评估这段答案 / 我能得几分」 | **评分模式 SOP-C** | `listening-overview.md` 计分对照表 + `listening-spelling-rules.md` |
 | 「分析我的错题 / 为什么错了 / 我 S3 错得多」 | **错题分析模式 SOP-D** | `listening-traps.md` + `listening-paraphrase.md` |
@@ -53,11 +82,14 @@ updated: 2026-08
 |---|---|---|
 | `references/listening-overview.md` | 4 个 Section 特征、计分对照表（raw → band）、机考 2 分钟 review 流程、4/8 周冲刺框架、Section 弱项诊断 | 任何模式的入口；教学模式整体；评分；规划 |
 | `references/2026-updates.md` | **2026 年三大变化**：机考主导、One Skill Retake、IELTS 21/20/19 真题集；A/G 通用说明 | 用户问"2026 变了什么 / 机考 / OSR / 剑桥雅思买哪本" |
-| `references/listening-question-types.md` | **6 种官方题型**逐个策略（填空大类/单选/多选/匹配/地图与图例标签/短答） | 练习模式；用户问"某题型怎么做"；错题分析 |
+| `references/listening-question-types.md` | **6 种官方题型**逐个策略（填空大类/单选/多选/匹配/地图与图例标签/短答）；其中 B 节笔记填空详解见 `listening-fill-in-blanks.md` | 练习模式；用户问"某题型怎么做"；错题分析 |
+| `references/listening-fill-in-blanks.md` | **填空题专项**：四步审题法、定位词优先级体系、笔记型填空 vs 普通填空、预判词性、介词不替换原则、答题节奏、3 个场景案例解析 | 填空题集中训练；用户问"填空怎么做 / 怎么审题 / 怎么定位 / 笔记型填空 / 怎么预判"；S1/S4 填空错题分析 |
 | `references/listening-paraphrase.md` | 同义替换 4 大类型（词义/反义/解释/举例）+ 否定触发器 + 高频词族（约 60 个核心） | 教学模式核心；S3/S4 备考；错题分析 |
 | `references/listening-signal-words.md` | 8 类信号词（因果/序列/转折/列举/举例/并列/强调/否定）+ 听力中用法 | S4 讲座；用户问"信号词"；错题分析 |
 | `references/listening-scenario-vocabulary.md` | **S1-S2 场景词**（住宿/旅行/医疗/求职等 9 大）+ **S4 学术话题词**（环境/心理/历史/科技 6 大） | 听写练习；S1/S2 准备；S4 学术词根 |
-| `references/listening-spelling-rules.md` | 字数限制、大小写、单复数、日期/时间/数字格式、缩写、专有名词、必背易错词清单（20 词） | 评分模式；S1/S4 填空；用户问"答案怎么写" |
+
+> 🆕 **S4 学术词汇底层依据**：本 skill S4 学术话题词基于 **AWL（Academic Word List, Coxhead 2000）570 词族**——最权威学术词表，覆盖 28 个学科。详见 ielts-reading/references/reading-paraphrase.md 的 §AWL 章节（Listening S4 与 Reading Passage 学术词汇共用 AWL 词根；同源数据）。
+| `references/listening-spelling-rules.md` | 字数限制、大小写、单复数、日期/时间/数字格式、缩写、专有名词、必背易错词清单（20 词）、**发音陷阱**（静默字母 / 数字读法 / 同音词）、纸笔 vs 机考格式差异、考前 30 秒检查清单 | 评分模式；S1/S4 填空；用户问"答案怎么写" |
 | `references/listening-traps.md` | **13 潜规则**（顺序、修正、转折、否定、字数、拼写、同义替换、信号词、多说话人、地图、流程图、S4 笔记、誊抄检查） | 错题分析；用户问"陷阱 / 为什么错了"；任何模式末尾 |
 | `references/listening-resources.md` | 2026 年最新官方资料（IELTS 21/20/19）、BC/IDP 免费资源、机经真实命中率、播客与 App、3 个月/6 个月备考路径 | SOP-E；规划 |
 
@@ -97,7 +129,7 @@ updated: 2026-08
 - **顺序原则永真**：所有题目在音频中按顺序出现（S3/S4 偶有跳跃，但题号始终递增）。**错过就跳**，不要回头。
 - **同义替换为王**：填空题答案词几乎从不在音频中原词出现；选择题正确答案几乎从不是原文措辞。**训练"听意思不听话"**。
 - **拼写兜底**：每个 section 结束或誊抄时（机考 2 分钟 review）必须查字数、查拼写、查单复数。
-- **2026 时代特征**：Section 4 话题向"环境/数据/技术"倾斜；Section 2 地图题占比上升（2024 H2 约 27%）；2026 年 OSR 已铺开，教学时要主动关联。
+- **2026 时代特征**：Section 4 话题向"环境/数据/技术"倾斜；Section 2 地图题占比上升（2024 H2 约 27%，内部统计非官方数据）；2026 年 OSR 已铺开，教学时要主动关联。
 
 ### A vs G 类一句话说明
 
@@ -156,7 +188,7 @@ A 类（Academic）和 G 类（General Training）的**听力部分完全相同*
    - 用户期望的目标分数段
 2. **加载 `listening-overview.md` 计分对照表**（粗版：A 类 / G 类共用）：
 
-| 正确 | 39-40 | 37-38 | 35-36 | 32-34 | 30-31 | 26-29 | 23-25 | 18-22 | 16-17 | 13-15 | 10-12 |
+| 正确 | 39-40 | 37-38 | 35-36 | 32-34 | 30-31 | 26-29 | 22-25 | 18-21 | 16-17 | 13-15 | 10-12 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | **Band** | 9.0 | 8.5 | 8.0 | 7.5 | 7.0 | 6.5 | 6.0 | 5.5 | 5.0 | 4.5 | 4.0 |
 
@@ -274,7 +306,7 @@ A 类（Academic）和 G 类（General Training）的**听力部分完全相同*
 
 ### 示例 5：用户说"听力砸了想 OSR 重考"
 
-→ 加载 `2026-updates.md` OSR 章节 → 输出"60 天倒计时 / 必须机考全套 / OSR 不能用在 IELTS Online / 当前 OSR 接受范围 110+ 国家 1200+ 机构"4 条事实 → 给出"OSR 前 7 天强化方案"调用 `scripts/study_plan.py --target 7 --days 7 --level 6`。
+→ 加载 `2026-updates.md` OSR 章节 → 输出"60 天倒计时 / 必须机考全套 / OSR 不能用在 IELTS Online / 1200+ 机构接受（IDP 官方数据，覆盖国家因市场而异）"4 条事实 → 给出"OSR 前 7 天强化方案"调用 `scripts/study_plan.py --target 7 --days 7 --level 6`。
 
 ### 示例 6：用户问"剑桥雅思买哪本"
 

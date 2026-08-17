@@ -78,6 +78,59 @@ Part 1 不是 Task 2 大作文，**答得长 ≠ 答得好**。考生最常犯�
 
 ---
 
+### 备选框架：汉堡结构（Burger Structure）——6 层答题法
+
+> **来源**：来自课程的核心框架。比 SEER 更**完整**——SEER 只覆盖"答案 + 扩展 + 例子"，汉堡结构显式列出"词汇层 + 语法层 + Fillers + 逻辑"，每个维度对应一个评分项。
+>
+> **什么时候用**：Part 1 答 "why / how / 评价"题（需要答 30+ 秒时）；Part 2 / Part 3 任何话题。
+
+| 层 | 名称 | 对应评分项 | 作用 |
+|---|---|---|---|
+| 1 | 面包（Bread） | FC | 直接回答问题（1 句） |
+| 2 | 肉（Meat） | LR | 用替换词 / less common 词汇 |
+| 3 | 生菜（Lettuce） | GRA | 引入复合句 / 复杂语法 |
+| 4 | 芝士（Cheese） | FC + LR | 补充 where / who / how / when 等细节 |
+| 5 | 酱料（Sauce） | FC | 用填充词让回答自然流畅 |
+| 6 | 竹签（贯穿） | Coherence | 用 because / so / which is why 串起逻辑 |
+
+**为什么叫"汉堡"**：因为 burger（牛肉汉堡）比 hamburger（猪肉汉堡）短——名字越短越好记。
+
+**范例对比**（题目："Where is your hometown?"）：
+
+❌ 只有 SEER 的 5.5 答案：
+> I live in Shenzhen. It's a big city.
+
+✅ 用汉堡结构的 7 分答案：
+> I live in Shenzhen, which is one of the most modern cities I have ever seen. **（肉：万能句型）** The reason I love it is that everything is nearby — my office, the subway, even the gym. **（竹签：because 解释）** I usually meet my neighbors in the morning when we walk our dogs, you know what I'm saying? **（酱料：句尾填充）** It's basically designed for convenience. **（面包：直接收尾）**
+
+**与 SEER 的取舍**：
+- **SEER**：答 Part 1 短题（15 秒）更快
+- **汉堡结构**：答 why / how 题（30+ 秒）或 Part 2 / Part 3 更稳
+
+**汉堡结构的权威入口与决策树（汉堡 vs SEER vs OREO vs STAR）**见 `references/burger-structure.md`。
+
+---
+
+### 备选扩展法：6W 扩展法
+
+> **什么时候用**：Part 1 答 why / how / describe 题需要快速扩展时；Part 2 准备时快速过素材。
+> 来源：课程核心方法。任何话题都能套。
+
+| W | 角度 | 例句（题目：Describe a pet） |
+|---|---|---|
+| **What** | 什么 | I have a turtle. It's about two months old. |
+| **When** | 什么时候 | I got it last weekend. |
+| **Why** | 为什么 | I chose a turtle because it moves like a super turtle. |
+| **Who** | 谁 | My mom takes care of it when I'm at work. |
+| **Where** | 哪里 | It lives in a small tank in my bedroom. |
+| **How（感受）** | 感觉 | Honestly, I feel thrilled watching it eat. |
+
+**核心心法**：6W 不需要每个都答，**挑 3 个最自然的填进去**——通常 Why + How（感受）+ 1 个细节（Who 或 Where）= 完美的 30 秒答案。
+
+> 注：与 part2-guide.md 的 "4W + 感受"系统（4 个 bullet 笔记法）相比，**6W 是 Part 1 即兴答题的扩展工具**——不需要写笔记，开口就能用。
+
+---
+
 ## 四、Part 1 标准问题形式（15 类）
 
 每类话题的考官母题，万变不离其宗：
@@ -150,7 +203,7 @@ Part 1 不是 Task 2 大作文，**答得长 ≠ 答得好**。考生最常犯�
 
 ---
 
-## 六、Part 1 的 5 大常见错误
+## 六、Part 1 的 6 大常见错误
 
 | 错误 | 后果 | 修正 |
 |---|---|---|
@@ -159,6 +212,7 @@ Part 1 不是 Task 2 大作文，**答得长 ≠ 答得好**。考生最常犯�
 | **机械重复考官问题** | 不会 paraphrase | "I like reading" → "Yeah, I'm really into reading" |
 | **完全跑题** | 进入无关话题 | 时刻回应问题关键词 |
 | **全程平调** | 语调单薄，P 卡 6 | 一句内必有一个升/降起伏 |
+| **只给信息不解释（不埋钩子）** | Coherence 失分，听起来"干巴巴" | 回答前先问自己 "why"——主动用 because / so / which is why 触发词埋钩子。详见 `references/chinese-english-pitfalls.md` 第一节 B。 |
 
 ---
 
@@ -176,6 +230,34 @@ Part 1 不是 Task 2 大作文，**答得长 ≠ 答得好**。考生最常犯�
 | **结束** | "So yeah, that's pretty much it." / "Anyway, that's it." |
 
 > 来源：IDP Part 3 linking words, IELTS Simon filler advice https://ielts-simon.study/
+
+---
+
+### 万能句型模板（课程核心）
+
+> **为什么必背**：一个句型套 50 个话题。考官听到"完成时 + 最高级 + 高级形容词"结构 + 具体细节 = 直接认定你词汇和语法都到 7 分档。
+
+**公式**：
+```
+X is one of the most + 形容词 + 复数名词 + I have ever + 过去分词.
+```
+
+| 话题 | 范例 |
+|---|---|
+| 城市 | Shenzhen is **one of the most convenient cities** I have ever **lived in**. |
+| 食物 | The rice noodles cooked by my mom **are** one of the most mouth-watering breakfasts I have ever eaten. |
+| 职业 | Working as an English teacher is **one of the most meaningful jobs** I have ever **done**. |
+| 歌手 | Jay Chou is **one of the most popular Chinese singers** I have ever **heard of**. |
+| 运动员 | LeBron James is **one of the greatest basketball players** I've ever **seen**. |
+| 歌曲 | 手写的从前 is **one of the most popular songs** by Jay Chou I have ever **listened to**. |
+
+**⚠️ 易错点**：
+- `greatest` 已经是最高级，**不能再加 `most`**（错：the most greatest）
+- **最高级规则**：短音节形容词（great → greatest / big → biggest / tall → tallest）加 `-est`；**多音节形容词**（important → most important / beautiful → most beautiful / convenient → most convenient）用 `most + 原形`
+- `singer` 的发音：/ˈsɪŋə/（英式） /ˈsɪŋɚ/（美式），不是 /ˈsɪndʒə/（错把 ng 念成 ndʒ）
+- 说具体（iPhone）而不是笼统（phone），越具体越像 7 分
+
+详见 `references/speaking-toolkit.md` 第二部分 2.1 节。
 
 ---
 
@@ -200,6 +282,27 @@ Part 1 不是 Task 2 大作文，**答得长 ≠ 答得好**。考生最常犯�
 | **做决定** | "I do a decision." | "I make a decision." / "I decided to..." |
 | **影响** | "It affects to me." | "It has an impact on me." / "It affected me." |
 | **习惯** | "I'm used to take the subway." | "I'm used to taking the subway." |
+
+---
+
+### 中国学生最大陷阱：说谎（Be Real）——课程核心哲学
+
+> **"Be a rapper. Be real."** ——课程原话。
+>
+> **核心规则**：不要撒谎——老师能识别。
+>
+> **4 个 Be Real 原则**：
+>
+> 1. **回答要真实**：住在深圳就不要说住在惠州；住在福田就不要说住在南山
+> 2. **回答前问自己**："Is it worth talking about?"——如果给出的信息是每个人都能看到的一样事情，那就不值得讨论
+> 3. **考官能识破背稿**：背"虚假的精彩经历"= 触发 Band 6 描述的 *"occasionally relies on memorised phrases"*——直接掉档
+> 4. **真实 > 精彩**：一个"真实的普通故事"比"虚构的精彩故事"分数高 0.5–1 档——因为真实故事才有 specific detail，才有 personal voice
+>
+> **典型反例**：
+> - "My grandfather taught me patience when I was 6"（编的） vs "My dad taught me how to ride a bike when I was 8"（真的）
+> - 第二个即使"更普通"，但因为细节真实，反而 LR / FC 评分更高。
+>
+> **适用所有 3 个 Part**：Part 1 说自己真实的生活；Part 2 讲真实的故事；Part 3 表达真实的看法（可以用 hedging 软化，但立场必须真实）。
 
 ---
 

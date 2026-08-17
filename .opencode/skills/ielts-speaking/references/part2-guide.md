@@ -90,7 +90,7 @@
 
 ---
 
-## 四、五种故事框架
+## 四、六种故事框架
 
 ### 1. **Chronological（按时间）**
 
@@ -119,6 +119,29 @@
 ### 5. **2-Minute Blueprint（万能）**
 
 > **Opening**（主题句）→ **Background**（背景）→ **Story**（故事）→ **Feelings+Result**（感受 + 结果）→ **Extra**（补充，若有时间）
+
+*（来源：IELTS 通用教学模板，非课程原创）*
+
+### 6. **汉堡结构（Burger Structure）—— 6 层综合框架**
+
+> **来源**：课程核心框架（见 part1-guide.md 第三节"汉堡结构"详解）。
+> **什么时候用**：Part 2 不知道该用什么框架时，**默认用汉堡**——它把"答案 + 词汇 + 语法 + 细节 + 流畅 + 逻辑"6 维打包，覆盖所有评分项。
+
+| 层 | Part 2 应用（描述"一位对我重要的人"为例） |
+|---|---|
+| 1 面包（直接答） | "I'd like to talk about my grandfather, who passed away five years ago." |
+| 2 肉（词汇） | 用 `compassionate / insightful / hardworking` 等 less common 词 |
+| 3 生菜（语法） | "He was a man **who believed that** patience is the foundation of wisdom."（定语从句） |
+| 4 芝士（细节） | 补充 when / where / 具体故事片段 |
+| 5 酱料（流畅） | "well, you know, actually" 等 fillers 自然填入 |
+| 6 竹签（逻辑） | "because / which is why / so that" 串起整个故事 |
+
+**与五种框架的关系**：
+- 框架 1–5 是**侧重某一维度**的（时间 / 主题 / STAR / 过去-现在-未来 / 万能）
+- 框架 6（汉堡）是**横切所有维度**的综合框架
+- 实操建议：**先用 4W 笔记填素材（part2-guide 第二节），再用汉堡 6 层串成 2 分钟**
+
+汉堡结构完整指南（6 层定义 + 决策树 + Part 1/2/3 应用范例 + 同题三框架对比 + 训练动作 + 5 个常见陷阱）见 `references/burger-structure.md`。
 
 ---
 
@@ -160,6 +183,8 @@
 - **Bullet 2**：通常是扩展维度（how often / what it looks like）。
 - **Bullet 3**：通常是另一个扩展维度（what you do / how you use it）。
 - **Bullet 4**（"and explain..."）：**最重要**——讲感受、原因、影响。
+
+> 💡 **Be Real 提示**：Part 2 故事必须是真实经历——背稿痕迹会被 VEO 系统识别并综合扣分。详见 `references/part1-guide.md` 第九节末尾 Be Real 哲学。
 
 **最后一 bullet 永远要给最多时间**。理由：考官在判断 LR / GRA 时，往往最后听到的论述最完整。
 
