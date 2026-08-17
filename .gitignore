@@ -1,2 +1,12 @@
 # Python bytecode
 __pycache__/
+*.pyc
+*.pyo
+
+# OpenChamber / OpenCode local state（工具缓存，不应推送）
+.codegraph/
+.opencode/node_modules/
+
+# OS junk
+.DS_Store
+Thumbs.db
