@@ -180,3 +180,198 @@ a:focus:not(:focus-visible) {
     font-size: 1.5rem;
   }
 }
+
+/* ===== Appended for read-tracking + typing + sticky + clear-cache (todo 4) ===== */
+
+.dot {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  pointer-events: none;
+  transition: background .2s ease;
+}
+
+.dot-unread {
+  background: #c33;
+}
+
+.dot-read {
+  background: var(--green);
+}
+
+.dot-legend {
+  display: flex;
+  gap: 1.5rem;
+  font-size: .85em;
+  margin: 1rem 0;
+  color: #555;
+}
+
+.dot-legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+}
+
+.typing-row {
+  margin: 0 0 1.25rem 0;
+}
+
+.typing-toggle {
+  background: transparent;
+  border: 1px dashed #bbb;
+  color: #666;
+  padding: .25rem .75rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: .8em;
+  font-family: inherit;
+}
+
+.typing-toggle:hover {
+  border-color: var(--green);
+  color: var(--green);
+}
+
+.typing-input {
+  display: none;
+  width: 100%;
+  margin-top: .5rem;
+  padding: .5rem;
+  border: 1px solid var(--muted);
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: .95em;
+  line-height: 1.6;
+  resize: vertical;
+}
+
+.typing-input:focus {
+  outline: none;
+  border-color: var(--green);
+}
+
+.typing-input.visible {
+  display: block;
+}
+
+.draft-status {
+  font-size: .75em;
+  color: #888;
+  margin-left: .5rem;
+}
+
+.draft-status.saved {
+  color: var(--green);
+}
+
+.scroll-hint {
+  font-size: .8em;
+  color: #888;
+  font-style: italic;
+  margin: .5rem 0;
+}
+
+.prompt-sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  isolation: isolate;
+  background: #fff;
+  background-image: linear-gradient(#fff, #fff);
+  border-left: 4px solid var(--green);
+  padding: 1rem 1.25rem;
+  font-style: italic;
+  margin: 0 -1rem 1.5rem -1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .12);
+  transition: padding .2s ease, max-height .2s ease;
+  max-height: 400px;
+  overflow: hidden;
+}
+
+.prompt-sticky.collapsed {
+  max-height: 40px;
+  padding: .5rem 1.25rem;
+  overflow: hidden;
+}
+
+.prompt-sticky.collapsed .prompt-body {
+  display: none;
+}
+
+.prompt-sticky .prompt-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-style: normal;
+  color: var(--green);
+  font-size: .9em;
+  margin-bottom: .5rem;
+}
+
+.prompt-sticky.collapsed .prompt-title {
+  margin-bottom: 0;
+}
+
+.prompt-toggle {
+  background: var(--bg);
+  border: 1px solid var(--green);
+  color: var(--green);
+  border-radius: 4px;
+  padding: .15rem .5rem;
+  cursor: pointer;
+  font-size: .85em;
+  line-height: 1;
+}
+
+.prompt-toggle:hover {
+  background: var(--green);
+  color: var(--bg);
+}
+
+.essay-body {
+  isolation: isolate;
+  z-index: 1;
+  position: relative;
+}
+
+.essay-body p {
+  position: relative;
+  z-index: 1;
+}
+
+.clear-cache-btn {
+  background: var(--bg);
+  color: var(--ink);
+  border: 1px solid var(--ink);
+  padding: .5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: .95em;
+}
+
+.clear-cache-btn:hover {
+  background: #c33;
+  color: var(--bg);
+  border-color: #c33;
+}
+
+.clear-cache-btn.cleared {
+  background: var(--green);
+  color: var(--bg);
+  border-color: var(--green);
+}
+
+.cache-actions {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 1rem 0;
+}
