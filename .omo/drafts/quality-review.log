@@ -1,0 +1,18 @@
+F2 VERDICT: REJECT
+PASS: 37/50 (74.0%)
+Threshold: 46/50 (92%)
+
+Failures (13):
+  - 二 87 (087-2-2-agree-disagree.html): vocab=2
+  - 四 184 (184-4-4-problem-solution.html): complex=1
+  - 四 185 (185-4-4-problem-solution.html): complex=1
+  - 五 202 (202-5-1-opinion.html): vocab=1
+  - 五 209 (209-5-1-discuss-both-views.htm): no-outline
+  - 五 213 (213-5-2-problem-solution.html): vocab=2, no-outline
+  - 六 224 (224-6-1-discuss-both-views.htm): vocab=1
+  - 七 239 (239-7-1-problem-solution.html): vocab=1, no-outline
+  - 七 243 (243-7-1-agree-disagree.html): vocab=2
+  - 八 257 (257-8-2-two-questions.html): vocab=1
+  - 八 258 (258-8-2-discuss-both-views.htm): vocab=1
+  - 九 269 (269-9-1-agree-disagree.html): vocab=2
+  - 十 274 (274-10-1-problem-solution.html): complex=1, no-outline

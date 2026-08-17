@@ -1,0 +1,13 @@
+extend-index.py started — repo=/home/ljh2923/opencode-project/IELTS
+  md: /home/ljh2923/opencode-project/IELTS/.omo/drafts/prompts-by-section.md
+  task2 dir: /home/ljh2923/opencode-project/IELTS/docs/writing/task2
+  index: /home/ljh2923/opencode-project/IELTS/docs/writing/index.html
+  slugs from md: 237
+  parsed OK: 237
+  sorted first: 043-1-1-agree-disagree.html
+  sorted last:  279-10-1-agree-disagree.html
+  <article> count before: 55
+  <article> count after:  292
+  first 55 articles: byte-identical ✓
+  wrote /home/ljh2923/opencode-project/IELTS/docs/writing/index.html (86882 bytes)
+DONE

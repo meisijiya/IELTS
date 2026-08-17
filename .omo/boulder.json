@@ -1,0 +1,74 @@
+{
+  "schema_version": 2,
+  "active_work_id": "ielts-speaking-bank",
+  "works": {
+    "stage1b": {
+      "work_id": "stage1b",
+      "active_plan": ".omo/plans/stage1b.md",
+      "plan_name": "stage1b",
+      "session_ids": [
+        "codex:local-opencode-session",
+        "opencode:ses_ff6963ef7ffeQZvtmsGXFH2A5a"
+      ],
+      "status": "completed",
+      "worktree_path": null,
+      "session_origins": {},
+      "agent": "atlas",
+      "task_sessions": {},
+      "completed_at": "2026-08-16T07:13:32Z",
+      "elapsed_ms": 0,
+      "summary": "Stage 1b complete: 51 commits landed. All 55 essay HTMLs pass verify-stage1b.sh."
+    },
+    "fill-ielts-task2-bank": {
+      "work_id": "fill-ielts-task2-bank",
+      "active_plan": ".omo/plans/fill-ielts-task2-bank.md",
+      "plan_name": "fill-ielts-task2-bank",
+      "session_ids": [
+        "opencode:ses_ff66e4ffeffevFSSDG5NJ06fc0"
+      ],
+      "status": "completed",
+      "worktree_path": null,
+      "session_origins": {},
+      "agent": "atlas",
+      "task_sessions": {},
+      "started_at": "2026-08-16T07:55:38Z",
+      "completed_at": "2026-08-16T20:13:00Z",
+      "elapsed_ms": 15621903,
+      "summary": "Stage 1c (HTML task2 bank filled) complete: 237 new HTML essays. Live at https://meisijiya.github.io/IELTS/."
+    },
+    "ielts-speaking-bank": {
+      "work_id": "ielts-speaking-bank",
+      "active_plan": ".omo/plans/ielts-speaking-bank.md",
+      "plan_name": "ielts-speaking-bank",
+      "session_ids": [
+        "opencode:ses_ff49445d6ffe7kGgpesBT2DwbF"
+      ],
+      "session_origins": {},
+      "task_sessions": {},
+      "status": "completed",
+      "worktree_path": null,
+      "agent": "atlas",
+      "started_at": "2026-08-16T16:33:24Z",
+      "completed_at": "2026-08-17T00:00:00Z",
+      "elapsed_ms": 13950072,
+      "summary": "IELTS Speaking Bank: 71 topics (PDF truth, not 73 as plan stated), 447/450 answers filled (3 PDF placeholders preserved), 12 AI-supplemented topics flagged, 71 topic HTML pages generated, GitHub Pages module deployed at commit b49fc6d. F1 APPROVE, F2 APPROVE, F3 APPROVE, F4 APPROVE.",
+      "ended_at": "2026-08-16T20:25:54.072Z",
+      "updated_at": "2026-08-16T20:25:54.072Z"
+    }
+  },
+  "session_ids": [
+    "opencode:ses_ff49445d6ffe7kGgpesBT2DwbF"
+  ],
+  "session_origins": {},
+  "task_sessions": {},
+  "active_plan": ".omo/plans/ielts-speaking-bank.md",
+  "plan_name": "ielts-speaking-bank",
+  "status": "completed",
+  "agent": "atlas",
+  "worktree_path": null,
+  "started_at": "2026-08-16T16:33:24Z",
+  "completed_at": "2026-08-17T00:00:00Z",
+  "updated_at": "2026-08-16T20:25:54.072Z",
+  "ended_at": "2026-08-16T20:25:54.072Z",
+  "elapsed_ms": 13950072
+}

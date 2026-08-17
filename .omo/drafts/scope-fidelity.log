@@ -1,0 +1,62 @@
+# F4 Scope Fidelity Report — fill-ielts-task2-bank
+
+## Commit Count (PASS)
+- `fill(task2-html)` : 4   (sections 一/二/三/四-十 combined into 4 commits per plan)
+- `extend(task2-index)` : 1
+- `docs(handoff)` : 1
+- **Total : 6**  ✓ matches expected
+
+Commit chain (oldest → newest, plan range = HEAD~6 .. HEAD):
+```
+02bccc3 fill(task2-html): section 一 (教育) — 36 essays added
+174c71c fill(task2-html): section 二 (工作) — 17 essays added
+f83c5fc fill(task2-html): section 三 (社会) — 81 essays added
+1f427e8 fill(task2-html): sections 四-十 (...) — 103 essays added
+2674447 extend(task2-index): add 237 essay cards to writing index
+c99d838 docs(handoff): ielts task2 html bank filled - 237 essays × 5-piece
+```
+36 + 17 + 81 + 103 = 237 ✓
+
+## File Scope (PASS)
+`git diff HEAD~6 --name-only` → **239 files**:
+- 237 × `docs/writing/task2/043-…279-*.html` (new essays)
+- 1 × `docs/writing/index.html` (extended)
+- 1 × `HANDOFF-stage1c.md` (new handoff)
+
+No files outside the plan's stated scope.
+
+## Untouched (PASS)
+All "no output" = no diff = untouched:
+
+| Path | Result |
+|---|---|
+| `作文真题储备*.docx` | untouched |
+| `HANDOFF-stage1a.md` / `HANDOFF-stage1b.md` | untouched |
+| `scripts/verify-stage1b.sh` | untouched |
+| `docs/assets/css/style.css` | untouched |
+| `.github/workflows/deploy.yml` | untouched |
+| 55 existing essays `docs/writing/task2/01-*.html` … `42-*.html` | untouched |
+| `docs/writing/task1/*.html` | untouched |
+
+## Git Status (PASS)
+```
+On branch main
+Your branch is up to date with 'origin/main'.
+Untracked files:
+	.opencode/handoffs/
+nothing added to commit but untracked files present
+```
+Untracked file: `.opencode/handoffs/644-2026-08-15T154136.md` — flagged in
+the F4 brief as the expected unrelated leftover. Working tree otherwise
+clean. ✓
+
+## PASS CRITERIA SUMMARY
+
+| Criterion | Status |
+|---|---|
+| a) Commit count = 6 (4 fill + 1 extend + 1 docs) | PASS |
+| b) Files = 237 essays + 1 index.html + 1 HANDOFF-stage1c.md | PASS |
+| c) No modifications to .docx, prior HANDOFFs, scripts, CSS, workflow, 55 existing essays, task1 essays | PASS |
+| d) git status clean apart from .opencode/handoffs/ leftover | PASS |
+
+**VERDICT: APPROVE**

@@ -1,0 +1,101 @@
+================================================================
+F3 Manual QA Report — fill-ielts-task2-bank
+Date: 2026-08-16
+Runner: Playwright (chromium, headless)
+Server: python3 -m http.server 8765 --directory docs
+================================================================
+
+VERDICT: APPROVE
+
+----------------------------------------------------------------
+PASS CRITERIA CHECK
+----------------------------------------------------------------
+[✓] All 5 screenshots render cleanly
+[✓] 5 sections visible on each essay page (prompt, outline, essay, rubric, keywords)
+[✓] Filter chips populated on index, both type filters narrow the catalogue
+
+----------------------------------------------------------------
+SCREENSHOTS (5/5)
+----------------------------------------------------------------
+1. .omo/drafts/screenshots/01-index-all.png
+   URL:        http://localhost:8765/writing/index.html
+   HTTP:       200
+   Status:     OK — index renders correctly
+   Playwright: page.locator("article").count() = 292 (13 task1 + 279 task2)
+   Visual:     Header "Writing — sample essays" renders. Filter chip rows for
+               difficulty (All/易/中/难) and type (12 categories) all rendered.
+               Sample essay cards (Universities ranked, Nutrients in typical
+               meals, Top ten countries) render with title + meta line.
+   Note:       Card body cut off by viewport only because screenshot is
+               viewport-bound (1024x768) for inspection; full_page=true run
+               captured the entire 4.2 MB scrollable list. DOM card count = 292.
+
+2. .omo/drafts/screenshots/02-filter-agree-disagree.png
+   URL:        http://localhost:8765/writing/index.html + chip click
+   HTTP:       200
+   Status:     OK — agree-disagree filter works
+   Playwright: 105 agree-disagree cards visible; 187 other-type cards hidden
+   Visual:     "agree-disagree" chip highlighted (filled pill). Every visible
+               card title ends with `(agree-disagree)` or `(disagree)`. No
+               leakage from other categories (no discuss-both-views, opinion,
+               problem-solution entries visible).
+
+3. .omo/drafts/screenshots/03-filter-discuss-both-views.png
+   URL:        http://localhost:8765/writing/index.html + chip click
+   HTTP:       200
+   Status:     OK — discuss-both-views filter works
+   Playwright: 67 discuss-both-views cards visible
+   Visual:     "discuss-both-views" chip highlighted. All 66 visible card
+               titles end with `(discuss-both-views)`. No leakage from
+               other categories (no agree-disagree, opinion, problem-solution).
+
+4. .omo/drafts/screenshots/04-essay-043.png
+   URL:        http://localhost:8765/writing/task2/043-1-1-agree-disagree.html
+   HTTP:       200
+   Status:     OK — all 5 sections render correctly
+   Sections:   prompt=1, outline=1, essay=1, rubric=1, keywords=1
+   Visual:     Title "Task 2 — History vs business (agree-disagree)" renders.
+               Prompt (English): "Some people think that there could be more
+                 benefit to society if more people studied business than
+                 history. To what extent do you agree or disagree?"
+               Outline (Chinese): 立场 + 2 理由 lines
+               Essay (English): 5 paragraphs, ~278 words
+               Rubric (Chinese w/ English terms): TA/CC/LR/GRA band estimates
+               Keywords (bilingual): 8 English terms + Chinese glosses
+               Bilingual rendering confirmed; no broken CJK glyphs.
+
+5. .omo/drafts/screenshots/05-essay-176.png
+   URL:        http://localhost:8765/writing/task2/176-3-10-agree-disagree.html
+   HTTP:       200
+   Status:     OK — all 5 sections render correctly
+   Sections:   prompt=1, outline=1, essay=1, rubric=1, keywords=1
+   Visual:     Title "Task 2 — Banning mobile phones in public places
+                 (agree-disagree)" renders.
+               Prompt (English): mobile-phone ban in libraries/shops/transit
+               Outline (Chinese): 部分同意；主张有针对性限制而非全面禁止；2 理由
+               Essay (English): 4 paragraphs, ~285 words, intro → 2 body → conclusion
+               Rubric (Chinese w/ English terms): TA/CC/LR/GRA bands
+               Keywords (bilingual): 8 English terms + Chinese glosses
+               Bilingual rendering confirmed; no broken CJK glyphs.
+
+----------------------------------------------------------------
+FAILURES / ANOMALIES
+----------------------------------------------------------------
+None. All 5 pass criteria satisfied.
+
+----------------------------------------------------------------
+ENVIRONMENT
+----------------------------------------------------------------
+- chromium: playwright-bundled (launched headless)
+- viewport: 1280x900 for full-page essay/filter screenshots,
+            1024x768 viewport-only for the (re-taken) index screenshot
+- Server log: /tmp/qa-server.log
+
+----------------------------------------------------------------
+ARTIFACTS
+----------------------------------------------------------------
+- 01-index-all.png                  85 KB (viewport, 1024x768)
+- 02-filter-agree-disagree.png      1.5 MB (full_page, 1280x900)
+- 03-filter-discuss-both-views.png  1.1 MB (full_page, 1280x900)
+- 04-essay-043.png                  393 KB (full_page, 1280x900)
+- 05-essay-176.png                  418 KB (full_page, 1280x900)
