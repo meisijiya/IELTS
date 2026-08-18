@@ -121,7 +121,8 @@
     },
 
     ProgressStore: {
-      _key: 'vocab-progress',
+      _key: 'ielts-vocab:progress',
+      _legacyKey: 'vocab-progress',
       _cache: null,
       _saveTimer: null,
       _WARN_BYTES: 500000,
@@ -129,7 +130,14 @@
       load() {
         this._cache = {};
         try {
-          const raw = localStorage.getItem(this._key);
+          let raw = localStorage.getItem(this._key);
+          if (!raw) {
+            raw = localStorage.getItem(this._legacyKey);
+            if (raw) {
+              try { localStorage.setItem(this._key, raw); } catch (e) {}
+              try { localStorage.removeItem(this._legacyKey); } catch (e) {}
+            }
+          }
           if (!raw) return;
           if (raw.length > this._WARN_BYTES) {
             console.warn('[VocabApp] localStorage "' + this._key

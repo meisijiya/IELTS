@@ -134,7 +134,7 @@ async function checkF7(window, VocabApp) {
   VocabApp.nextItem();
   await typeSpell(window, items[1].english + 'X'); // wrong
   await sleep(600); // save() debounce is 500ms
-  const stored = window.localStorage.getItem('vocab-progress');
+  const stored = window.localStorage.getItem('ielts-vocab:progress');
   let parsedOk = false;
   try { parsedOk = stored != null && Object.keys(JSON.parse(stored)).length > 0; } catch {}
   sub.push(
@@ -150,7 +150,7 @@ async function checkF7(window, VocabApp) {
   const okBtn = modal && modal.querySelector('[data-reset="ok"]');
   if (okBtn) okBtn.click();
   await sleep(600);
-  const afterReset = window.localStorage.getItem('vocab-progress');
+  const afterReset = window.localStorage.getItem('ielts-vocab:progress');
   // reset() persists '{}' (empty object), not null — both mean "cleared".
   sub.push(modalShown && (afterReset === null || afterReset === '{}'));
 
@@ -166,7 +166,7 @@ async function checkF7(window, VocabApp) {
   const warnBefore = warnings.length;
   VocabApp.ProgressStore.save();
   await sleep(600);
-  const big = window.localStorage.getItem('vocab-progress');
+  const big = window.localStorage.getItem('ielts-vocab:progress');
   const warned = warnings.slice(warnBefore).some((w) => w.includes('500KB'));
   sub.push(big != null && big.length > 0 && warned);
 
