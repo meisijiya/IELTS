@@ -243,15 +243,12 @@ a:focus:not(:focus-visible) {
   transition: background .2s ease;
 }
 
-/* Anchor read-tracker dots to writing list/detail articles (speaking uses .topic-card) */
+/* Anchor read-tracker dots to writing list/detail articles (speaking uses .topic-card)
+ * plus leave room for the absolute .dot (top:8 left:8, w=12) — text starts past x=24 */
 .essay-list article,
 article[data-task],
 article[data-topic-id] {
   position: relative;
-}
-
-/* Clear the absolute .dot (top:8 left:8, w=12) — text needs to start past x=24 */
-.essay-list article {
   padding-left: 1.5rem;
 }
 
