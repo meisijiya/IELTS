@@ -1,6 +1,7 @@
-/* Writing essay detail — typing rows + sticky prompt + essay-body isolation.
+/* Writing essay detail — typing rows + prompt collapse + essay-body isolation.
  * Only runs on <article data-task> pages (writing only). localStorage guarded.
- * Keys: ielts-writing:open:<slug>:<i>, ielts-writing:draft:<slug>:<i>
+ * Keys: ielts-writing:open:<slug>:<i>, ielts-writing:draft:<slug>:<i>,
+ *       ielts-writing:collapsed:<slug>
  * Row layout: button → status → textarea (toggle reads nextElementSibling.nextElementSibling).
  */
 (function () {
@@ -14,11 +15,11 @@
   const safeSet = (k, v) => { try { localStorage.setItem(k, v); } catch (e) {} };
   const draftKey = (i) => `ielts-writing:draft:${slug}:${i}`;
   const openKey  = (i) => `ielts-writing:open:${slug}:${i}`;
+  const collapsedKey = `ielts-writing:collapsed:${slug}`;
 
-  // --- Sticky prompt: add class, inject title bar, wrap inner content ---
+  // --- Inject prompt title bar + collapse button (CSS already makes .prompt sticky) ---
   const prompt = article.querySelector('section.prompt');
-  if (prompt && !prompt.classList.contains('prompt-sticky')) {
-    prompt.classList.add('prompt-sticky');
+  if (prompt && !prompt.querySelector(':scope > .prompt-title')) {
     const title = document.createElement('div');
     title.className = 'prompt-title';
     const label = document.createElement('span');
@@ -32,9 +33,14 @@
     body.className = 'prompt-body';
     while (prompt.firstChild) body.appendChild(prompt.firstChild);
     prompt.append(title, body);
+    if (safeGet(collapsedKey) === '1') {
+      prompt.classList.add('collapsed');
+      btn.textContent = '▴';
+    }
     btn.addEventListener('click', () => {
       const c = prompt.classList.toggle('collapsed');
       btn.textContent = c ? '▴' : '▾';
+      safeSet(collapsedKey, c ? '1' : '0');
     });
   }
 
