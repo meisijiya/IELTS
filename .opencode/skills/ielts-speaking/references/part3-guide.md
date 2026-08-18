@@ -33,9 +33,9 @@
 
 ---
 
-## 三、5 类问题 + 应对框架
+## 三、6 类问题 + 应对框架
 
-> 💡 **叠加汉堡结构**：以下 5 类框架（OREO 等）是 Part 3 的"骨架"。若想冲 7+ 分，可在骨架基础上叠加**汉堡 6 层**（酱料 / 芝士 / 竹签层）——详见 `references/burger-structure.md` 第三节 3.3 Part 3 应用范例。
+> 💡 **叠加汉堡结构**：以下 6 类框架（OREO 等）是 Part 3 的"骨架"。若想冲 7+ 分，可在骨架基础上叠加**汉堡 6 层**（酱料 / 芝士 / 竹签层）——详见 `references/burger-structure.md` 第三节 3.3 Part 3 应用范例。
 
 ### 1. Opinion（观点）
 
@@ -111,12 +111,14 @@
 
 ---
 
-## 四、OREO 框架（British Council 官方推荐）
+## 四、OREO 思路（BC 教学博客常见结构）
 
 **O**pinion → **R**eason → **E**xample → **(O)ther side / (C)onsequence**
 
-> British Council 官方原文：
+> British Council 教学博客常见表述：
 > "Structure your answers by using the ORE method: State your Opinion → Give a Reason → Give an Example."
+
+> ⚠️ **disclaimer**：OREO 不是 IELTS band descriptor 官方框架，而是 BC / IDP 公开教学材料中频繁出现的答题结构套路。本 skill 在 SOP-B 默认推荐汉堡结构（见 `burger-structure.md`），OREO 仅作并列对比。
 
 ---
 

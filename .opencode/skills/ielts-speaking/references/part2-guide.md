@@ -184,7 +184,7 @@
 - **Bullet 3**：通常是另一个扩展维度（what you do / how you use it）。
 - **Bullet 4**（"and explain..."）：**最重要**——讲感受、原因、影响。
 
-> 💡 **Be Real 提示**：Part 2 故事必须是真实经历——背稿痕迹会被 VEO 系统识别并综合扣分。详见 `references/part1-guide.md` 第九节末尾 Be Real 哲学。
+> 💡 **Be Real 提示**：Part 2 故事必须是真实经历——背稿痕迹会被考官综合判断识别并压分（Pronunciation / Interaction 两项扣分）。详见 `references/part1-guide.md` 第九节末尾 Be Real 哲学。
 
 **最后一 bullet 永远要给最多时间**。理由：考官在判断 LR / GRA 时，往往最后听到的论述最完整。
 
@@ -198,28 +198,13 @@
 | **漏 1 个 bullet** | TR/LR 扣分 | 准备时 4 列全填 |
 | **读笔记（flat 语调）** | P 扣分 | 只看关键词，不看句子 |
 | **太抽象（"a good experience"）** | GRA 扣分 | 加具体细节（数字 / 颜色 / 名字） |
-| **背稿痕迹** | VEO 研究证实考官能识别 → 综合扣分 | 自然停顿、self-correct |
+| **背稿痕迹** | 考官综合判断能识别（参见 IDP examiner tips / British Council 公开口径）→ 综合扣分 | 自然停顿、self-correct |
 
-> Source: IDP examiner tips, E2 IELTS Band 9, Seedhouse et al. 2021 VCS 研究（ielts.org/cdn/Research/）。
-
----
-
-## 九、Part 2 自然过渡词（signposting）
-
-让 2 分钟叙述有清晰结构：
-
-| 阶段 | 过渡词 |
-|---|---|
-| **开场** | "I'm going to talk about..." / "I'd like to describe..." / "The person / place / thing I'd like to talk about is..." |
-| **第一点** | "First of all, ..." / "To start with, ..." / "I'd like to begin with..." |
-| **第二点** | "As for [topic], ..." / "Another thing I remember is..." / "What I also want to mention is..." |
-| **第三点** | "The reason I mention this is..." / "What struck me most was..." / "Most importantly, ..." |
-| **解释 why** | "The reason this matters to me is..." / "Looking back, I think..." |
-| **收尾** | "So that's why..." / "All in all, ..." / "It's an experience I won't forget." |
+> Source: IDP examiner tips, E2 IELTS Band 9, Lee et al. 2021 VCS 研究（ielts.org/cdn/Research/development-of-ielts-video-call-speaking-test-lee-et-al-2021.pdf）。
 
 ---
 
-## 十、Part 2 必须学会的 5 个高分表达
+## 九、Part 2 必须学会的 5 个高分表达
 
 | 类别 | 表达 |
 |---|---|
@@ -231,7 +216,7 @@
 
 ---
 
-## 十一、Part 2 自检清单（生成答案后）
+## 十、Part 2 自检清单（生成答案后）
 
 - [ ] **覆盖 4 个 bullet**：每个 bullet 都展开 ≥ 1 句？
 - [ ] **时长**：是不是 200–250 词？约 2 分钟？
@@ -244,7 +229,7 @@
 
 ---
 
-## 十二、Part 2 4 周冲刺清单
+## 十一、Part 2 4 周冲刺清单
 
 | 周 | 任务 |
 |---|---|
@@ -255,7 +240,7 @@
 
 ---
 
-## 十三、Part 2 范例（学习参考用）
+## 十二、Part 2 范例（学习参考用）
 
 **题目**：Describe a piece of technology you often use (but not your phone). You should say: what it is / how long you have used it / what you use it for / and explain why it is important to you.
 

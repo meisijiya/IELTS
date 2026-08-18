@@ -67,7 +67,7 @@
 
 ---
 
-## 二、Task 2 大作文 Opinion 题型：6 / 7 / 8 分对比
+## 二、Task 2 大作文 Discussion 题型：6 / 7 / 8 分对比
 
 **题目**：Some people think that the government should spend more money on providing free education for children under 18, while others believe that adult education deserves more funding. Discuss both views and give your own opinion.
 

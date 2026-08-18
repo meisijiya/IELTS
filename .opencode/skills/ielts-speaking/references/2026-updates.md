@@ -33,6 +33,7 @@
 > **使用方式**：
 > - 备考以这份 PDF 为优先题源（比 `references/part1-guide.md` / `part2-guide.md` / `part3-guide.md` 里的通用题库更贴近当季）。
 > - 该 PDF 为图片型（FlateDecode 图像），agent 无法直接读取；如需提取文本需 OCR。
+> - **OCR fallback 流程**：当用户问"这季考什么 / 当季题库有什么"时——若 PDF 可直接读取则优先使用；若不可读（图像 / OCR 失败），则基于 `references/part1-guide.md` / `part2-guide.md` / `part3-guide.md` 的通用题库 + 2026 趋势话题（AI / 远程办公 / 社交媒体心理健康）回答，并明确告知"agent 无法直接读 PDF 图像，需用户提供当季文本"。
 > - **Part 1 高频话题**：hometown / study or work / daily routine / food / hobbies / reading / sports / technology / weather / friends — 都是近期考试常考。
 > - **Part 2 必背话题**：describe a person / place / event / object / activity / change — PDF 每月有 12–15 张新卡。
 > - **Part 3 抽象方向**：education / technology / environment / health / work-life balance。
