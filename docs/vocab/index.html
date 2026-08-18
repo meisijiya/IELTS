@@ -3,27 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>词汇积累 — 5 文档整合检索 + 拼写练习</title>
+  <title>词汇积累 — 5 文档整合检索</title>
   <link rel="icon" href="../favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="../assets/css/style.css?v=2">
+  <link rel="stylesheet" href="../assets/css/style.css?v=3">
   <link rel="stylesheet" href="assets/css/vocab.css">
-  <script src="assets/js/vocab.js?v=2" defer></script>
+  <script src="assets/js/vocab.js?v=3" defer></script>
 </head>
 <body>
   <nav class="crumbs"><a href="../">Home</a> › 积累</nav>
 
   <header>
     <h1>词汇积累</h1>
-    <p class="intro">5 份词汇文档整合检索 + 拼写练习。覆盖口语 P1、听力、剑雅真题、考点 538、写作五份词表;支持按文档 / 分类筛选,中英双向搜索,以及拼写练习与错题回顾。</p>
+    <p class="intro">5 份词汇文档整合检索。覆盖口语 P1、听力、剑雅真题、考点 538、写作五份词表;支持按文档 / 分类筛选,中英双向搜索。</p>
   </header>
 
   <main>
-
-    <section class="vocab-stats" aria-label="学习统计">
-      <span>已练习 <strong id="stats-total">0</strong> 词</span>
-      <span>正确率 <strong id="stats-correct">—</strong></span>
-      <button type="button" id="stats-reset">重置数据</button>
-    </section>
 
     <section class="filters" aria-label="文档切换">
       <div id="doc-chips" class="chip-row" role="group" aria-label="选择文档">
@@ -48,36 +42,8 @@
              autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
     </section>
 
-    <section class="vocab-tabs" aria-label="学习模式">
-      <div id="mode-tabs" class="chip-row" role="group" aria-label="模式">
-        <button type="button" class="chip vocab-tab" data-mode="browse" aria-pressed="true">[浏览模式]</button>
-        <button type="button" class="chip vocab-tab" data-mode="spell" aria-pressed="false">[拼写练习]</button>
-        <button type="button" class="chip vocab-tab" data-mode="unmastered" aria-pressed="false">[未掌握]</button>
-      </div>
-    </section>
-
     <section id="view-browse" aria-label="浏览模式">
       <div id="vocab-card-grid" class="vocab-card-grid"></div>
-    </section>
-
-    <section id="view-spell" aria-label="拼写练习" hidden>
-      <article class="vocab-spelling-card">
-        <p id="spell-prompt" class="prompt">请输入对应英文</p>
-        <input type="text" id="spell-input" class="vocab-input"
-               autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"
-               placeholder="输入英文...">
-        <p id="spell-feedback" class="vocab-diff"></p>
-        <p id="spell-progress" class="vocab-progress">0 / 0 · 正确 0</p>
-        <div id="spell-nav" class="chip-row">
-          <button type="button" class="chip" data-nav="prev">上一题</button>
-          <button type="button" class="chip" data-nav="skip">跳过</button>
-          <button type="button" class="chip" data-nav="next">下一题</button>
-        </div>
-      </article>
-    </section>
-
-    <section id="view-unmastered" aria-label="未掌握" hidden>
-      <div id="unmastered-list" class="vocab-card-grid"></div>
     </section>
 
   </main>
