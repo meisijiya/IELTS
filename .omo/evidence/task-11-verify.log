@@ -1,0 +1,1162 @@
+================================================================
+Task 11: End-to-end Verification + Smoke Tests
+Date: 2026-08-17T21:30:49Z
+Working directory: /home/ljh2923/opencode-project/IELTS
+Evidence file: /home/ljh2923/opencode-project/IELTS/.omo/evidence/task-11-verify.log
+================================================================
+
+=== Check 1: Idempotency ===
+Command: python3 scripts/inject-features.py inject
+Expected: log shows 'skip' or '0 missing' for every file (no modifications)
+--- Script output (begin) ---
+[2026-08-17 21:30:49 UTC] === inject ===
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task1/01-table-universities-ranked.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task1/02-pie-meal-nutrients.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task1/03-bar-electricity.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task1/04-bar-physical-activity.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task1/05-mixed-graph.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task1/06-process-rain-shadow-desert.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task1/07-process-plastic-recycling.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task1/08-process-cement-making.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task1/09-mixed-library-survey.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task1/10-dynamic-caribbean-tourists.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task1/11-dynamic-melbourne-activities.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task1/12-dynamic-asian-cities.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task1/13-static-uk-school-spending.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/01-agree-disagree-history-vs-business.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/02-discuss-both-views-employment-skills.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/03-positive-negative-children-freedom.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/04-opinion-teachers-morality.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/043-1-1-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/044-1-1-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/045-1-1-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/046-1-1-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/047-1-1-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/048-1-1-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/049-1-1-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/05-two-questions-environment.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/050-1-2-positive-negative.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/051-1-2-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/052-1-2-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/053-1-2-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/054-1-2-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/055-1-2-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/056-1-2-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/057-1-2-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/058-1-2-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/059-1-2-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/06-26-env-solutions.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/060-1-3-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/061-1-4-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/062-1-4-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/063-1-4-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/064-1-5-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/065-1-5-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/066-1-6-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/067-1-6-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/068-1-6-advantage-disadvantage.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/069-1-6-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/07-01-lang-learning.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/070-1-6-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/071-1-6-two-questions.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/072-1-6-two-questions.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/073-1-7-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/074-1-7-advantage-disadvantage.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/075-1-7-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/076-1-8-problem-solution.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/077-1-8-problem-solution.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/078-1-8-two-questions.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/079-2-1-single-question.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/08-04-education-target.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/080-2-1-advantage-disadvantage.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/081-2-1-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/082-2-1-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/083-2-1-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/084-2-1-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/085-2-2-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/086-2-2-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/087-2-2-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/088-2-2-positive-negative.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/089-2-2-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/09-05-education-phenomenon.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/090-2-3-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/091-2-3-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/092-2-3-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/093-2-3-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/094-2-4-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/095-2-5-problem-solution.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/096-3-1-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/097-3-1-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/098-3-1-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/099-3-1-positive-negative.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/10-06-job-choice.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/100-3-1-advantage-disadvantage.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/101-3-1-advantage-disadvantage.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/102-3-1-advantage-disadvantage.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/103-3-1-advantage-disadvantage.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/104-3-2-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/105-3-2-problem-solution.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/106-3-2-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/107-3-2-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/108-3-2-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/109-3-2-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/11-07-personal-skill.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/110-3-2-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/111-3-2-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/112-3-2-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/113-3-2-advantage-disadvantage.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/114-3-2-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/115-3-2-problem-solution.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/116-3-2-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/117-3-2-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/118-3-2-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/119-3-2-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/12-08-work-env.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/120-3-4-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/121-3-4-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/122-3-3-two-questions.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/123-3-3-positive-negative.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/124-3-3-problem-solution.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/125-3-3-problem-solution.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/126-3-3-two-questions.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/127-3-3-advantage-disadvantage.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/128-3-4-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/129-3-4-problem-solution.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/13-09-job-types.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/130-3-4-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/131-3-4-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/132-3-4-advantage-disadvantage.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/133-3-4-advantage-disadvantage.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/134-3-4-two-questions.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/135-3-4-two-questions.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/136-3-4-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/137-3-4-two-questions.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/138-3-5-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/139-3-5-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/14-10-work-life-balance.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/140-3-5-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/141-3-5-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/142-3-5-problem-solution.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/143-3-5-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/144-3-5-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/145-3-5-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/146-3-5-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/147-3-5-problem-solution.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/148-3-5-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/149-3-5-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/15-11-urbanisation.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/150-3-5-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/151-3-5-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/152-3-5-advantage-disadvantage.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/153-3-5-opinion.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/154-3-5-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/155-3-6-problem-solution.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/156-3-6-problem-solution.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/157-3-6-problem-solution.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/158-3-6-problem-solution.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/159-3-6-problem-solution.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/16-12-culture.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/160-3-6-problem-solution.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/161-3-6-problem-solution.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/162-3-6-problem-solution.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/163-3-6-two-questions.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/164-3-6-problem-solution.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/165-3-6-problem-solution.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/166-3-6-two-questions.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/167-3-6-two-questions.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/168-3-6-problem-solution.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/169-3-6-problem-solution.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/17-13-ageing.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/170-3-7-positive-negative.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/171-3-8-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/172-3-8-advantage-disadvantage.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/173-3-8-advantage-disadvantage.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/174-3-8-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/175-3-9-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/176-3-10-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/177-4-1-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/178-4-1-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/179-4-1-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/18-14-transport.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/180-4-1-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/181-4-2-problem-solution.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/182-4-3-problem-solution.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/183-4-3-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/184-4-4-problem-solution.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/185-4-4-problem-solution.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/186-4-4-advantage-disadvantage.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/187-4-4-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/188-4-4-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/189-4-4-advantage-disadvantage.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/19-15-values-compare.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/190-4-5-problem-solution.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/191-4-6-problem-solution.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/192-4-6-two-questions.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/193-4-7-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/194-4-7-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/195-4-7-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/196-5-1-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/197-5-1-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/198-5-1-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/199-5-1-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/20-16-social-phenomenon.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/200-5-1-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/201-5-1-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/202-5-1-opinion.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/203-5-1-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/204-5-1-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/205-5-1-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/206-5-1-positive-negative.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/207-5-1-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/208-5-1-advantage-disadvantage.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/209-5-1-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/21-17-privacy.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/210-5-2-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/211-5-2-problem-solution.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/212-5-2-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/213-5-2-problem-solution.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/214-5-2-advantage-disadvantage.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/215-5-2-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/216-6-1-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/217-6-1-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/218-6-1-positive-negative.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/219-6-1-advantage-disadvantage.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/22-18-life-change.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/220-6-1-advantage-disadvantage.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/221-6-1-positive-negative.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/222-6-1-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/223-6-1-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/224-6-1-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/225-6-1-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/226-6-1-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/227-6-1-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/228-6-1-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/229-6-1-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/23-19-gender.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/230-6-1-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/231-6-1-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/232-6-1-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/233-6-1-two-questions.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/234-6-2-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/235-6-2-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/236-6-2-problem-solution.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/237-6-2-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/238-6-2-problem-solution.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/239-7-1-problem-solution.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/24-20-civility.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/240-7-1-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/241-7-1-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/242-7-1-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/243-7-1-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/244-8-1-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/245-8-1-positive-negative.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/246-8-1-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/247-8-1-problem-solution.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/248-8-1-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/249-8-1-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/25-21-animal-protection.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/250-8-1-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/251-8-1-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/252-8-1-two-questions.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/253-8-1-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/254-8-1-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/255-8-1-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/256-8-1-positive-negative.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/257-8-2-two-questions.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/258-8-2-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/259-8-2-two-questions.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/26-22-plastic.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/260-8-2-positive-negative.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/261-9-1-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/262-9-1-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/263-9-1-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/264-9-1-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/265-9-1-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/266-9-1-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/267-9-1-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/268-9-1-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/269-9-1-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/27-23-water.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/270-9-1-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/271-9-1-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/272-10-1-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/273-10-1-problem-solution.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/274-10-1-problem-solution.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/275-10-1-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/276-10-1-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/277-10-1-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/278-10-1-discuss-both-views.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/279-10-1-agree-disagree.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/28-24-noise-pollution.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/29-25-consumption-env.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/30-02-qual-meaning.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/31-03-education-method.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/32-27-technology.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/33-28-health.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/34-29-media.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/35-30-advertising.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/36-31-globalisation.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/37-32-travel.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/38-1-1-single-question.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/39-1-1-problem-solution.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/40-1-2-advantage-disadvantage.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/41-1-5-single-question.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/task2/42-4-4-problem-solution.html  (2 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p1-area.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p1-city.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p1-home.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p1-hometown.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p1-work.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p1f-building.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p1f-cars.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p1f-childhood.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p1f-food.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p1f-gifts.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p1f-hobby.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p1f-life-stages.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p1f-mirrors.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p1f-morning.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p1f-music.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p1f-outer-space.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p1f-parks.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p1f-pets.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p1f-reading.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p1f-scenery.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p1f-science.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p1f-shopping.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p1f-singing.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p1f-social-media.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p1f-sports-team.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p1f-teachers.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p1f-tidiness.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p1f-typing.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p1f-views.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p1f-walking.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p1f-watch.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p1f-websites.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p23-advice.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p23-app.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p23-bad-music.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p23-boring.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p23-business.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p23-changed-plan.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p23-child-art.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p23-child-friend.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p23-decision.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p23-early.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p23-encourage.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p23-famous-city.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p23-famous.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p23-fav-city.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p23-foreign-job.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p23-group.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p23-heirloom.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p23-helper.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p23-imagination.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p23-interest-bldg.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p23-law.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p23-medical.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p23-movie.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p23-nanning.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p23-nature.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p23-no-phone.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p23-overspent.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p23-perfect-job.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p23-planning.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p23-plants.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p23-proud.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p23-self-learn.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p23-smart.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p23-smiling.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p23-sports.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p23-tall.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p23-tech.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p23-vehicle.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/topics/p23-video.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/writing/index.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SKIP       docs/speaking/index.html  (1 tag(s) present)
+[2026-08-17 21:30:49 UTC] SUMMARY inject: 0 modified, 365 skipped, 0 errors, 365 total
+--- Script output (end) ---
+Exit code: 0
+
+=== Check 2: Drift-check (twice) ===
+Run 1:
+--- Run 1 output (begin) ---
+[2026-08-17 21:31:00 UTC] === drift-check ===
+[2026-08-17 21:31:00 UTC] DRIFT-CHECK: 365/365 OK, 0 missing, 0 unreadable
+--- Run 1 output (end) ---
+Run 1 exit code: 0
+
+Run 2:
+--- Run 2 output (begin) ---
+[2026-08-17 21:31:00 UTC] === drift-check ===
+[2026-08-17 21:31:00 UTC] DRIFT-CHECK: 365/365 OK, 0 missing, 0 unreadable
+--- Run 2 output (end) ---
+Run 2 exit code: 0
+
+=== Check 3: File counts ===
+
+--- writing/task1 + task2 with read-tracker.js (expected: 292) ---
+Count: 292
+
+--- writing/task1 + task2 with essay-typing.js (expected: 292) ---
+Count: 292
+
+--- speaking/topics with read-tracker.js (expected: 71) ---
+Count: 71
+
+--- Total modified docs/ files (expected: >= 363, probably 365) ---
+Count: 0
+
+--- Breakdown of all files in git diff --stat (docs/ only) ---
+ docs/assets/css/style.css                          | 195 +++++++++++++++++++
+ docs/index.html                                    |  23 ++-
+ docs/speaking/index.html                           |   1 +
+ docs/speaking/topics/p1-area.html                  |   1 +
+ docs/speaking/topics/p1-city.html                  |   1 +
+ docs/speaking/topics/p1-home.html                  |   1 +
+ docs/speaking/topics/p1-hometown.html              |   1 +
+ docs/speaking/topics/p1-work.html                  |   1 +
+ docs/speaking/topics/p1f-building.html             |   1 +
+ docs/speaking/topics/p1f-cars.html                 |   1 +
+ docs/speaking/topics/p1f-childhood.html            |   1 +
+ docs/speaking/topics/p1f-food.html                 |   1 +
+ docs/speaking/topics/p1f-gifts.html                |   1 +
+ docs/speaking/topics/p1f-hobby.html                |   1 +
+ docs/speaking/topics/p1f-life-stages.html          |   1 +
+ docs/speaking/topics/p1f-mirrors.html              |   1 +
+ docs/speaking/topics/p1f-morning.html              |   1 +
+ docs/speaking/topics/p1f-music.html                |   1 +
+ docs/speaking/topics/p1f-outer-space.html          |   1 +
+ docs/speaking/topics/p1f-parks.html                |   1 +
+...
+ docs/writing/task2/37-32-travel.html               |   2 +
+ docs/writing/task2/38-1-1-single-question.html     |   2 +
+ docs/writing/task2/39-1-1-problem-solution.html    |   2 +
+ docs/writing/task2/41-1-5-single-question.html     |   2 +
+ docs/writing/task2/42-4-4-problem-solution.html    |   2 +
+
+Total summary: read-tracker(WR)=292 essay-typing(WR)=292 read-tracker(SP)=71 modified-docs=0
+
+--- Debug: format of git diff --stat lines ---
+ .omo/boulder.json                                  | 207 ++++++++++++++++++++-$
+ .../ses_ff0045fa8ffeFsdvHqSvy4eA2N.json            |   4 +-$
+ .../ielts-listening/references/2026-updates.md     |   2 +-$
+
+--- Various regex attempts ---
+Pattern '^\s+[0-9]+\s+docs/':
+0
+Pattern '^\s+[0-9]+ .*docs/':
+0
+Pattern 'docs/':
+332
+Pattern '|.*docs/':
+0
+Pattern 'docs/' with leading pipe:
+332
+
+--- git status --short sample ---
+ M .omo/boulder.json
+ M .omo/run-continuation/ses_ff0045fa8ffeFsdvHqSvy4eA2N.json
+ M .opencode/skills/ielts-listening/references/2026-updates.md
+ M .opencode/skills/ielts-reading/references/2026-updates.md
+ M .opencode/skills/ielts-speaking/SKILL.md
+ M .opencode/skills/ielts-speaking/references/2026-updates.md
+ M .opencode/skills/ielts-speaking/references/part2-guide.md
+ M .opencode/skills/ielts-speaking/references/part3-guide.md
+ M .opencode/skills/ielts-writing/SKILL.md
+ M .opencode/skills/ielts-writing/references/2026-updates.md
+ M .opencode/skills/ielts-writing/references/band-examples.md
+ M docs/assets/css/style.css
+ M docs/index.html
+ M docs/speaking/index.html
+ M docs/speaking/topics/p1-area.html
+ M docs/speaking/topics/p1-city.html
+ M docs/speaking/topics/p1-home.html
+ M docs/speaking/topics/p1-hometown.html
+ M docs/speaking/topics/p1-work.html
+ M docs/speaking/topics/p1f-building.html
+...
+Total files in git status (any prefix):
+502
+
+--- Files with 'docs' in changed paths ---
+373
+
+--- Files in docs/ only (full paths) ---
+373
+
+--- Sample of files in docs/ ---
+ M docs/assets/css/style.css
+ M docs/index.html
+ M docs/speaking/index.html
+ M docs/speaking/topics/p1-area.html
+ M docs/speaking/topics/p1-city.html
+
+--- Total changed files in git diff (HEAD vs working) ---
+378
+
+--- Files in docs/ from git diff --stat (show last) ---
+ docs/writing/task2/41-1-5-single-question.html     |   2 +
+ docs/writing/task2/42-4-4-problem-solution.html    |   2 +
+ 378 files changed, 1137 insertions(+), 64 deletions(-)
+
+--- grep test for docs/ in diff --stat ---
+ docs/assets/css/style.css                          | 195 +++++++++++++++++++
+ docs/index.html                                    |  23 ++-
+ docs/speaking/index.html                           |   1 +
+Count: 332
+
+--- Verify with --cached (staged) diff ---
+0
+--- HEAD vs working tree: docs/ files ---
+ docs/writing/task2/41-1-5-single-question.html     |   2 +
+ docs/writing/task2/42-4-4-problem-solution.html    |   2 +
+ 367 files changed, 865 insertions(+), 10 deletions(-)
+Count: 367
+
+--- NOTE: User's regex '^\s+[0-9]+\s+docs/' assumes stats format with number first, but git diff --stat header is 'filename | n1 +' (filename comes first). Correcting. ---
+
+User's literal regex result: 0
+Corrected count: distinct docs/ files in working tree vs HEAD:
+367
+
+Per-category breakdown:
+  docs/writing/task1+task2 files: 292
+  docs/speaking/topics files: 71
+  docs/writing/index.html: 1
+  docs/speaking/index.html: 1
+  docs/index.html (top-level): 1
+  docs/assets/css/style.css: 1
+
+=== Check 4: HTML validity (3 random files) ===
+
+Samples chosen:
+  writing/task1: docs/writing/task1/05-mixed-graph.html
+  writing/task2: docs/writing/task2/11-07-personal-skill.html
+  speaking/topics: docs/speaking/topics/p1f-views.html
+
+--- Testing: docs/writing/task1/05-mixed-graph.html ---
+OK
+Exit: 0
+--- Testing: docs/writing/task2/11-07-personal-skill.html ---
+OK
+Exit: 0
+--- Testing: docs/speaking/topics/p1f-views.html ---
+OK
+Exit: 0
+
+=== Check 5: Reading/listening/vocab untouched ===
+
+--- Directory existence ---
+  docs/reading EXISTS
+  docs/listening EXISTS
+  docs/vocab EXISTS
+
+--- HTML files in each ---
+  docs/reading: 1 .html files
+  docs/listening: 1 .html files
+  docs/vocab: 1 .html files
+
+--- read-tracker.js in docs/{reading,listening,vocab} (expected: 0) ---
+0
+
+--- essay-typing.js in docs/{reading,listening,vocab} (expected: 0) ---
+0
+
+--- clear-cache.js in docs/{reading,listening,vocab} (expected: 0) ---
+0
+
+=== Check 6: CSS file integrity ===
+Test: head -181 docs/assets/css/style.css | diff - <(git show HEAD:docs/assets/css/style.css | head -181)
+
+Current style.css line count: 376
+
+HEAD style.css line count: 181
+
+--- diff output (begin) ---
+--- diff output (end) ---
+Diff exit code: 0 (0 = byte-identical)
+
+--- Line 182 byte check (documented 1-byte trailing-newline difference) ---
+Working tree line 182 bytes: 2
+HEAD line 182 bytes:         1
+
+Working tree line 182 hex dump (first 100 bytes):
+0000000   }  \n
+0000002
+HEAD line 182 hex dump (first 100 bytes):
+0000000   }
+0000001
+
+=== Check 7: Git status snapshot ===
+
+--- git status --short (full) ---
+ M .omo/boulder.json
+ M .omo/run-continuation/ses_ff0045fa8ffeFsdvHqSvy4eA2N.json
+ M .opencode/skills/ielts-listening/references/2026-updates.md
+ M .opencode/skills/ielts-reading/references/2026-updates.md
+ M .opencode/skills/ielts-speaking/SKILL.md
+ M .opencode/skills/ielts-speaking/references/2026-updates.md
+ M .opencode/skills/ielts-speaking/references/part2-guide.md
+ M .opencode/skills/ielts-speaking/references/part3-guide.md
+ M .opencode/skills/ielts-writing/SKILL.md
+ M .opencode/skills/ielts-writing/references/2026-updates.md
+ M .opencode/skills/ielts-writing/references/band-examples.md
+ M docs/assets/css/style.css
+ M docs/index.html
+ M docs/speaking/index.html
+ M docs/speaking/topics/p1-area.html
+ M docs/speaking/topics/p1-city.html
+ M docs/speaking/topics/p1-home.html
+ M docs/speaking/topics/p1-hometown.html
+ M docs/speaking/topics/p1-work.html
+ M docs/speaking/topics/p1f-building.html
+ M docs/speaking/topics/p1f-cars.html
+ M docs/speaking/topics/p1f-childhood.html
+ M docs/speaking/topics/p1f-food.html
+ M docs/speaking/topics/p1f-gifts.html
+ M docs/speaking/topics/p1f-hobby.html
+ M docs/speaking/topics/p1f-life-stages.html
+ M docs/speaking/topics/p1f-mirrors.html
+ M docs/speaking/topics/p1f-morning.html
+ M docs/speaking/topics/p1f-music.html
+ M docs/speaking/topics/p1f-outer-space.html
+ M docs/speaking/topics/p1f-parks.html
+ M docs/speaking/topics/p1f-pets.html
+ M docs/speaking/topics/p1f-reading.html
+ M docs/speaking/topics/p1f-scenery.html
+ M docs/speaking/topics/p1f-science.html
+ M docs/speaking/topics/p1f-shopping.html
+ M docs/speaking/topics/p1f-singing.html
+ M docs/speaking/topics/p1f-social-media.html
+ M docs/speaking/topics/p1f-sports-team.html
+ M docs/speaking/topics/p1f-teachers.html
+ M docs/speaking/topics/p1f-tidiness.html
+ M docs/speaking/topics/p1f-typing.html
+ M docs/speaking/topics/p1f-views.html
+ M docs/speaking/topics/p1f-walking.html
+ M docs/speaking/topics/p1f-watch.html
+ M docs/speaking/topics/p1f-websites.html
+ M docs/speaking/topics/p23-advice.html
+ M docs/speaking/topics/p23-app.html
+ M docs/speaking/topics/p23-bad-music.html
+ M docs/speaking/topics/p23-boring.html
+ M docs/speaking/topics/p23-business.html
+ M docs/speaking/topics/p23-changed-plan.html
+ M docs/speaking/topics/p23-child-art.html
+ M docs/speaking/topics/p23-child-friend.html
+ M docs/speaking/topics/p23-decision.html
+ M docs/speaking/topics/p23-early.html
+ M docs/speaking/topics/p23-encourage.html
+ M docs/speaking/topics/p23-famous-city.html
+ M docs/speaking/topics/p23-famous.html
+ M docs/speaking/topics/p23-fav-city.html
+ M docs/speaking/topics/p23-foreign-job.html
+ M docs/speaking/topics/p23-group.html
+ M docs/speaking/topics/p23-heirloom.html
+ M docs/speaking/topics/p23-helper.html
+ M docs/speaking/topics/p23-imagination.html
+ M docs/speaking/topics/p23-interest-bldg.html
+ M docs/speaking/topics/p23-law.html
+ M docs/speaking/topics/p23-medical.html
+ M docs/speaking/topics/p23-movie.html
+ M docs/speaking/topics/p23-nanning.html
+ M docs/speaking/topics/p23-nature.html
+ M docs/speaking/topics/p23-no-phone.html
+ M docs/speaking/topics/p23-overspent.html
+ M docs/speaking/topics/p23-perfect-job.html
+ M docs/speaking/topics/p23-planning.html
+ M docs/speaking/topics/p23-plants.html
+ M docs/speaking/topics/p23-proud.html
+ M docs/speaking/topics/p23-self-learn.html
+ M docs/speaking/topics/p23-smart.html
+ M docs/speaking/topics/p23-smiling.html
+ M docs/speaking/topics/p23-sports.html
+ M docs/speaking/topics/p23-tall.html
+ M docs/speaking/topics/p23-tech.html
+ M docs/speaking/topics/p23-vehicle.html
+ M docs/speaking/topics/p23-video.html
+ M docs/writing/index.html
+ M docs/writing/task1/01-table-universities-ranked.html
+ M docs/writing/task1/02-pie-meal-nutrients.html
+ M docs/writing/task1/03-bar-electricity.html
+ M docs/writing/task1/04-bar-physical-activity.html
+ M docs/writing/task1/05-mixed-graph.html
+ M docs/writing/task1/06-process-rain-shadow-desert.html
+ M docs/writing/task1/07-process-plastic-recycling.html
+ M docs/writing/task1/08-process-cement-making.html
+ M docs/writing/task1/09-mixed-library-survey.html
+ M docs/writing/task1/10-dynamic-caribbean-tourists.html
+ M docs/writing/task1/11-dynamic-melbourne-activities.html
+ M docs/writing/task1/12-dynamic-asian-cities.html
+ M docs/writing/task1/13-static-uk-school-spending.html
+ M docs/writing/task2/01-agree-disagree-history-vs-business.html
+ M docs/writing/task2/02-discuss-both-views-employment-skills.html
+ M docs/writing/task2/03-positive-negative-children-freedom.html
+ M docs/writing/task2/04-opinion-teachers-morality.html
+ M docs/writing/task2/043-1-1-agree-disagree.html
+ M docs/writing/task2/044-1-1-discuss-both-views.html
+ M docs/writing/task2/045-1-1-agree-disagree.html
+ M docs/writing/task2/046-1-1-agree-disagree.html
+ M docs/writing/task2/047-1-1-discuss-both-views.html
+ M docs/writing/task2/048-1-1-discuss-both-views.html
+ M docs/writing/task2/049-1-1-agree-disagree.html
+ M docs/writing/task2/05-two-questions-environment.html
+ M docs/writing/task2/050-1-2-positive-negative.html
+ M docs/writing/task2/051-1-2-discuss-both-views.html
+ M docs/writing/task2/052-1-2-agree-disagree.html
+ M docs/writing/task2/053-1-2-discuss-both-views.html
+ M docs/writing/task2/054-1-2-agree-disagree.html
+ M docs/writing/task2/055-1-2-agree-disagree.html
+ M docs/writing/task2/056-1-2-agree-disagree.html
+ M docs/writing/task2/057-1-2-agree-disagree.html
+ M docs/writing/task2/058-1-2-discuss-both-views.html
+ M docs/writing/task2/059-1-2-discuss-both-views.html
+ M docs/writing/task2/06-26-env-solutions.html
+ M docs/writing/task2/060-1-3-agree-disagree.html
+ M docs/writing/task2/061-1-4-discuss-both-views.html
+ M docs/writing/task2/062-1-4-discuss-both-views.html
+ M docs/writing/task2/063-1-4-discuss-both-views.html
+ M docs/writing/task2/064-1-5-discuss-both-views.html
+ M docs/writing/task2/065-1-5-discuss-both-views.html
+ M docs/writing/task2/066-1-6-agree-disagree.html
+ M docs/writing/task2/067-1-6-agree-disagree.html
+ M docs/writing/task2/068-1-6-advantage-disadvantage.html
+ M docs/writing/task2/069-1-6-agree-disagree.html
+ M docs/writing/task2/07-01-lang-learning.html
+ M docs/writing/task2/070-1-6-agree-disagree.html
+ M docs/writing/task2/071-1-6-two-questions.html
+ M docs/writing/task2/072-1-6-two-questions.html
+ M docs/writing/task2/073-1-7-agree-disagree.html
+ M docs/writing/task2/074-1-7-advantage-disadvantage.html
+ M docs/writing/task2/075-1-7-agree-disagree.html
+ M docs/writing/task2/076-1-8-problem-solution.html
+ M docs/writing/task2/077-1-8-problem-solution.html
+ M docs/writing/task2/078-1-8-two-questions.html
+ M docs/writing/task2/079-2-1-single-question.html
+ M docs/writing/task2/08-04-education-target.html
+ M docs/writing/task2/080-2-1-advantage-disadvantage.html
+ M docs/writing/task2/081-2-1-agree-disagree.html
+ M docs/writing/task2/082-2-1-agree-disagree.html
+ M docs/writing/task2/083-2-1-discuss-both-views.html
+ M docs/writing/task2/084-2-1-agree-disagree.html
+ M docs/writing/task2/085-2-2-agree-disagree.html
+ M docs/writing/task2/086-2-2-agree-disagree.html
+ M docs/writing/task2/087-2-2-agree-disagree.html
+ M docs/writing/task2/088-2-2-positive-negative.html
+ M docs/writing/task2/089-2-2-agree-disagree.html
+ M docs/writing/task2/09-05-education-phenomenon.html
+ M docs/writing/task2/090-2-3-agree-disagree.html
+ M docs/writing/task2/091-2-3-agree-disagree.html
+ M docs/writing/task2/092-2-3-agree-disagree.html
+ M docs/writing/task2/093-2-3-agree-disagree.html
+ M docs/writing/task2/094-2-4-agree-disagree.html
+ M docs/writing/task2/095-2-5-problem-solution.html
+ M docs/writing/task2/096-3-1-discuss-both-views.html
+ M docs/writing/task2/097-3-1-agree-disagree.html
+ M docs/writing/task2/098-3-1-agree-disagree.html
+ M docs/writing/task2/099-3-1-positive-negative.html
+ M docs/writing/task2/10-06-job-choice.html
+ M docs/writing/task2/100-3-1-advantage-disadvantage.html
+ M docs/writing/task2/101-3-1-advantage-disadvantage.html
+ M docs/writing/task2/102-3-1-advantage-disadvantage.html
+ M docs/writing/task2/103-3-1-advantage-disadvantage.html
+ M docs/writing/task2/104-3-2-agree-disagree.html
+ M docs/writing/task2/105-3-2-problem-solution.html
+ M docs/writing/task2/106-3-2-agree-disagree.html
+ M docs/writing/task2/107-3-2-discuss-both-views.html
+ M docs/writing/task2/108-3-2-agree-disagree.html
+ M docs/writing/task2/109-3-2-agree-disagree.html
+ M docs/writing/task2/11-07-personal-skill.html
+ M docs/writing/task2/110-3-2-discuss-both-views.html
+ M docs/writing/task2/111-3-2-agree-disagree.html
+ M docs/writing/task2/112-3-2-agree-disagree.html
+ M docs/writing/task2/113-3-2-advantage-disadvantage.html
+ M docs/writing/task2/114-3-2-discuss-both-views.html
+ M docs/writing/task2/115-3-2-problem-solution.html
+ M docs/writing/task2/116-3-2-agree-disagree.html
+ M docs/writing/task2/117-3-2-discuss-both-views.html
+ M docs/writing/task2/118-3-2-discuss-both-views.html
+ M docs/writing/task2/119-3-2-agree-disagree.html
+ M docs/writing/task2/12-08-work-env.html
+ M docs/writing/task2/120-3-4-agree-disagree.html
+ M docs/writing/task2/121-3-4-agree-disagree.html
+ M docs/writing/task2/122-3-3-two-questions.html
+ M docs/writing/task2/123-3-3-positive-negative.html
+ M docs/writing/task2/124-3-3-problem-solution.html
+ M docs/writing/task2/125-3-3-problem-solution.html
+ M docs/writing/task2/126-3-3-two-questions.html
+ M docs/writing/task2/127-3-3-advantage-disadvantage.html
+ M docs/writing/task2/128-3-4-agree-disagree.html
+ M docs/writing/task2/129-3-4-problem-solution.html
+ M docs/writing/task2/13-09-job-types.html
+ M docs/writing/task2/130-3-4-agree-disagree.html
+ M docs/writing/task2/131-3-4-agree-disagree.html
+ M docs/writing/task2/132-3-4-advantage-disadvantage.html
+ M docs/writing/task2/133-3-4-advantage-disadvantage.html
+ M docs/writing/task2/134-3-4-two-questions.html
+ M docs/writing/task2/135-3-4-two-questions.html
+ M docs/writing/task2/136-3-4-agree-disagree.html
+ M docs/writing/task2/137-3-4-two-questions.html
+ M docs/writing/task2/138-3-5-agree-disagree.html
+ M docs/writing/task2/139-3-5-discuss-both-views.html
+ M docs/writing/task2/14-10-work-life-balance.html
+ M docs/writing/task2/140-3-5-discuss-both-views.html
+ M docs/writing/task2/141-3-5-agree-disagree.html
+ M docs/writing/task2/142-3-5-problem-solution.html
+ M docs/writing/task2/143-3-5-discuss-both-views.html
+ M docs/writing/task2/144-3-5-agree-disagree.html
+ M docs/writing/task2/145-3-5-discuss-both-views.html
+ M docs/writing/task2/146-3-5-discuss-both-views.html
+ M docs/writing/task2/147-3-5-problem-solution.html
+ M docs/writing/task2/148-3-5-discuss-both-views.html
+ M docs/writing/task2/149-3-5-discuss-both-views.html
+ M docs/writing/task2/15-11-urbanisation.html
+ M docs/writing/task2/150-3-5-agree-disagree.html
+ M docs/writing/task2/151-3-5-discuss-both-views.html
+ M docs/writing/task2/152-3-5-advantage-disadvantage.html
+ M docs/writing/task2/153-3-5-opinion.html
+ M docs/writing/task2/154-3-5-agree-disagree.html
+ M docs/writing/task2/155-3-6-problem-solution.html
+ M docs/writing/task2/156-3-6-problem-solution.html
+ M docs/writing/task2/157-3-6-problem-solution.html
+ M docs/writing/task2/158-3-6-problem-solution.html
+ M docs/writing/task2/159-3-6-problem-solution.html
+ M docs/writing/task2/16-12-culture.html
+ M docs/writing/task2/160-3-6-problem-solution.html
+ M docs/writing/task2/161-3-6-problem-solution.html
+ M docs/writing/task2/162-3-6-problem-solution.html
+ M docs/writing/task2/163-3-6-two-questions.html
+ M docs/writing/task2/164-3-6-problem-solution.html
+ M docs/writing/task2/165-3-6-problem-solution.html
+ M docs/writing/task2/166-3-6-two-questions.html
+ M docs/writing/task2/167-3-6-two-questions.html
+ M docs/writing/task2/168-3-6-problem-solution.html
+ M docs/writing/task2/169-3-6-problem-solution.html
+ M docs/writing/task2/17-13-ageing.html
+ M docs/writing/task2/170-3-7-positive-negative.html
+ M docs/writing/task2/171-3-8-agree-disagree.html
+ M docs/writing/task2/172-3-8-advantage-disadvantage.html
+ M docs/writing/task2/173-3-8-advantage-disadvantage.html
+ M docs/writing/task2/174-3-8-agree-disagree.html
+ M docs/writing/task2/175-3-9-agree-disagree.html
+ M docs/writing/task2/176-3-10-agree-disagree.html
+ M docs/writing/task2/177-4-1-agree-disagree.html
+ M docs/writing/task2/178-4-1-agree-disagree.html
+ M docs/writing/task2/179-4-1-discuss-both-views.html
+ M docs/writing/task2/18-14-transport.html
+ M docs/writing/task2/180-4-1-agree-disagree.html
+ M docs/writing/task2/181-4-2-problem-solution.html
+ M docs/writing/task2/182-4-3-problem-solution.html
+ M docs/writing/task2/183-4-3-agree-disagree.html
+ M docs/writing/task2/184-4-4-problem-solution.html
+ M docs/writing/task2/185-4-4-problem-solution.html
+ M docs/writing/task2/186-4-4-advantage-disadvantage.html
+ M docs/writing/task2/187-4-4-discuss-both-views.html
+ M docs/writing/task2/188-4-4-agree-disagree.html
+ M docs/writing/task2/189-4-4-advantage-disadvantage.html
+ M docs/writing/task2/19-15-values-compare.html
+ M docs/writing/task2/190-4-5-problem-solution.html
+ M docs/writing/task2/191-4-6-problem-solution.html
+ M docs/writing/task2/192-4-6-two-questions.html
+ M docs/writing/task2/193-4-7-agree-disagree.html
+ M docs/writing/task2/194-4-7-discuss-both-views.html
+ M docs/writing/task2/195-4-7-agree-disagree.html
+ M docs/writing/task2/196-5-1-agree-disagree.html
+ M docs/writing/task2/197-5-1-agree-disagree.html
+ M docs/writing/task2/198-5-1-agree-disagree.html
+ M docs/writing/task2/199-5-1-agree-disagree.html
+ M docs/writing/task2/20-16-social-phenomenon.html
+ M docs/writing/task2/200-5-1-discuss-both-views.html
+ M docs/writing/task2/201-5-1-discuss-both-views.html
+ M docs/writing/task2/202-5-1-opinion.html
+ M docs/writing/task2/203-5-1-agree-disagree.html
+ M docs/writing/task2/204-5-1-agree-disagree.html
+ M docs/writing/task2/205-5-1-agree-disagree.html
+ M docs/writing/task2/206-5-1-positive-negative.html
+ M docs/writing/task2/207-5-1-discuss-both-views.html
+ M docs/writing/task2/208-5-1-advantage-disadvantage.html
+ M docs/writing/task2/209-5-1-discuss-both-views.html
+ M docs/writing/task2/21-17-privacy.html
+ M docs/writing/task2/210-5-2-agree-disagree.html
+ M docs/writing/task2/211-5-2-problem-solution.html
+ M docs/writing/task2/212-5-2-agree-disagree.html
+ M docs/writing/task2/213-5-2-problem-solution.html
+ M docs/writing/task2/214-5-2-advantage-disadvantage.html
+ M docs/writing/task2/215-5-2-agree-disagree.html
+ M docs/writing/task2/216-6-1-agree-disagree.html
+ M docs/writing/task2/217-6-1-discuss-both-views.html
+ M docs/writing/task2/218-6-1-positive-negative.html
+ M docs/writing/task2/219-6-1-advantage-disadvantage.html
+ M docs/writing/task2/22-18-life-change.html
+ M docs/writing/task2/220-6-1-advantage-disadvantage.html
+ M docs/writing/task2/221-6-1-positive-negative.html
+ M docs/writing/task2/222-6-1-agree-disagree.html
+ M docs/writing/task2/223-6-1-agree-disagree.html
+ M docs/writing/task2/224-6-1-discuss-both-views.html
+ M docs/writing/task2/225-6-1-discuss-both-views.html
+ M docs/writing/task2/226-6-1-agree-disagree.html
+ M docs/writing/task2/227-6-1-discuss-both-views.html
+ M docs/writing/task2/228-6-1-discuss-both-views.html
+ M docs/writing/task2/229-6-1-agree-disagree.html
+ M docs/writing/task2/23-19-gender.html
+ M docs/writing/task2/230-6-1-discuss-both-views.html
+ M docs/writing/task2/231-6-1-discuss-both-views.html
+ M docs/writing/task2/232-6-1-agree-disagree.html
+ M docs/writing/task2/233-6-1-two-questions.html
+ M docs/writing/task2/234-6-2-discuss-both-views.html
+ M docs/writing/task2/235-6-2-agree-disagree.html
+ M docs/writing/task2/236-6-2-problem-solution.html
+ M docs/writing/task2/237-6-2-discuss-both-views.html
+ M docs/writing/task2/238-6-2-problem-solution.html
+ M docs/writing/task2/239-7-1-problem-solution.html
+ M docs/writing/task2/24-20-civility.html
+ M docs/writing/task2/240-7-1-agree-disagree.html
+ M docs/writing/task2/241-7-1-discuss-both-views.html
+ M docs/writing/task2/242-7-1-agree-disagree.html
+ M docs/writing/task2/243-7-1-agree-disagree.html
+ M docs/writing/task2/244-8-1-agree-disagree.html
+ M docs/writing/task2/245-8-1-positive-negative.html
+ M docs/writing/task2/246-8-1-agree-disagree.html
+ M docs/writing/task2/247-8-1-problem-solution.html
+ M docs/writing/task2/248-8-1-discuss-both-views.html
+ M docs/writing/task2/249-8-1-discuss-both-views.html
+ M docs/writing/task2/25-21-animal-protection.html
+ M docs/writing/task2/250-8-1-agree-disagree.html
+ M docs/writing/task2/251-8-1-discuss-both-views.html
+ M docs/writing/task2/252-8-1-two-questions.html
+ M docs/writing/task2/253-8-1-agree-disagree.html
+ M docs/writing/task2/254-8-1-agree-disagree.html
+ M docs/writing/task2/255-8-1-discuss-both-views.html
+ M docs/writing/task2/256-8-1-positive-negative.html
+ M docs/writing/task2/257-8-2-two-questions.html
+ M docs/writing/task2/258-8-2-discuss-both-views.html
+ M docs/writing/task2/259-8-2-two-questions.html
+ M docs/writing/task2/26-22-plastic.html
+ M docs/writing/task2/260-8-2-positive-negative.html
+ M docs/writing/task2/261-9-1-discuss-both-views.html
+ M docs/writing/task2/262-9-1-agree-disagree.html
+ M docs/writing/task2/263-9-1-agree-disagree.html
+ M docs/writing/task2/264-9-1-discuss-both-views.html
+ M docs/writing/task2/265-9-1-discuss-both-views.html
+ M docs/writing/task2/266-9-1-discuss-both-views.html
+ M docs/writing/task2/267-9-1-agree-disagree.html
+ M docs/writing/task2/268-9-1-discuss-both-views.html
+ M docs/writing/task2/269-9-1-agree-disagree.html
+ M docs/writing/task2/27-23-water.html
+ M docs/writing/task2/270-9-1-discuss-both-views.html
+ M docs/writing/task2/271-9-1-discuss-both-views.html
+ M docs/writing/task2/272-10-1-agree-disagree.html
+ M docs/writing/task2/273-10-1-problem-solution.html
+ M docs/writing/task2/274-10-1-problem-solution.html
+ M docs/writing/task2/275-10-1-agree-disagree.html
+ M docs/writing/task2/276-10-1-discuss-both-views.html
+ M docs/writing/task2/277-10-1-discuss-both-views.html
+ M docs/writing/task2/278-10-1-discuss-both-views.html
+ M docs/writing/task2/279-10-1-agree-disagree.html
+ M docs/writing/task2/28-24-noise-pollution.html
+ M docs/writing/task2/29-25-consumption-env.html
+ M docs/writing/task2/30-02-qual-meaning.html
+ M docs/writing/task2/31-03-education-method.html
+ M docs/writing/task2/32-27-technology.html
+ M docs/writing/task2/33-28-health.html
+ M docs/writing/task2/34-29-media.html
+ M docs/writing/task2/35-30-advertising.html
+ M docs/writing/task2/36-31-globalisation.html
+ M docs/writing/task2/37-32-travel.html
+ M docs/writing/task2/38-1-1-single-question.html
+ M docs/writing/task2/39-1-1-problem-solution.html
+ M docs/writing/task2/40-1-2-advantage-disadvantage.html
+ M docs/writing/task2/41-1-5-single-question.html
+ M docs/writing/task2/42-4-4-problem-solution.html
+?? .omo/cache/
+?? .omo/drafts/design-preview.html
+?? .omo/drafts/five-modules-expansion.md
+?? .omo/drafts/writing-read-tracking-and-features.md
+?? .omo/evidence/final-wave-runtime.log
+?? .omo/evidence/final-wave-static.log
+?? .omo/evidence/hands-on-qa.log
+?? .omo/evidence/inject-features.log
+?? .omo/evidence/ocr-typo-fix.log
+?? .omo/evidence/parse-cambridge.log
+?? .omo/evidence/parse-kaodian538.log
+?? .omo/evidence/parse-listening.log
+?? .omo/evidence/parse-speaking-p1.log
+?? .omo/evidence/parse-writing.log
+?? .omo/evidence/task-1-read-tracker.js
+?? .omo/evidence/task-10-inject.log
+?? .omo/evidence/task-11-verify.log
+?? .omo/evidence/task-2-essay-typing.js
+?? .omo/evidence/task-3-clear-cache.js
+?? .omo/evidence/task-4-style-append.css
+?? .omo/evidence/task-5-cname.txt
+?? .omo/evidence/task-6-inject-features.log
+?? .omo/evidence/task-7-index.html
+?? .omo/evidence/task-8-writing-index.html
+?? .omo/evidence/task-9-speaking-index.html
+?? .omo/evidence/verify-vocab-schema.log
+?? .omo/notepads/five-modules-expansion/
+?? .omo/plans/five-modules-expansion.md
+?? .omo/plans/writing-read-tracking-and-features.md
+?? .omo/run-continuation/ses_fee5fd09cffe3NmguGidJfgAG2.json
+?? .omo/run-continuation/ses_fee618711ffebFZTBkMtKWvAEI.json
+?? .omo/run-continuation/ses_fee6197e5ffeRb4SxPvsN3r192.json
+?? .omo/run-continuation/ses_fee62263affe1W8vBfuoRQOVhm.json
+?? .omo/run-continuation/ses_fee626611ffej1dYrES5H71Wv0.json
+?? .omo/run-continuation/ses_fee6340e5ffeE7is9YDH0saY6H.json
+?? .omo/run-continuation/ses_fee6351c4ffe1SxEX50o5g7rdF.json
+?? .omo/run-continuation/ses_fee6368dfffeavk1bb2NyWXdSh.json
+?? .omo/run-continuation/ses_fee6389d8ffezciEMCLTcmuqgk.json
+?? .omo/run-continuation/ses_fee649b01ffefOCK62tZpekRoF.json
+?? .omo/run-continuation/ses_fee7cfe35ffeuJtMwd3Re3wudJ.json
+?? .omo/run-continuation/ses_fee7debf4ffeOLnKGOiKaBPquz.json
+?? .omo/run-continuation/ses_fee7def65ffe0JYXHAwmhK4S5q.json
+?? .omo/run-continuation/ses_fee7ed1a7ffeO67YnYDNgEvwGF.json
+?? .omo/run-continuation/ses_fee80159effe0AtUX0cbsFo0CL.json
+?? .omo/run-continuation/ses_fee8023c6ffeE2pc4YxFeThwHj.json
+?? .omo/run-continuation/ses_fee804aafffe6T0AM6j6kymKJ3.json
+?? .omo/run-continuation/ses_fee805a59ffeJdds7DBNZ4oLBR.json
+?? .omo/run-continuation/ses_fee808c8dffeUsG2Cmphp1ml4Y.json
+?? .omo/run-continuation/ses_feeb2da4affeS0R2rM7U2y5qe5.json
+?? .omo/run-continuation/ses_feece548cffesGKiYM7dQ5735S.json
+?? .omo/run-continuation/ses_feece5518ffeP9ZXocWlUWgczL.json
+?? .omo/run-continuation/ses_feed159bfffeXpwW3kD7KWCvTy.json
+?? .omo/run-continuation/ses_feeecd186ffeZ7PEsn6NKAZ5zX.json
+?? .omo/run-continuation/ses_feeecd260ffe2gLkFVrM87THEO.json
+?? .omo/run-continuation/ses_feeee738bffeTDFw2u3U8oK3if.json
+?? .omo/run-continuation/ses_fef09eb81ffegx3LPS2qzbkKZx.json
+?? .omo/run-continuation/ses_fef09eb86ffejpwfSXAAPhXX9M.json
+?? .omo/run-continuation/ses_fef11043effeRLUMYCDGOFsJlJ.json
+?? .omo/run-continuation/ses_fef1105ccffefi3EnB4EBTCZpm.json
+?? .omo/run-continuation/ses_fef2c7ecfffeznxBwn9px3qbMw.json
+?? .omo/run-continuation/ses_fef2c7f3bffe7o2TNTLhZFkZA6.json
+?? .omo/run-continuation/ses_fef2ed487ffe9RyvLUXsI8J8nu.json
+?? .omo/run-continuation/ses_fef4a4cbdffe7p1lgBBQOJ5tU.json
+?? .omo/run-continuation/ses_fef4a4cbdffe7p1lgBBQOJ5tU6.json
+?? .omo/run-continuation/ses_fef4a4d1fffeynjNH5HYLUL5rh.json
+?? .omo/run-continuation/ses_fef4a4d3effeOcZY0ME9M7bWeG.json
+?? .omo/run-continuation/ses_fef4a4d44ffeLCGH5itR3iqT7Q.json
+?? .omo/run-continuation/ses_fef5f29c3ffeWlzdxINCwL7w3c.json
+?? .omo/run-continuation/ses_fef6baaf6ffeayKftuwkNE2uTW.json
+?? .omo/run-continuation/ses_fef702a4effeGQZW6jJmoJLMRV.json
+?? .omo/run-continuation/ses_fef723d1dffeccEK3M0wn7MmJG.json
+?? .omo/run-continuation/ses_fef723d22ffeaxxyhFm7a85dZr.json
+?? .omo/run-continuation/ses_fef72c386ffekJ49rIPD8onvoJ.json
+?? .omo/run-continuation/ses_fef791630ffeLT4Q7l9Ezm9GYg.json
+?? .omo/run-continuation/ses_fef8871f7ffef8xArM9ffyKBSU.json
+?? .omo/run-continuation/ses_fefa39ae7ffeicBMmfZrIVPQKO.json
+?? .omo/run-continuation/ses_fefa3b5f1ffe24M9IZso2he5wn.json
+?? .omo/run-continuation/ses_fefa3c0faffenmKYr4P5ATxlKY.json
+?? .omo/run-continuation/ses_fefa50ccfffeYN8r2g2Ed5Swwf.json
+?? .omo/run-continuation/ses_fefa50cd4ffeYcAFGlcfsdrHM6.json
+?? .omo/run-continuation/ses_fefa50d15ffef4DgAilbl69ykS.json
+?? .omo/run-continuation/ses_fefa50d18ffeowXT17mLq8XSla.json
+?? .omo/run-continuation/ses_fefa50ddeffeqRZ7HoqB3QFA2u.json
+?? .omo/run-continuation/ses_fefa50e47ffe5iPg25xEi61sz9.json
+?? .omo/run-continuation/ses_fefa50f2bffeYsoDnNojQPFINx.json
+?? .omo/run-continuation/ses_fefa51004ffeVFfjQ0xj1Z5gTQ.json
+?? .omo/run-continuation/ses_fefa6afa5ffe9PXVrUnOB7d5aU.json
+?? .omo/run-continuation/ses_fefab777bffeoHmTJuK2FO1VGh.json
+?? .omo/run-continuation/ses_fefac13d9ffe4q2UkYURUOPXdw.json
+?? .omo/run-continuation/ses_fefcef84cffeTe3LhnDVwkWf6E.json
+?? .omo/run-continuation/ses_fefcef8c8ffe4MtAnKU9rvrCrN.json
+?? .omo/run-continuation/ses_fefcef8e7ffe5gyu5ljyj3aIDY.json
+?? .omo/run-continuation/ses_fefd07848ffe6s3pwWSOdeNu05.json
+?? .omo/run-continuation/ses_fefd07b34ffe4iLIebt73r7nrM.json
+?? .omo/run-continuation/ses_fefd0eedeffeyZcY2vzLtGmvXl.json
+?? .omo/run-continuation/ses_fefd1286effeSHXdklcKzhxAe8.json
+?? .omo/run-continuation/ses_fefd82fefffezKVCzuZ9mn31rH.json
+?? .omo/run-continuation/ses_fefd88efcffeJNaPGHivsTnsJN.json
+?? .omo/run-continuation/ses_fefd90b5bffe5EJRR4w66Pyjn7.json
+?? .omo/run-continuation/ses_fefe0848bffe75bI3urgckq0Bs.json
+?? .omo/run-continuation/ses_fefe084d6ffe82XKxYRAc22xX0.json
+?? .omo/run-continuation/ses_fefe08572ffebgY5jHkeZ2QSqT.json
+?? .omo/run-continuation/ses_fefe085d1ffeP0yT6WUmG1K3fJ.json
+?? .omo/run-continuation/ses_fefe085d6ffeI8Kv6F4CmdEsxE.json
+?? .omo/run-continuation/ses_fefe2c8c8ffehRKRke3KLcx692.json
+?? docs/.nojekyll
+?? docs/CNAME
+?? docs/assets/js/
+?? docs/listening/
+?? docs/reading/
+?? docs/vocab/
+?? libgif7_5.2.2-1ubuntu1.2_amd64.deb
+?? scripts/fix-ocr-typos.py
+?? scripts/inject-features.py
+?? scripts/parse-cambridge.py
+?? scripts/parse-kaodian538.py
+?? scripts/parse-listening.py
+?? scripts/parse-speaking-p1.py
+?? scripts/parse-writing.py
+?? scripts/verify-final-wave-static.sh
+?? scripts/verify-vocab-runtime.mjs
+?? scripts/verify-vocab-schema.py
+?? tesseract-ocr-chi-sim_1%3a4.1.0-2_all.deb
+?? tesseract-ocr_5.3.4-1build5_amd64.deb
+
+--- Summary ---
+Total changed files: 502
+Modified (working): 378
+Added: 0
+Deleted: 0
+Untracked: 124
+
+--- File paths by prefix ---
+    373 docs
+    107 .omo
+     10 scripts
+      9 .opencode
+      1 tesseract-ocr_5.3.4-1build5_amd64.deb
+      1 tesseract-ocr-chi-sim_1%3a4.1.0-2_all.deb
+      1 libgif7_5.2.2-1ubuntu1.2_amd64.deb
+
+=== Check 8: No third-party CDN ===
+Test: grep -rn 'cdn\.\|cdnjs\.\|unpkg\.\|jsdelivr\.' docs/
+
+--- All matches (begin) ---
+--- All matches (end) ---
+
+Match count: 0
+
+--- File types of matches (if any) ---
+
+=== Check 9: localStorage.clear() check ===
+Test: grep -rn 'localStorage.clear' docs/
+
+--- All matches (begin) ---
+--- All matches (end) ---
+
+Match count: 0
+
+=== Check 10: !important audit ===
+Test: grep -c '!important' docs/assets/css/style.css
+
+--- !important count in docs/assets/css/style.css ---
+0
+
+--- Broader !important audit across all docs/assets/css ---
+--- DONE ---
+
+=== Final Summary ===
+
+Per-check results:
+  Check 1 (Idempotency):                  PASS — 0 modified, 365 skipped, 0 errors
+  Check 2 (Drift-check twice):            PASS — 365/365 OK both runs, exit 0
+  Check 3 (File counts):                  PASS — 292/292/71/367 (>= 363)
+  Check 4 (HTML validity):                PASS — 3/3 random files OK
+  Check 5 (Reading/listening/vocab):       PASS — 0/0/0 script-injection hits
+  Check 6 (CSS file integrity):           PASS — first 181 lines byte-identical (line 182 1-byte trailing-newline diff documented and accepted)
+  Check 7 (Git status snapshot):          PASS — captured
+  Check 8 (No third-party CDN):           PASS — 0 matches
+  Check 9 (localStorage.clear audit):     PASS — 0 matches
+  Check 10 (!important audit):            PASS — 0 matches in docs/assets/css/style.css
+
+Notes:
+  - Check 3 regex '^\s+[0-9]+\s+docs/' returns 0 (regex bug — git diff --stat format is
+    'filename | n1 +', not 'n filename'). Corrected count via 'git diff --name-only HEAD -- docs/'
+    yields 367 (292 writing + 71 speaking + 1 writing/index.html + 1 speaking/index.html
+    + 1 docs/index.html + 1 docs/assets/css/style.css) — exceeds the >= 363 threshold.
+  - Check 6 line 182 trailing newline difference is documented and accepted per task spec.
+
+ALL CHECKS PASS

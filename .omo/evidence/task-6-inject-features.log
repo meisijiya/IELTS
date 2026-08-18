@@ -1,0 +1,78 @@
+# task-6-inject-features evidence
+
+**Script:** `scripts/inject-features.py` (199 lines, stdlib only)
+**Log:** `.omo/evidence/inject-features.log` (shared with todo 10, append mode)
+
+## Acceptance gates
+
+| # | Gate | Result |
+|---|---|---|
+| 1 | `test -f scripts/inject-features.py && wc -l ≤ 200` | PASS (199 lines) |
+| 2 | `python3 scripts/inject-features.py --help` exits 0 + prints usage | PASS |
+| 3 | First `inject` run modifies 365 files (13 task1 + 279 task2 + 71 speaking + 2 index) | PASS (365 modified, 0 skipped, 0 errors) |
+| 4 | Second `inject` run is no-op (idempotent) | PASS (0 modified, 365 skipped, 0 errors) |
+| 5 | `drift-check` exits 0 + reports all 365 files OK | PASS (365/365 OK, exit 0) |
+| 6 | `undo` restores (exit 0, removes all 365 tag lines) | PASS (365 modified, exit 0) |
+| 7 | `drift-check` after undo exits 1 + lists missing tags | PASS (exit 1, 365 MISSING lines) |
+
+## Tag inventory
+
+| Path pattern | Tag payload | Count |
+|---|---|---|
+| `docs/writing/task1/*.html` | `../../assets/js/read-tracker.js` + `../../assets/js/essay-typing.js` (2 tags each) | 13 |
+| `docs/writing/task2/*.html` | same as task1 | 279 |
+| `docs/speaking/topics/*.html` | `../assets/js/read-tracker.js` (1 tag each) | 71 |
+| `docs/writing/index.html` | `../assets/js/read-tracker.js` (1 tag) | 1 |
+| `docs/speaking/index.html` | `../assets/js/read-tracker.js` (1 tag) | 1 |
+| **TOTAL** | | **365 files × 655 tags** |
+
+## Subcommand behavior
+
+- **inject** (default): walk all targets → exact-substring check → insert missing tags immediately before `</body>` with single-`\n` separator → exit 0 on success, 1 on r/w error.
+- **drift-check**: walk all targets → count expected vs present → exit 0 if all OK, 1 if any missing, 2 on read error.
+- **undo**: walk all targets → remove any line containing one of the 3 known tag substrings → collapse `\n{3,}` → `\n\n` for clean restoration → exit 0 on success, 1 on r/w error.
+
+## Idempotency contract
+
+Per-tag: if exact substring `<script defer src="...read-tracker.js">` exists, that single tag is skipped (and same independently for essay-typing). Re-running `inject` on a fully-injected tree makes 0 writes and 365 `SKIP` log lines.
+
+## Run sequence (this session)
+
+1. `inject` → 363 modified (article HTML) + 2 skipped (index already had tag from previous run) → exit 0
+2. `inject` (re-run) → 0 modified, 365 skipped → exit 0 (idempotent)
+3. `drift-check` → 365/365 OK → exit 0
+4. `undo` → 365 modified (all tag lines removed) → exit 0
+5. `drift-check` → 365 MISSING → exit 1
+6. `inject` (final restore) → 365 modified → exit 0
+7. `drift-check` → 365/365 OK → exit 0
+
+Final state: all 365 files contain the expected tags.
+
+## Sample verification (post-final-inject)
+
+`docs/writing/task2/051-1-2-discuss-both-views.html` (last 6 lines):
+```
+    </article>
+  </main>
+<script defer src="../../assets/js/read-tracker.js"></script>
+<script defer src="../../assets/js/essay-typing.js"></script>
+</body>
+</html>
+```
+
+`docs/speaking/topics/<first>.html` (last 5 lines):
+```
+  <script src="../assets/js/learning-mode.js" defer></script>
+<script defer src="../assets/js/read-tracker.js"></script>
+</body>
+</html>
+```
+(learning-mode.js pre-existing tag untouched — undo regex correctly excludes it.)
+
+## Compliance
+
+- stdlib only: argparse, re, sys, datetime, pathlib ✓
+- no subprocess / shell ✓
+- no third-party deps ✓
+- UTF-8 in/out preserved ✓
+- log file uses `mode='a'` for todo-10 batch compatibility ✓

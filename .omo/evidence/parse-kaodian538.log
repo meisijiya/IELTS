@@ -1,0 +1,13 @@
+# 【revised】考点词538.pdf parser
+source: /home/ljh2923/opencode-project/IELTS/【revised】考点词538.pdf
+pages: 14
+red words per tier: t1=28 t2=69 t3=55
+items per tier: tier-1=48 tier-2=168 tier-3=311
+total items: 527
+
+--- 5 random sample items ---
+  [tier-3-265] tier=3 eng='engagement' chi='' rank='' par=''
+  [tier-2-066] tier=2 eng='incentive' chi='n.刺激,鼓励;动机' rank=86 par='motive, stimulus'
+  [tier-1-048] tier=1 eng='derive' chi='' rank='' par=''
+  [tier-3-018] tier=3 eng='blight' chi='v.损害；枯萎' rank='' par='destroy'
+  [tier-3-174] tier=3 eng='paralyse' chi='v.使……麻痹；使…… 瘫痪' rank='' par='cannot move'

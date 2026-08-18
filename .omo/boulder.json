@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "active_work_id": "ielts-speaking-bank",
+  "active_work_id": "five-modules-expansion",
   "works": {
     "stage1b": {
       "work_id": "stage1b",
@@ -54,21 +54,210 @@
       "summary": "IELTS Speaking Bank: 71 topics (PDF truth, not 73 as plan stated), 447/450 answers filled (3 PDF placeholders preserved), 12 AI-supplemented topics flagged, 71 topic HTML pages generated, GitHub Pages module deployed at commit b49fc6d. F1 APPROVE, F2 APPROVE, F3 APPROVE, F4 APPROVE.",
       "ended_at": "2026-08-16T20:25:54.072Z",
       "updated_at": "2026-08-16T20:25:54.072Z"
+    },
+    "five-modules-expansion": {
+      "work_id": "five-modules-expansion",
+      "active_plan": ".omo/plans/five-modules-expansion.md",
+      "plan_name": "five-modules-expansion",
+      "session_ids": [
+        "opencode:ses_fefa6afa5ffe9PXVrUnOB7d5aU"
+      ],
+      "session_origins": {},
+      "task_sessions": {
+        "todo:1": {
+          "task_key": "todo:1",
+          "task_label": "1",
+          "task_title": "parse-speaking-p1.py — Part 1 collocations JSON (64/32)",
+          "session_id": "opencode:ses_fefa39ae7ffeicBMmfZrIVPQKO",
+          "agent": "Sisyphus-Junior",
+          "category": "unspecified-low",
+          "status": "completed",
+          "started_at": "2026-08-17T15:31:24Z",
+          "ended_at": "2026-08-17T15:35:56Z",
+          "elapsed_ms": 272000,
+          "updated_at": "2026-08-17T15:35:56Z"
+        },
+        "todo:2": {
+          "task_key": "todo:2",
+          "task_label": "2",
+          "task_title": "parse-listening.py — 951 items / 11 scene categories",
+          "session_id": "opencode:ses_fefa3b5f1ffe24M9IZso2he5wn",
+          "agent": "Sisyphus-Junior",
+          "category": "unspecified-low",
+          "status": "completed",
+          "started_at": "2026-08-17T15:31:24Z",
+          "ended_at": "2026-08-17T16:15:35Z",
+          "elapsed_ms": 2651000,
+          "updated_at": "2026-08-17T16:15:35Z"
+        },
+        "todo:3": {
+          "task_key": "todo:3",
+          "task_label": "3",
+          "task_title": "parse-cambridge.py — 270 collocations / 66 base words (required re-parse after first attempt produced no output)",
+          "session_id": "opencode:ses_fef702a4effeGQZW6jJmoJLMRV",
+          "agent": "Sisyphus-Junior",
+          "category": "unspecified-low",
+          "status": "completed",
+          "started_at": "2026-08-17T15:31:24Z",
+          "ended_at": "2026-08-17T17:26:09Z",
+          "elapsed_ms": 6585000,
+          "updated_at": "2026-08-17T17:26:09Z"
+        },
+        "todo:4": {
+          "task_key": "todo:4",
+          "task_label": "4",
+          "task_title": "parse-kaodian538.py — 527 items / 3 tiers (-11 from spec 538, documented)",
+          "session_id": "opencode:ses_fef8871f7ffef8xArM9ffyKBSU",
+          "agent": "Sisyphus-Junior",
+          "category": "unspecified-low",
+          "status": "completed",
+          "started_at": "2026-08-17T15:31:24Z",
+          "ended_at": "2026-08-17T16:26:12Z",
+          "elapsed_ms": 3288000,
+          "updated_at": "2026-08-17T16:26:12Z"
+        },
+        "todo:5": {
+          "task_key": "todo:5",
+          "task_label": "5",
+          "task_title": "parse-writing.py — 419 collocations / 9 topics",
+          "session_id": "opencode:ses_fefa3c0faffenmKYr4P5ATxlKY",
+          "agent": "Sisyphus-Junior",
+          "category": "unspecified-low",
+          "status": "completed",
+          "started_at": "2026-08-17T15:31:24Z",
+          "ended_at": "2026-08-17T15:59:38Z",
+          "elapsed_ms": 1694000,
+          "updated_at": "2026-08-17T15:59:38Z"
+        },
+        "todo:7": {
+          "task_key": "todo:7",
+          "task_label": "7",
+          "task_title": "docs/index.html — 5-card home with vocab module",
+          "session_id": "opencode:ses_fefa50d18ffeowXT17mLq8XSla",
+          "agent": "Sisyphus-Junior",
+          "category": "visual-engineering",
+          "status": "completed",
+          "started_at": "2026-08-17T15:31:24Z",
+          "ended_at": "2026-08-17T15:35:50Z",
+          "elapsed_ms": 266000,
+          "updated_at": "2026-08-17T15:35:50Z"
+        },
+        "todo:8": {
+          "task_key": "todo:8",
+          "task_label": "8",
+          "task_title": "docs/reading/index.html — 11 official types + golden 5",
+          "session_id": "opencode:ses_fefa50cd4ffeYcAFGlcfsdrHM6",
+          "agent": "Sisyphus-Junior",
+          "category": "visual-engineering",
+          "status": "completed",
+          "started_at": "2026-08-17T15:31:24Z",
+          "ended_at": "2026-08-17T15:36:18Z",
+          "elapsed_ms": 294000,
+          "updated_at": "2026-08-17T15:36:18Z"
+        },
+        "todo:9": {
+          "task_key": "todo:9",
+          "task_label": "9",
+          "task_title": "docs/listening/index.html — 4 Section + 6 types + 13 traps + 8 signals",
+          "session_id": "opencode:ses_fefa51004ffeVFfjQ0xj1Z5gTQ",
+          "agent": "Sisyphus-Junior",
+          "category": "visual-engineering",
+          "status": "completed",
+          "started_at": "2026-08-17T15:31:24Z",
+          "ended_at": "2026-08-17T15:36:54Z",
+          "elapsed_ms": 330000,
+          "updated_at": "2026-08-17T15:36:54Z"
+        },
+        "todo:10": {
+          "task_key": "todo:10",
+          "task_label": "10",
+          "task_title": "docs/vocab/index.html — shell with 8 UI sections",
+          "session_id": "opencode:ses_fef4a4d44ffeLCGH5itR3iqT7Q",
+          "agent": "Sisyphus-Junior",
+          "category": "visual-engineering",
+          "status": "completed",
+          "started_at": "2026-08-17T15:31:24Z",
+          "ended_at": "2026-08-17T17:43:50Z",
+          "elapsed_ms": 7946000,
+          "updated_at": "2026-08-17T17:43:50Z"
+        },
+        "todo:11": {
+          "task_key": "todo:11",
+          "task_label": "11",
+          "task_title": "docs/vocab/assets/css/vocab.css — 3.58 KB / 18 vocab classes",
+          "session_id": "opencode:ses_fef4a4d1fffeynjNH5HYLUL5rh",
+          "agent": "Sisyphus-Junior",
+          "category": "visual-engineering",
+          "status": "completed",
+          "started_at": "2026-08-17T15:31:24Z",
+          "ended_at": "2026-08-17T17:43:50Z",
+          "elapsed_ms": 7946000,
+          "updated_at": "2026-08-17T17:43:50Z"
+        },
+        "todo:12": {
+          "task_key": "todo:12",
+          "task_label": "12",
+          "task_title": "docs/vocab/assets/js/vocab.js — BASIC mode (410 lines)",
+          "session_id": "opencode:ses_fef4a4cbdffe7p1lgBBQOJ5tU6",
+          "agent": "Sisyphus-Junior",
+          "category": "visual-engineering",
+          "status": "completed",
+          "started_at": "2026-08-17T15:31:24Z",
+          "ended_at": "2026-08-17T17:43:50Z",
+          "elapsed_ms": 7946000,
+          "updated_at": "2026-08-17T17:43:50Z"
+        },
+        "todo:13": {
+          "task_key": "todo:13",
+          "task_label": "13",
+          "task_title": "docs/vocab/assets/js/vocab.js — localStorage + ProgressStore + stats + unmastered + reset (642 lines, 7 features)",
+          "session_id": "opencode:ses_fef09eb86ffejpwfSXAAPhXX9M",
+          "agent": "Sisyphus-Junior",
+          "category": "visual-engineering",
+          "status": "completed",
+          "started_at": "2026-08-17T17:43:50Z",
+          "ended_at": "2026-08-17T18:53:52Z",
+          "elapsed_ms": 4202000,
+          "updated_at": "2026-08-17T18:53:52Z"
+        },
+        "final-verification": {
+          "task_key": "final-verification",
+          "task_label": "F1-F8",
+          "task_title": "Final Verification Wave: F1 PASS, F2 PASS, F3 PASS, F4 PASS, F5 PASS (after harness bucket fix), F6 PASS, F7 PASS, F8 PASS (after activeDoc filter fix)",
+          "session_id": "opencode:ses_fefa6afa5ffe9PXVrUnOB7d5aU",
+          "agent": "atlas",
+          "category": "verification",
+          "status": "completed",
+          "started_at": "2026-08-17T18:53:52Z",
+          "ended_at": "2026-08-17T20:02:28Z",
+          "elapsed_ms": 4116000,
+          "updated_at": "2026-08-17T20:02:28Z"
+        }
+      },
+      "status": "completed",
+      "worktree_path": null,
+      "agent": "atlas",
+      "started_at": "2026-08-17T15:31:24Z",
+      "completed_at": "2026-08-17T20:02:28Z",
+      "elapsed_ms": 16266000,
+      "ended_at": "2026-08-17T20:02:28Z",
+      "updated_at": "2026-08-17T20:02:28Z",
+      "summary": "five-modules-expansion complete: 25/25 tasks done (17 implementation + 8 final verifier). 5 modules live (Speaking/Writing/Reading/Listening/积累). 5 JSON vocabulary files (2231 items: speaking-p1=64/32cats, listening=951/11cats, cambridge=270/65cats, kaodian538=527/3cats, writing=419/9cats). F1-F8 all PASS — verify-final-wave-static.sh 5/5 + verify-vocab-runtime.mjs 3/3 via jsdom. 2 real bugs found in F-wave and fixed: (1) cambridge.json 1 empty harness category bucket removed (66→65 cats); (2) vocab.js renderUnmastered() now filters by activeDoc. OCR typo cleanup touched 72 fields (writing subjecit→subject, listening 校四→校园, kaodian538 English clean, etc). All static checks + jsdom runtime tests green. Files untracked — 5-stage commit cadence left to user per plan §Commit cadence (data/home/reading+listening/vocab/QA). Local at: docs/vocab/ (90-line shell + 178-line CSS + 642-line JS), docs/reading/ (190 lines), docs/listening/ (192 lines), docs/index.html (5 cards)."
     }
   },
   "session_ids": [
-    "opencode:ses_ff49445d6ffe7kGgpesBT2DwbF"
+    "opencode:ses_fefa6afa5ffe9PXVrUnOB7d5aU"
   ],
   "session_origins": {},
   "task_sessions": {},
-  "active_plan": ".omo/plans/ielts-speaking-bank.md",
-  "plan_name": "ielts-speaking-bank",
+  "active_plan": ".omo/plans/five-modules-expansion.md",
+  "plan_name": "five-modules-expansion",
   "status": "completed",
   "agent": "atlas",
   "worktree_path": null,
-  "started_at": "2026-08-16T16:33:24Z",
-  "completed_at": "2026-08-17T00:00:00Z",
-  "updated_at": "2026-08-16T20:25:54.072Z",
-  "ended_at": "2026-08-16T20:25:54.072Z",
-  "elapsed_ms": 13950072
+  "started_at": "2026-08-17T15:31:24Z",
+  "completed_at": "2026-08-17T20:02:28Z",
+  "elapsed_ms": 16266000,
+  "ended_at": "2026-08-17T20:02:28Z",
+  "updated_at": "2026-08-17T20:02:28Z"
 }

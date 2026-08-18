@@ -1,0 +1,76 @@
+source: /home/ljh2923/opencode-project/IELTS/写作 collocation.pdf
+output: /home/ljh2923/opencode-project/IELTS/docs/vocab/data/writing.json
+pages: 18
+  page 00:  1128 chars OCR'd
+  page 01:   848 chars OCR'd
+  page 02:   815 chars OCR'd
+  page 03:  1058 chars OCR'd
+  page 04:   902 chars OCR'd
+  page 05:   675 chars OCR'd
+  page 06:   867 chars OCR'd
+  page 07:   953 chars OCR'd
+  page 08:  1048 chars OCR'd
+  page 09:   811 chars OCR'd
+  page 10:   887 chars OCR'd
+  page 11:   682 chars OCR'd
+  page 12:   697 chars OCR'd
+  page 13:   793 chars OCR'd
+  page 14:   714 chars OCR'd
+  page 15:   803 chars OCR'd
+  page 16:  1143 chars OCR'd
+  page 17:   318 chars OCR'd
+OCR-detected topic headers: ['一', '三', '九', '五', '八']
+Inferred topic headers:     ['七', '二', '六', '四']
+Topic start pages: {'一': 0, '七': 10, '三': 2, '九': 15, '二': 1, '五': 6, '八': 12, '六': 8, '四': 4}
+  topic 一 (education): 22 items
+  WARN: topic '二' label '语言' inferred from content (no OCR header)
+  topic 二 (language): 13 items
+  topic 三 (culture): 56 items
+  WARN: topic '四' label '政府社会' inferred from content (no OCR header)
+  topic 四 (government): 47 items
+  topic 五 (work): 53 items
+  WARN: topic '六' label '环境' inferred from content (no OCR header)
+  topic 六 (environment): 39 items
+  WARN: topic '七' label '社会' inferred from content (no OCR header)
+  topic 七 (society): 51 items
+  topic 八 (animal-protection): 70 items
+  topic 九 (technology): 68 items
+  TOTAL items: 419
+wrote /home/ljh2923/opencode-project/IELTS/docs/vocab/data/writing.json (419 items, 9 categories)
+QA OK
+sample [education] (22 total):
+  - subjecit  |  科 目
+  - humanities  |  人 文学 科
+  - social sciences  |  社 会 学 科
+sample [language] (13 total):
+  - theoretloal knowlecdge  |  理 论 知 识
+  - Job skis  |  就 业 技 能
+  - distance education  |  远程 教育
+sample [culture] (56 total):
+  - mainstream culture  |  主流 文化
+  - system of educatlon  |  教育 体制
+  - Intellectual development  |  智力 发 展
+sample [government] (47 total):
+  - city designing  |  城市 设计
+  - architectural vandallsm  |  破坏 建筑 行为
+  - cultural needs  |  文化 需求
+sample [work] (53 total):
+  - poor—quality programs  |  低 质量 节目
+  - electromagnetic radiation  |  电磁 辐射
+  - psychological ilinesses  |  心理 疾病
+sample [environment] (39 total):
+  - enrich one's social experience  |  丰富 社会 阅历
+  - cultivate one's independence and toughness  |  丰富 一 个 人 的 社会 阅历
+  - display one’s talent  |  展示 才能
+sample [society] (51 total):
+  - chronic lead poisoning  |  慢性 铅 中 毒
+  - popularization of cars  |  汽车 普及
+  - rush hour  |  上 下 班 高 峰 时 间
+sample [animal-protection] (70 total):
+  - origin  |  出 身
+  - ancestors/forebears/forefathers  |  祖先
+  - descent, offspring/descendants  |  后 代 ， 后 由
+sample [technology] (68 total):
+  - advanced science  |  尖端 科学
+  - double-edged sword  |  双 刃 剑
+  - earth-shaking changes  |  翻天 覆 地 的 改变

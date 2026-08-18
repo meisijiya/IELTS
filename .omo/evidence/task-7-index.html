@@ -1,0 +1,113 @@
+=== Task 7 Evidence: docs/index.html cache-actions + script tag insertion ===
+
+--- Working tree line count ---
+44 docs/index.html
+
+--- Acceptance #1: clear-cache-btn exists ---
+1
+
+--- Acceptance #2: script tag exists ---
+1
+
+--- Working tree (full file) ---
+     1	<!doctype html>
+     2	<html lang="en">
+     3	<head>
+     4	  <meta charset="utf-8">
+     5	  <meta name="viewport" content="width=device-width,initial-scale=1">
+     6	  <title>IELTS Study — 5 modules: speaking / writing / reading / listening / 积累</title>
+     7	  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+     8	  <link rel="stylesheet" href="assets/css/style.css">
+     9	</head>
+    10	<body>
+    11	  <header>
+    12	    <h1>IELTS Study</h1>
+    13	    <p class="motto">Sample essays and speaking answers at 6-band level — study the language, not the wording.</p>
+    14	  </header>
+    15	
+    16	  <main class="card-grid">
+    17	    <article class="card">
+    18	      <a href="speaking/"><h2>Speaking</h2><p>71 topics across Part 1–3 with model answers at 6.5 band, plus a learning mode toggle.</p></a>
+    19	    </article>
+    20	
+    21	    <article class="card">
+    22	      <a href="writing/"><h2>Writing</h2><p>5 sample essays covering Task 1 and Task 2 question types.</p></a>
+    23	    </article>
+    24	
+    25	    <article class="card">
+    26	      <a href="reading/"><h2>Reading</h2><p>11 大官方题型速查 + 5 条黄金策略</p></a>
+    27	    </article>
+    28	
+    29	    <article class="card">
+    30	      <a href="listening/"><h2>Listening</h2><p>6 大官方题型 + 4 Section + 13 潜规则速查</p></a>
+    31	    </article>
+    32	
+    33	    <article class="card">
+    34	      <a href="vocab/"><h2>积累</h2><p>5 份词汇文档整合检索 + 拼写练习</p></a>
+    35	    </article>
+    36	  </main>
+    37	
+    38	  <div class="cache-actions"><button class="clear-cache-btn" id="clearBtn">清除缓存</button></div>
+    39	
+    40	  <footer>
+    41	    <p>Stage 1c — 5 modules live</p>
+    42	  </footer>
+    43	  <script defer src="assets/js/clear-cache.js"></script>
+    44	</body>
+    45	</html>
+--- Insertion point #1 (cache-actions): line 38 ---
+
+  <div class="cache-actions"><button class="clear-cache-btn" id="clearBtn">清除缓存</button></div>
+
+  <footer>
+
+--- Insertion point #2 (script): line 43 ---
+  </footer>
+  <script defer src="assets/js/clear-cache.js"></script>
+</body>
+</html>
+--- head -37 diff vs HEAD head -37 ---
+6c6
+<   <title>IELTS Study — 5 modules: speaking / writing / reading / listening / 积累</title>
+---
+>   <title>IELTS Study — Writing + Speaking samples at 6-band level</title>
+25,26c25,28
+<     <article class="card">
+<       <a href="reading/"><h2>Reading</h2><p>11 大官方题型速查 + 5 条黄金策略</p></a>
+---
+>     <article class="card" aria-disabled="true">
+>       <h2>Reading</h2>
+>       <p>Passages with question types modelled at 6-band level.</p>
+>       <span class="badge">Coming soon</span>
+29,34c31,34
+<     <article class="card">
+<       <a href="listening/"><h2>Listening</h2><p>6 大官方题型 + 4 Section + 13 潜规则速查</p></a>
+<     </article>
+< 
+<     <article class="card">
+<       <a href="vocab/"><h2>积累</h2><p>5 份词汇文档整合检索 + 拼写练习</p></a>
+---
+>     <article class="card" aria-disabled="true">
+>       <h2>Listening</h2>
+>       <p>Audio scripts and question sets for Sections 1–4.</p>
+>       <span class="badge">Coming soon</span>
+(diff exists due to stage 1c's title + 5-module cards still in working tree, not in HEAD)
+
+--- head -1,9 (head block) vs HEAD head -1,9 ---
+6c6
+<   <title>IELTS Study — 5 modules: speaking / writing / reading / listening / 积累</title>
+---
+>   <title>IELTS Study — Writing + Speaking samples at 6-band level</title>
+(diff due to stage 1c title)
+
+--- Indentation check (2-space inside body) ---
+38:  <div class="cache-actions"><button class="clear-cache-btn" id="clearBtn">清除缓存</button></div>
+43:  <script defer src="assets/js/clear-cache.js"></script>
+
+--- Defer (not async) check ---
+  <script defer src="assets/js/clear-cache.js"></script>
+
+--- File ends cleanly ---
+00000000: 6874 6d6c 3e                             html>
+
+=== 1-line note: Task 7 complete. Two insertions at line 38 (cache-actions div before <footer>) and line 43 (script tag before </body>) are present in working tree. head -37 vs HEAD shows stage 1c diff (title + 5-module cards) — not from task 7 itself. ===

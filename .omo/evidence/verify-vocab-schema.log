@@ -1,0 +1,196 @@
+# verify-vocab-schema.py — initial run evidence
+# Command: python3 scripts/verify-vocab-schema.py > .omo/evidence/verify-vocab-schema.log 2>&1
+# Exit code: 1 (schema drift detected in kaodian538.json)
+
+[OK  ] speaking-p1: items=64 cats=32 optional=[example_en]
+[OK  ] listening: items=951 cats=11 optional=[ipa,tips]
+[OK  ] cambridge: items=270 cats=66 optional=[part_label,tags]
+[FAIL] kaodian538: items=? cats=? optional=[-]  ERR=item missing core: {'chinese'}
+[OK  ] writing: items=419 cats=9 optional=[example_en]
+TOTAL items=1704 categories=118 files=5
+
+# --- Drift diagnostic (post-run) ---
+# kaodian538.json: 151 / 527 items (~28.7%) lack the `chinese` core field.
+# Breakdown by tier:
+#   tier-1: 28 items missing chinese
+#   tier-2: 68 items missing chinese
+#   tier-3: 55 items missing chinese
+# First 5 affected ids: tier-1-021, tier-1-022, tier-1-023, tier-1-024, tier-1-025
+# Last  5 affected ids: tier-3-307, tier-3-308, tier-3-309, tier-3-310, tier-3-311
+#
+# All other 4 files (speaking-p1, listening, cambridge, writing) pass:
+#   - top-level keys present: source_doc, source_label, categories, items
+#   - every item has {id, category_id, english, chinese}
+#   - every item's category_id resolves to a category in categories[]
+#
+# Optional per-item fields observed across the corpus:
+#   example_en (speaking-p1, writing), ipa (listening), tips (listening),
+#   part_label (cambridge), tags (cambridge),
+#   tier, rank, paraphrase (kaodian538 — all 527 items carry these three)
+#
+# Decision: this script is verify-only and correctly exits 1 on drift.
+# Fix the 151 kaodian538 items (add chinese translations) before re-running
+# to satisfy the "prints 0" acceptance. Do NOT relax the schema in the script —
+# the missing field is real data drift, not a verification misconfiguration.
+=== POST-FIX RUN 2026-08-17T18:53:21Z ===
+--- python3 scripts/verify-vocab-schema.py ---
+[OK  ] speaking-p1: items=64 cats=32 optional=[example_en]
+[OK  ] listening: items=951 cats=11 optional=[ipa,tips]
+[OK  ] cambridge: items=270 cats=66 optional=[part_label,tags]
+[OK  ] kaodian538: items=527 cats=3 optional=[paraphrase,rank,tier]
+[OK  ] writing: items=419 cats=9 optional=[example_en]
+TOTAL items=2231 categories=121 files=5
+EXIT=0
+
+--- python3 scripts/verify-vocab-schema.py --verbose ---
+[OK  ] speaking-p1: items=64 cats=32 optional=[example_en]
+  speaking-p1:
+    p1-home-accommodation: 2
+    p1-hometown: 2
+    p1-the-area-you-live-in: 2
+    p1-the-city-you-live-in: 2
+    p1-work-or-studies: 2
+    p1f-buildings: 2
+    p1f-cars: 2
+    p1f-childhood-activities: 2
+    p1f-food: 2
+    p1f-gifts: 2
+    p1f-hobby: 2
+    p1f-life-stages: 2
+    p1f-mirrors: 2
+    p1f-morning-time: 2
+    p1f-music: 2
+    p1f-outer-space-and-stars: 2
+    p1f-parks: 2
+    p1f-pets-and-animals: 2
+    p1f-reading: 2
+    p1f-scenery: 2
+    p1f-science: 2
+    p1f-shopping: 2
+    p1f-singing: 2
+    p1f-social-media: 2
+    p1f-sports-team: 2
+    p1f-teachers: 2
+    p1f-tidiness: 2
+    p1f-typing: 2
+    p1f-views: 2
+    p1f-walking: 2
+    p1f-watch: 2
+    p1f-websites: 2
+[OK  ] listening: items=951 cats=11 optional=[ipa,tips]
+  listening:
+    accommodation: 60
+    banking: 32
+    dining: 126
+    freshman: 106
+    interview: 58
+    library: 86
+    medical: 66
+    school-life: 206
+    science: 96
+    society-economy: 21
+    travelling: 94
+[OK  ] cambridge: items=270 cats=66 optional=[part_label,tags]
+  cambridge:
+    ace: 5
+    approach: 5
+    book: 4
+    bridge: 1
+    bring: 1
+    build: 5
+    buzz: 2
+    cafe: 5
+    catch: 7
+    chic: 5
+    credit: 1
+    deep: 5
+    down: 5
+    end: 4
+    energy: 4
+    engage: 2
+    enjoy: 5
+    example: 5
+    fame: 5
+    fancy: 5
+    favourite: 5
+    fit: 5
+    fix: 5
+    freeze: 2
+    gain: 3
+    genuine: 5
+    gift: 5
+    gravity: 4
+    hang: 5
+    harbour: 1
+    have: 3
+    help: 1
+    hit: 5
+    hook: 1
+    humour: 5
+    inspire: 5
+    interest: 5
+    keen: 5
+    lie: 5
+    life-vitality: 11
+    long: 5
+    lost: 5
+    mind: 10
+    mirror: 1
+    muse: 5
+    open: 5
+    pay: 5
+    perform: 3
+    photo: 5
+    pick: 8
+    play: 2
+    pool: 1
+    proud: 1
+    raise: 4
+    reflect: 5
+    sense: 5
+    shape: 5
+    share: 2
+    star: 5
+    tailor: 1
+    taste: 5
+    understand: 1
+    word: 6
+    work: 5
+    worth: 3
+[OK  ] kaodian538: items=527 cats=3 optional=[paraphrase,rank,tier]
+  kaodian538:
+    tier-1: 48
+    tier-2: 168
+    tier-3: 311
+[OK  ] writing: items=419 cats=9 optional=[example_en]
+  writing:
+    animal-protection: 70
+    culture: 56
+    education: 22
+    environment: 39
+    government: 47
+    language: 13
+    society: 51
+    technology: 68
+    work: 53
+TOTAL items=2231 categories=121 files=5
+EXIT=0
+
+--- drift test: removed chinese from writing.json/education-1 ---
+Removed chinese from: education-1
+[OK  ] speaking-p1: items=64 cats=32 optional=[example_en]
+[OK  ] listening: items=951 cats=11 optional=[ipa,tips]
+[OK  ] cambridge: items=270 cats=66 optional=[part_label,tags]
+[OK  ] kaodian538: items=527 cats=3 optional=[paraphrase,rank,tier]
+[FAIL] writing: items=? cats=? optional=[-]  ERR=item missing core: ['chinese']
+TOTAL items=1812 categories=112 files=5
+EXIT_DRIFT=1
+[OK  ] speaking-p1: items=64 cats=32 optional=[example_en]
+[OK  ] listening: items=951 cats=11 optional=[ipa,tips]
+[OK  ] cambridge: items=270 cats=66 optional=[part_label,tags]
+[OK  ] kaodian538: items=527 cats=3 optional=[paraphrase,rank,tier]
+[OK  ] writing: items=419 cats=9 optional=[example_en]
+TOTAL items=2231 categories=121 files=5
+EXIT_RESTORED=0
+--- script line count ---
+88 scripts/verify-vocab-schema.py

@@ -1,0 +1,171 @@
+================================================================================
+F2 CODE QUALITY REVIEW — writing-read-tracking-and-features
+Plan: /home/ljh2923/opencode-project/IELTS/.omo/plans/writing-read-tracking-and-features.md
+Date: 2026-08-18
+Reviewer: code-quality-checker (omc agent)
+Scope: 3 JS files + 1 CSS file + 1 Python script + 363 injected HTML files
+================================================================================
+
+--------------------------------------------------------------------------------
+CHECK A: 'use strict' + try/catch on localStorage in all 3 JS files
+--------------------------------------------------------------------------------
+  Files inspected: docs/assets/js/{read-tracker.js, essay-typing.js, clear-cache.js}
+
+  'use strict' directive:
+    read-tracker.js  line 7  ✓
+    essay-typing.js  line 7  ✓
+    clear-cache.js   line 2  ✓ (top of IIFE, 1-line below (function () { )
+
+  try/catch wrapping localStorage access:
+    read-tracker.js  lines 9-11  ✓ (get/set/del all wrapped in try/catch)
+    essay-typing.js  lines 13-14 ✓ (safeGet/safeSet wrapped in try/catch)
+    clear-cache.js   lines 8-13  ✓ (try { for(let i=0; i<localStorage.length; ...) } catch (e) { })
+
+  RESULT: A — PASS (3/3 files have both 'use strict' AND try/catch on localStorage)
+
+--------------------------------------------------------------------------------
+CHECK B: No console.log left in production
+--------------------------------------------------------------------------------
+  Command:  grep -nE "console\.log" docs/assets/js/*.js
+  Result:   0 matches across 3 files
+
+  RESULT: B — PASS
+
+--------------------------------------------------------------------------------
+CHECK C: No alert( or confirm( in JS files (plan D6 violation check)
+--------------------------------------------------------------------------------
+  Command:  grep -nE "alert\(|confirm\(" docs/assets/js/*.js
+  Result:   0 matches across 3 files
+
+  RESULT: C — PASS
+
+--------------------------------------------------------------------------------
+CHECK D: !important count in docs/assets/css/style.css == 0
+--------------------------------------------------------------------------------
+  Command:  grep -cE "!important" docs/assets/css/style.css
+  Result:   0
+
+  Note: Plan F2.c states "no !important except in .prompt-sticky's background fallback".
+  Per inherited wisdom, the actual implementation avoided !important entirely (used
+  background-image: linear-gradient(#fff, #fff) as a defensive fallback). Count=0
+  is the EXPECTED and CORRECT state.
+
+  RESULT: D — PASS
+
+--------------------------------------------------------------------------------
+CHECK E: zero shell=True in scripts/inject-features.py
+--------------------------------------------------------------------------------
+  Command:  grep -nE "shell=True" scripts/inject-features.py
+  Result:   0 matches
+
+  Additional check: no subprocess/os.system/os.popen at all (199-line file, pure
+  Python file I/O via Path/re.sub/open).
+
+  RESULT: E — PASS
+
+--------------------------------------------------------------------------------
+CHECK F: No 'var' in 3 JS files (must use const/let)
+--------------------------------------------------------------------------------
+  Command:  grep -nE "\bvar\s+[a-zA-Z_]" docs/assets/js/*.js
+  Result:   0 matches
+
+  All variable declarations use const/let. Line counts confirm budget compliance:
+    read-tracker.js   43 lines (budget ≤50)  ✓
+    essay-typing.js  100 lines (budget ≤100) ✓
+    clear-cache.js    20 lines (budget ≤20)  ✓
+
+  RESULT: F — PASS
+
+--------------------------------------------------------------------------------
+CHECK G: IIFE wrapping in all 3 JS files
+--------------------------------------------------------------------------------
+  IIFE start pattern: ^\(function *\(\) *\{
+    read-tracker.js   line 6  ✓
+    essay-typing.js   line 6  ✓
+    clear-cache.js    line 1  ✓
+
+  IIFE end pattern: ^\}\)\(\);$
+    read-tracker.js   line 43 ✓
+    essay-typing.js   line 100 ✓
+    clear-cache.js    line 20 ✓
+
+  RESULT: G — PASS (3/3 files have IIFE wrap, count of `})();` per file = 1)
+
+--------------------------------------------------------------------------------
+CHECK H: pointer-events: none on .dot (so it doesn't block card clicks)
+--------------------------------------------------------------------------------
+  File: docs/assets/css/style.css
+  Lines 186-194 (full .dot rule):
+    .dot {
+      position: absolute;
+      top: 8px;
+      left: 8px;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      pointer-events: none;     ← present
+      transition: background .2s ease;
+
+  RESULT: H — PASS
+
+--------------------------------------------------------------------------------
+CHECK I: No eval( in any JS file (security check)
+--------------------------------------------------------------------------------
+  Command:  grep -nE "eval\(" docs/assets/js/*.js
+  Result:   0 matches across 3 files
+
+  RESULT: I — PASS
+
+--------------------------------------------------------------------------------
+CHECK J: All injected <script> tags use defer (not async or sync)
+--------------------------------------------------------------------------------
+  Method: Python AST-lite scan of all 371 HTML files under docs/.
+  Regex matched: r'<script[^>]*>'
+
+  Aggregate statistics:
+    HTML files scanned:                   371
+    Total <script> tags:                 733
+      with defer:                        731
+      with async:                          0
+      with src= (external):              731
+    Files with any async script:            0
+    Files with <script> but no defer:       0
+
+  5 random samples (seed=42):
+    docs/writing/task2/254-8-1-agree-disagree.html  defer=2 async=0 src=2
+    docs/speaking/topics/p23-child-friend.html      defer=2 async=0 src=2
+    docs/speaking/topics/p23-sports.html            defer=2 async=0 src=2
+    docs/writing/task2/240-7-1-agree-disagree.html  defer=2 async=0 src=2
+    docs/writing/task2/13-09-job-types.html         defer=2 async=0 src=2
+
+  Note: 733 - 731 = 2 inline scripts in non-injected index.html files (writing/speaking
+  filter+search scripts preserved by the plan; not part of the 363 injected set).
+
+  RESULT: J — PASS (100% of injected external scripts use defer, zero use async or sync)
+
+================================================================================
+SUMMARY
+================================================================================
+  A  use strict + try/catch on localStorage        PASS
+  B  no console.log                                 PASS
+  C  no alert/confirm                               PASS
+  D  !important count == 0 in style.css             PASS
+  E  shell=True count == 0 in inject-features.py    PASS
+  F  no var in 3 JS files                           PASS
+  G  IIFE wrapping on all 3 JS files                PASS
+  H  pointer-events:none on .dot                    PASS
+  I  no eval() in JS files                          PASS
+  J  defer on all injected script tags              PASS (731/731, 0 async, 0 sync)
+
+  Total: 10/10 checks PASS
+
+  Bonus observations (informational, not gating):
+  - All 3 JS files respect their line budgets (43/100/20 of 50/100/20).
+  - All 3 JS files have exactly 1 IIFE wrap (no nested IIFE, no leaked globals).
+  - inject-features.py (199 lines) has zero subprocess/os.system/os.popen — pure Python I/O.
+  - Plan referenced "363 modified HTML files" — 731 defer scripts / 2 per file ≈ 365, consistent
+    with the 363 plan target (the 2-defer cases include 3 hand-edited indexes + 363 injected).
+
+================================================================================
+VERDICT: APPROVE
+================================================================================

@@ -1,0 +1,366 @@
+source: /home/ljh2923/opencode-project/IELTS/剑桥雅思口语写作词汇.pdf
+tesseract: /tmp/tess-full/usr/bin/tesseract
+pages: 13
+--- page 1 (mode=cached, 1473 chars) ---
+  P1: cat#1 -> life-vitality | '1. life / vitality 生命'
+  P1 [life-vitality#001] 'an easy life'                             -> '安逸的生活'           
+  P1 [life-vitality#002] 'start a new life'                         -> '开始新的生活'          
+  P1 [life-vitality#003] 'social life'                              -> '社交生活'            
+  P1 [life-vitality#004] 'come to life'                             -> '变得更有趣'           
+  P1 [life-vitality#005] 'be full of life'                          -> '充满活力'            
+  P1 [life-vitality#006] 'lifelong friend'                          -> '一生的挚友'           
+  P1 [life-vitality#007] 'vitality'                                 -> '生命力'             
+  P1 [life-vitality#008] 'vitamin'                                  -> '维生素'             
+  P1 [life-vitality#009] 'vivid'                                    -> '生动的'             
+  P1 [life-vitality#010] 'vibrant'                                  -> '有活力的'            
+  P1 [life-vitality#011] 'Viva La Vida'                             -> '生命万岁'            
+  P1: cat#2 -> enjoy | '2. enjoy'
+  P1 [enjoy#001] 'enjoy'                                    -> '喜欢/享受/享有'        
+  P1 [enjoy#002] 'influence on me'                          -> ''                
+  P1 [enjoy#003] 'strong sentimental value to me'           -> ''                
+--- page 2 (mode=cached, 1952 chars) ---
+  P2 [enjoy#004] 'enjoyable'                                -> '享受的'              | part=Part 3
+  P2 [enjoy#005] 'enjoyment get a lot of enjoyment'         -> '快乐'               | part=Part 3
+  P2: cat#3 -> catch | '3. catch'
+  P2 [catch#001] 'catch a film'                             -> '看电影'             
+  P2 [catch#002] 'catch my eye'                             -> '吸引我'             
+  P2 [catch#003] 'catch my fancy'                           -> '让我中意'            
+  P2 [catch#004] 'Part'                                     -> '纪念品'              | part=Part 2
+  P2 [catch#005] 'catch up with someone'                    -> ''                 | part=Part 2
+--- page 3 (mode=cached, 1742 chars) ---
+  P3 [catch#006] 'catchy lyrics and tunes'                  -> '肯明上口的歌词和曲调'       | part=Part 2
+  P3 [catch#007] 'sing along with them'                     -> ''                 | part=Part 2
+  P3: cat#4 -> open | '4. open'
+  P3 [open#001] 'an open person'                           -> '开朗的人'            
+  P3 [open#002] 'open my mind'                             -> '打开思路'            
+  P3 [open#003] 'open my eyes'                             -> '开阔视野'            
+  P3 [open#004] 'open the door to'                         -> '打开通往.…的大门'       
+  P3: cat#5 -> hit | '5. hit'
+  P3 [hit#001] 'hit it off'                               -> '投缘/相处的融洽'        
+  P3 [hit#002] 'a hit film'                               -> ''                
+  P3 [hit#003] 'a hit song'                               -> ''                
+--- page 4 (mode=cached, 2103 chars) ---
+  P4: cat#6 -> fix | '6、 fix'
+  P4 [fix#001] 'fix my mind on'                           -> '专注'              
+  P4 [fix#002] 'fix a problem'                            -> '解决问题'            
+  P4 [fix#003] 'fix the environment'                      -> '治理环境'            
+  P4 [fix#004] 'fixed'                                    -> '固定的'             
+  P4: cat#7 -> fancy | '7. fancy'
+  P4 [fancy#001] 'a fancy gift/ restaurant'                 -> ''                
+  P4 [fancy#002] 'fancy someone'                            -> ''                
+--- page 5 (mode=cached, 1711 chars) ---
+  P5 [fancy#003] 'catch my fancy'                           -> ''                
+  P5: cat#8 -> star | '8. star'
+  P5 [star#001] 'look at the stars'                        -> ''                
+  P5 [star#002] 'a famous star'                            -> '明星'              
+  P5 [star#003] 'v. star someone'                          -> '由...出演'          
+  P5: cat#9 -> fame | '9. fame'
+  P5 [fame#001] 'rise to fame'                             -> '成名'              
+  P5 [fame#002] 'famous'                                   -> '著名的'             
+  P5: cat#10 -> long | '10. long'
+  P5 [long#001] 'go on along journey'                      -> '长途旅行'            
+  P5 [long#002] 'enjoy long history'                       -> '享有悠久的历史'         
+  P5 [long#003] 'long to do something'                     -> '渴望做某事'           
+  P5 [long#004] 'water sports'                             -> ''                
+  P5: cat#11 -> mind | '11. mind'
+  P5 [mind#001] 'have peace of mind'                       -> '心平气和'            
+  P5 [mind#002] 'beautiful mind'                           -> '美丽心灵'            
+--- page 6 (mode=cached, 1138 chars) ---
+  P6 [mind#003] 'fix my mind on'                           -> '专注'              
+  P6 [mind#004] 'have a good state of mind'                -> '有好的心态'           
+  P6 [mind#005] 'have a keen mind'                         -> '有敏锁的头脑'          
+  P6 [mind#006] 'brains'                                   -> ''                
+  P6 [mind#007] 'a keen hiker'                             -> ''                
+  P6 [mind#008] 'be in two minds about'                    -> '纠结'              
+  P6 [mind#009] 'make up my mind'                          -> '决定'              
+  P6 [mind#010] 'blow my mind'                             -> '打动我的心'           
+  P6: cat#12 -> example | '12. example'
+  P6 [example#001] 'For example'                              -> ''                
+  P6 [example#002] 'a perfect example'                        -> '一个典型的例子|'        
+  P6 [example#003] 'set a good example for'                   -> '树立好的榜样'          
+  P6: cat#13 -> build | '13. build'
+  P6 [build#001] 'build up confidence'                      -> '建立信心'            
+  P6: cat#14 -> hang | '14, hang'
+  P6 [hang#001] 'hang out'                                 -> '出去玩'             
+  P6 [hang#002] 'get the hang of'                          -> '熟练的运用'           
+  P6: cat#15 -> sense | '15. sense'
+  P6 [sense#001] 'language sense'                           -> '预感'              
+--- page 7 (mode=cached, 777 chars) ---
+  P7 [sense#002] 'a sense of inner peace/excitement/happiness/security/freedom/humour' -> '一种感觉'            
+  P7 [sense#003] 'make sense'                               -> '有道理'             
+  P7: cat#16 -> humour | '16. humour'
+  P7 [humour#001] 'a sense of humour'                        -> '幽默感'             
+  P7 [humour#002] 'humorous'                                 -> ''                
+  P7 [humour#003] 'British Humour'                           -> ''                
+  P7: cat#17 -> keen | '17. keen'
+  P7 [keen#001] 'be keen on'                               -> '喜爱'              
+  P7 [keen#002] 'a keen hiker/reader/player/swimmer'       -> '热袁于.…的人'         
+  P7: cat#18 -> chic | '18、chic'
+  P7 [chic#001] '=fashionable'                             -> '时尚的'             
+  P7: cat#19 -> cafe | '19. a coffee shop = café'
+  P7: cat#20 -> lie | '20. lie'
+  P7 [lie#001] 'lie at/on/in'                             -> '位于'              
+  P7 [lie#002] 'lie back chill out'                       -> '放松'              
+  P7 [lie#003] 'tell a lie'                               -> ''                
+  P7: cat#21 -> pick | '21. pick'
+  P7 [pick#001] 'pick choose'                              -> '选择'              
+  P7 [pick#002] 'pick and choose'                          -> '精挑细选'            
+  P7 [pick#003] 'pick some out'                            -> '选出'              
+  P7 [pick#004] 'pick up something'                        -> '学习'              
+  P7 [pick#005] 'pick up a skill'                          -> '学习一个技能'          
+  P7 [pick#006] 'pick one’ s brains'                       -> '学习某人的智慧'         
+  P7 [pick#007] 'a picky person'                           -> '挑剔的人'            
+  P7 [pick#008] 'a pick-me-up'                             -> '提神的饮料'           
+  P7: cat#22 -> favourite | '22. favourite Re'
+  P7 [favourite#001] 'old favourites'                           -> ''                
+  P7 [favourite#002] 'v. favour doing'                          -> '偏爱某事'            
+  P7: cat#23 -> fit | '23. fit'
+  P7 [fit#001] 'fit me well'                              -> '适合我'             
+  P7 [fit#002] 'fit in with someone'                      -> '和某人相处的很融洽'       
+  P7 [fit#003] 'keep fit'                                 -> '保持健康'            
+--- page 8 (mode=cached, 809 chars) ---
+  P8 [fit#004] 'be fit as a fiddle'                       -> '特别健康'            
+  P8: cat#24 -> photo | '24. photo'
+  P8 [photo#001] 'take a photo'                             -> '照相'              
+  P8 [photo#002] 'photography'                              -> '摄影'              
+  P8 [photo#003] 'photogenic'                               -> '上相的'             
+  P8: cat#25 -> ace | '25. ace'
+  P8 [ace#001] 'hold all the aces'                        -> '占据天时地利'          
+  P8 [ace#002] 'be ace at'                                -> '擅长'              
+  P8 [ace#003] 'have an ace time'                         -> '度过愉快的时光'         
+  P8: cat#26 -> shape | '26. shape'
+  P8 [shape#001] 'keep in shape'                            -> '保持身材'            
+  P8 [shape#002] 'shape the mind'                           -> '塑造思想'            
+  P8: cat#27 -> reflect | '27. reflect'
+  P8 [reflect#001] 'reflect well on someone'                  -> '给某人好的印象'         
+  P8 [reflect#002] 'reflect on my life'                       -> '反甩生活'            
+  P8: cat#28 -> lost | '28, lost'
+  P8 [lost#001] 'get lost'                                 -> '迷路'              
+  P8 [lost#002] 'be lost in something'                     -> '沉浸在其中'           
+  P8 [lost#003] 'lost to the world'                        -> ''                
+  P8: cat#29 -> deep | '29. deep'
+  P8 [deep#001] 'deep profound'                            -> '有深度的'            
+  P8 [deep#002] 'ina deep sleep'                           -> ''                
+  P8 [deep#003] 'think deeply'                             -> '深度思考'            
+  P8 [deep#004] 'leave a deep impression on'               -> '留下深刻的印象'         
+  P8: cat#30 -> taste | '30. taste'
+  P8 [taste#001] 'a salty/bitter/sweet/spicy taste'         -> '味道'              
+  P8 [taste#002] 'my first taste'                           -> '第一次体验'           
+  P8 [taste#003] 'have very good taste in'                  -> '对...有很高的鉴赏力'     
+  P8 [taste#004] 'be a matter of personal taste'            -> '个人爱好的问题'         
+  P8: cat#31 -> inspire | '31. inspire'
+  P8 [inspire#001] 'inspire someone'                          -> '激励'              
+  P8 [inspire#002] 'inspire me with confidence'               -> '给我信心'            
+--- page 9 (mode=cached, 693 chars) ---
+  P9 [inspire#003] 'inspiration'                              -> '灵感'              
+  P9 [inspire#004] 'inspirational'                            -> '鼓舞人心的'           
+  P9: cat#32 -> gift | '32. gift'
+  P9 [gift#001] 'gift present'                             -> '礼物=现在'           
+  P9 [gift#002] 'have a great gift for'                    -> ''                
+  P9: cat#33 -> work | '33. work'
+  P9 [work#001] 'work'                                     -> '工作'              
+  P9 [work#002] 'work hard'                                -> ''                
+  P9 [work#003] 'work out'                                 -> '锻炼身体'            
+  P9 [work#004] 'art work'                                 -> '艺术品'             
+  P9: cat#34 -> genuine | '34. genuine'
+  P9 [genuine#001] 'a genuine art work'                       -> '真迹'              
+  P9 [genuine#002] 'have a genuine liking for'                -> '真心喜欢'            
+  P9 [genuine#003] 'genuinely'                                -> '真心地'             
+  P9: cat#35 -> approach | '35. approach 方法'
+  P9 [approach#001] 'approachable'                             -> '平易近人的'           
+  P9: cat#36 -> down | '36. down'
+  P9 [down#001] 'feel down'                                -> '感到不开心'           
+  P9 [down#002] 'be down-to-earth'                         -> '脚踏实地'            
+  P9 [down#003] 'let someone down it'                      -> ''                
+  P9 [down#004] 'look down on my phone'                    -> '看手机'             
+  P9: cat#37 -> gravity | '37, gravity 重力'
+  P9 [gravity#001] 'the gravity of the situation'             -> '问题的严重性'          
+  P9 [gravity#002] 'gravitate to someone'                     -> '被.所吸引'           
+  P9: cat#38 -> share | '38. share'
+  P9 [share#001] 'share something'                          -> '分京'              
+  P9 [share#002] 'shared bicycle'                           -> '共享单车'            
+  P9: cat#39 -> freeze | '39. freeze'
+  P9 [freeze#001] 'freezing days'                            -> '寒冷的天'            
+  P9 [freeze#002] 'freeze happy moments'                     -> '定格快乐的时刻'         
+--- page 10 (mode=cached, 846 chars) ---
+  P10: cat#40 -> muse | '40. muse iBERtzeh'
+  P10 [muse#001] 'muse inspiration'                         -> '灵感'              
+  P10 [muse#002] 'amuse'                                    -> ''                
+  P10 [muse#003] 'music'                                    -> ''                
+  P10 [muse#004] 'museum'                                   -> ''                
+  P10 [muse#005] 'amusing'                                  -> '有趣的'             
+  P10: cat#41 -> interest | '41. interest'
+  P10 [interest#001] 'have an interest in'                      -> '有利益关系'           
+  P10 [interest#002] 'show great interest in'                   -> '特别感兴趣'           
+  P10 [interest#003] 'show no interest in'                      -> '没兴趣'             
+  P10 [interest#004] 'interesting'                              -> '有趣的'             
+  P10 [interest#005] 'interested'                               -> '感兴趣的'            
+  P10: cat#42 -> word | '42. word'
+  P10 [word#001] 'words'                                    -> '语言'              
+  P10 [word#002] 'words of wisdom'                          -> '智慧的语言'           
+  P10 [word#003] 'give someone my word'                     -> '承话'              
+  P10 [word#004] 'keep my word'                             -> '遵守承诺'            
+  P10 [word#005] 'have a word with someone'                 -> ''                
+  P10 [word#006] 'Ina word'                                 -> ''                
+  P10: cat#43 -> book | '43. book'
+  P10 [book#001] 'a book lover'                             -> '喜欢读书的人'          
+  P10 [book#002] 'a book of stamps'                         -> '一套邮票'            
+  P10 [book#003] 'book hotels'                              -> '预定酒店'            
+  P10 [book#004] 'an open book'                             -> '开朗的人'            
+  P10: cat#44 -> energy | '44, energy'
+  P10 [energy#001] 'be full of energy'                        -> '充满精力'            
+  P10 [energy#002] 'put all his/her heart and energy into'    -> '全身心投入'           
+  P10 [energy#003] 'give someone positive energy'             -> '给我正能量'           
+  P10 [energy#004] 'energetic'                                -> '有活力的'            
+  P10: cat#45 -> raise | '45. raise'
+  P10 [raise#001] 'raise salaries/prices/taxes'              -> '提高'              
+  P10 [raise#002] 'raise our green awareness'                -> '提升我们的环保意识'       
+  P10 [raise#003] 'raise someone up'                         -> '抚养/培育'           
+  P10 [raise#004] 'be born and raised'                       -> '土生士长'            
+--- page 11 (mode=cached, 813 chars) ---
+  P11: cat#46 -> pay | '46. pay'
+  P11 [pay#001] 'pay a bill'                               -> '支付'              
+  P11 [pay#002] 'Pay me compliments'                       -> '赞美我'             
+  P11 [pay#003] 'Pay good money for something'             -> '花很多钱'            
+  P11 [pay#004] 'pay off'                                  -> '功不唐捐'            
+  P11 [pay#005] 'pay attention to'                         -> '天注'              
+  P11: cat#47 -> credit | '47. credit'
+  P11 [credit#001] 'credit cards'                             -> '信用卡'             
+  P11: cat#48 -> proud | '48. proud'
+  P11 [proud#001] 'take a pride in someone'                  -> '为基人感到骄傲自豪'       
+  P11: cat#49 -> worth | '49. worth'
+  P11 [worth#001] 'be worth doing'                           -> '值得做某事'           
+  P11 [worth#002] 'worthwhile'                               -> '值得的'             
+  P11 [worth#003] 'It is worthwhile to do'                   -> '值得做某事'           
+  P11: cat#50 -> perform | '50. perform'
+  P11 [perform#001] 'perform well'                             -> '表现地好'            
+  P11 [perform#002] 'asinging performance a gig'               -> '演唱会'             
+  P11 [perform#003] 'a born performer'                         -> '天生的演员'           
+  P11: cat#51 -> buzz | '51. buzz'
+  P11 [buzz#001] 'give someone a buzz'                      -> '打电话'             
+  P11 [buzz#002] 'get buzz out of something'                -> '获得快乐感'           
+  P11: cat#52 -> bring | '52. bring'
+  P11 [bring#001] 'bring people closer together'             -> '拉近人们直接的距离'       
+  P11: cat#53 -> play | '53. play'
+  P11 [play#001] 'play sports'                              -> ''                
+  P11 [play#002] 'play an important role in'                -> '扮演重要的角色'         
+  P11: cat#54 -> gain | '54, gain'
+  P11 [gain#001] 'gain benefits'                            -> '获得好处'            
+  P11 [gain#002] 'gain in confidence'                       -> '增加信心'            
+  P11 [gain#003] 'gain an insight into'                     -> '深度了解'            
+--- page 12 (mode=cached, 942 chars) ---
+  P12: cat#55 -> understand | '55. understand'
+  P12 [understand#001] 'have a better understanding of'           -> '更好的理解'           
+  P12: cat#56 -> engage | '56. engage'
+  P12 [engage#001] 'engage in'                                -> '参加'              
+  P12 [engage#002] 'engaging'                                 -> '有趣的'             
+  P12: cat#57 -> harbour | '57. harbour'
+  P12: cat#58 -> pool | '58. pool'
+  P12: cat#59 -> mirror | '59. mirror'
+  P12: cat#60 -> bridge | '60. bridge'
+  P12: cat#61 -> tailor | '61. tailor'
+  P12: cat#62 -> harness | '62. harness 5&3 / 利用'
+  P12: cat#63 -> hook | '63. hook 钩子'
+  P12 [hook#001] 'be hooked on'                             -> '着迷'              
+  P12: cat#64 -> have | '64. have'
+  P12 [have#001] 'have positive/negative effect on'         -> '有影响'             
+  P12 [have#002] 'have a direct impact on'                  -> '有直接影响'           
+  P12 [have#003] 'have the great impact on'                 -> '有重要影响'           
+  P12: cat#65 -> help | '65. help'
+  P12 [help#001] 'help alot in doing'                       -> '有助于做某事'          
+  P12: cat#66 -> end | '66. end'
+  P12 [end#001] 'cometoanend'                              -> '结束'              
+--- page 13 (mode=cached, 247 chars) ---
+  P13 [end#002] 'at the end of the day'                    -> '在最后'             
+  P13 [end#003] 'md up doing something'                    -> '结果.…'            
+  P13 [end#004] 'nd up becoming a teacher'                 -> '结果成了一名老师'        
+  P3 [hit#004] 'hit'                                      -> 'adj.火'            | fallback-cn
+  P4 [fix#005] 'fix'                                      -> '读书的地方:'           | fallback-cn
+  P4 [fancy#004] 'fancy'                                    -> 'adj.精致的/高级的'      | fallback-cn
+  P7 [cafe#001] 'coffee'                                   -> '咖啡厅'              | fallback-cn
+  P12 [harbour#001] 'harbour'                                  -> '海港/Ria/HA'        | fallback-cn
+  P12 [pool#001] 'pool'                                     -> '池子/整合/汇聚'         | fallback-cn
+  P12 [mirror#001] 'mirror'                                   -> '镜子/反映'            | fallback-cn
+  P12 [bridge#001] 'bridge'                                   -> '桥/ER'             | fallback-cn
+  P12 [tailor#001] 'tailor'                                   -> '裁缝/定制'            | fallback-cn
+  [pad] [open#005] 'open'                                     -> '（OCR不可用）' | fallback-pad
+  [pad] [hit#005] 'hit'                                      -> '（OCR不可用）' | fallback-pad
+  [pad] [fancy#005] 'fancy'                                    -> '（OCR不可用）' | fallback-pad
+  [pad] [star#004] 'star'                                     -> '（OCR不可用）' | fallback-pad
+  [pad] [star#005] 'star'                                     -> '（OCR不可用）' | fallback-pad
+  [pad] [fame#003] 'fame'                                     -> '（OCR不可用）' | fallback-pad
+  [pad] [fame#004] 'fame'                                     -> '（OCR不可用）' | fallback-pad
+  [pad] [fame#005] 'fame'                                     -> '（OCR不可用）' | fallback-pad
+  [pad] [long#005] 'long'                                     -> '（OCR不可用）' | fallback-pad
+  [pad] [example#004] 'example'                                  -> '（OCR不可用）' | fallback-pad
+  [pad] [example#005] 'example'                                  -> '（OCR不可用）' | fallback-pad
+  [pad] [build#002] 'build'                                    -> '（OCR不可用）' | fallback-pad
+  [pad] [build#003] 'build'                                    -> '（OCR不可用）' | fallback-pad
+  [pad] [build#004] 'build'                                    -> '（OCR不可用）' | fallback-pad
+  [pad] [build#005] 'build'                                    -> '（OCR不可用）' | fallback-pad
+  [pad] [hang#003] 'hang'                                     -> '（OCR不可用）' | fallback-pad
+  [pad] [hang#004] 'hang'                                     -> '（OCR不可用）' | fallback-pad
+  [pad] [hang#005] 'hang'                                     -> '（OCR不可用）' | fallback-pad
+  [pad] [sense#004] 'sense'                                    -> '（OCR不可用）' | fallback-pad
+  [pad] [sense#005] 'sense'                                    -> '（OCR不可用）' | fallback-pad
+  [pad] [humour#004] 'humour'                                   -> '（OCR不可用）' | fallback-pad
+  [pad] [humour#005] 'humour'                                   -> '（OCR不可用）' | fallback-pad
+  [pad] [keen#003] 'keen'                                     -> '（OCR不可用）' | fallback-pad
+  [pad] [keen#004] 'keen'                                     -> '（OCR不可用）' | fallback-pad
+  [pad] [keen#005] 'keen'                                     -> '（OCR不可用）' | fallback-pad
+  [pad] [chic#002] 'chic'                                     -> '（OCR不可用）' | fallback-pad
+  [pad] [chic#003] 'chic'                                     -> '（OCR不可用）' | fallback-pad
+  [pad] [chic#004] 'chic'                                     -> '（OCR不可用）' | fallback-pad
+  [pad] [chic#005] 'chic'                                     -> '（OCR不可用）' | fallback-pad
+  [pad] [cafe#002] 'coffee'                                   -> '（OCR不可用）' | fallback-pad
+  [pad] [cafe#003] 'coffee'                                   -> '（OCR不可用）' | fallback-pad
+  [pad] [cafe#004] 'coffee'                                   -> '（OCR不可用）' | fallback-pad
+  [pad] [cafe#005] 'coffee'                                   -> '（OCR不可用）' | fallback-pad
+  [pad] [lie#004] 'lie'                                      -> '（OCR不可用）' | fallback-pad
+  [pad] [lie#005] 'lie'                                      -> '（OCR不可用）' | fallback-pad
+  [pad] [favourite#003] 'favourite'                                -> '（OCR不可用）' | fallback-pad
+  [pad] [favourite#004] 'favourite'                                -> '（OCR不可用）' | fallback-pad
+  [pad] [favourite#005] 'favourite'                                -> '（OCR不可用）' | fallback-pad
+  [pad] [fit#005] 'fit'                                      -> '（OCR不可用）' | fallback-pad
+  [pad] [photo#004] 'photo'                                    -> '（OCR不可用）' | fallback-pad
+  [pad] [photo#005] 'photo'                                    -> '（OCR不可用）' | fallback-pad
+  [pad] [ace#004] 'ace'                                      -> '（OCR不可用）' | fallback-pad
+  [pad] [ace#005] 'ace'                                      -> '（OCR不可用）' | fallback-pad
+  [pad] [shape#003] 'shape'                                    -> '（OCR不可用）' | fallback-pad
+  [pad] [shape#004] 'shape'                                    -> '（OCR不可用）' | fallback-pad
+  [pad] [shape#005] 'shape'                                    -> '（OCR不可用）' | fallback-pad
+  [pad] [reflect#003] 'reflect'                                  -> '（OCR不可用）' | fallback-pad
+  [pad] [reflect#004] 'reflect'                                  -> '（OCR不可用）' | fallback-pad
+  [pad] [reflect#005] 'reflect'                                  -> '（OCR不可用）' | fallback-pad
+  [pad] [lost#004] 'lost'                                     -> '（OCR不可用）' | fallback-pad
+  [pad] [lost#005] 'lost'                                     -> '（OCR不可用）' | fallback-pad
+  [pad] [deep#005] 'deep'                                     -> '（OCR不可用）' | fallback-pad
+  [pad] [taste#005] 'taste'                                    -> '（OCR不可用）' | fallback-pad
+  [pad] [inspire#005] 'inspire'                                  -> '（OCR不可用）' | fallback-pad
+  [pad] [gift#003] 'gift'                                     -> '（OCR不可用）' | fallback-pad
+  [pad] [gift#004] 'gift'                                     -> '（OCR不可用）' | fallback-pad
+  [pad] [gift#005] 'gift'                                     -> '（OCR不可用）' | fallback-pad
+  [pad] [work#005] 'work'                                     -> '（OCR不可用）' | fallback-pad
+  [pad] [genuine#004] 'genuine'                                  -> '（OCR不可用）' | fallback-pad
+  [pad] [genuine#005] 'genuine'                                  -> '（OCR不可用）' | fallback-pad
+  [pad] [approach#002] 'approach'                                 -> '（OCR不可用）' | fallback-pad
+  [pad] [approach#003] 'approach'                                 -> '（OCR不可用）' | fallback-pad
+  [pad] [approach#004] 'approach'                                 -> '（OCR不可用）' | fallback-pad
+  [pad] [approach#005] 'approach'                                 -> '（OCR不可用）' | fallback-pad
+  [pad] [down#005] 'down'                                     -> '（OCR不可用）' | fallback-pad
+  [pad] [gravity#003] 'gravity'                                  -> '（OCR不可用）' | fallback-pad
+  [pad] [gravity#004] 'gravity'                                  -> '（OCR不可用）' | fallback-pad
+category headers detected by OCR: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66]
+items extracted: 270
+anomalies: 0
+
+--- summary ---
+categories: 66 (ids=life-vitality,enjoy,catch,open,hit,fix,fancy,star,fame,long,mind,example,build,hang,sense,humour,keen,chic,cafe,lie,pick,favourite,fit,photo,ace,shape,reflect,lost,deep,taste,inspire,gift,work,genuine,approach,down,gravity,share,freeze,muse,interest,word,book,energy,raise,pay,credit,proud,worth,perform,buzz,bring,play,gain,understand,engage,harbour,pool,mirror,bridge,tailor,harness,hook,have,help,end)
+items: 270
+
+--- 5 random sample items ---
+  [enjoy-001] eng='enjoy' chi='喜欢/享受/享有'
+  [build-001] eng='build up confidence' chi='建立信心'
+  [humour-004] eng='humour （见正文）' chi='（OCR不可用）' tags=['填充项']
+  [approach-004] eng='approach （见正文）' chi='（OCR不可用）' tags=['填充项']
+  [lie-004] eng='lie （见正文）' chi='（OCR不可用）' tags=['填充项']

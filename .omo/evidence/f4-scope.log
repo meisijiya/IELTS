@@ -1,0 +1,340 @@
+# F4 — Scope Fidelity Check
+# Plan: writing-read-tracking-and-features
+# Date: 2026-08-18
+# Verifier: f4-scope sub-agent
+# Method: read-only inspection (no files modified)
+# Working directory: /home/ljh2923/opencode-project/IELTS
+
+============================================================
+SECTION 1 — Scope OUT (15 rules) — MUST NOT be violated
+============================================================
+
+[01] PASS  No modifications to existing content/attributes in
+            docs/writing/task1/*.html, task2/*.html, docs/speaking/topics/*.html
+            (only <script> tags appended)
+  EVIDENCE:
+    - Git diff on 292 + 71 files inspected line-by-line
+    - All 363 modified files show ONLY 1-2 lines added, all of the form
+      `+<script defer src="../../assets/js/...js"></script>` or
+      `+<script defer src="../assets/js/read-tracker.js"></script>`
+    - Sample diff (docs/writing/task1/01-table-universities-ranked.html):
+        @@ -50,5 +50,7 @@
+        ...
+        +<script defer src="../../assets/js/read-tracker.js"></script>
+        +<script defer src="../../assets/js/essay-typing.js"></script>
+    - Sample diff (docs/speaking/topics/p1-hometown.html):
+        @@ -149,5 +149,6 @@
+        ...
+        +<script defer src="../assets/js/read-tracker.js"></script>
+    - Programmatic scan: for each file in
+      docs/writing/task1 docs/writing/task2 docs/speaking/topics,
+      all non-script additions/deletions count = 0
+    - Existing `<article data-task data-difficulty data-type>` and
+      `<article data-topic-id>` tags untouched
+
+[02] PASS  No read/unread dots in docs/reading/, docs/listening/, docs/vocab/
+  EVIDENCE:
+    - find docs/reading docs/listening docs/vocab -name '*.html' | xargs grep -l 'dot-read\|dot-unread'
+      → 0 matches in each module (0/1 each)
+    - Same find | xargs grep -l 'read-tracker.js'
+      → 0 matches in each module
+    - git status -- docs/reading docs/listening docs/vocab
+      → only untracked (??) dirs; no committed edits; no read-tracker injection
+    - read-tracker.js guards on `data-task` OR `data-topic-id`; reading/listening
+      articles have neither attribute, so dots would never paint there even if loaded
+
+[03] PASS  No localStorage.clear() call (in NEW files added by this task)
+  EVIDENCE:
+    - grep 'localStorage.clear' on:
+        docs/assets/js/read-tracker.js   → 0 matches
+        docs/assets/js/essay-typing.js   → 0 matches
+        docs/assets/js/clear-cache.js    → 0 matches
+        scripts/inject-features.py       → 0 matches
+    - clear-cache.js implementation (line 9-14):
+        for (let i = 0; i < localStorage.length; i++) {
+          const k = localStorage.key(i);
+          if (k && k.startsWith('ielts-')) keys.push(k);
+        }
+      → iterates keys, filters by `ielts-` prefix, removes only matching keys.
+      Never calls `localStorage.clear()`.
+    - NOTE: scripts/verify-vocab-runtime.mjs contains `localStorage.clear()` but
+      it is an UNTRACKED runtime test harness for the vocab module (a different
+      plan). Not part of the writing-read-tracking-and-features deliverable set
+      (3 JS + inject-features.py + .nojekyll + CNAME). Not in scope of this task.
+
+[04] PASS  No rewrite of docs/assets/css/style.css first 181 lines
+  EVIDENCE:
+    - head -181 docs/assets/css/style.css | diff -q - <(git show HEAD:docs/assets/css/style.css | head -181)
+      → exit 0 (EXACT MATCH)
+    - Original HEAD file has 181 lines + 1 trailing byte (`}` closing @media block,
+      no newline at EOF). Current file has 376 lines; line 182 is that same `}` (now
+      with newline before the appended block). The actual CONTENT of lines 1-181
+      is byte-identical.
+    - All new CSS (lines 182+) is appended AFTER the existing @media closing brace.
+    - Sample diff (lines 179-186 of current):
+        }        ← was @media closing brace (relocated from EOF to line 182)
+        /* ===== Appended for read-tracking + typing + sticky + clear-cache (todo 4) ===== */
+        .dot { ... }
+
+[05] PASS  No rewrite of docs/writing/index.html inline filter script (lines 1216-1288)
+  EVIDENCE:
+    - git show HEAD:docs/writing/index.html | sed -n '1216,1288p' > /tmp/head-filter.js
+    - sed -n '1216,1288p' docs/writing/index.html > /tmp/curr-filter.js
+    - diff /tmp/head-filter.js /tmp/curr-filter.js → exit 0 (EXACT MATCH)
+    - Inline filter script (the IIFE that filters task/difficulty/type) is
+      byte-identical to HEAD. Only addition: `<script defer src="../assets/js/read-tracker.js"></script>`
+      on line 1289 (after </script> at line 1288).
+
+[06] PASS  No rewrite of docs/speaking/index.html inline search script (lines 624-693)
+  EVIDENCE:
+    - git show HEAD:docs/speaking/index.html | sed -n '624,693p' > /tmp/head-search.js
+    - sed -n '624,693p' docs/speaking/index.html > /tmp/curr-search.js
+    - diff /tmp/head-search.js /tmp/curr-search.js → exit 0 (EXACT MATCH)
+    - Inline search script is byte-identical. Only addition: script tag at line 694.
+
+[07] PASS  No third-party JS/CSS libraries (CDN / npm)
+  EVIDENCE:
+    - find docs/ -name '*.html' | xargs grep -lE 'https?://[^"]*\.(js|css)'
+      → 0 matches (no external CDN refs in any HTML file)
+    - For new JS files (read-tracker, essay-typing, clear-cache):
+        grep -E 'https?://' → 0 matches
+        grep -E 'import |require\(' → 0 matches (vanilla IIFE only)
+    - No package.json, package-lock.json, yarn.lock, pnpm-lock.yaml exists
+      (confirmed: all ls calls → "No such file or directory")
+    - All assets are zero-dependency vanilla browser APIs
+
+[08] PASS  No change to <article data-task data-difficulty data-type> or
+            <article data-topic-id> existing attributes
+  EVIDENCE:
+    - For every modified file in docs/writing/task1 docs/writing/task2:
+        git diff <file> | grep -E 'data-(task|difficulty|type)=' → 0 matches
+    - For every modified file in docs/speaking/topics:
+        git diff <file> | grep -E 'data-topic-id=' → 0 matches
+    - All article tags are untouched. read-tracker.js only READS data-task /
+      data-topic-id to derive module key — never modifies the attribute.
+
+[09] PASS  No right/wrong check on input boxes
+  EVIDENCE:
+    - grep -iE 'correct|wrong|right.*answer|check.*answer|validate|compare.*text'
+      on read-tracker.js essay-typing.js clear-cache.js → 0 matches
+    - essay-typing.js implements:
+        * save draft (500ms debounce) → ielts-writing:draft:<slug>:<i>
+        * open/close persistence → ielts-writing:open:<slug>:<i>
+        * toggle button text (▸ 练习 / ▾ 收起)
+      No comparison against expected text. No grading logic. Pure draft persistence.
+
+[10] PASS  No alert() / confirm() / prompt()
+  EVIDENCE:
+    - grep -E 'alert\(|confirm\(|prompt\('
+      on read-tracker.js essay-typing.js clear-cache.js → 0 matches
+    - clear-cache.js uses text feedback:
+        btn.textContent = '已清除 ✓';
+        btn.classList.add('cleared');
+        setTimeout(() => { btn.textContent = '清除缓存'; ... location.reload(); }, 2000);
+      → no modal/blocking dialogs.
+
+[11] PASS  No dot blocking title click (pointer-events: none on .dot)
+  EVIDENCE:
+    - docs/assets/css/style.css line 185-194:
+        .dot {
+          position: absolute;
+          top: 8px; left: 8px;
+          width: 12px; height: 12px;
+          border-radius: 50%;
+          pointer-events: none;
+          ...
+        }
+    - The `pointer-events: none` rule is ONLY on `.dot` (the indicator itself),
+      so clicks on the dot pass through to the underlying card link.
+    - grep -E 'pointer-events' docs/assets/css/style.css → 1 hit (line 193, .dot only)
+    - The card itself (the wrapping `<article>` or `<a>`) retains default
+      pointer-events, so the title link remains clickable.
+
+[12] PASS  No synchronous <script> (must be defer)
+  EVIDENCE:
+    - git diff -- docs/ | grep -E '^\+<script' | grep -v defer → 0 matches
+    - Total added script tags: 657, all with `defer` attribute (each file gets
+      counted 2x in the diff, one for context, one for added; the actual count of
+      unique injected script tags = 365 × ~1.8 avg = 657 lines in diff output)
+    - All 3 new JS modules loaded with `<script defer>`:
+        docs/writing/index.html:1289:  <script defer src="../assets/js/read-tracker.js"></script>
+        docs/speaking/index.html:694:  <script defer src="../assets/js/read-tracker.js"></script>
+        docs/index.html:43:  <script defer src="assets/js/clear-cache.js"></script>
+    - All 292 writing essays: <script defer src="../../assets/js/{read-tracker,essay-typing}.js">
+    - All 71 speaking topics: <script defer src="../assets/js/read-tracker.js">
+    - Existing learning-mode.js in speaking topics already uses defer; we follow that pattern.
+
+[13] PASS  No build-step assets
+  EVIDENCE:
+    - No package.json, package-lock.json, yarn.lock, pnpm-lock.yaml in repo
+    - All scripts/*.py are stdlib-only (verified by F2 earlier)
+    - All new JS files are plain text, IIFE + 'use strict', no transpilation
+    - Site remains pure static HTML + CSS + JS
+
+[14] PASS  No file:// protocol features
+  EVIDENCE:
+    - grep -E 'file://|navigator\.platform' on new JS files → 0 matches
+    - All asset paths are RELATIVE (../../assets/js/, ../assets/js/, assets/js/)
+      so they work identically under file://, http://, https://
+    - localStorage keys are origin-scoped (no path embedding):
+        ielts-read:writing:<slug>
+        ielts-read:speaking:<slug>
+        ielts-writing:draft:<slug>:<i>
+        ielts-writing:open:<slug>:<i>
+      → keys work under any scheme/host.
+
+[15] PASS  No modification to .omo/drafts/design-preview.html (source of truth only)
+  EVIDENCE:
+    - git status --short -- .omo/drafts/design-preview.html → "??" (untracked)
+    - git diff --stat -- .omo/drafts/design-preview.html → no diff
+    - grep -rn 'design-preview' docs/ scripts/ → 0 matches
+      (no production code imports or references this file)
+    - NOTE: .omo/drafts/ is NOT gitignored (contrary to inherited wisdom), but
+      the file is also untouched vs HEAD (no HEAD entry). It serves as design
+      reference only; production CSS classes/colors mirror it but no import
+      exists. Acceptable per plan rule "source of truth, not imported."
+
+============================================================
+SECTION 2 — User Requirements (4 must-have)
+============================================================
+
+[UR1] PASS  Paragraph typing box on writing essays (essay-typing.js)
+  EVIDENCE:
+    - docs/assets/js/essay-typing.js exists (100 lines, at line budget ≤ 100)
+    - Implementation (line 51-73):
+        essay.querySelectorAll('.essay-body > p').forEach((p, i) => {
+          ...
+          const row = document.createElement('div'); row.className = 'typing-row';
+          const b = document.createElement('button'); b.className = 'typing-toggle'; ...
+          b.textContent = '▸ 练习';
+          const st = document.createElement('span'); st.className = 'draft-status';
+          const ta = document.createElement('textarea');
+          ta.className = 'typing-input';
+          ta.rows = 3;
+          ta.placeholder = `在这里写你的第 ${i + 1} 段…`;
+          row.append(b, st, ta);
+          p.after(row);
+          ...
+        });
+    - Classes: typing-row, typing-toggle, typing-input, draft-status (6 references)
+    - Persistence key: ielts-writing:draft:<slug>:<i> (debounced 500ms)
+    - Open-state persistence: ielts-writing:open:<slug>:<i>
+    - Injected in ALL 292 writing essays (find docs/writing/task1 docs/writing/task2 | xargs grep -l 'essay-typing.js' | wc -l → 292)
+    - Writing-essay page only (gated by `article[data-task]` selector)
+
+[UR2] PASS  Green/red dot on writing + speaking list pages (read-tracker.js)
+  EVIDENCE:
+    - docs/assets/js/read-tracker.js exists (43 lines, at line budget ≤ 50)
+    - Implementation injects `<span class="dot">` into every <article data-task|topic-id>
+      and toggles dot-read (var(--green)) / dot-unread (#c33) based on localStorage lookup
+    - read-tracker.js loaded on:
+        docs/writing/index.html (1 line)
+        docs/speaking/index.html (1 line)
+        ALL 292 writing essays (read-tracker.js + essay-typing.js)
+        ALL 71 speaking topics (read-tracker.js only)
+      Total coverage: 363 article files + 2 index files
+    - localStorage keys:
+        ielts-read:writing:<slug>
+        ielts-read:speaking:<slug>
+    - CSS classes .dot, .dot-read, .dot-unread defined in style.css lines 185-205
+    - Click-to-toggle also wired (line 32-42 of read-tracker.js):
+        if dot is read → mark unread + remove key
+        else mark read + set key
+
+[UR3] PASS  Clear-cache button on homepage (clear-cache.js)
+  EVIDENCE:
+    - docs/assets/js/clear-cache.js exists (20 lines, at line budget ≤ 20)
+    - docs/index.html has:
+        <div class="cache-actions"><button class="clear-cache-btn" id="clearBtn">清除缓存</button></div>
+      (right before <footer>)
+    - <script defer src="assets/js/clear-cache.js"></script> before </body>
+    - CSS classes .clear-cache-btn (base, :hover, .cleared) in style.css
+    - Implementation (lines 6-18):
+        btn.addEventListener('click', () => {
+          const keys = [];
+          try {
+            for (let i = 0; i < localStorage.length; i++) {
+              const k = localStorage.key(i);
+              if (k && k.startsWith('ielts-')) keys.push(k);
+            }
+          } catch (e) { /* localStorage may be disabled */ }
+          keys.forEach(k => localStorage.removeItem(k));
+          btn.textContent = '已清除 ✓';
+          btn.classList.add('cleared');
+          setTimeout(() => { btn.textContent = '清除缓存'; btn.classList.remove('cleared'); location.reload(); }, 2000);
+        });
+    - Wipes ONLY `ielts-*` prefixed keys (no localStorage.clear() call)
+    - Feedback: text change → 2s → reload (no alert)
+
+[UR4] PASS  Sticky prompt on writing essays with collapsible (essay-typing.js + CSS)
+  EVIDENCE:
+    - essay-typing.js (lines 19-39) sets up sticky prompt:
+        const prompt = article.querySelector('section.prompt');
+        if (prompt && !prompt.classList.contains('prompt-sticky')) {
+          prompt.classList.add('prompt-sticky');
+          ... injects <div class="prompt-title"> with toggle button
+          ... wraps inner content in <div class="prompt-body">
+          btn.addEventListener('click', () => {
+            const c = prompt.classList.toggle('collapsed');
+            btn.textContent = c ? '▴' : '▾';
+          });
+        }
+    - essay-body container isolation (lines 41-48):
+        const essay = article.querySelector('section.essay');
+        if (essay && !essay.querySelector(':scope > .essay-body')) {
+          const wrap = document.createElement('div');
+          wrap.className = 'essay-body';
+          while (essay.firstChild) wrap.appendChild(essay.firstChild);
+          essay.appendChild(wrap);
+        }
+    - CSS confirms container-isolation + sticky behavior:
+        docs/assets/css/style.css line 281-292 (.prompt-sticky):
+          position: -webkit-sticky;
+          position: sticky;
+          top: 0;
+          z-index: 10;
+          isolation: isolate;
+          background: #fff;
+          background-image: linear-gradient(#fff, #fff);
+          box-shadow: 0 2px 8px rgba(0, 0, 0, .12);
+        docs/assets/css/style.css line 336-341 (.essay-body):
+          isolation: isolate;
+          z-index: 1;
+          position: relative;
+        docs/assets/css/style.css line 295-300 (.prompt-sticky.collapsed):
+          max-height: 40px; padding: .5rem 1.25rem; overflow: hidden;
+    - Two separate stacking contexts (essay-body z:1, prompt-sticky z:10) +
+      background-image fallback ensures prompt always paints over body text.
+    - Only runs on writing essays (gated by `article[data-task]`).
+
+============================================================
+SUMMARY
+============================================================
+
+Scope OUT checks:        15/15 PASS
+User Requirement checks:  4/4 PASS
+
+VERDICT: APPROVE
+
+Notes (non-blocking):
+  - The `localStorage.clear()` call found in scripts/verify-vocab-runtime.mjs is
+    NOT from this plan; it is an untracked runtime-test harness for the vocab
+    module (a different plan's deliverable). The 4 new production files in
+    this plan (read-tracker.js, essay-typing.js, clear-cache.js,
+    inject-features.py) correctly avoid this API.
+  - The trailing `}` of the @media query in style.css was moved from EOF
+    (no newline) to line 182 (with newline) to enable clean append. This is
+    a syntactic relocation, not a content rewrite — first 181 lines are
+    byte-identical.
+  - design-preview.html is untracked (??) and not modified vs git; it is also
+    not imported by any production code, satisfying the "source of truth
+    only, not imported" rule.
+  - Total file changes: 367 modified (4 manual + 363 injected) + 6 new
+    (3 JS + .nojekyll + CNAME + inject-features.py). Matches plan prediction
+    of 373 total.
+  - Drift-check confirms 365/365 files have correct tags; idempotency works
+    (re-running inject is no-op).
+
+============================================================
+END OF F4 EVIDENCE
+============================================================

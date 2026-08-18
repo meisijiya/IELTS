@@ -1,0 +1,227 @@
+============================================================
+F1 — Plan Compliance Audit Evidence
+Plan: writing-read-tracking-and-features
+Audit timestamp: 2026-08-17 (UTC)
+Auditor: F1 compliance check (read-only)
+============================================================
+
+=== SCOPE ===
+Verify 14 components (C1-C14) from the plan have corresponding
+changes in the working tree AND every "Must NOT" guardrail still
+holds. No files modified by this audit.
+
+============================================================
+SECTION A — JS files (C1, C2, C3)
+============================================================
+
+[C1] docs/assets/js/read-tracker.js (≤ 50 lines, IIFE + 'use strict')
+  - test -f docs/assets/js/read-tracker.js ... PRESENT
+  - wc -l = 43 (limit 50) ........... OK
+  - grep "IIFE": (function () { ... })() = yes (line 1 / line 43)
+  - grep "'use strict'" = yes (line 7)
+  - grep "DOMContentLoaded" ≥ 1 = yes (1 usage)
+  - grep "ielts-read:" ≥ 1 = yes (3 usages — key prefix + read/write/del)
+  RESULT: PASS
+
+[C2] docs/assets/js/essay-typing.js (≤ 100 lines)
+  - test -f docs/assets/js/essay-typing.js ... PRESENT
+  - wc -l = 100 (limit 100, boundary) . OK
+  - grep "ielts-writing:draft:" ≥ 1 = yes (1 usage)
+  - grep "ielts-writing:open:" ≥ 1 = yes (1 usage)
+  - grep "prompt-sticky" ≥ 1 = yes (1 usage)
+  - grep "data-task" ≥ 1 = yes (1 usage)
+  RESULT: PASS
+
+[C3] docs/assets/js/clear-cache.js (≤ 20 lines)
+  - test -f docs/assets/js/clear-cache.js ... PRESENT
+  - wc -l = 20 (limit 20, boundary) ... OK
+  - grep "(function () {" = line 1 ... OK (IIFE)
+  - grep "'use strict'" = line 2 ...... OK
+  - grep "startsWith('ielts-')" ≥ 1 = yes
+  - grep "location.reload" ≥ 1 = yes
+  RESULT: PASS
+
+============================================================
+SECTION B — CSS file (C4)
+============================================================
+
+[C4] docs/assets/css/style.css extended:
+  - First 181 lines byte-identical to HEAD:
+      $ diff <(head -181 working) <(git show HEAD: | head -181)
+      → [ok] Files are identical
+      PASS
+  - Total: HEAD 182 lines; working tree 377 lines; appended = 195 lines
+      (matches plan's "~195 lines appended"; 1-byte trailing-newline
+       delta at original boundary documented as accepted per plan)
+  - Required classes present:
+      .dot ............... line 186 (PASS)
+      .dot-unread ........ line 197
+      .dot-read .......... line 201
+      .typing-input ...... line 239
+      .prompt-sticky ..... line 278
+      .essay-body ........ line 337
+      .clear-cache-btn ... line 348
+      All 5+ required classes present.
+  RESULT: PASS
+
+============================================================
+SECTION C — GH Pages deployment files (C5, C6)
+============================================================
+
+[C5] docs/.nojekyll exists, 0 bytes
+  - test -f docs/.nojekyll = yes
+  - wc -c docs/.nojekyll = 0 bytes
+  RESULT: PASS
+
+[C6] docs/CNAME content = meisijiya.site
+  - test -f docs/CNAME = yes
+  - cat docs/CNAME = "meisijiya.site\n" (14 bytes)
+  RESULT: PASS
+
+============================================================
+SECTION D — Python injector script (C7)
+============================================================
+
+[C7] scripts/inject-features.py (≤ 200 lines, stdlib only)
+  - test -f scripts/inject-features.py ... PRESENT
+  - wc -l = 199 (limit 200) ........... OK
+  - python3 scripts/inject-features.py --help exits 0 .... OK
+    (lists subcommands: inject / drift-check / undo)
+  - grep "shell=True" count = 0 ........... OK (stdlib-only as planned)
+  RESULT: PASS
+
+============================================================
+SECTION E — Manual HTML edits (C8, C9, C10)
+============================================================
+
+[C8] docs/index.html has clear-cache-btn + clear-cache.js script
+  - grep '<button class="clear-cache-btn"' = yes (line 38) ........ PASS
+  - grep '<script defer src="assets/js/clear-cache.js">' = yes (line 43) PASS
+  RESULT: PASS
+
+[C9] docs/writing/index.html has read-tracker.js script
+  - grep '<script defer src="../assets/js/read-tracker.js">' = yes (line 1289)
+  - Existing inline filter script (1216-1288) preserved byte-identical:
+      $ diff <(sed -n '1216,1288p' working) <(git show HEAD: | sed -n '1216,1288p')
+      → [ok] Files are identical
+  RESULT: PASS
+
+[C10] docs/speaking/index.html has read-tracker.js script
+  - grep '<script defer src="../assets/js/read-tracker.js">' = yes (line 694)
+  - Existing inline search script (624-693) preserved byte-identical:
+      $ diff <(sed -n '624,693p' working) <(git show HEAD: | sed -n '624,693p')
+      → [ok] Files are identical
+  RESULT: PASS
+
+============================================================
+SECTION F — Bulk script-tag injection (C11, C12)
+============================================================
+
+[C11] 292 writing files have BOTH scripts
+  - find docs/writing/task1 docs/writing/task2 -name '*.html' | wc -l = 292
+  - files containing 'read-tracker.js' = 292 / 292
+  - files containing 'essay-typing.js' = 292 / 292
+  RESULT: PASS
+
+[C12] 71 speaking files have read-tracker.js
+  - find docs/speaking/topics -name '*.html' | wc -l = 71
+  - files containing 'read-tracker.js' = 71 / 71
+  RESULT: PASS
+
+============================================================
+SECTION G — Container isolation (C13)
+============================================================
+
+[C13] Both .essay-body and .prompt-sticky have isolation: isolate
+  - grep -n "isolation: isolate" docs/assets/css/style.css:
+      line 283 (inside .prompt-sticky) → PASS
+      line 338 (inside .essay-body) → PASS
+  - prompt-sticky also has z-index:10 + background-image linear-gradient (#fff,#fff)
+      (verified at line 285 in same rule block)
+  - essay-body also has z-index:1 + position:relative
+      (verified at lines 338-340)
+  RESULT: PASS
+
+============================================================
+SECTION H — Drift check (C14)
+============================================================
+
+[C14] python3 scripts/inject-features.py drift-check exits 0
+  - Exit code = 0
+  - Output: "DRIFT-CHECK: 365/365 OK, 0 missing, 0 unreadable"
+  - Breakdown: 292 writing + 71 speaking + 2 index files = 365 ✓
+  - Re-running inject shows idempotency: all 365 SKIP, no writes
+  RESULT: PASS
+
+============================================================
+SECTION I — "Must NOT" guardrails
+============================================================
+
+[MN-1] No third-party lib (cdn./cdnjs./unpkg./jsdelivr.)
+  - grep -rE in docs/ = 0 matches ............................. PASS
+
+[MN-2] No localStorage.clear() call in NEW plan code
+  - grep in docs/ + scripts/inject-features.py = 0 matches
+  - (Two matches in scripts/verify-vocab-runtime.mjs — pre-existing
+   test script from 5-modules-expansion plan; NOT touched by this
+   plan; NOT a violation of THIS plan's guardrails.)
+  RESULT: PASS
+
+[MN-3] No rewrite of style.css first 181 lines
+  - byte-identical (see C4) .................................. PASS
+
+[MN-4] No rewrite of docs/writing/index.html inline filter script (1216-1288)
+  - byte-identical (see C9) .................................. PASS
+
+[MN-5] No rewrite of docs/speaking/index.html inline search script (624-693)
+  - byte-identical (see C10) ................................. PASS
+
+[MN-6] No edit to docs/reading/ docs/listening/ docs/vocab/
+  - 0 HTML files in those dirs reference the new JS modules:
+      read-tracker.js / essay-typing.js / clear-cache.js → 0
+      clear-cache-btn class → 0
+  - Untracked status (??) reflects pre-existing/orphan state, not this plan
+  RESULT: PASS
+
+[MN-7] No alert() / confirm() calls
+  - grep in docs/assets/js/ + scripts/ = 0 matches ........... PASS
+
+[MN-8] No <script src=> without defer
+  - All <script src=> tags in docs/ have `defer`:
+      docs/index.html:43 defer
+      docs/writing/index.html:1289 defer
+      docs/speaking/index.html:694 defer
+      (only legacy inline <script> at writing:1216 + speaking:624
+       have no src= at all — pre-existing, untouched)
+  - Count of <script src=> without defer across docs/ = 0 ..... PASS
+
+[MN-9] No use of file:// protocol features
+  - grep "file://" in new JS + scripts = 0 matches ........... PASS
+
+============================================================
+SUMMARY (PASS/FAIL counts)
+============================================================
+C1   PASS       MN-1 PASS
+C2   PASS       MN-2 PASS
+C3   PASS       MN-3 PASS
+C4   PASS       MN-4 PASS
+C5   PASS       MN-5 PASS
+C6   PASS       MN-6 PASS
+C7   PASS       MN-7 PASS
+C8   PASS       MN-8 PASS
+C9   PASS       MN-9 PASS
+C10  PASS
+C11  PASS       Components:   14/14 PASS
+C12  PASS       Guardrails:    9/9  PASS
+C13  PASS
+C14  PASS
+
+============================================================
+VERDICT: APPROVE
+============================================================
+All 14 plan components (C1-C14) are present, complete, and
+byte-accurate in the working tree. All 9 "Must NOT" guardrails
+hold. Plan implementation matches the plan file's
+".omo/plans/writing-read-tracking-and-features.md" specification
+end-to-end. F1 plan compliance audit APPROVED.
+============================================================

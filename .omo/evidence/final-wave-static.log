@@ -1,0 +1,10 @@
+### 2026-08-17T23:48:48Z ###
+Final wave STATIC verification: F1, F2, F3, F5, F6
+
+[F1] 主页 HTML 结构 ... PASS (5 cards, no aria-disabled, no Coming soon)
+[F2] 题型清单 ... PASS (reading 11/11, listening 6/6)
+[F3] JSON 词条数 ... PASS (speaking-p1=64, listening=951, cambridge=270/65, kaodian538=527, writing=419/9)
+[F5] 分类筛选 ... PASS (5/5 docs)
+[F6] 静态无错 ... FAIL: html non-200; js fetch failed; css non-200; speaking-p1.json non-200; listening.json non-200; cambridge.json non-200; kaodian538.json non-200; writing.json non-200; 
+
+OVERALL: FAIL (4 pass, 1 fail: F6)
