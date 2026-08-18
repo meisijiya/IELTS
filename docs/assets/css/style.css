@@ -250,6 +250,11 @@ article[data-topic-id] {
   position: relative;
 }
 
+/* Clear the absolute .dot (top:8 left:8, w=12) — text needs to start past x=24 */
+.essay-list article {
+  padding-left: 1.5rem;
+}
+
 .dot-unread {
   background: #c33;
 }
