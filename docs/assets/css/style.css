@@ -243,6 +243,13 @@ a:focus:not(:focus-visible) {
   transition: background .2s ease;
 }
 
+/* Anchor read-tracker dots to writing list/detail articles (speaking uses .topic-card) */
+.essay-list article,
+article[data-task],
+article[data-topic-id] {
+  position: relative;
+}
+
 .dot-unread {
   background: #c33;
 }
